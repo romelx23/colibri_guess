@@ -1,4 +1,4 @@
-package pe.colibri.colibri_quiz
+package pe.ingresaya.app
 
 import io.flutter.embedding.android.FlutterActivity
 

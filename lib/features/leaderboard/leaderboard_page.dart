@@ -160,7 +160,7 @@ class _LeaderboardPageState extends ConsumerState<LeaderboardPage> {
                                 ),
                                 const SizedBox(height: 4),
                                 Text(
-                                  'Compite con los mejores de Colibrí',
+                                  'Compite con los mejores de Ingresa Ya',
                                   style: Theme.of(context)
                                       .textTheme
                                       .bodyMedium

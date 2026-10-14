@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:colibri_quiz/models/question.dart';
+import 'package:ingresa_ya/models/question.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 List<Question> loadCategory(QuestionCategory category) {

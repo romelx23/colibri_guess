@@ -1,11 +1,11 @@
 {
-    "name": "colibri_quiz",
-    "short_name": "colibri_quiz",
+    "name": "Ingresa Ya",
+    "short_name": "Ingresa Ya",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#F4F2FD",
+    "theme_color": "#7B6BF2",
+    "description": "Cultura general con retroalimentación estilo Duolingo, guiada por el colibrí.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

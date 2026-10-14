@@ -5,10 +5,10 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:colibri_quiz/core/providers/session_provider.dart';
-import 'package:colibri_quiz/data/api_client.dart';
-import 'package:colibri_quiz/features/leaderboard/leaderboard_page.dart';
-import 'package:colibri_quiz/models/progress_state.dart';
+import 'package:ingresa_ya/core/providers/session_provider.dart';
+import 'package:ingresa_ya/data/api_client.dart';
+import 'package:ingresa_ya/features/leaderboard/leaderboard_page.dart';
+import 'package:ingresa_ya/models/progress_state.dart';
 
 /// Integration test: ejecuta el codigo real de la app (ApiClient, SessionNotifier,
 /// leaderboardProvider) contra un API vivo.

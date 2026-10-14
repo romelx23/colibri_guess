@@ -1,9 +1,10 @@
-# Colibrí · Cultura general
+# Ingresa Ya · Cultura general
 
-App Flutter de cultura general con retroalimentación estilo Duolingo: micro-sesiones,
-racha diaria, exámenes cronometrados, repaso inteligente y duelos 1 vs 1 en vivo.
+App Flutter de cultura general con retroalimentación estilo Duolingo, guiada por
+el colibrí: micro-sesiones, racha diaria, exámenes cronometrados, repaso
+inteligente y duelos 1 vs 1 en vivo.
 
-- **Front:** Flutter (Riverpod + go_router + flutter_animate + confetti)
+- **Front:** Flutter (Riverpod + go_router + flutter_animate + confetti) · paquete Dart `ingresa_ya`
 - **Backend:** repo hermano `colibri-backend` — API Node/Postgres + WebSocket de duelos
 
 ## Funciones

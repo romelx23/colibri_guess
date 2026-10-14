@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
 
-import 'package:colibri_quiz/core/router/app_transitions.dart';
-import 'package:colibri_quiz/core/widgets/colibri_mascot.dart';
+import 'package:ingresa_ya/core/router/app_transitions.dart';
+import 'package:ingresa_ya/core/widgets/colibri_mascot.dart';
 
 class _BirdScreen extends StatelessWidget {
   const _BirdScreen({required this.label});

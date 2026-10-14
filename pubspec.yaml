@@ -1,5 +1,5 @@
-name: colibri_quiz
-description: "Colibrí - App de cultura general con retroalimentación estilo Duolingo"
+name: ingresa_ya
+description: "Ingresa Ya - App de cultura general con retroalimentación estilo Duolingo, guiada por el colibrí"
 publish_to: 'none'
 version: 1.0.0+1
 

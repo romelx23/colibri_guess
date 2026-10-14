@@ -1,8 +1,8 @@
-import 'package:colibri_quiz/logic/srs.dart';
-import 'package:colibri_quiz/logic/xp.dart';
-import 'package:colibri_quiz/models/progress_state.dart';
-import 'package:colibri_quiz/models/question.dart';
-import 'package:colibri_quiz/models/quiz_config.dart';
+import 'package:ingresa_ya/logic/srs.dart';
+import 'package:ingresa_ya/logic/xp.dart';
+import 'package:ingresa_ya/models/progress_state.dart';
+import 'package:ingresa_ya/models/question.dart';
+import 'package:ingresa_ya/models/quiz_config.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 Question sampleQuestion({
