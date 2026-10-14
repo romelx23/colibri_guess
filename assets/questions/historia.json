@@ -1,0 +1,1137 @@
+[
+  {
+    "id": "his-001",
+    "categoria": "historia",
+    "tema": "Independencia del Perú",
+    "fuente": "original",
+    "dificultad": "basico",
+    "enunciado": "La independencia del Perú fue proclamada el 28 de julio de 1821 por:",
+    "opciones": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Agustín de Iturbide",
+      "Bernardo O'Higgins"
+    ],
+    "correcta": 1,
+    "explicacion": "El general José de San Martín proclamó la independencia en la Plaza Mayor de Lima; el 28 de julio se celebra como fiesta nacional.",
+    "analisis": [
+      "No es la respuesta: Bolívar llegó al Perú en 1823, después de la proclamación.",
+      "Correcto: San Martín llegó en 1820 y declaró la independencia en 1821.",
+      "No es la respuesta: Iturbide fue un caudillo mexicano.",
+      "No es la respuesta: O'Higgins fue el director supremo de Chile."
+    ]
+  },
+  {
+    "id": "his-002",
+    "categoria": "historia",
+    "tema": "Estado incaico",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "El gran imperio andino organizado por los incas se denominaba:",
+    "opciones": [
+      "Tahuantinsuyo",
+      "Virreinato del Perú",
+      "Reino del Cusco",
+      "Confederación andina"
+    ],
+    "correcta": 0,
+    "explicacion": "Tahuantinsuyo significa 'las cuatro regiones unidas': Chinchaysuyo, Antisuyo, Kuntisuyo y Qullasuyo, con capital en el Cusco.",
+    "analisis": [
+      "Correcto: las cuatro partes del imperio formaban el Tahuantinsuyo.",
+      "No es la respuesta: el Virreinato fue la administración española, creada en 1542.",
+      "No es la respuesta: el Cusco fue la capital, no el nombre del Estado.",
+      "No es la respuesta: no existió tal confederación en la época incaica."
+    ]
+  },
+  {
+    "id": "his-003",
+    "categoria": "historia",
+    "tema": "Conquista del Perú",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "El conquistador español que llegó al Tahuantinsuyo en 1532 y capturó a Atahualpa fue:",
+    "opciones": [
+      "Hernán Cortés",
+      "Francisco Pizarro",
+      "Pedro de Valdivia",
+      "Diego de Almagro"
+    ],
+    "correcta": 1,
+    "explicacion": "Francisco Pizarro llegó con pocos hombres, tomó prisionero a Atahualpa en Cajamarca y ejecutó a su ejecución en 1533.",
+    "analisis": [
+      "No es la respuesta: Cortés conquistó el Imperio azteca, en México.",
+      "Correcto: Pizarro encabezó la empresa conquistadora del sur americano.",
+      "No es la respuesta: Valdivia fue el conquistador de Chile.",
+      "No es la respuesta: Almagro fue su socio y rival en la conquista."
+    ]
+  },
+  {
+    "id": "his-004",
+    "categoria": "historia",
+    "tema": "Virreinato del Perú",
+    "fuente": "pucp",
+    "dificultad": "basico",
+    "enunciado": "El Virreinato del Perú fue creado por la Corona española en:",
+    "opciones": [
+      "1532",
+      "1542",
+      "1560",
+      "1718"
+    ],
+    "correcta": 1,
+    "explicacion": "La Real Cédula de 1542, bajo Carlos V, creó el Virreinato del Perú y la Audiencia de Lima para goberner la nueva conquista.",
+    "analisis": [
+      "No es la respuesta: 1532 corresponde al inicio de la conquista, no a la creación del virreinato.",
+      "Correcto: en 1542 se instituyó el Virreinato con sede en Lima.",
+      "No es la respuesta: en esa década se fundaron ciudades, no el virreinato.",
+      "No es la respuesta: 1718 corresponde a la creación del Virreinato de Nueva Granada."
+    ]
+  },
+  {
+    "id": "his-005",
+    "categoria": "historia",
+    "tema": "Civilizaciones prehispánicas",
+    "fuente": "original",
+    "dificultad": "basico",
+    "enunciado": "La enorme ciudadela de adobe conocida como Chan Chan fue construida por la cultura:",
+    "opciones": [
+      "Moche",
+      "Chimú",
+      "Nazca",
+      "Wari"
+    ],
+    "correcta": 1,
+    "explicacion": "Chan Chan, cerca de Trujillo, fue la capital del reino Chimú y la mayor ciudad de adobe de la América prehispánica.",
+    "analisis": [
+      "No es la respuesta: los Moche precedieron a los Chimú en la misma costa norte.",
+      "Correcto: el Chimú dominó la costa norte hasta su conquista por los incas.",
+      "No es la respuesta: la cultura Nazca floreció en la costa sur, célebre por sus líneas.",
+      "No es la respuesta: los Wari fueron un imperio andino, con capital cerca de Ayacucho."
+    ]
+  },
+  {
+    "id": "his-006",
+    "categoria": "historia",
+    "tema": "Culturas prehispánicas",
+    "fuente": "original",
+    "dificultad": "basico",
+    "enunciado": "La civilización que dejó los enigmáticos geoglifos de Nazca se desarrolló en la:",
+    "opciones": [
+      "Sierra norte",
+      "Costa sur",
+      "Selva central",
+      "Altiplano"
+    ],
+    "correcta": 1,
+    "explicacion": "Las líneas de Nazca y Palpa fueron trazadas en la pampa desértica de la costa sur, entre Nasca y Palpa, hace unos 2 000 años.",
+    "analisis": [
+      "No es la respuesta: la costa norte fue dominada por Moche y Chimú.",
+      "Correcto: los geoglifos quedan en el valle de Nasca, en Ica.",
+      "No es la respuesta: la selva no conserva geoglifos por su cobertura vegetal.",
+      "No es la respuesta: el altiplano corresponde a la cultura Tiwanaku y a los incas."
+    ]
+  },
+  {
+    "id": "his-007",
+    "categoria": "historia",
+    "tema": "Antigüedad clásica",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "La antigua civilización egipcia se desarrolló a orillas del río:",
+    "opciones": [
+      "Tigris",
+      "Éufrates",
+      "Nilo",
+      "Jordán"
+    ],
+    "correcta": 2,
+    "explicacion": "El Nilo dio agua, fertilidad y transporte a Egipto; sus crecidas anuales sostuvieron la agricultura faraónica.",
+    "analisis": [
+      "No es la respuesta: el Tigris bañó Mesopotamia, entre los actuales Siria e Irak.",
+      "No es la respuesta: el Éufrates también pertenece a Mesopotamia.",
+      "Correcto: Egipto se llamó 'el don del Nilo' según Heródoto.",
+      "No es la respuesta: el Jordán está en Palestina, asociado a la tradición hebrea."
+    ]
+  },
+  {
+    "id": "his-008",
+    "categoria": "historia",
+    "tema": "Edad Moderna",
+    "fuente": "original",
+    "dificultad": "basico",
+    "enunciado": "Cristóbal Colón llegó a América el 12 de octubre de:",
+    "opciones": [
+      "1476",
+      "1492",
+      "1502",
+      "1513"
+    ],
+    "correcta": 1,
+    "explicacion": "Financiado por los Reyes Católicos, Colón llegó a la isla de Guanahaní en 1492 creyendo que llegaba a las Indias.",
+    "analisis": [
+      "No es la respuesta: en esa década Colón aún buscaba apoyo para su proyecto.",
+      "Correcto: 1492 es el año del primer viaje y del inicio de la expansión ultramarina.",
+      "No es la respuesta: 1502 corresponde a uno de los últimos viajes de Colón.",
+      "No es la respuesta: en 1513 Balboa cruzó el istmo de Panamá y avistó el Pacífico."
+    ]
+  },
+  {
+    "id": "his-009",
+    "categoria": "historia",
+    "tema": "Revolución Francesa",
+    "fuente": "pucp",
+    "dificultad": "basico",
+    "enunciado": "La Revolución Francesa estalló en 1789 con la toma de la Bastilla el:",
+    "opciones": [
+      "14 de julio",
+      "22 de junio",
+      "20 de agosto",
+      "9 de noviembre"
+    ],
+    "correcta": 0,
+    "explicacion": "La caída de la Bastilla se convirtió en símbolo del fin del absolutismo; el 14 de julio es fiesta nacional de Francia.",
+    "analisis": [
+      "Correcto: la prisión real fue tomada por el pueblo de París el 14 de julio de 1789.",
+      "No es la respuesta: esa fecha no corresponde a ningún hecho clave de la Revolución.",
+      "No es la respuesta: en agosto se aprobó la Declaración de los Derechos del Hombre.",
+      "No es la respuesta: en noviembre de 1789 se redactó la Constitución, no hubo levantamiento."
+    ]
+  },
+  {
+    "id": "his-010",
+    "categoria": "historia",
+    "tema": "Guerras mundiales",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "La Segunda Guerra Mundial terminó en 1945 con la rendición de:",
+    "opciones": [
+      "Alemania",
+      "Italia",
+      "Japón",
+      "Unión Soviética"
+    ],
+    "correcta": 2,
+    "explicacion": "Alemania firmó su rendición el 8 de mayo y Japón el 2 de septiembre de 1945, tras las bombas atómicas de Hiroshima y Nagasaki.",
+    "analisis": [
+      "No es la respuesta: Alemania se rindió el 8 de mayo de 1945, antes que Japón.",
+      "No es la respuesta: Italia capituló en septiembre de 1943.",
+      "Correcto: Japón fue el último país en rendirse, el 2 de septiembre de 1945.",
+      "No es la respuesta: la Unión Soviética fue una de las potencias vencedoras."
+    ]
+  },
+  {
+    "id": "his-011",
+    "categoria": "historia",
+    "tema": "Edad Contemporánea",
+    "fuente": "original",
+    "dificultad": "basico",
+    "enunciado": "El muro que dividió a Berlín cayó en:",
+    "opciones": [
+      "1985",
+      "1987",
+      "1989",
+      "1991"
+    ],
+    "correcta": 2,
+    "explicacion": "El 9 de noviembre de 1989 se abrió el paso al muro de Berlín, símbolo de la Guerra Fría; en 1991 se disolvió la URSS.",
+    "analisis": [
+      "No es la respuesta: en esa década la división seguía vigente.",
+      "No es la respuesta: Gorvachov llegó al poder en 1985, sin abrir el muro.",
+      "Correcto: 1989 fue el año de las revoluciones que derribaron el bloque soviético.",
+      "No es la respuesta: 1991 corresponde a la disolución de la Unión Soviética."
+    ]
+  },
+  {
+    "id": "his-012",
+    "categoria": "historia",
+    "tema": "Rebeliones coloniales",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "La gran rebelión indígena de 1780-1781 fue encabezada por:",
+    "opciones": [
+      "Túpac Amaru II",
+      "Manco Inca",
+      "Huáscar",
+      "Cusi Chiparc"
+    ],
+    "correcta": 0,
+    "explicacion": "José Gabriel Condorcanqui, Túpac Amaru II, se sublevó en Tinta y ordenó la ejecución del corregidor Antonio de Arriaga en 1780.",
+    "analisis": [
+      "Correcto: su rebelión fue el levantamiento indígena más grande del siglo XVIII.",
+      "No es la respuesta: Manco Inca encabezó una resistencia en Vilcabamba en el siglo XVI.",
+      "No es la respuesta: Huáscar fue un inca del siglo XV, muerto en la guerra civil contra Atahualpa.",
+      "No es la respuesta: Cusi Chiparc fue otro caudillo del Tahuantinsuyo, mucho antes."
+    ]
+  },
+  {
+    "id": "his-013",
+    "categoria": "historia",
+    "tema": "Estado incaico",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "La celebración inca dedicada al dios Sol, que se realizaba en el Cusco en el solsticio de junio, era el:",
+    "opciones": [
+      "Capacocha",
+      "Inti Raymi",
+      "Qoyllur Rit'i",
+      "Coya Raymi"
+    ],
+    "correcta": 1,
+    "explicacion": "El Inti Raymi era la fiesta mayor del Tahuantinsuyo, oficiada por el inca en honor a Inti, el dios Sol.",
+    "analisis": [
+      "No es la respuesta: la capacocha era un sacrificio humano de gran solemnidad.",
+      "Correcto: el Inti Raymi marcaba el año nuevo andino en el solsticio invernal.",
+      "No es la respuesta: el Qoyllur Rit'i es una peregrinación católica andina posterior.",
+      "No es la respuesta: el Coya Raymi celebraba a la coya, la esposa del inca."
+    ]
+  },
+  {
+    "id": "his-014",
+    "categoria": "historia",
+    "tema": "Guerra con Chile",
+    "fuente": "utp",
+    "dificultad": "intermedio",
+    "enunciado": "El Tratado de Ancón, que puso fin a la guerra con Chile, fue firmado en:",
+    "opciones": [
+      "1879",
+      "1881",
+      "1883",
+      "1884"
+    ],
+    "correcta": 2,
+    "explicacion": "Tras la ocupación de Lima, el Tratado de Ancón (20 de octubre de 1883) entregó a Chile la provincia de Tarapacá y el usufructo de Tarapacá por diez años.",
+    "analisis": [
+      "No es la respuesta: 1879 fue el año en que estalló la guerra, con la batalla de Iquique.",
+      "No es la respuesta: en 1881 se firmó la paz preliminar tras la toma de Lima.",
+      "Correcto: en 1883 se suscribió el Tratado de Ancón y en 1884 el Tratado de Lima con Bolivia.",
+      "No es la respuesta: 1884 corresponde al tratado que cerró el conflicto con Bolivia."
+    ]
+  },
+  {
+    "id": "his-015",
+    "categoria": "historia",
+    "tema": "Guerra del Pacífico",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "La principal causa económica de la guerra del Pacífico (1879-1883) fue la disputa por:",
+    "opciones": [
+      "Los yacimientos de salitre",
+      "La pesca del camarón",
+      "Las minas de cobre",
+      "El caucho amazónico"
+    ],
+    "correcta": 0,
+    "explicacion": "Chile, Bolivia y Perú competían por el salitre del desierto de Atacama; la imposición de impuestos bolivianos a la compañía chilena desató el conflicto.",
+    "analisis": [
+      "Correcto: el salitre era abono de exportación y el principal recurso en disputa.",
+      "No es la respuesta: la pesca no estuvo en discusión en la guerra.",
+      "No es la respuesta: el cobre cobró importancia décadas después.",
+      "No es la respuesta: el caucho se extraía de la selva amazónica, lejos del frente de guerra."
+    ]
+  },
+  {
+    "id": "his-016",
+    "categoria": "historia",
+    "tema": "Estado incaico",
+    "fuente": "pucp",
+    "dificultad": "intermedio",
+    "enunciado": "El inca que inició la gran expansión del Tahuantinsuyo y edificó Sacsayhuamán fue:",
+    "opciones": [
+      "Manco Cápac",
+      "Pachacútec",
+      "Túpac Inca Yupanqui",
+      "Huayna Cápac"
+    ],
+    "correcta": 1,
+    "explicacion": "Pachacútec (1438-1471) transformó un pequeño reino en un imperio y su nombre significa 'el que transforma la tierra'.",
+    "analisis": [
+      "No es la respuesta: Manco Cápac fue el mítico fundador del linaje inca.",
+      "Correcto: Pachacútec venció a los chancas y organizó la expansión andina.",
+      "No es la respuesta: Túpac Inca Yupanqui llevó el imperio hasta el Ecuador actual.",
+      "No es la respuesta: Huayna Cápac gobernó en vísperas de la conquista y murió de viruela."
+    ]
+  },
+  {
+    "id": "his-017",
+    "categoria": "historia",
+    "tema": "Dominio colonial",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "La mita minera organizada por el virrey Francisco de Toledo beneficiaba principalmente a las minas de:",
+    "opciones": [
+      "Potosí",
+      "Huancavelica",
+      "Oruro",
+      "Cerro de Pasco"
+    ],
+    "correcta": 0,
+    "explicacion": "La mita obligaba a comunidades andinas a trabajar en Potosí, cuya plata financiaba a la Corona; la escala de Toledo buscó sostener la producción.",
+    "analisis": [
+      "Correcto: Potosí, a más de 4 000 m, era la ciudad más rica del virreinato.",
+      "No es la respuesta: Huancavelica también tuvo mita por su mercurio, pero fue secundaria.",
+      "No es la respuesta: Oruro quedaba fuera del virreinato del Perú en esa época.",
+      "No es la respuesta: Cerro de Pasco tuvo explotación propia, más tardía."
+    ]
+  },
+  {
+    "id": "his-018",
+    "categoria": "historia",
+    "tema": "Diplomacia colonial",
+    "fuente": "utp",
+    "dificultad": "intermedio",
+    "enunciado": "El Tratado de Tordesillas (1494) dividió las tierras descubiertas entre:",
+    "opciones": [
+      "España y Portugal",
+      "Inglaterra y Francia",
+      "España e Inglaterra",
+      "Portugal y Holanda"
+    ],
+    "correcta": 0,
+    "explicacion": "Con el apoyo del Papa, España y Portugal trazaron una línea a 370 leguas al oeste de Cabo Verde: lo al oeste para España, lo al este para Portugal.",
+    "analisis": [
+      "Correcto: el acuerdo explica que Brasil hable portugués.",
+      "No es la respuesta: Inglaterra y Francia no formaron parte del reparto.",
+      "No es la respuesta: Inglaterra obtuvo sus colonias por otras vías, décadas después.",
+      "No es la respuesta: Holanda fue una potencia colonial rival, ya en el siglo XVII."
+    ]
+  },
+  {
+    "id": "his-019",
+    "categoria": "historia",
+    "tema": "Perú republicano",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "La abolición de la esclavitud en el Perú se decretó en el gobierno de:",
+    "opciones": [
+      "Ramón Castilla",
+      "Manuel Pardo",
+      "Andrés Avelino Cáceres",
+      "José Balta"
+    ],
+    "correcta": 0,
+    "explicacion": "Ramón Castilla firmó el decreto de 3 de diciembre de 1854 en Huancayo, liberando a cerca de 25 mil esclavos con indemnización a sus dueños.",
+    "analisis": [
+      "Correcto: Castilla, dos veces presidente, impulsó la abolición y la secularización.",
+      "No es la respuesta: Manuel Pardo fundó el Partido Civil en 1871.",
+      "No es la respuesta: Cáceres fue héroe de la resistencia contra Chile.",
+      "No es la respuesta: Balta impulsó el ferrocarril a Callao, sin abolir la esclavitud."
+    ]
+  },
+  {
+    "id": "his-020",
+    "categoria": "historia",
+    "tema": "Independencia de América",
+    "fuente": "pucp",
+    "dificultad": "intermedio",
+    "enunciado": "El movimiento independentista mexicano se inició con el Grito de Dolores en:",
+    "opciones": [
+      "1780",
+      "1808",
+      "1810",
+      "1824"
+    ],
+    "correcta": 2,
+    "explicacion": "La madrugada del 16 de septiembre de 1810, Miguel Hidalgo llamó a la insurrección en Dolores, Guanajuato.",
+    "analisis": [
+      "No es la respuesta: 1780 fue el año de la rebelión de Túpac Amaru II en el Perú.",
+      "No es la respuesta: 1808 corresponde a la crisis napoleónica que encendió la independencia hispana.",
+      "Correcto: 1810 es el año citado como inicio de la independencia de México.",
+      "No es la respuesta: 1824 es el año de la consumación mexicana."
+    ]
+  },
+  {
+    "id": "his-021",
+    "categoria": "historia",
+    "tema": "Imperio romano",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "El Imperio romano de Occidente cayó en el año:",
+    "opciones": [
+      "395",
+      "410",
+      "476",
+      "1453"
+    ],
+    "correcta": 2,
+    "explicacion": "En 476 el germano Odoacro depuso al último emperador, Rómulo Augústulo; la fecha simboliza el fin de la Antigüedad en Occidente.",
+    "analisis": [
+      "No es la respuesta: ese año se produjo la división definitiva entre Oriente y Occidente.",
+      "No es la respuesta: en 410 saquearon Roma por primera vez en siglos.",
+      "Correcto: la deposición de Rómulo Augústulo marcó el 476 d. C.",
+      "No es la respuesta: 1453 corresponde a la caída de Constantinopla, en Oriente."
+    ]
+  },
+  {
+    "id": "his-022",
+    "categoria": "historia",
+    "tema": "Guerras napoleónicas",
+    "fuente": "utp",
+    "dificultad": "intermedio",
+    "enunciado": "La independencia de Estados Unidos se proclamó el 4 de julio de:",
+    "opciones": [
+      "1776",
+      "1783",
+      "1789",
+      "1791"
+    ],
+    "correcta": 0,
+    "explicacion": "Los colonos aprobaron la Declaración de Independencia en Filadelfia; la guerra terminó con el Tratado de París de 1783.",
+    "analisis": [
+      "Correcto: el 4 de julio de 1776 las trece colonias se separaron de Gran Bretaña.",
+      "No es la respuesta: 1783 fue el año en que Gran Bretaña reconoció la independencia.",
+      "No es la respuesta: 1789 corresponde a la Constitución estadounidense en vigor y a la Revolución Francesa.",
+      "No es la respuesta: en 1791 se aprobó la Constitución francesa, no la independencia."
+    ]
+  },
+  {
+    "id": "his-023",
+    "categoria": "historia",
+    "tema": "Perú republicano",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "La primera constitución política del Perú fue sancionada en:",
+    "opciones": [
+      "1821",
+      "1823",
+      "1826",
+      "1860"
+    ],
+    "correcta": 1,
+    "explicacion": "El Congreso Constituyente de 1823 aprobó la primera Constitución, de tendencia liberal y con el Estado en plena guerra de independencia.",
+    "analisis": [
+      "No es la respuesta: en 1821 se proclamó la independencia, sin constitución.",
+      "Correcto: la Carta de 1823 fue la primera del país, en pleno conflicto.",
+      "No es la respuesta: 1826 corresponde a la Constitución vitalicia de Bolívar.",
+      "No es la respuesta: la Constitución de 1860 es la de mayor vigencia del siglo XIX."
+    ]
+  },
+  {
+    "id": "his-024",
+    "categoria": "historia",
+    "tema": "Estado incaico",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "¿Cuál de las siguientes NO era una de las cuatro divisiones del Tahuantinsuyo?",
+    "opciones": [
+      "Chinchaysuyo",
+      "Antisuyo",
+      "Qullasuyo",
+      "Occidentesuyo"
+    ],
+    "correcta": 3,
+    "explicacion": "Los cuatro suyus eran Chinchaysuyo (norte), Antisuyo (este), Kuntisuyo (oeste) y Qullasuyo (sur); 'Occidentesuyo' no existe.",
+    "analisis": [
+      "No es la respuesta: Chinchaysuyo efectivamente era la región norte.",
+      "No es la respuesta: Antisuyo cubría la Amazonía, la región del 'antis'.",
+      "No es la respuesta: Qullasuyo abarcaba el sur, hasta el altiplano.",
+      "Correcto: la opción inventa una quinta región que no formaba parte de la organización incaica."
+    ]
+  },
+  {
+    "id": "his-025",
+    "categoria": "historia",
+    "tema": "Revolución rusa",
+    "fuente": "pucp",
+    "dificultad": "dificil",
+    "enunciado": "La Revolución rusa de 1917 derrocó al zar:",
+    "opciones": [
+      "Pedro el Grande",
+      "Alejandro II",
+      "Nicolás II",
+      "Iván el Terrible"
+    ],
+    "correcta": 2,
+    "explicacion": "Nicolás II abdicó en marzo de 1917 y fue fusilado con su familia en 1918; la revolución de octubre instaló a los bolcheviques.",
+    "analisis": [
+      "No es la respuesta: Pedro el Grande gobernó a comienzos del siglo XVIII.",
+      "No es la respuesta: Alejandro II fue asesinado en 1881.",
+      "Correcto: Nicolás II fue el último zar de Rusia.",
+      "No es la respuesta: Iván el Terrible gobernó en el siglo XVI."
+    ]
+  },
+  {
+    "id": "his-026",
+    "categoria": "historia",
+    "tema": "Edad Media",
+    "fuente": "original",
+    "dificultad": "dificil",
+    "enunciado": "La capital del Imperio bizantino, que perduró hasta 1453, era:",
+    "opciones": [
+      "Roma",
+      "Constantinopla",
+      "Atenas",
+      "Alejandría"
+    ],
+    "correcta": 1,
+    "explicacion": "Constantino I fundó Constantinopla en 330 como nueva capital; resistió hasta que los otomanos la conquistaron en 1453.",
+    "analisis": [
+      "No es la respuesta: Roma fue la capital del Imperio de Occidente, caído en 476.",
+      "Correcto: la ciudad, hoy Estambul, fue sede del Imperio romano de Oriente.",
+      "No es la respuesta: Atenas fue un centro cultural, nunca capital imperial.",
+      "No es la respuesta: Alejandría fue una gran metrópoli del Egipto helenístico."
+    ]
+  },
+  {
+    "id": "his-027",
+    "categoria": "historia",
+    "tema": "Culturas prehispánicas",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "El imperio Wari, que precedió a los incas, tuvo su capital cerca de la actual ciudad de:",
+    "opciones": [
+      "Cusco",
+      "Ayacucho",
+      "Trujillo",
+      "Lima"
+    ],
+    "correcta": 1,
+    "explicacion": "Wari, junto a la actual Huamanga (Ayacucho), dominó los Andes centrales entre los siglos VII y X y sentó bases administrativas que los incas aprovecharían.",
+    "analisis": [
+      "No es la respuesta: el Cusco fue la capital incaica, no wari.",
+      "Correcto: el sitio de Wari se ubica en el altiplano de Ayacucho.",
+      "No es la respuesta: Trujillo fue centro chimú y luego colonial.",
+      "No es la respuesta: Lima fue fundada en 1535, mucho después del colapso wari."
+    ]
+  },
+  {
+    "id": "his-028",
+    "categoria": "historia",
+    "tema": "Perú republicano",
+    "fuente": "utp",
+    "dificultad": "dificil",
+    "enunciado": "La Constitución liberal de 1856 fue promulgada durante el gobierno de:",
+    "opciones": [
+      "Ramón Castilla",
+      "José Gamarra",
+      "Manuel Pardo",
+      "Andrés Avelino Cáceres"
+    ],
+    "correcta": 0,
+    "explicacion": "La Constitución de 1856, de corte liberal, se aprobó durante la presidencia de Ramón Castilla, aunque con la oposición del Congreso reunido en Arequipa.",
+    "analisis": [
+      "Correcto: Castilla impulsó las reformas liberales de mediados del siglo XIX.",
+      "No es la respuesta: Gamarra fue presidente en la década de 1830.",
+      "No es la respuesta: Manuel Pardo presidió el país entre 1872 y 1876.",
+      "No es la respuesta: Cáceres gobernó en los años 1886-1890."
+    ]
+  },
+  {
+    "id": "his-029",
+    "categoria": "historia",
+    "tema": "Perú colonial",
+    "fuente": "pucp",
+    "dificultad": "dificil",
+    "enunciado": "La nave que navegaba entre el Callao y Acapulco para el comercio con Manila se conocía como:",
+    "opciones": [
+      "Galeón de Manila",
+      "Flota de Indias",
+      "Navío de registro",
+      "Patache"
+    ],
+    "correcta": 0,
+    "explicacion": "El galeón de Manila unía cada año el Callao con Acapulco y, por tierra, con Veracruz y España, transportando plata y mercancías asiáticas.",
+    "analisis": [
+      "Correcto: el galeón, llamado también Nao de China, era la arteria del comercio transpacífico.",
+      "No es la respuesta: las flotas de Indias navegaban en convoy hacia el Caribe.",
+      "No es la respuesta: los navíos de registro eran buques autorizados de forma individual.",
+      "No es la respuesta: el patache era una embarcación auxiliar de poco calado."
+    ]
+  },
+  {
+    "id": "his-030",
+    "categoria": "historia",
+    "tema": "Edad Contemporánea",
+    "fuente": "original",
+    "dificultad": "dificil",
+    "enunciado": "La Carta Magna, que limitó el poder del rey de Inglaterra, fue firmada en:",
+    "opciones": [
+      "1066",
+      "1215",
+      "1492",
+      "1688"
+    ],
+    "correcta": 1,
+    "explicacion": "Los nobles impusieron a Juan Sin Tierra la Carta Magna en 1215; aunque anulada pronto, quedó como símbolo del sometimiento del poder a la ley.",
+    "analisis": [
+      "No es la respuesta: ese año Guillermo el Conquistador llegó a Inglaterra.",
+      "Correcto: la Carta Magna se firmó en Runnymede en junio de 1215.",
+      "No es la respuesta: 1492 es la fecha del viaje de Colón.",
+      "No es la respuesta: 1688 corresponde a la Revolución Gloriosa."
+    ]
+  },
+  {
+    "id": "his-031",
+    "categoria": "historia",
+    "tema": "Independencia del Perú",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "La expedición libertadora que desembarcó en Paracas en 1820 estaba al mando de:",
+    "opciones": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Bernardo O'Higgins",
+      "Thomas Cochrane"
+    ],
+    "correcta": 1,
+    "explicacion": "San Martín desembarcó en Paracas con cerca de 4 500 hombres y entró en Lima tras la retirada del virrey Pezuela.",
+    "analisis": [
+      "No es la respuesta: Bolívar llegó por Guayaquil en 1823, con tropas de Colombia.",
+      "Correcto: la Expedición Libertadora del Perú llegó en agosto de 1820.",
+      "No es la respuesta: O'Higgins era el jefe de Chile y no desembarcó en Paracas.",
+      "No es la respuesta: Cochrane comandó la escuadra chilena en el Pacífico."
+    ]
+  },
+  {
+    "id": "his-032",
+    "categoria": "historia",
+    "tema": "Guerra del Pacífico",
+    "fuente": "original",
+    "dificultad": "dificil",
+    "enunciado": "La batalla de Huamachuco, la última gran acción de la guerra con Chile, ocurrió en:",
+    "opciones": [
+      "1879",
+      "1880",
+      "1881",
+      "1883"
+    ],
+    "correcta": 3,
+    "explicacion": "El 10 de julio de 1883 las fuerzas chilenas vencieron al ejército peruano en Huamachuco; semanas después se firmó el Tratado de Ancón.",
+    "analisis": [
+      "No es la respuesta: en 1879 estalló la guerra con la campaña de Tarapacá.",
+      "No es la respuesta: en 1880 se libró la batalla del Alto de la Alianza, en Tacna.",
+      "No es la respuesta: en 1881 cayó Lima tras los combates de San Juan y Miraflores.",
+      "Correcto: Huamachuco, en 1883, fue el último combate decisivo."
+    ]
+  },
+  {
+    "id": "his-033",
+    "categoria": "historia",
+    "tema": "Organismos internacionales",
+    "fuente": "utp",
+    "dificultad": "dificil",
+    "enunciado": "La Sociedad de Naciones, antecedente de la ONU, fue creada tras:",
+    "opciones": [
+      "La Primera Guerra Mundial",
+      "La Segunda Guerra Mundial",
+      "La Revolución Francesa",
+      "La Conferencia de Berlín"
+    ],
+    "correcta": 0,
+    "explicacion": "La Sociedad de Naciones nació en 1920 con el Tratado de Versalles, para evitar nuevas guerras; fracasó y fue reemplazada por la ONU en 1945.",
+    "analisis": [
+      "Correcto: la Primera Guerra Mundial motivó la creación del organismo, impulsado por Wilson.",
+      "No es la respuesta: la ONU se fundó después de la Segunda Guerra Mundial.",
+      "No es la respuesta: la Revolución Francesa ocurrió en el siglo XVIII.",
+      "No es la respuesta: la Conferencia de Berlín de 1884 repartió África."
+    ]
+  },
+  {
+    "id": "his-034",
+    "categoria": "historia",
+    "tema": "Literatura y pensamiento",
+    "fuente": "pucp",
+    "dificultad": "dificil",
+    "enunciado": "José Carlos Mariátegui publicó sus Siete ensayos de interpretación de la realidad peruana en:",
+    "opciones": [
+      "1925",
+      "1928",
+      "1931",
+      "1935"
+    ],
+    "correcta": 1,
+    "explicacion": "Los Siete ensayos aparecieron en 1928 en la Editorial Minerva, obra cumbre del pensamiento peruano y de su análisis del problema del indio y el capitalismo.",
+    "analisis": [
+      "No es la respuesta: en esa década Mariátegui preparaba sus publicaciones en Europa.",
+      "Correcto: la obra se editó en 1928, año en que fundó el Partido Socialista.",
+      "No es la respuesta: en 1931 ya había muerto Mariátegui, en 1930.",
+      "No es la respuesta: en 1935 se reeditó parte de su obra postuma."
+    ]
+  },
+  {
+    "id": "his-035",
+    "categoria": "historia",
+    "tema": "Edad Moderna",
+    "fuente": "original",
+    "dificultad": "dificil",
+    "enunciado": "La primera circunnavegación del globo fue culminada en 1522 por la expedición:",
+    "opciones": [
+      "de Vasco Núñez de Balboa",
+      "de Hernán Cortés",
+      "de Fernando Magallanes y Juan Sebastián Elcano",
+      "de Francisco Pizarro"
+    ],
+    "correcta": 2,
+    "explicacion": "Partida en 1519, la expedición de Magallanes completó la primera vuelta al mundo; tras la muerte de Magallanes, Elcano llegó a Sanlúcar con la nao Victoria.",
+    "analisis": [
+      "No es la respuesta: Balboa cruzó el istmo de Panamá y avistó el Pacífico en 1513.",
+      "No es la respuesta: Cortés conquistó México entre 1519 y 1521.",
+      "Correcto: Magallanes organizó la travesía y Elcano remató la vuelta en 1522.",
+      "No es la respuesta: Pizarro protagonizó la conquista del Tahuantinsuyo."
+    ]
+  },
+  {
+    "id": "uni-022",
+    "categoria": "historia",
+    "tema": "Revolución Industrial",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Dadas las siguientes proposiciones sobre la Primera Revolución Industrial: I. Se inició en Estados Unidos. II. Aumentó la necesidad de mano de obra en cada fábrica. III. Tuvo como base energética al carbón y el agua. Señale la alternativa correcta.",
+    "opciones": [
+      "Solo I",
+      "Solo II",
+      "Solo III",
+      "I y II"
+    ],
+    "correcta": 2,
+    "explicacion": "La Primera Revolución Industrial tuvo como base energética al carbón y al agua; comenzó en Gran Bretaña y la mecanización redujo la mano de obra necesaria, por lo que solo la proposición III es verdadera.",
+    "analisis": [
+      "Es falsa: la Revolución Industrial se inició en Gran Bretaña, no en Estados Unidos.",
+      "Es falsa: las máquinas redujeron la mano de obra requerida en cada fábrica, no la aumentaron.",
+      "Es correcta: el carbón alimentó la máquina de vapor y junto con la energía hidráulica sostuvo el proceso.",
+      "Es incorrecta: exige que I y II sean verdaderas, y ambas son falsas."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-023",
+    "categoria": "historia",
+    "tema": "Historia del Perú republicano",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "La promulgación de la ley que estableció la duración de la jornada laboral de 8 horas se dio durante el gobierno de",
+    "opciones": [
+      "Augusto B. Leguía",
+      "José Pardo y Barreda",
+      "Andrés Avelino Cáceres",
+      "Nicolás de Piérola"
+    ],
+    "correcta": 1,
+    "explicacion": "La ley general de 8 horas de trabajo se promulgó durante el segundo gobierno de José Pardo y Barreda, como logro inicial de los obreros de la Provincia Constitucional del Callao.",
+    "analisis": [
+      "No corresponde: su gobierno (1919-1930), conocido como el Oncenio, se distinguió por la reforma constitucional y los contratos con empresas extranjeras, no por la jornada de 8 horas.",
+      "Es correcto: durante su segundo gobierno se consiguió la ley general de 8 horas de trabajo.",
+      "No corresponde: su mandato pertenece a la época de la guerra con Chile y la resistencia, anterior a esa ley.",
+      "No corresponde: su gobierno en la década liberal de 1895-1899 no promulgó esa jornada laboral."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-024",
+    "categoria": "historia",
+    "tema": "Crisis de 1929",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Indique lo correcto sobre la Gran Depresión de 1929: I. La Gran Depresión de 1929 fue una crisis económica mundial que se prolongó durante la década de 1930. II. Después de la Primera Guerra Mundial, en Europa se estableció un nuevo mapa político con nuevas fronteras que afectó la eficiencia de la estructura económica y comercial, por lo que se requerían grandes capitales e inversiones para su funcionamiento. III. Prosperaron los especuladores en metales preciosos e inmuebles y quedaron en la ruina financiera los ahorristas y los que conservaban el dinero en efectivo.",
+    "opciones": [
+      "Solo I",
+      "Solo II",
+      "I y II",
+      "I, II y III"
+    ],
+    "correcta": 3,
+    "explicacion": "Las tres proposiciones son correctas: la crisis se extendió durante la década de 1930, el nuevo mapa europeo de posguerra exigía grandes capitales y la especulación en metales e inmuebles arruinó a los ahorristas.",
+    "analisis": [
+      "Es verdadera pero incompleta: omite que también lo son las proposiciones II y III.",
+      "Es verdadera pero incompleta: deja fuera el carácter mundial prolongado de la crisis y la ruina de los ahorristas.",
+      "Es incompleta: incluye solo I y II y descarta la tercera proposición, que también es cierta.",
+      "Es correcta: las tres proposiciones describen con precisión causas y efectos de la Gran Depresión."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-025",
+    "categoria": "historia",
+    "tema": "Revoluciones burguesas",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Indique la secuencia correcta después de determinar la verdad (V) o falsedad (F) de las siguientes proposiciones sobre las revoluciones burguesas: I. El propósito de las revoluciones burguesas era acabar con las limitaciones impuestas por el absolutismo monárquico para el desarrollo de la clase media acomodada. II. Una de las causas de las revoluciones burguesas era el desarrollo de las ciudades en la época de la primera industrialización. III. La independencia de los Estados Unidos marca el fin de las revoluciones burguesas en el mundo.",
+    "opciones": [
+      "F F F",
+      "V V V",
+      "F V F",
+      "V V F"
+    ],
+    "correcta": 3,
+    "explicacion": "I y II son verdaderas porque ese era el propósito y una de las causas del proceso; III es falsa porque la independencia de Estados Unidos no marca el fin de las revoluciones burguesas, que continuaron con la Revolución Francesa y otros procesos posteriores.",
+    "analisis": [
+      "Es incorrecta: declara falsas las proposiciones I y II, que sí son verdaderas.",
+      "Es incorrecta: da por verdadera la proposición III, que es falsa.",
+      "Es incorrecta: considera falsa la proposición I, que es verdadera.",
+      "Es correcta: I y II son verdaderas y III es falsa, lo que corresponde a V V F."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-026",
+    "categoria": "historia",
+    "tema": "Filosofía de la Antigüedad",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Indique la alternativa correcta respecto a Aristóteles y su teoría del conocimiento: I. Conocer requiere de un razonamiento lógico. II. La verdad depende del observador. III. Es imposible conocer el mundo.",
+    "opciones": [
+      "Solo I",
+      "Solo II",
+      "Solo III",
+      "I y II"
+    ],
+    "correcta": 0,
+    "explicacion": "Aristóteles sostuvo que conocer exige razonamiento lógico, ya que consideró a la lógica como la disciplina preparatoria de las demás ciencias; por el contrario, no aceptó que la verdad dependa del observador ni que el mundo sea inconocible.",
+    "analisis": [
+      "Es correcta: para Aristóteles el conocimiento requiere de un razonamiento lógico ordenado.",
+      "Es falsa: el pensamiento aristotélico es realista y la verdad no se subjetiviza según quien observa.",
+      "Es falsa: Aristóteles afirmó que es posible conocer el mundo a través de la experiencia y la razón.",
+      "Es incorrecta: exige que la proposición II sea verdadera, lo cual contradice su teoría del conocimiento."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "his-041",
+    "categoria": "historia",
+    "tema": "Historia del Perú",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "Los primeros pobladores que se adaptaron al territorio de la sierra cazaron venados, tarucas y camélidos; además, recolectaron plantas silvestres y frutas. Las evidencias más antiguas son las dejadas por los habitantes del abrigo rocoso de",
+    "opciones": [
+      "Paiján.",
+      "Lauricocha.",
+      "Piquimachay.",
+      "Telarmachay.",
+      "Toquepala."
+    ],
+    "correcta": 2,
+    "explicacion": "Los restos de los primeros habitantes del Perú prehispánico han sido encontrados en Piquimachay (Ayacucho). El estadounidense Richard McNeish estudió el abrigo rocoso de Piquimachay, donde encontró varias fases de ocupación, de modo que la fase Piquimachay (13 mil años a. n. e.) es confirmada como la más antigua. En ese tiempo, los primeros cazadores, del periodo Lítico, capturaban tarucas, ciervos y megafauna andina.",
+    "analisis": [
+      "No es la respuesta: Paiján corresponde a otro contexto arqueológico; las evidencias más antiguas de los primeros pobladores de la sierra están en Piquimachay, no allí.",
+      "No es la respuesta: El enunciado señala el abrigo estudiado por Richard McNeish en Ayacucho, que es Piquimachay; Lauricocha no es la sede de esas evidencias más antiguas.",
+      "Correcto: En el abrigo de Piquimachay, estudiado por Richard McNeish, se halló la fase más antigua, de 13 mil años antes de la era común, con cazadores de tarucas y megafauna.",
+      "No es la respuesta: Telarmachay no es el abrigo donde McNeish identificó la fase Piquimachay de 13 mil años a. n. e., la más antigua registrada.",
+      "No es la respuesta: Toquepala se ubica en otro contexto de hallazgos; las evidencias más antiguas de cazadores de la sierra corresponden a Piquimachay, en Ayacucho."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "his-042",
+    "categoria": "historia",
+    "tema": "Historia del Perú",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "El segundo gobierno de Manuel Prado (1956-1962), conocido como de la “convivencia”, se enfrentó al desafío de orden económico con una política de corte liberal. Además, dictó la Ley de Promoción Industrial que favoreció al empresariado moderno. En relación con las características de este gobierno, señale el valor de verdad (V o F) de las siguientes proposiciones:\nI. Estabilizó la moneda, lo que redujo la inflación notablemente.\nII. Derogó la ley de seguridad interior y otras normas represivas.\nIII. Silenció al historiador Raúl Porras Barrenechea nombrándolo ministro.\nIV. Desde la cartera de Economía, Pedro Beltrán se convirtió en opositor.",
+    "opciones": [
+      "VFVF",
+      "VVVF",
+      "FFVV",
+      "FVVF",
+      "FFFV"
+    ],
+    "correcta": 1,
+    "explicacion": "El segundo gobierno de Manuel Prado Ugarteche (1956-1962) se caracterizó por el retorno a la democracia tras el ochenio de Odría y por la apertura política que permitió el retorno del APRA a la vida legal (I y II, verdaderas). Además se estabilizó la moneda, se impulsó la Ley de Promoción Industrial (1960) y se promovieron obras e inversión extranjera. III es falsa: Raúl Porras Barrenechea no fue silenciado con un cargo, sino que renunció escandalosamente a la embajada. IV es falsa: Pedro Beltrán, desde Economía, fue un sostén del gobierno, no un opositor. Por lo tanto, VVVF.",
+    "analisis": [
+      "No es la respuesta: Marca II como falsa, pero el gobierno de la convivencia sí derogó normas represivas; y da por verdadera III, cuando Porras nunca fue ministro.",
+      "Correcto: I es verdadera porque estabilizó la moneda y redujo la inflación, II porque derogó normas represivas; III es falsa, pues Porras renunció a la embajada, y IV, porque Beltrán sostuvo al gobierno.",
+      "No es la respuesta: Niega I y II, que sí ocurrieron: la moneda se estabilizó y hubo apertura política; además da por verdadera III, falsa, pues Porras no fue ministro.",
+      "No es la respuesta: Casi acierta, pero marca I como falsa, cuando Prado sí estabilizó la moneda, y da por verdaderas III y IV, que son falsas según la explicación.",
+      "No es la respuesta: Niega I y II, que sí ocurrieron en la convivencia, y acepta IV, falsa, porque Pedro Beltrán fue sostén, no opositor, del régimen."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "his-043",
+    "categoria": "historia",
+    "tema": "Historia del Perú",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "El principal proyecto político de Simón Bolívar fue la Federación de los Andes (Gran Colombia, Perú y Bolivia), que pretendía controlar; para ello propuso ..............., lo que generó resistencia en el Perú y precipitó el fin del régimen bolivariano.",
+    "opciones": [
+      "el Congreso Constituyente",
+      "la Entrevista de Guayaquil",
+      "el Congreso de Panamá",
+      "la Constitución Vitalicia",
+      "la Carta de Jamaica"
+    ],
+    "correcta": 3,
+    "explicacion": "Con el ánimo de erigirse como gobernante de por vida, Bolívar promulgó la Constitución Vitalicia de 1826, que le otorgaba facultades enormes, entre ellas designar a su sucesor, y centralizaba el poder en la capital en detrimento de las provincias. Estas razones generaron conflictos internos que llevaron a la ruptura del proyecto bolivariano en el Perú.",
+    "analisis": [
+      "No es la respuesta: El Congreso Constituyente no fue la medida que generó resistencia; el texto alude a la norma que eternizó el poder de Bolívar en el Perú.",
+      "No es la respuesta: La Entrevista de Guayaquil fue un encuentro de 1822 entre Bolívar y San Martín sobre la independencia, no una propuesta que provocó la ruptura peruana.",
+      "No es la respuesta: El Congreso de Panamá de 1826 buscó la federación americana; no limitó el poder ni provocó por sí solo el fin del régimen bolivariano en el Perú.",
+      "Correcto: Bolívar promulgó la Constitución Vitalicia de 1826, que lo hacía gobernante de por vida, nombraba sucesor y centralizaba el poder, lo que desató la resistencia peruana.",
+      "No es la respuesta: La Carta de Jamaica es un escrito de Bolívar sobre la emancipación de América, no una medida de gobierno que desató la oposición en el Perú."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "his-044",
+    "categoria": "historia",
+    "tema": "Historia del Perú",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "La extracción y comercialización del guano, que Europa necesitaba para potenciar su agricultura en tiempos en que las ciudades crecieron de manera vertiginosa, benefició a unos pocos comerciantes y especuladores. En relación con la comercialización de este fertilizante, determine el valor de verdad (V o F) de las siguientes proposiciones:\nI. En 1830, el Estado peruano decretó la abolición de todos los gravámenes sobre el guano.\nII. Los chinos culíes fueron los únicos trabajadores en la extracción del guano de las islas.\nIII. En 1842, se estableció que los extranjeros no podían extraer guano de las islas de Chincha.\nIV. Dreyfus tuvo problemas para cumplir las condiciones del contrato con el Estado peruano.",
+    "opciones": [
+      "FVVF",
+      "VVVV",
+      "VFVF",
+      "FFFV",
+      "VFFV"
+    ],
+    "correcta": 3,
+    "explicacion": "Se evalúa cada proposición: I. Falsa: en 1830 no se abolieron todos los gravámenes que pesaban sobre el guano. II. Falsa: en la extracción del guano no solo trabajaron chinos culíes, sino también otros obreros. III. Falsa: la norma de 1842 no prohibía a los extranjeros extraer guano de las islas de Chincha. IV. Verdadera: Dreyfus tuvo dificultades para cumplir las condiciones del contrato con el Estado peruano. Por lo tanto, la secuencia es FFFV.",
+    "analisis": [
+      "No es la respuesta: Da por verdaderas II y III: los culíes no fueron los únicos trabajadores del guano y la ley de 1842 no prohibía a los extranjeros extraerlo.",
+      "No es la respuesta: Todas son V, pero I, II y III son falsas: 1830 no quitó los gravámenes, hubo obreros además de culíes y la ley de 1842 no prohibió a extranjeros.",
+      "No es la respuesta: Se equivoca solo en II: los culíes chinos no fueron los únicos trabajadores del guano, pues también participaron otros obreros en la extracción.",
+      "Correcto: I, II y III son falsas: en 1830 no se abolieron todos los gravámenes, hubo obreros no culíes y la norma de 1842 no prohibió a los extranjeros; IV sí.",
+      "No es la respuesta: Marca I como verdadera, pero el decreto de 1830 no abolió todos los gravámenes que pesaban sobre el guano; las tres primeras deben ser F."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "his-045",
+    "categoria": "historia",
+    "tema": "Historia del Perú",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "El historiador Waldemar Espinoza Soriano transcribió la visita a Chucuito realizada por Garci Diez de San Miguel. Mediante ese documento se descubre que, 35 años después de la conquista española, se referían a los ............... como “indios ricos” y poderosos porque tenían hasta 50 mil cabezas de ganado.",
+    "opciones": [
+      "Lima.",
+      "Chimú.",
+      "Colli.",
+      "Lupaca.",
+      "Xauxa."
+    ],
+    "correcta": 3,
+    "explicacion": "El etnohistoriador Waldemar Espinoza Soriano logró hacer un aporte importante al redescubrir y analizar la crónica de Chucuito. Este documento explica de manera muy clara las riquezas ganaderas de la etnia de los lupacas. Hay abundante estadística, información demográfica y cultural sobre este rico reino altiplánico hasta la invasión de los incas.",
+    "analisis": [
+      "No es la respuesta: Lima no es una etnia del altiplano ni figura en la visita a Chucuito; los indios ricos con 50 mil cabezas eran los lupacas.",
+      "No es la respuesta: Los chimú fueron señores de la costa norte, no del altiplano de Chucuito; la crónica describe a los lupacas, con enormes rebaños.",
+      "No es la respuesta: Colli es otra denominación de los chimú del norte; la crónica de Chucuito se refiere al pueblo altiplánico de los lupacas, rico en ganado.",
+      "Correcto: La crónica de Chucuito de Garci Diez de San Miguel describe a los lupacas como indios ricos con hasta 50 mil cabezas de ganado; Espinoza Soriano la transcribió.",
+      "No es la respuesta: Los xauxa no aparecen en la visita de Garci Diez de San Miguel; los llamados indios ricos con 50 mil cabezas de ganado eran los lupacas."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "his-046",
+    "categoria": "historia",
+    "tema": "Historia universal",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "El Imperio bizantino tenía un ejército muy numeroso, integrado por soldados de diversas nacionalidades. La defensa de sus zonas de frontera fue asumida por los estratiotas, a quienes se les pagaba con ............. por este servicio.",
+    "opciones": [
+      "tierras",
+      "siervos",
+      "herramientas",
+      "esclavos",
+      "ganado y dinero"
+    ],
+    "correcta": 0,
+    "explicacion": "El Imperio Bizantino fue la continuación oriental del Imperio Romano, con capital en Constantinopla, y se mantuvo desde el año 395 hasta 1453. Su cultura combinó elementos romanos, griegos y cristianos. Destacaron en el arte, la religión ortodoxa y el derecho (Corpus Iuris Civilis). Su economía se sustentaba en la agricultura, el comercio y los tributos. A los estratiotas (soldados campesinos) se les entregaban tierras o lotes agrarios a cambio de que prestaran servicio militar.",
+    "analisis": [
+      "Correcto: A los estratiotas, soldados campesinos del Imperio bizantino, se les concedían tierras o lotes agrarios a cambio de prestar servicio en la defensa de la frontera.",
+      "No es la respuesta: El salario de los estratiotas no eran siervos, sino lotes agrarios; ellos mismos eran soldados campesinos que trabajaban la tierra que recibían.",
+      "No es la respuesta: Las herramientas no figuran como pago: la compensación por el servicio militar era la entrega de tierras o lotes agrarios.",
+      "No es la respuesta: Tampoco se les retribuía con esclavos; el Imperio bizantino pagaba a sus soldados campesinos con tierras, no con mano de obra servil.",
+      "No es la respuesta: El pago era en tierras, no en ganado ni dinero; los estratiotas mantenían su unidad agrícola y debían servir militarmente cuando se los requería."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "his-047",
+    "categoria": "historia",
+    "tema": "Historia universal",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "En 1929, se produjo la primera gran crisis del capitalismo en el siglo xx. Su epicentro fue la bolsa de valores de Nueva York, centro financiero del mundo. Ante esta situación, dos presidentes norteamericanos de la época tuvieron diferentes posturas para enfrentar la crisis. Indique qué acción o acciones corresponden al periodo del presidente Franklin D. Roosevelt.\nI. Promovió la intervención del Estado en la reactivación de la economía.\nII. Rechazó la intervención del Estado en la economía, esperando su autorregulación.\nIII. Fomentó el empleo y el consumo de productos nacionales.",
+    "opciones": [
+      "I y III",
+      "solo II",
+      "II y III",
+      "solo III",
+      "solo I"
+    ],
+    "correcta": 0,
+    "explicacion": "El crac de 1929 fue la caída de la Bolsa de Nueva York que desencadenó la gran depresión mundial de los años 30. Provocó quiebras bancarias, caída del comercio, desempleo masivo y pobreza en millones de personas. La crisis afectó no solo a Estados Unidos, sino también a Europa y América Latina por la dependencia económica. En respuesta, el presidente Franklin D. Roosevelt aplicó el New Deal (1933), un conjunto de reformas económicas y sociales. Este plan impulsó obras públicas, apoyo al agro, control financiero y seguridad social. Aunque no resolvió totalmente la crisis, logró recuperar la confianza del consumo y sentó bases para el Estado de bienestar.",
+    "analisis": [
+      "Correcto: Roosevelt aplicó el New Deal: I es verdadera, porque el Estado intervino con obras públicas y reformas, y III también, al impulsar el empleo y el consumo; II es falsa.",
+      "No es la respuesta: Responde solo con II, que es la postura opuesta a la de Roosevelt, pues él sí intervino con el New Deal; la correcta suma I y III.",
+      "No es la respuesta: Combina III, verdadera, con II, falsa: Roosevelt no rechazó la intervención estatal, sino que la convirtió en eje del New Deal desde 1933.",
+      "No es la respuesta: III sí es correcta, pero omite I: Roosevelt además promovió la intervención estatal para reactivar la economía, así que debe indicarse I y III.",
+      "No es la respuesta: I es verdadera, pero incompleta: el New Deal también fomentó el empleo y el consumo de productos nacionales, así que III debe sumarse."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "his-048",
+    "categoria": "historia",
+    "tema": "Historia universal",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "En el contexto de la Guerra Fría, los Estados Unidos de Norteamérica reaccionaron con ..............., que tenía como política de Estado oponerse al expansionismo de ................",
+    "opciones": [
+      "la ley del garrote - Corea del Norte",
+      "la doctrina Truman - la Unión Soviética",
+      "el Plan Marshall - Vietnam del Norte",
+      "la Doctrina Monroe - Corea del Norte",
+      "el trato del buen vecino - la Unión Soviética"
+    ],
+    "correcta": 1,
+    "explicacion": "Terminada la Segunda Guerra Mundial, el nuevo enemigo de EE. UU. era la Unión Soviética y su sistema socialista. El presidente Harry Truman desarrolló todo un plan estratégico de carácter geopolítico para impedir la expansión del socialismo soviético. Así nació la doctrina Truman, el gran esfuerzo de gobierno de EE. UU. para impedir a toda costa que los movimientos revolucionarios de caracter socialista-comunista sean contenidos.",
+    "analisis": [
+      "No es la respuesta: La ley del garrote no es la doctrina estadounidense de la Guerra Fría, ni Corea del Norte era el expansionismo que EE. UU. contenía en esa política.",
+      "Correcto: Frente al expansionismo soviético, Truman proclamó la doctrina Truman, política de Estado para contener el avance del socialismo soviético tras la Segunda Guerra Mundial.",
+      "No es la respuesta: El Plan Marshall fue ayuda económica a Europa occidental, y el rival señalado en la doctrina era la Unión Soviética, no Vietnam del Norte.",
+      "No es la respuesta: La Doctrina Monroe es anterior, del siglo XIX, y advertía a Europa sobre América; no fue la reacción de EE. UU. al expansionismo soviético.",
+      "No es la respuesta: El buen vecino fue la política de buena convivencia de EE. UU. con América Latina, no una reacción contra la Unión Soviética en la Guerra Fría."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "his-049",
+    "categoria": "historia",
+    "tema": "Historia universal",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "El clero, como parte de la iglesia, fue un estamento dedicado al culto religioso y estaba formado por individuos que abrazaban su fe con convicción y desprendimiento para luego predicar. Este se clasificaba en",
+    "opciones": [
+      "párrocos y curas.",
+      "irregular y regular.",
+      "regular y secular.",
+      "obispos y arzobispos.",
+      "irregular y secular."
+    ],
+    "correcta": 2,
+    "explicacion": "El clero secular estaba formado por sacerdotes que vivían en las ciudades y parroquias, en contacto directo con la población, administrando sacramentos y guiando la vida religiosa. En cambio, el clero regular pertenecía a órdenes religiosas como franciscanos, dominicos o jesuitas, que seguían reglas monásticas y vivían en conventos. Ambos tuvieron gran influencia en la sociedad medieval.",
+    "analisis": [
+      "No es la respuesta: Párrocos y curas son cargos del clero secular; no constituyen las dos grandes clasificaciones, que son clero secular y clero regular.",
+      "No es la respuesta: No existe la categoría de clero irregular; la correcta opone al clero regular, de órdenes religiosas, el clero secular, que servía en parroquias.",
+      "Correcto: El clero se dividía en secular, que vivía en parroquias en contacto con el pueblo, y regular, integrado por órdenes como franciscanos, dominicos o jesuitas bajo reglas monásticas.",
+      "No es la respuesta: Obispos y arzobispos son grados de la jerarquía eclesiástica, no la división del clero, que distingue entre regular y secular.",
+      "No es la respuesta: Combina un término inexistente, irregular, con el correcto secular; falta el clero regular, el de franciscanos, dominicos y jesuitas que vivían en conventos."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "his-050",
+    "categoria": "historia",
+    "tema": "Historia universal",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "La crisis económica de 2008, que estalló en el sector inmobiliario, es considerada la primera gran crisis del capitalismo del siglo xxi por su repercusión en el sistema financiero mundial. Este fenómeno fue caracterizado como",
+    "opciones": [
+      "una crisis de crédito.",
+      "un exceso de la oferta.",
+      "la crisis de los bonos.",
+      "declive industrial.",
+      "abandono inmobiliario."
+    ],
+    "correcta": 0,
+    "explicacion": "En el 2008 se produjo una enorme crisis capitalista por la denominada burbuja inmobiliaria. Años antes se estaba registrando, en EE. UU. un gran crecimiento de los créditos inmobiliarios. Sin embargo, esta crisis se desencadenó por la concesión de grandes cantidades de nuevos créditos masivos a personas riesgosas, lo que condujo a impagos que afectó todo el sistema financiero. Esto llevó a una crisis financiera de carácter global, la mayor, después del crac de 1929.",
+    "analisis": [
+      "Correcto: Se la caracterizó como crisis de crédito: la concesión masiva de préstamos inmobiliarios a personas de riesgo provocó impagos que quebraron el sistema financiero mundial.",
+      "No es la respuesta: No fue un exceso de oferta: el problema fue la sobreoferta de créditos inmobiliarios, no de bienes, que terminó en impagos masivos.",
+      "No es la respuesta: El detonante no fueron los bonos sino los créditos hipotecarios de alto riesgo; los impagos deterioraron la banca y el sistema financiero global.",
+      "No es la respuesta: No fue un declive industrial: el estallido se produjo en el sector inmobiliario y financiero, afectando a bancos y prestamistas de todo el mundo.",
+      "No es la respuesta: Hubo impagos, no abandono del sector: la burbuja inmobiliaria se quebró cuando los deudores dejaron de pagar sus créditos ya concedidos."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  }
+]

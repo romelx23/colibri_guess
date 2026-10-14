@@ -1,0 +1,665 @@
+[
+  {
+    "id": "mat-001",
+    "categoria": "matematicas",
+    "tema": "Porcentajes",
+    "fuente": "original",
+    "dificultad": "basico",
+    "enunciado": "¿Cuánto es el 15 % de 200?",
+    "opciones": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correcta": 2,
+    "explicacion": "El 15 % de 200 se calcula como 200 × 0,15 = 30.",
+    "analisis": [
+      "No es la respuesta: 20 es el 10 % de 200.",
+      "No es la respuesta: 25 corresponde al 12,5 % de 200.",
+      "Correcto: 200 × 15 / 100 = 30.",
+      "No es la respuesta: 35 sería el 17,5 % de 200."
+    ]
+  },
+  {
+    "id": "mat-002",
+    "categoria": "matematicas",
+    "tema": "Áreas",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "El área de un rectángulo de 8 cm de base y 5 cm de altura es:",
+    "opciones": [
+      "13 cm²",
+      "26 cm²",
+      "40 cm²",
+      "45 cm²"
+    ],
+    "correcta": 2,
+    "explicacion": "El área del rectángulo es base por altura: 8 × 5 = 40 cm²; 13 cm² sería el perímetro dividido entre dos, no el área.",
+    "analisis": [
+      "No es la respuesta: 13 es la suma de base y altura, no el área.",
+      "No es la respuesta: 26 es el perímetro completo (2 × (8 + 5)).",
+      "Correcto: 8 × 5 = 40 cm².",
+      "No es la respuesta: 45 no se obtiene con ninguna operación válida aquí."
+    ]
+  },
+  {
+    "id": "mat-003",
+    "categoria": "matematicas",
+    "tema": "Ecuaciones lineales",
+    "fuente": "pucp",
+    "dificultad": "basico",
+    "enunciado": "Si 3x − 5 = 16, entonces x vale:",
+    "opciones": [
+      "5",
+      "7",
+      "8",
+      "11"
+    ],
+    "correcta": 1,
+    "explicacion": "Sumando 5 a ambos lados queda 3x = 21 y dividiendo entre 3 se obtiene x = 7.",
+    "analisis": [
+      "No es la respuesta: con x = 5 la igualdad daría 10, no 16.",
+      "Correcto: 3(7) − 5 = 21 − 5 = 16.",
+      "No es la respuesta: con x = 8 el resultado sería 19.",
+      "No es la respuesta: con x = 11 llegaríamos a 28."
+    ]
+  },
+  {
+    "id": "mat-004",
+    "categoria": "matematicas",
+    "tema": "Números primos",
+    "fuente": "original",
+    "dificultad": "basico",
+    "enunciado": "¿Cuál de estos números es primo?",
+    "opciones": [
+      "21",
+      "27",
+      "29",
+      "33"
+    ],
+    "correcta": 2,
+    "explicacion": "29 solo es divisible entre 1 y por sí mismo; 21 = 3 × 7, 27 = 3³ y 33 = 3 × 11.",
+    "analisis": [
+      "No es la respuesta: 21 es divisible entre 3 y 7.",
+      "No es la respuesta: 27 es divisible entre 3 y 9.",
+      "Correcto: 29 no tiene divisores distintos de 1 y de él mismo.",
+      "No es la respuesta: 33 es divisible entre 3 y 11."
+    ]
+  },
+  {
+    "id": "mat-005",
+    "categoria": "matematicas",
+    "tema": "Potencias y raíces",
+    "fuente": "utp",
+    "dificultad": "intermedio",
+    "enunciado": "La raíz cuadrada de 196 es:",
+    "opciones": [
+      "12",
+      "13",
+      "14",
+      "16"
+    ],
+    "correcta": 2,
+    "explicacion": "14 × 14 = 196, y como 196 termina en 6, sus raíces posibles terminan en 4 o 6: 14 y 26 no alcanzan ni superan el valor.",
+    "analisis": [
+      "No es la respuesta: 12 × 12 = 144.",
+      "No es la respuesta: 13 × 13 = 169.",
+      "Correcto: 14² = 196.",
+      "No es la respuesta: 16 × 16 = 256, supera el valor."
+    ]
+  },
+  {
+    "id": "mat-006",
+    "categoria": "matematicas",
+    "tema": "Promedios",
+    "fuente": "pucp",
+    "dificultad": "intermedio",
+    "enunciado": "El promedio de 4, 7, 9 y 12 es:",
+    "opciones": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correcta": 1,
+    "explicacion": "La suma es 4 + 7 + 9 + 12 = 32 y, dividida entre 4 datos, da 8.",
+    "analisis": [
+      "No es la respuesta: 7 es el valor del segundo dato, no el promedio.",
+      "Correcto: 32 ÷ 4 = 8.",
+      "No es la respuesta: 9 es el tercer dato.",
+      "No es la respuesta: 10 no corresponde a ninguna operación del problema."
+    ]
+  },
+  {
+    "id": "mat-007",
+    "categoria": "matematicas",
+    "tema": "Triángulos",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "Si un triángulo tiene dos ángulos de 50° y 60°, el tercer ángulo mide:",
+    "opciones": [
+      "60°",
+      "70°",
+      "80°",
+      "90°"
+    ],
+    "correcta": 1,
+    "explicacion": "La suma de los ángulos internos es 180°: 180 − (50 + 60) = 70°.",
+    "analisis": [
+      "No es la respuesta: 60° dejaría la suma en 170°.",
+      "Correcto: 180 − 110 = 70°.",
+      "No es la respuesta: 80° haría la suma igual a 190°.",
+      "No es la respuesta: 90° daría un total de 200°."
+    ]
+  },
+  {
+    "id": "mat-008",
+    "categoria": "matematicas",
+    "tema": "Logaritmos",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "Si log₂(x) = 5, entonces x vale:",
+    "opciones": [
+      "10",
+      "25",
+      "32",
+      "64"
+    ],
+    "correcta": 2,
+    "explicacion": "Por definición, log₂(x) = 5 significa x = 2⁵ = 32.",
+    "analisis": [
+      "No es la respuesta: 10 no es potencia de 2.",
+      "No es la respuesta: 25 es 5², no una potencia de base 2.",
+      "Correcto: 2⁵ = 32.",
+      "No es la respuesta: 64 = 2⁶, correspondería a log₂(x) = 6."
+    ]
+  },
+  {
+    "id": "mat-009",
+    "categoria": "matematicas",
+    "tema": "Derivadas",
+    "fuente": "pucp",
+    "dificultad": "dificil",
+    "enunciado": "La derivada de f(x) = x³ evaluada en x = 2 es:",
+    "opciones": [
+      "6",
+      "8",
+      "12",
+      "18"
+    ],
+    "correcta": 2,
+    "explicacion": "f'(x) = 3x², por lo que f'(2) = 3 × 4 = 12.",
+    "analisis": [
+      "No es la respuesta: 6 sería el valor de 3x con x = 2.",
+      "No es la respuesta: 8 es f(2), el valor de la función, no de su derivada.",
+      "Correcto: 3 × 2² = 12.",
+      "No es la respuesta: 18 no se obtiene de derivar y evaluar correctamente."
+    ]
+  },
+  {
+    "id": "mat-010",
+    "categoria": "matematicas",
+    "tema": "Trigonometría",
+    "fuente": "original",
+    "dificultad": "dificil",
+    "enunciado": "El valor de cos(60°) es:",
+    "opciones": [
+      "1/2",
+      "√2/2",
+      "√3/2",
+      "1"
+    ],
+    "correcta": 0,
+    "explicacion": "En el triángulo rectángulo de 30-60-90, el cateto adyacente a 60° es la mitad de la hipotenusa, de modo que cos(60°) = 1/2.",
+    "analisis": [
+      "Correcto: cos(60°) = 0,5, igual a sen(30°).",
+      "No es la respuesta: √2/2 corresponde a cos(45°).",
+      "No es la respuesta: √3/2 es cos(30°).",
+      "No es la respuesta: 1 es cos(0°)."
+    ]
+  },
+  {
+    "id": "mat-011",
+    "categoria": "matematicas",
+    "tema": "Geometría básica",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "Un ángulo recto mide:",
+    "opciones": [
+      "45°",
+      "60°",
+      "90°",
+      "180°"
+    ],
+    "correcta": 2,
+    "explicacion": "El ángulo recto equivale a 90°, la cuarta parte de una vuelta completa.",
+    "analisis": [
+      "No es la respuesta: 45° es la mitad de un ángulo recto.",
+      "No es la respuesta: 60° es el ángulo interno de un triángulo equilátero.",
+      "Correcto: un ángulo recto mide exactamente 90°.",
+      "No es la respuesta: 180° es un ángulo llano."
+    ]
+  },
+  {
+    "id": "mat-012",
+    "categoria": "matematicas",
+    "tema": "Determinantes",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "El determinante de la matriz [[2, 3], [1, 4]] es:",
+    "opciones": [
+      "3",
+      "5",
+      "8",
+      "11"
+    ],
+    "correcta": 1,
+    "explicacion": "Para una matriz 2 × 2, det = ad − bc = (2 × 4) − (3 × 1) = 8 − 3 = 5.",
+    "analisis": [
+      "No es la respuesta: 3 es el valor del elemento b.",
+      "Correcto: 8 − 3 = 5.",
+      "No es la respuesta: 8 es el producto ad, falta restar bc.",
+      "No es la respuesta: 11 es la suma de todos los elementos."
+    ]
+  },
+  {
+    "id": "uni-001",
+    "categoria": "matematicas",
+    "tema": "Combinatoria",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "En una caja se tienen 6 pares de zapatos diferentes; si se extraen uno a uno y sin reposición, ¿cuántos zapatos se deben extraer como mínimo para estar seguro de haber extraído un par de zapatos del mismo tipo?",
+    "opciones": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correcta": 3,
+    "explicacion": "En el peor de los casos se extraen los 6 zapatos y todos pertenecen a tipos distintos; el séptimo zapato completará necesariamente uno de esos pares, de modo que hacen falta 7 extracciones.",
+    "analisis": [
+      "Con 4 zapatos extraídos puede no existir ningún par, pues cada uno puede ser de un tipo distinto.",
+      "Con 5 tampoco se garantiza un par: pueden salir cinco zapatos de cinco pares diferentes.",
+      "Con 6 se alcanza el peor caso: si salen los seis zapatos de seis tipos distintos, aún no se forma ningún par.",
+      "7 es la respuesta correcta: una vez extraídos los seis tipos distintos, el séptimo zapato cierra un par (principio de casilleros)."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-002",
+    "categoria": "matematicas",
+    "tema": "Combinatoria",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "En una urna se tienen 4 bolillas rojas, 6 blancas y 8 verdes. ¿Cuántas bolillas como mínimo se deben sacar al azar, de una en una, para estar seguro de haber extraído por lo menos una blanca y una verde?",
+    "opciones": [
+      "4",
+      "9",
+      "11",
+      "13"
+    ],
+    "correcta": 3,
+    "explicacion": "En el peor de los casos se extraen primero las 4 rojas y las 8 verdes, es decir 12 bolillas sin ninguna blanca; recién la décima tercera bolilla garantiza tener una blanca junto con una verde ya obtenida.",
+    "analisis": [
+      "4 solo garantiza extraer todas las rojas, sin asegurar una blanca ni una verde.",
+      "9 no cubre el peor caso: podrían salir las 4 rojas y 5 verdes sin ninguna blanca.",
+      "11 tampoco basta: aún es posible haber sacado las 4 rojas y 7 verdes sin ninguna blanca.",
+      "13 es correcta: después de las 4 rojas y las 8 verdes (12 bolillas), la siguiente necesariamente es blanca."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-003",
+    "categoria": "matematicas",
+    "tema": "Lógica",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Si se cumplen las siguientes premisas: 1) Algunos ingenieros son visionarios. 2) Todo visionario es no realista. Entonces:",
+    "opciones": [
+      "Todos los ingenieros son realistas.",
+      "No es cierto que muchos ingenieros no son realistas.",
+      "Muchos ingenieros no son científicos.",
+      "Muchos ingenieros no son realistas."
+    ],
+    "correcta": 3,
+    "explicacion": "Los ingenieros visionarios pertenecen al conjunto de los no realistas, ya que todo visionario es no realista; por tanto, esos ingenieros no son realistas y se concluye que muchos ingenieros no lo son.",
+    "analisis": [
+      "Es falsa: las premisas no afirman que todos los ingenieros sean realistas, solo hablan de los visionarios.",
+      "Es falsa: como sí es cierto que muchos ingenieros no son realistas, su negación es incorrecta.",
+      "No se deduce: las premisas no mencionan en ningún momento a los científicos.",
+      "Es correcta: los ingenieros que son visionarios son a la vez no realistas, luego muchos ingenieros no son realistas."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-004",
+    "categoria": "matematicas",
+    "tema": "Progresiones aritméticas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "Una progresión aritmética se inicia en 7, 11, 15, ... . Indique la suma de los dígitos del término que ocupa la posición 16 de la progresión indicada.",
+    "opciones": [
+      "9",
+      "11",
+      "13",
+      "14"
+    ],
+    "correcta": 2,
+    "explicacion": "La razón de la progresión es 4, entonces t16 = 7 + (16 - 1) × 4 = 67; la suma de sus dígitos es 6 + 7 = 13.",
+    "analisis": [
+      "9 no corresponde: no es la suma de los dígitos de 67 ni de ningún término de la sucesión.",
+      "11 tampoco corresponde: se obtiene de sumar dígitos de un valor distinto al término pedido.",
+      "13 es correcta: el término 16 es 67 y 6 + 7 = 13.",
+      "14 es incorrecta: surgiría de un cálculo erróneo de la suma de los dígitos de 67."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-005",
+    "categoria": "matematicas",
+    "tema": "Sucesiones numéricas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "En la siguiente sucesión, halle el valor de x: 5, 5, 2, 3, 1, 3, x",
+    "opciones": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correcta": 2,
+    "explicacion": "Las operaciones alternan sumas crecientes y restas decrecientes: +0, -3, +1, -2, +2 y por último -1; aplicando esta última, 3 - 1 = 2.",
+    "analisis": [
+      "0 no sigue el patrón: exigiría restar 3 en el último paso, cuando las restas ya decrecieron hasta -1.",
+      "1 sería el resultado de repetir la resta -2, pero ese valor ya se usó en el paso anterior.",
+      "2 es correcta: la última operación del patrón es -1 y 3 - 1 = 2.",
+      "3 repetiría el término anterior sin aplicar la última operación de la sucesión."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-006",
+    "categoria": "matematicas",
+    "tema": "Sucesiones y series",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Considerando la letra Ñ, el grupo de letras que continúa es: A, AC, ACE, ACEH, ACEHL, ...",
+    "opciones": [
+      "ACEHLO",
+      "ACEHLP",
+      "ACEHLQ",
+      "ACEHLR"
+    ],
+    "correcta": 2,
+    "explicacion": "Las letras que se saltan entre un grupo y el siguiente forman la serie de Fibonacci 1, 1, 2, 3, 5: falta B, luego D, luego F y G, luego I, J y K; ahora deben faltar 5 letras (M, N, Ñ, O y P), por lo que sigue ACEHLQ.",
+    "analisis": [
+      "ACEHLO salta solo M, N y Ñ, es decir 3 letras, cuando deben ser 5.",
+      "ACEHLP salta 4 letras (M, N, Ñ y O) y rompe la serie 1, 1, 2, 3, 5.",
+      "ACEHLQ es correcta: entre L y Q faltan M, N, Ñ, O y P, exactamente 5 letras.",
+      "ACEHLR salta 6 letras, valor que no corresponde a ningún término de la serie de Fibonacci."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-007",
+    "categoria": "matematicas",
+    "tema": "Suficiencia de datos",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Dados tres números naturales cuya suma es 765, se desea hallar el menor. Se dispone de las siguientes informaciones: I) El menor es la raíz cúbica del mayor. II) El intermedio es la raíz cuadrada del mayor. Para resolver el problema:",
+    "opciones": [
+      "La información I es suficiente.",
+      "La información II es suficiente.",
+      "Ambas informaciones son necesarias.",
+      "Cada una de las informaciones por separado es suficiente."
+    ],
+    "correcta": 1,
+    "explicacion": "Con la información I hay dos respuestas posibles, (8, 245, 512) y (9, 27, 729); con la información II solo se obtiene (9, 27, 729), por lo que la segunda información es suficiente.",
+    "analisis": [
+      "No es suficiente: la I admite dos ternas distintas, así que el menor no queda determinado.",
+      "Es correcta: imponiendo que el intermedio sea la raíz cuadrada del mayor, solo queda la terna (9, 27, 729).",
+      "No es necesaria: con la información II ya se llega a una única respuesta.",
+      "No es exacta: la I por separado resulta insuficiente, por lo que no vale decir que cada una basta."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-008",
+    "categoria": "matematicas",
+    "tema": "Suficiencia de datos",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Se desea saber en qué porcentaje varía la población de una ciudad, si el número de mujeres es al número de varones como 3/2. Información brindada: I) El 60% de la población son mujeres. II) El número de varones aumentó en 30% y el de mujeres disminuyó en 10%. Para resolver el problema:",
+    "opciones": [
+      "La información I es suficiente.",
+      "La información II es suficiente.",
+      "Es necesario utilizar ambas informaciones.",
+      "Cada una de las informaciones por separado es suficiente."
+    ],
+    "correcta": 1,
+    "explicacion": "Si mujeres = 3k y varones = 2k, con la información II la población pasa de 5k a 5,3k (2,6k + 2,7k), es decir una variación de 0,3k sobre 5k = 6%; la información I solo fija la proporción inicial y no permite calcular variación alguna.",
+    "analisis": [
+      "No es suficiente: el 60% solo confirma la proporción inicial de mujeres y no informa ningún cambio.",
+      "Es correcta: aplicando +30% a los varones y -10% a las mujeres se obtiene una variación total de 6%.",
+      "No es necesaria: con la información II ya se calcula la variación de la población.",
+      "No es exacta: la información I por separado no aporta datos del cambio poblacional."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-009",
+    "categoria": "matematicas",
+    "tema": "Suficiencia de datos",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Pedro y Vilma se han comprado un televisor que les ha costado X soles; se quiere saber cuánto aportó cada uno. Usando la siguiente información: I) Pedro aportó el doble que Vilma. II) La diferencia del cuadrado de sus aportes es Y soles. Para resolver el problema:",
+    "opciones": [
+      "La información I es suficiente.",
+      "La información II es suficiente.",
+      "Es necesario utilizar ambas informaciones.",
+      "Cada información, por separado, es suficiente."
+    ],
+    "correcta": 3,
+    "explicacion": "Con la I, P + V = X y P = 2V dan V = X/3 y P = 2X/3; con la II, P² - V² = (P + V)(P - V) = Y, de donde P - V = Y/X y, sumado a P + V = X, se despejan ambos aportes. Cada información basta por separado.",
+    "analisis": [
+      "Es verdadero que la I permite hallar los aportes, pero no es la respuesta completa porque la II también resulta suficiente.",
+      "También es parcialmente cierto, pues omite que la información I ya permite resolver el problema por sí sola.",
+      "No es necesario combinarlas: cualquiera de las dos, por separado, determina los dos aportes.",
+      "Es correcta: la I da la relación directa entre aportes y la II permite despejarlos algebraicamente; cada una por separado es suficiente."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-010",
+    "categoria": "matematicas",
+    "tema": "Problemas de edades",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "La edad de un padre es 35 años y la de su hijo es 5 años. ¿Cuántos años deben pasar para que la edad del padre sea tres veces mayor de la edad del hijo?",
+    "opciones": [
+      "5",
+      "10",
+      "12",
+      "15"
+    ],
+    "correcta": 0,
+    "explicacion": "Que el padre sea tres veces mayor que el hijo equivale a que tenga cuatro veces su edad: 35 + x = 4(5 + x), de donde x = 5; entonces el padre tiene 40 años y el hijo 10.",
+    "analisis": [
+      "5 es correcta: el padre tendría 40 años y el hijo 10; 40 es 30 años más que 10, es decir, tres veces la edad del hijo por encima de él.",
+      "10 es el error de leer 'tres veces mayor' como 'tres veces la edad': daría 45 y 15, pero no es la lectura correcta de la frase.",
+      "12 no cumple la condición: el padre tendría 47 años y el hijo 17, relación que no es de cuatro a uno.",
+      "15 tampoco cumple: 50 y 20 no guardan la proporción exigida por el enunciado."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-011",
+    "categoria": "matematicas",
+    "tema": "Fracciones y porcentajes",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "En una fiesta, los 0,666... eran varones y sólo 0,4 de las damas bailaban; las 15 mujeres restantes descansaban. ¿Cuántos varones asistieron a la fiesta?",
+    "opciones": [
+      "25",
+      "50",
+      "75",
+      "100"
+    ],
+    "correcta": 1,
+    "explicacion": "Tomando el total como 90k, los varones son 60k (2/3) y las damas 30k; como bailan 12k (0,4 de 30k) y 15 descansan, se tiene 12k + 15 = 30k, luego k = 5/6 y los varones son 60 × 5/6 = 50.",
+    "analisis": [
+      "25 corresponde a la cantidad de damas que asistieron, no de varones.",
+      "50 es correcta: con k = 5/6 los varones suman 50 y las damas 25 (10 bailan y 15 descansan).",
+      "75 no cumple: excede la proporción de varones sobre el total y no deja exactamente 15 damas descansando.",
+      "100 tampoco cumple: dejaría más de 15 damas sin bailar, contradiciendo el enunciado."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-012",
+    "categoria": "matematicas",
+    "tema": "Álgebra",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Sea • : A × A → A, donde A = {0, 1, 2}, una operación cuyo elemento neutro es 2 y el único inverso de 1 es 0. Si para todo x de A distinto de 2 se cumple que x • x es distinto de x, halle el valor de E = (0 • 0) • ((1 • 1) • (2 • 2)).",
+    "opciones": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correcta": 2,
+    "explicacion": "Como 2 es neutro, 2 • 2 = 2 y 0 • 2 = 0; la unicidad de inversos y la condición x • x ≠ x obligan a que 1 • 1 = 0 y 0 • 0 = 1. Así, E = 1 • (0 • 2) = 1 • 0 = 2, aplicando que 0 es el inverso de 1.",
+    "analisis": [
+      "0 no puede ser el resultado: supondría que 0 • 0 = 0, lo que contradice la condición x • x ≠ x para x distinto de 2.",
+      "1 no se obtiene: sería el valor de 0 • 0, pero es un paso intermedio y no el resultado final de toda la expresión.",
+      "2 es correcta: desarrollando, E = (0 • 0) • ((1 • 1) • (2 • 2)) = 1 • (0 • 2) = 1 • 0 = 2.",
+      "3 es imposible: la operación sobre {0, 1, 2} solo puede devolver elementos del conjunto, nunca 3."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-013",
+    "categoria": "matematicas",
+    "tema": "Porcentajes",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "La tabla indica el porcentaje de basura electrónica producida en el Perú durante el 2015: Computadoras 44%, Televisores 20%, Neveras 16%, Lavadoras 15%, Celulares 5%. Si se botaron 7 360 toneladas de televisores, ¿cuál de los siguientes enunciados es verdadero?",
+    "opciones": [
+      "16 912 toneladas de computadoras se botó en el Perú al 2015.",
+      "El año 2015 se botó en Perú 1 480 toneladas de celulares.",
+      "Los peruanos botaron más de 6 000 toneladas de lavadoras.",
+      "La basura electrónica producida en Perú en el 2015 es de 36 800 toneladas."
+    ],
+    "correcta": 3,
+    "explicacion": "Si 7 360 t representan el 20%, el total es 7 360 / 0,20 = 36 800 t, lo que confirma el enunciado D; con ese total, computadoras dan 16 192 t, celulares 1 840 t y lavadoras 5 520 t.",
+    "analisis": [
+      "Es falso: el 44% de 36 800 t es 16 192 t, no 16 912 t.",
+      "Es falso: el 5% de 36 800 t es 1 840 t, no 1 480 t.",
+      "Es falso: el 15% de 36 800 t es 5 520 t, cantidad que no supera las 6 000 t.",
+      "Es correcto: 7 360 t corresponde al 20% del total, de donde el total es 36 800 t."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "mat-026",
+    "categoria": "matematicas",
+    "tema": "Razonamiento lógico",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "En una elección escolar, hay ocho candidatos. Después de contar el 95% de los votos, los resultados preliminares fueron los siguientes:\nÁlex 32\nCarmen 31\nBenito 26\nDaniel 25\nElena 24\nFlora 23\nGelma 15\nManuel 14\n¿Cuántos estudiantes todavía tienen la posibilidad de ganar las elecciones?",
+    "opciones": [
+      "6",
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "correcta": 0,
+    "explicacion": "Quedan 10 votos por contabilizar (el 5% restante de un total de 190 votos). Un candidato aún puede ganar únicamente si, al sumarle esos 10 votos, supera los 32 votos de Álex, el líder. Álex (32), Carmen (31), Benito (26), Daniel (25), Elena (24) y Flora (23) cumplen esa condición, mientras que Gelma (15) y Manuel (14) ya no pueden alcanzarlo. Por lo tanto, 6 estudiantes aún tienen posibilidad de ganar.",
+    "analisis": [
+      "Correcto: Quedan 10 votos por contar (el 5% de 190); Álex, Carmen, Benito, Daniel, Elena y Flora superan los 32 votos del líder si los reciben, así que 6 candidatos siguen en liza.",
+      "No es la respuesta: El 3 deja fuera a Benito (26+10=36), Daniel, Elena y Flora, que con los 10 votos restantes también pueden superar a Álex.",
+      "No es la respuesta: El 4 cuenta solo a los cuatro primeros y omite a Elena (24) y Flora (23), que sumados a los 10 votos pendientes llegan a 34 y 33.",
+      "No es la respuesta: El 2 solo considera a Álex y Carmen; olvida que Benito, Daniel, Elena y Flora aún pueden rebasar los 32 votos con los 10 que faltan.",
+      "No es la respuesta: El 5 excluye a Flora: con 23 votos y los 10 pendientes alcanzaría 33 y superaría a Álex, de modo que serían 6, no 5."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "mat-027",
+    "categoria": "matematicas",
+    "tema": "Razonamiento lógico",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "Pedro, José, Manuel, César y Andrés participaron en un certamen de natación. Se sabe que, al finalizar el certamen, no hubo empates. Uno de los jueces que no estuvo atento al certamen, preguntó a cuatro de ellos en qué puesto habían llegado, a lo que cada uno de ellos contestó de la siguiente manera:\n• José: “Pedro llegó en tercer lugar. Manuel llegó cuarto”.\n• Pedro: “Manuel llegó en último lugar. César llegó tercero”.\n• César: “Pedro fue el primero en llegar. José llegó tercero”.\n• Manuel: “César llegó en quinto lugar. Andrés llegó segundo”. Si cada uno de ellos respondió una verdad y una mentira, aunque no necesariamente en ese orden, ¿quién llegó primero y quién último, respectivamente?",
+    "opciones": [
+      "César - José",
+      "Pedro - Manuel",
+      "Pedro - José",
+      "Manuel - José",
+      "Andrés - Manuel"
+    ],
+    "correcta": 2,
+    "explicacion": "Cada persona dijo una verdad y una mentira. Pedro afirma que Manuel fue último (verdadero) y César tercero (falso); César afirma que Pedro fue primero (verdadero) y José tercero (falso); Manuel afirma que César fue quinto (verdadero) y Andrés segundo (falso); José afirma que Pedro fue tercero (falso) y Manuel cuarto (verdadero). La única pista consistente es que Pedro es primero, por lo que la salida final es: 1.º Pedro, 2.º Andrés, 3.º César, 4.º Manuel, 5.º José. Entonces, primero es Pedro y último es José.",
+    "analisis": [
+      "No es la respuesta: César no fue primero: su afirmación de que Pedro llegó primero es la verdad de su pareja, y César terminó tercero.",
+      "No es la respuesta: Pedro sí fue primero, pero Manuel llegó cuarto, no último; el último puesto corresponde a José según la frase verdadera de Pedro.",
+      "Correcto: El orden resuelto es 1.º Pedro, 2.º Andrés, 3.º César, 4.º Manuel y 5.º José; así cada uno afirma una verdad y una mentira, y da primero Pedro y último José.",
+      "No es la respuesta: Manuel no llegó primero: sus frases verdaderas ubican a César quinto y a Andrés segundo, mientras que él mismo quedó cuarto.",
+      "No es la respuesta: Andrés terminó segundo, no primero, y Manuel no fue último: el último es José, tal como afirma la verdad de Pedro."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "mat-028",
+    "categoria": "matematicas",
+    "tema": "Razonamiento lógico",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "En la tabla adjunta, se registran 1200 operaciones de retiro de dinero del cajero de un banco.\nRetiro de dinero (soles) → número de operaciones\n500 → 300\n1000 → 250\n1200 → 150\n1500 → x\n2000 → 120\n2500 → 80\n3000 → 50\nCalcule qué tanto por ciento representa el número de operaciones donde hubo más de 2000 soles de retiro con respecto al número de operaciones con más de 1000 soles de retiro.",
+    "opciones": [
+      "35%",
+      "25%",
+      "30%",
+      "18%",
+      "20%"
+    ],
+    "correcta": 4,
+    "explicacion": "Como el total es 1200 operaciones, primero se obtiene x = 1200 − (300+250+150+120+80+50) = 250. Las operaciones de más de S/1000 son 650 (1200 − 550, donde 550 son los retiros de 500 y 1000 soles), y las de más de S/2000 son 130 (80 + 50). Entonces: (130 / 650) × 100% = 20%.",
+    "analisis": [
+      "No es la respuesta: El 35% exigiría unas 228 operaciones de más de S/2000 sobre las 650 de más de S/1000; solo hay 80 + 50 = 130.",
+      "No es la respuesta: El 25% requeriría unas 163 operaciones de retiro de más de S/2000, cifra que no existe: las operaciones de S/2500 y S/3000 suman 130.",
+      "No es la respuesta: El 30% implicaría 195 operaciones de más de S/2000; con 130 sobre 650 el cociente real es 130/650 × 100% = 20%.",
+      "No es la respuesta: El 18% subestima el cociente: exigiría apenas 117 operaciones de más de S/2000, pero hay 130, y 130/650 da exactamente 20%.",
+      "Correcto: x = 1200 − 950 = 250; con 650 operaciones de más de S/1000 y 130 de más de S/2000, el porcentaje es 130/650 × 100% = 20%."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "mat-029",
+    "categoria": "matematicas",
+    "tema": "Aritmética",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "Para tener acceso a una caja fuerte, se necesita crear un código de cuatro dígitos, cualquiera de los cuales puede ser repetido. ¿Cuántos códigos diferentes se pueden generar?",
+    "opciones": [
+      "10 000",
+      "10 080",
+      "5040",
+      "9000",
+      "6561"
+    ],
+    "correcta": 0,
+    "explicacion": "El código tiene cuatro dígitos y cada uno de ellos puede repetirse, es decir, cada posición admite 10 valores (del 0 al 9). Por el principio de multiplicación: 10 × 10 × 10 × 10 = 10 000 códigos diferentes.",
+    "analisis": [
+      "Correcto: Con cuatro posiciones y 10 dígitos posibles (0 a 9) en cada una, la regla del producto da 10⁴ = 10 000 códigos distintos, porque la repetición está permitida.",
+      "No es la respuesta: 10 080 no proviene de ningún conteo válido aquí: multiplicar 10 × 10 × 10 × 10 con repetición permitida da exactamente 10 000 códigos.",
+      "No es la respuesta: 5040 es el resultado de 10 × 9 × 8 × 7, es decir, códigos sin repetición; el enunciado permite repetir dígitos.",
+      "No es la respuesta: 9000 excluiría el cero en la primera posición (9 × 10 × 10 × 10), pero las cuatro posiciones admiten cualquier dígito del 0 al 9.",
+      "No es la respuesta: 6561 es 9 elevado a 4, como si cada posición tuviera solo 9 opciones; al incluir el 0 hay 10 y el total es 10 000."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  }
+]

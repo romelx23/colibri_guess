@@ -1,0 +1,302 @@
+[
+  {
+    "id": "cie-001",
+    "categoria": "ciencias",
+    "tema": "Física",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "En varias pruebas con un cañón de feria, se ha determinado el ángulo que forma el cañón con la horizontal del suelo por el cual el proyectil realizó su alcance máximo. En este contexto, si el tiempo de vuelo del proyectil es de 5 s, halle la rapidez de lanzamiento.\nDato: g = 10 m/s²",
+    "opciones": [
+      "25√2 m",
+      "25√3 m",
+      "50√2 m",
+      "50√3 m",
+      "35√2 m"
+    ],
+    "correcta": 0,
+    "explicacion": "Para alcanzar la distancia máxima se lanza con θ = 45°. El tiempo de vuelo vale t = (2 · v₀ · sen θ) / g, de donde v₀ = (t · g) / (2 · sen 45°) = (5 × 10) / (2 × √2/2) = 50 / √2 = 25√2 m/s.",
+    "analisis": [
+      "Correcto: Con θ = 45° para el alcance máximo, v₀ = (t · g) / (2 · sen 45°) = (5 × 10) / (2 × √2/2) = 50/√2 = 25√2 m/s.",
+      "No es la respuesta: El factor √3 procedería de sen 60° o cos 30°, pero el ángulo de alcance máximo es 45°, cuyo seno vale √2/2 y da 50/√2 = 25√2.",
+      "No es la respuesta: El 50√2 sale de olvidar el 2 del tiempo de vuelo: 50 / (√2/2) = 50√2, cuando lo correcto es dividir 50 entre √2 y obtener 25√2.",
+      "No es la respuesta: El 50√3 combina dos errores: omite el 2 de la fórmula y usa √3 en lugar de √2/2, que es el seno de 45°.",
+      "No es la respuesta: El 35√2 confunde el valor 50/√2 ≈ 35,35 m/s con 35√2 ≈ 49,5 m/s, que no satisface t = 2 v₀ sen 45° / g = 5 s."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "cie-002",
+    "categoria": "ciencias",
+    "tema": "Física",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "En el saque de una partida de golf, un deportista utiliza uno de sus palos y le imprime una velocidad de 25 m/s a la pelota. Si la pelota tiene una masa de 100 g y el tiempo de contacto del palo con la pelota es 10 ms, determine la fuerza media impulsora.",
+    "opciones": [
+      "150 N",
+      "200 N",
+      "350 N",
+      "250 N",
+      "230 N"
+    ],
+    "correcta": 3,
+    "explicacion": "Por el teorema del impulso, F · Δt = m · Δv. Con m = 100 g = 0,1 kg, Δv = 25 m/s (la pelota parte en reposo) y Δt = 10 ms = 0,01 s, se obtiene F = (0,1 × 25) / 0,01 = 250 N.",
+    "analisis": [
+      "No es la respuesta: Unos 150 N implicarían un impulso de 1,5 N·s; la pelota recibe 0,1 × 25 = 2,5 N·s en 0,01 s, o sea 250 N.",
+      "No es la respuesta: 200 N exigiría un contacto de 0,0125 s; con Δt = 10 ms = 0,01 s, la fuerza media es (0,1 × 25) / 0,01 = 250 N.",
+      "No es la respuesta: 350 N supondría una velocidad final de 35 m/s; la pelota pasa de 0 a 25 m/s, y F = (0,1 × 25) / 0,01 = 250 N.",
+      "Correcto: Por el teorema del impulso F·Δt = m·Δv, con m = 0,1 kg, Δv = 25 m/s y Δt = 0,01 s se obtiene F = 2,5 / 0,01 = 250 N.",
+      "No es la respuesta: 230 N requeriría un impulso de 2,3 N·s, pero el recibido es 0,1 × 25 = 2,5 N·s, que sobre 0,01 s da 250 N."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "cie-003",
+    "categoria": "ciencias",
+    "tema": "Física",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "Un transformador reductor de voltaje se emplea para recargar baterías de dispositivos portátiles, como celulares. Dentro del transformador, la relación de vueltas de los alambres en las bobinas es 5:1. Si en el servicio doméstico se usa un voltaje de 110 V, ¿cuál es el voltaje de salida del transformador?",
+    "opciones": [
+      "24 V",
+      "23 V",
+      "22 V",
+      "20 V",
+      "18 V"
+    ],
+    "correcta": 2,
+    "explicacion": "En un transformador se cumple Vp / Vs = Np / Ns. Con una relación de vueltas de 5:1 (reductor) y una entrada de 110 V, la salida es Vs = 110 / 5 = 22 V.",
+    "analisis": [
+      "No es la respuesta: 24 V saldría de dividir 120 V entre 5; el servicio doméstico es 110 V, y con relación 5:1 la salida es 110/5 = 22 V.",
+      "No es la respuesta: 23 V supondría una entrada de 115 V; con Vp = 110 V y Np/Ns = 5, la salida vale 110 / 5 = 22 V.",
+      "Correcto: En un transformador reductor Vp/Vs = Np/Ns; con relación 5:1 y Vp = 110 V, la salida es Vs = 110 / 5 = 22 V.",
+      "No es la respuesta: 20 V exigiría una relación de vueltas de 5,5:1; con 5:1 el voltaje se divide por 5 y 110 / 5 = 22 V.",
+      "No es la respuesta: 18 V implicaría una relación cercana a 6:1 (110 / 6 ≈ 18,3 V); el transformador tiene 5:1, lo que da 22 V."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "cie-004",
+    "categoria": "ciencias",
+    "tema": "Física",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "En un concierto al aire libre, se ubican dos parlantes de 375 W de potencia. Una persona se encuentra a una distancia de r = 25 m de ambos parlantes. ¿Cuál es el nivel de intensidad del sonido que percibe la persona?\nDatos: π ≈ 3; I₀ = 1 × 10⁻¹² W/m²",
+    "opciones": [
+      "120 dB",
+      "110 dB",
+      "80 dB",
+      "100 dB",
+      "90 dB"
+    ],
+    "correcta": 1,
+    "explicacion": "Cada parlante aporta una intensidad I = P / (4πr²) = 375 / (4 × 3 × 25²) = 0,05 W/m². Como hay dos parlantes, la intensidad total es I' = 0,1 W/m² = 10⁻¹ W/m². El nivel de intensidad es β = 10 · log(I' / I₀) = 10 · log(10⁻¹ / 10⁻¹²) = 10 × 11 = 110 dB.",
+    "analisis": [
+      "No es la respuesta: 120 dB correspondería a 1 W/m²; cada parlante da I = 375 / (4 × 3 × 25²) = 0,05 W/m² y los dos suman 0,1 W/m².",
+      "Correcto: Cada parlante aporta I = 0,05 W/m², el total es 0,1 W/m² = 10⁻¹, y β = 10 log(10⁻¹ / 10⁻¹²) = 10 × 11 = 110 dB.",
+      "No es la respuesta: 80 dB exigiría una intensidad de 10⁻⁴ W/m²; los dos parlantes entregan 0,1 W/m², mil veces mayor, y por eso el nivel es 110 dB.",
+      "No es la respuesta: 100 dB supondría 10⁻² W/m² de intensidad total; el cálculo con π ≈ 3 da 0,05 W/m² por parlante y 0,1 en conjunto.",
+      "No es la respuesta: 90 dB requeriría 10⁻³ W/m²; la intensidad total de 0,1 W/m² es 10⁻¹, y 10 log(10⁻¹/10⁻¹²) da 110 dB."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "cie-005",
+    "categoria": "ciencias",
+    "tema": "Química",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "En el hogar, se utiliza el ácido acético (vinagre) para limpiar teteras, en las cuales se deposita carbonato de calcio. Suponiendo que hay 2 g de CaCO₃(s) en una tetera y se utilizan 100 mL de una solución de CH₃COOH al 10%, indique el reactivo limitante y la cantidad de moles que se obtienen de Ca(CH₃COO)₂(ac), respectivamente. La reacción química del proceso está representada por:\n2CH₃COOH(aq) + CaCO₃(s) → Ca(CH₃COO)₂(aq) + CO₂(g) + H₂O(l)\nDato: masas molares (g/mol): CH₃COOH = 60; CaCO₃ = 100",
+    "opciones": [
+      "Ácido acético - 0,02 moles",
+      "Carbonato de calcio - 0,04 moles",
+      "Carbonato de calcio - 0,02 moles",
+      "Ácido acético - 0,04 moles",
+      "Ácido acético - 0,06 moles"
+    ],
+    "correcta": 2,
+    "explicacion": "La masa de ácido acético es 10 g (100 mL de solución al 10% con densidad aproximada 1 g/mL), equivalentes a 10/60 = 0,167 mol; el carbonato de calcio equivale a 2/100 = 0,02 mol. Por la ecuación, por cada mol de CaCO₃ se requieren 2 moles de ácido, así que el cociente del ácido es 0,167/2 = 0,083, mayor que 0,02. El reactivo limitante es el CaCO₃ y se obtienen 0,02 mol de Ca(CH₃COO)₂.",
+    "analisis": [
+      "No es la respuesta: Invierte los reactivos: el ácido está en exceso (10 g = 0,167 mol, cociente 0,167/2 = 0,083) frente a los 0,02 mol de CaCO₃, que sí limita.",
+      "No es la respuesta: Identifica bien el limitante, pero duplica el producto: con 2 g de CaCO₃ (0,02 mol) la estequiometría 1:1 da 0,02 mol de Ca(CH₃COO)₂, no 0,04.",
+      "Correcto: CaCO₃ es el limitante: 0,02 mol frente al cociente ácido 0,167/2 = 0,083; como el producto es 1:1 con el carbonato, se obtienen 0,02 mol de Ca(CH₃COO)₂.",
+      "No es la respuesta: Vuelve a marcar el ácido como limitante: 100 mL al 10% aportan 0,167 mol, que superan con creces a los 0,02 mol de CaCO₃.",
+      "No es la respuesta: También invierte el limitante y además exagera el producto: el ácido no es el que corta, y con 0,02 mol de CaCO₃ solo salen 0,02 mol de sal."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "cie-006",
+    "categoria": "ciencias",
+    "tema": "Química",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "El hierro se encuentra unido a otros elementos formando diferentes compuestos, tales como FeO, Fe₂O₃, Fe₂(SO₄)₃ y Fe(BrO₃)₂. Indique el nombre de cada uno de los compuestos mencionados, en ese orden.",
+    "opciones": [
+      "Óxido férrico, óxido ferroso, sulfato férrico y bromato ferroso",
+      "Óxido ferroso, óxido férrico, sulfato ferroso y bromito ferroso",
+      "Óxido ferroso, óxido férrico, sulfato férrico y bromito ferroso",
+      "Óxido ferroso, óxido férrico, sulfito férrico y bromato ferroso",
+      "Óxido ferroso, óxido férrico, sulfato férrico y bromato ferroso"
+    ],
+    "correcta": 4,
+    "explicacion": "FeO contiene hierro en estado de oxidación +2, por eso se llama óxido ferroso; Fe₂O₃ contiene Fe³⁺, óxido férrico; Fe₂(SO₄)₃ es el sulfato del hierro(III), sulfato férrico; y Fe(BrO₃)₂ es el bromato de hierro(II), bromato ferroso. Por lo tanto, la secuencia correcta es la opción E.",
+    "analisis": [
+      "No es la respuesta: Invierte los dos primeros: FeO contiene Fe²⁺ y se llama óxido ferroso, mientras que Fe₂O₃ contiene Fe³⁺ y es óxido férrico.",
+      "No es la respuesta: Falla en los dos últimos: Fe₂(SO₄)₃ es sulfato férrico (Fe³⁺), no ferroso, y BrO₃⁻ es bromato, no bromito.",
+      "No es la respuesta: El error está al final: BrO₃⁻ es bromato, no bromito, así que Fe(BrO₃)₂ es bromato ferroso y no bromito ferroso.",
+      "No es la respuesta: Confunde el anión del tercer compuesto: SO₄²⁻ es sulfato, no sulfito (SO₃²⁻), por lo que debe decir sulfato férrico.",
+      "Correcto: FeO da óxido ferroso (Fe²⁺), Fe₂O₃ óxido férrico (Fe³⁺), Fe₂(SO₄)₃ sulfato férrico y Fe(BrO₃)₂ bromato ferroso: la secuencia completa es correcta."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "cie-007",
+    "categoria": "ciencias",
+    "tema": "Química",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "La minería explota los recursos minerales para exportación. Entre los metales que nuestro país exporta, encontramos el cobre y el cinc. En relación con la materia prima y los procesos metalúrgicos, determine el valor de verdad (V o F) de las siguientes proposiciones:\nI. La blenda, ZnS, es el mineral más común en la metalurgia del cinc.\nII. La calcopirita, CuFeS₂, es una sal haloidea doble.\nIII. El proceso de tostación es común para ambos minerales.",
+    "opciones": [
+      "FFF",
+      "VFV",
+      "VFF",
+      "VVV",
+      "FFV"
+    ],
+    "correcta": 1,
+    "explicacion": "I. Verdadera: la blenda (ZnS), también llamada esfalerita, es la principal fuente de cinc. II. Falsa: la calcopirita (CuFeS₂) es un sulfuro metálico de cobre, hierro y azufre, sin halógenos, por lo que no es una sal haloidea. III. Verdadera: la tostación transforma ambos minerales sulfurados en óxidos (por ejemplo, ZnS + O₂ → ZnO + SO₂) para luego reducirlos y obtener el metal puro.",
+    "analisis": [
+      "No es la respuesta: FFF deja las tres falsas, pero I es verdadera: la blenda ZnS es la principal fuente de cinc, y III también es verdadera por la tostación.",
+      "Correcto: VFV: I verdadera, la blenda ZnS es el mineral más común del cinc; II falsa, la calcopirita CuFeS₂ es un sulfuro sin halógenos; III verdadera, la tostación convierte ambos sulfuros en óxidos.",
+      "No es la respuesta: VFF acierta en I, pero marca III falsa: la tostación (ZnS + O₂ → ZnO + SO₂) se aplica igual al mineral de cinc y al de cobre.",
+      "No es la respuesta: VVV solo acierta en I y III: en II yerra, porque la calcopirita CuFeS₂ es un sulfuro metálico sin halógenos, no una sal haloidea.",
+      "No es la respuesta: FFV deja I falsa, cuando la blenda ZnS sí es la fuente principal de cinc; acierta al marcar II falsa y III verdadera."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "cie-008",
+    "categoria": "ciencias",
+    "tema": "Química",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "El ion yoduro, I⁻, tiene la particularidad de reaccionar con el ion nitrito, NO₂⁻, en medio ácido acético (CH₃COOH), convirtiéndose en yodo molecular, I₂(s), liberando óxido nítrico (NO) y agua (H₂O). Su ecuación química es:\nI⁻(ac) + NO₂⁻(ac) + H⁺(ac) → I₂(s) + NO(g) + H₂O(l)\nLuego de balancear la ecuación por el método de ion electrón o redox, marque la alternativa correcta.",
+    "opciones": [
+      "El ion nitrito es el agente reductor y se reduce.",
+      "El ion yoduro es el agente oxidante y se oxida.",
+      "El coeficiente estequiométrico del agua es 2.",
+      "El yodo molecular es la especie oxidada, un anfígeno.",
+      "El coeficiente estequiométrico del protón es 2."
+    ],
+    "correcta": 2,
+    "explicacion": "Las semirreacciones son: oxidación, 2I⁻ → I₂ + 2e⁻; reducción, 2(NO₂⁻ + 2H⁺ + e⁻ → NO + H₂O). Sumando ambas se obtiene: 2I⁻ + 2NO₂⁻ + 4H⁺ → I₂ + 2NO + 2H₂O. Por tanto, el coeficiente del agua es 2 (opción C): el protón es 4, el nitrito es el agente oxidante y el yoduro es el agente reductor.",
+    "analisis": [
+      "No es la respuesta: El nitrito no es agente reductor: NO₂⁻ se reduce a NO, y por eso actúa como agente oxidante, no reductor.",
+      "No es la respuesta: El yoduro sí se oxida, pero es agente reductor, no oxidante: I⁻ cede electrones para formar I₂.",
+      "Correcto: Al balancear, la ecuación es 2I⁻ + 2NO₂⁻ + 4H⁺ → I₂ + 2NO + 2H₂O, de modo que el coeficiente del agua es 2.",
+      "No es la respuesta: I₂ es la especie reducida, producto de la oxidación del yoduro, y el yodo es un halógeno, no un anfígeno.",
+      "No es la respuesta: El protón aparece con coeficiente 4, no 2, pues las semirreacciones balanceadas exigen 4H⁺ para reducir los 2 nitritos."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "cie-009",
+    "categoria": "ciencias",
+    "tema": "Biología",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "A los virus se les denomina complejos supramoleculares debido a que están constituidos por",
+    "opciones": [
+      "proteínas y ácidos nucleicos.",
+      "polisacáridos y esteroides.",
+      "ATP y ácidos nucleicos.",
+      "esteroides y glucosa.",
+      "glucógeno y proteínas."
+    ],
+    "correcta": 0,
+    "explicacion": "Los virus son complejos supramoleculares porque su estructura básica consiste en un ácido nucleico (ADN o ARN) envuelto por una cápside proteica. No tienen organelos ni metabolismo propio, y otras combinaciones como polisacáridos o ATP no son componentes estructurales fundamentales de los virus.",
+    "analisis": [
+      "Correcto: Los virus son ácidos nucleicos (ADN o ARN) rodeados por una cápside de proteínas, sin organelos ni metabolismo propio; por eso se les llama complejos supramoleculares.",
+      "No es la respuesta: Polisacáridos y esteroides son glúcidos y lípidos, que no forman la estructura básica del virión; allí solo hay ácido nucleico y proteína.",
+      "No es la respuesta: El ATP es la molécula que almacena energía, no un componente estructural del virus; el acompañante del ácido nucleico es la proteína de la cápside.",
+      "No es la respuesta: Esteroides y glucosa son lípidos y azúcares simples, ajenos a la composición viral; los virus se arman con proteínas y ácidos nucleicos.",
+      "No es la respuesta: El glucógeno es un polisacárido de reserva energética y no integra al virus; la otra parte del complejo es el ácido nucleico, no un hidrato de carbono."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "cie-010",
+    "categoria": "ciencias",
+    "tema": "Biología",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "De las poblaciones celulares del cuerpo, no todas se renuevan, como por ejemplo las neuronas que se generan durante la etapa embrionaria y se conservan durante toda la vida adulta, además de que no pueden ser reemplazadas. Indique cuál es la explicación para que no se reproduzcan estas células nerviosas.",
+    "opciones": [
+      "Están presentes mitocondrias y vesículas sinápticas.",
+      "La lipofucsina se acumula en los lisosomas.",
+      "Las fibras nerviosas son pobres en mielina.",
+      "Las neuronas carecen de centriolos.",
+      "Presentan retículo endoplasmático rugoso."
+    ],
+    "correcta": 3,
+    "explicacion": "Las neuronas no se dividen en la vida adulta porque carecen de centriolos, estructuras esenciales para la formación del huso mitótico durante la división celular. Esto las lleva a un estado posmitótico permanente, a diferencia de otras células con capacidad regenerativa.",
+    "analisis": [
+      "No es la respuesta: Mitocondrias y vesículas sinápticas sustentan la energía y la transmisión del impulso, funciones propias de la neurona, no la división celular.",
+      "No es la respuesta: La lipofucsina es un pigmento de desecho propio del envejecimiento celular; su acumulación en lisosomas no impide la mitosis.",
+      "No es la respuesta: La mielina es la vaina aislante que acelera el impulso nervioso; que las fibras sean pobres en mielina no explica la falta de renovación.",
+      "Correcto: Las neuronas carecen de centriolos, indispensables para armar el huso mitótico, por lo que quedan en estado posmitótico y no pueden reemplazarse en la vida adulta.",
+      "No es la respuesta: El retículo endoplasmático rugoso sintetiza proteínas y es propio de células activas; su presencia no impide la división como la falta de centriolos."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "cie-011",
+    "categoria": "ciencias",
+    "tema": "Biología",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "Promover el uso adecuado de los espacios naturales protegidos sin comprometer la conservación de la diversidad biológica y sus recursos asociados es función de las Áreas Naturales Protegidas (ANP). Ana requiere hacer turismo e investigación en un área pequeña que protege la biodiversidad con carácter de intangible. ¿Qué ANP cumple con los requerimientos de Ana?",
+    "opciones": [
+      "Parque Nacional",
+      "Reserva Comunal",
+      "Santuario Nacional",
+      "Reserva Nacional",
+      "Reserva Paisajística"
+    ],
+    "correcta": 2,
+    "explicacion": "Un santuario nacional es un área natural protegida de extensión reducida que admite investigación y turismo con autorización, pero protege de manera estricta su biodiversidad por tratarse de un área intangible. Por eso cumple con lo que Ana busca. Los parques nacionales son de mayor extensión y las reservas admiten el uso sostenible de sus recursos.",
+    "analisis": [
+      "No es la respuesta: El parque nacional protege un territorio de gran extensión, no un área pequeña de carácter intangible; no responde al tamaño que pide Ana.",
+      "No es la respuesta: La reserva comunal está destinada al uso sostenible de los recursos por comunidades nativas, por lo que no es el área pequeña e intangible que busca Ana.",
+      "Correcto: El santuario nacional es un ANP de extensión reducida con carácter intangible que admite turismo e investigación con autorización, justo lo que Ana necesita.",
+      "No es la respuesta: La reserva nacional permite el aprovechamiento sostenible de sus recursos naturales, incompatible con el carácter intangible que exige el área elegida por Ana.",
+      "No es la respuesta: La reserva paisajística protege paisajes con usos compatibles, sin el carácter estrictamente intangible de una superficie pequeña que solicita Ana."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "cie-012",
+    "categoria": "ciencias",
+    "tema": "Biología",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "Aunque hay bacterias patógenas para el hombre y los animales, la gran mayoría son benéficas para los ecosistemas, como aquellas bacterias del suelo que fijan el nitrógeno atmosférico en raíces de plantas leguminosas, lo cual permite",
+    "opciones": [
+      "descomponer los organismos muertos del suelo.",
+      "reducir la necesidad de aplicar fertilizantes sintéticos.",
+      "controlar casi todos los polucionantes del ambiente.",
+      "elaborar a gran escala los fertilizantes agrícolas.",
+      "actuar sobre los desechos provenientes de animales."
+    ],
+    "correcta": 1,
+    "explicacion": "Las bacterias fijadoras de nitrógeno (como Rhizobium) convierten el N₂ atmosférico en formas asimilables por las plantas, lo que enriquece naturalmente el suelo y reduce la dependencia de fertilizantes sintéticos. Por eso su principal beneficio es disminuir la necesidad de aplicar fertilizantes.",
+    "analisis": [
+      "No es la respuesta: Descomponer organismos muertos es tarea de saprófitos y descomponedores, no de las bacterias fijadoras que viven en nódulos de raíces de leguminosas.",
+      "Correcto: Rhizobium y otras bacterias convierten el N₂ atmosférico en formas asimilables por la planta, enriquecen el suelo y así se reduce la necesidad de fertilizantes sintéticos.",
+      "No es la respuesta: Exagera el papel de la fijación: solo aporta nitrógeno asimilable a la planta, no controla polucionantes ni depura el ambiente.",
+      "No es la respuesta: Confunde la fijación biológica con la industria: Rhizobium fija N₂ en la raíz y ahorra fertilizantes, en lugar de fabricarlos a gran escala.",
+      "No es la respuesta: Actuar sobre desechos de animales corresponde a microorganismos saprófitos del suelo; las fijadoras trabajan el nitrógeno del aire dentro de los nódulos radiculares."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  }
+]

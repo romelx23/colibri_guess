@@ -1,0 +1,1326 @@
+[
+  {
+    "id": "lit-001",
+    "categoria": "literatura",
+    "tema": "Novela peruana",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "En La ciudad y los perros de Mario Vargas Llosa, los internos del Colegio Militar Leóncio Prado conocen a su grupo como:",
+    "opciones": [
+      "Los seres",
+      "Los pájaros",
+      "Los cadetes",
+      "Los lobos"
+    ],
+    "correcta": 0,
+    "explicacion": "Los internos se llaman Los seres, una denominación que los aísla del mundo exterior y jerarquizan con violencia dentro del internado.",
+    "analisis": [
+      "Correcto: la pandilla que domina el colegio se llama exactamente Los seres.",
+      "No es la respuesta: los pájaros no aparecen como nombre del grupo en la novela.",
+      "No es la respuesta: cadetes es el término general para los alumnos, no el apodo interno del grupo.",
+      "No es la respuesta: los lobos es una imagen descriptiva, pero no es el nombre con que se identifican."
+    ]
+  },
+  {
+    "id": "lit-002",
+    "categoria": "literatura",
+    "tema": "Novela indigenista",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "La novela Los ríos profundos, de José María Arguedas, narra las vivencias del joven Ernesto en:",
+    "opciones": [
+      "un seminario de la sierra",
+      "una hacienda costeña",
+      "un internado limeño",
+      "un campamento minero"
+    ],
+    "correcta": 0,
+    "explicacion": "Ernesto es un seminarista que, junto con otros alumnos, recorre pueblos andinos en un viaje de vacaciones, enfrentando el mundo de los hacendados y la cultura quechua.",
+    "analisis": [
+      "Correcto: la acción transcurre en un seminario religioso y en los pueblos andinos que recorren los seminaristas.",
+      "No es la respuesta: la novela está ubicada en la sierra, no en la costa.",
+      "No es la respuesta: el internado limeño propio de Vargas Llosa no es el escenario de Arguedas.",
+      "No es la respuesta: la mina no es el escenario central de la obra."
+    ]
+  },
+  {
+    "id": "lit-003",
+    "categoria": "literatura",
+    "tema": "Novela peruana",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "Un mundo para Julius, de Alfredo Bryce Echenique, es una novela que critica mediante la mirada de un niño:",
+    "opciones": [
+      "la vida de la oligarquía peruana",
+      "el tráfico de drogas",
+      "la guerrilla en el Ande",
+      "la vida en la selva amazónica"
+    ],
+    "correcta": 0,
+    "explicacion": "Julius, hijo de una familia rica acostumbrada a la servidumbre, observa con inocencia la hipocresía, el racismo y el derroche de la alta sociedad limeña.",
+    "analisis": [
+      "Correcto: la novela disecciona la sociedad adinerada de Lima a través de los ojos de Julius.",
+      "No es la respuesta: el narcotráfico no es el tema de la novela.",
+      "No es la respuesta: no hay conflicto guerrillero como eje argumental.",
+      "No es la respuesta: la acción ocurre en Lima, no en la selva."
+    ]
+  },
+  {
+    "id": "lit-004",
+    "categoria": "literatura",
+    "tema": "Novela social peruana",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "En la novela Aves sin nido, de Clorinda Matto de Turner, el conflicto se centra en:",
+    "opciones": [
+      "la lucha por la tierra frente a los hacendados",
+      "la independencia de América",
+      "una guerra civil entre caudillos",
+      "el auge del guano en la costa"
+    ],
+    "correcta": 0,
+    "explicacion": "Mariana y sus padres enfrentan el poder de los hacendados que usurpan tierras y agua; la obra denuncia la explotación indígena y el abuso del clero.",
+    "analisis": [
+      "Correcto: el eje es el despojo de tierras y el abuso de la hacienda contra la comunidad.",
+      "No es la respuesta: la novela transcurre en la República, ya independizada.",
+      "No es la respuesta: no hay caudillos ni guerras civiles como tema central.",
+      "No es la respuesta: el guano aparece en otras obras costumbristas, no aquí."
+    ]
+  },
+  {
+    "id": "lit-005",
+    "categoria": "literatura",
+    "tema": "Poesía peruana",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "El poemario Trilce, de César Vallejo, se caracteriza por:",
+    "opciones": [
+      "su ruptura formal y lenguaje experimental",
+      "ser una colección de sonetos clásicos",
+      "estilo puramente romántico",
+      "estar escrito íntegramente en quechua"
+    ],
+    "correcta": 0,
+    "explicacion": "Publicado en 1922, Trilce agrupa 77 poemas con experimentación tipográfica, neologismos y métrica libre, muy por delante de las vanguardias de su época.",
+    "analisis": [
+      "Correcto: la obra es célebre por su audacia formal y léxica dentro de la vanguardia latinoamericana.",
+      "No es la respuesta: no sigue formas clásicas como el soneto.",
+      "No es la respuesta: Trilce es una obra vanguardista, no romántica.",
+      "No es la respuesta: aunque usa palabras quechuas, no está escrita en quechua."
+    ]
+  },
+  {
+    "id": "lit-006",
+    "categoria": "literatura",
+    "tema": "Poesía peruana",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "El primer poemario de César Vallejo, publicado en 1919, se titula:",
+    "opciones": [
+      "Los heraldos negros",
+      "Trilce",
+      "Espumas marinas",
+      "Poemas humanos"
+    ],
+    "correcta": 0,
+    "explicacion": "Los heraldos negros (1919) fue la ópera prima de Vallejo; Trilce llegó en 1922 y Poemas humanos y España, aparta de mí este cáliz son póstumos.",
+    "analisis": [
+      "Correcto: Los heraldos negros es su primer libro, publicado en 1919.",
+      "No es la respuesta: Trilce se publicó tres años después, en 1922.",
+      "No es la respuesta: Espumas marinas no es un poemario de Vallejo.",
+      "No es la respuesta: Poemas humanos es póstumo, de 1939."
+    ]
+  },
+  {
+    "id": "lit-007",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "La novela Pedro Páramo, de Juan Rulfo, transcurre en el pueblo fantasma de:",
+    "opciones": [
+      "Comala",
+      "Macondo",
+      "Santa María",
+      "Yoknapatawpha"
+    ],
+    "correcta": 0,
+    "explicacion": "Comala es el pueblo donde Juan Preciado busca a su padre Pedro Páramo y encuentra almas en pena; Macondo es de García Márquez, Santa María de Onetti y Yoknapatawpha de Faulkner.",
+    "analisis": [
+      "Correcto: Comala es el escenario rural y fantasmal de la novela mexicana.",
+      "No es la respuesta: Macondo pertenece a Cien años de soledad.",
+      "No es la respuesta: Santa María es el pueblo ficticio de Juan Carlos Onetti.",
+      "No es la respuesta: ese condado es creación de William Faulkner."
+    ]
+  },
+  {
+    "id": "lit-008",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "En Cien años de soledad, de Gabriel García Márquez, la familia que protagoniza la historia es:",
+    "opciones": [
+      "los Buendía",
+      "los Zapata",
+      "los Marechal",
+      "los Argensola"
+    ],
+    "correcta": 0,
+    "explicacion": "La saga de los Buendía se desarrolla en Macondo a lo largo de siete generaciones, en una obra cumbre del realismo mágico publicada en 1967.",
+    "analisis": [
+      "Correcto: José Arcadio Buendía y los suyos son el corazón de la novela.",
+      "No es la respuesta: esa familia no es la protagonista de la obra.",
+      "No es la respuesta: los Marechal no aparecen en la novela.",
+      "No es la respuesta: los Argensola son personajes de otras obras."
+    ]
+  },
+  {
+    "id": "lit-009",
+    "categoria": "literatura",
+    "tema": "Teatro universal",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "La obra Bodas de sangre, de Federico García Lorca, es:",
+    "opciones": [
+      "una tragedia rural",
+      "una comedia de enredo",
+      "un drama histórico griego",
+      "un monólogo poético"
+    ],
+    "correcta": 0,
+    "explicacion": "Basada en un hecho real, Lorca construye una tragedia andaluza en la que la novia abandona el altar y termina en muerte por celos y honor.",
+    "analisis": [
+      "Correcto: es la primera de las tres tragedias rurales de Lorca (con Yerma y La casa de Bernarda Alba).",
+      "No es la respuesta: no busca el enredo ni el humor.",
+      "No es la respuesta: no reproduce fórmulas del teatro griego clásico.",
+      "No es la respuesta: es una obra con diálogos y varios personajes, no un monólogo."
+    ]
+  },
+  {
+    "id": "lit-010",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "¿Quién es el autor de la novela Don Quijote de la Mancha?",
+    "opciones": [
+      "Miguel de Cervantes Saavedra",
+      "Lope de Vega",
+      "Calderón de la Barca",
+      "Francisco de Quevedo"
+    ],
+    "correcta": 0,
+    "explicacion": "Cervantes publicó la primera parte en 1605 y la segunda en 1615; es considerada la obra cumbre de la literatura española.",
+    "analisis": [
+      "Correcto: Miguel de Cervantes es su autor.",
+      "No es la respuesta: Lope de Vega fue dramaturgo, autor del Fénix de la comedia.",
+      "No es la respuesta: Calderón escribió El gran teatro del mundo y La vida es sueño.",
+      "No es la respuesta: Quevedo fue prosista y satírico, rival de Quevedo y Góngora en el Siglo de Oro."
+    ]
+  },
+  {
+    "id": "lit-011",
+    "categoria": "literatura",
+    "tema": "Narrativa hispanoamericana",
+    "fuente": "pucp",
+    "dificultad": "basico",
+    "enunciado": "El realismo mágico, corriente asociada a la literatura latinoamericana, se caracteriza por:",
+    "opciones": [
+      "integrar elementos fantásticos en la vida cotidiana",
+      "describir la realidad sin ninguna invención",
+      "usar exclusivamente versos rimados",
+      "narrar únicamente desde la ciencia ficción"
+    ],
+    "correcta": 0,
+    "explicacion": "Lo extraordinario ocurre con naturalidad dentro de un mundo realista: lo milagroso se cuenta como algo normal, rasgo clave de autores como García Márquez.",
+    "analisis": [
+      "Correcto: ese es exactamente el mecanismo del realismo mágico.",
+      "No es la respuesta: la obra no es un simple reporte de hechos reales.",
+      "No es la respuesta: se trata de narrativa en prosa, no de poesía rimada.",
+      "No es la respuesta: no recurre a futuros ni tecnología como la ciencia ficción."
+    ]
+  },
+  {
+    "id": "lit-012",
+    "categoria": "literatura",
+    "tema": "Lenguaje",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "Se llama hipérbole a la figura retórica que:",
+    "opciones": [
+      "exagera deliberadamente una idea",
+      "oculta un significado incómodo",
+      "compara usando como o simile",
+      "repite inicios de versos"
+    ],
+    "correcta": 0,
+    "explicacion": "La hipérbole es una exageración expresiva, como te he esperado una eterna o tengo un millón de cosas que hacer.",
+    "analisis": [
+      "Correcto: la hipérbole intensifica o exagera lo que se dice.",
+      "No es la respuesta: ocultar lo incómodo corresponde al eufemismo.",
+      "No es la respuesta: comparar con como o como si define a la comparación o al símil.",
+      "No es la respuesta: repetir inicios corresponde a la anáfora."
+    ]
+  },
+  {
+    "id": "lit-013",
+    "categoria": "literatura",
+    "tema": "Lenguaje",
+    "fuente": "pucp",
+    "dificultad": "basico",
+    "enunciado": "El término que suaviza o atenúa una expresión dura se llama:",
+    "opciones": [
+      "eufemismo",
+      "eufonía",
+      "paronomasia",
+      "elipse"
+    ],
+    "correcta": 0,
+    "explicacion": "Eufemismo viene del griego eu (bien) y pheme (voz): decir pasó a mejor vida en lugar de murió.",
+    "analisis": [
+      "Correcto: el eufemismo sustituye lo duro por algo más suave.",
+      "No es la respuesta: la eufonía es el sonido agradable de las palabras.",
+      "No es la respuesta: la paronomasia es la semejanza sonora entre palabras (juego de palabras).",
+      "No es la respuesta: la elipse es la omisión de palabras que se sobreentienden."
+    ]
+  },
+  {
+    "id": "lit-014",
+    "categoria": "literatura",
+    "tema": "Lenguaje",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "La palabra neologismo designa:",
+    "opciones": [
+      "una palabra recién creada o incorporada al idioma",
+      "un diminutivo afectivo",
+      "un extranjerismo adaptado mal",
+      "una forma verbal arcaica"
+    ],
+    "correcta": 0,
+    "explicacion": "Los neologismos nacen de nuevas realidades: escanear, tuitear o trending son neologismos recientes del español.",
+    "analisis": [
+      "Correcto: un neologismo es una creación léxica nueva.",
+      "No es la respuesta: los diminutivos son afijos, no palabras nuevas en sí.",
+      "No es la respuesta: aunque pueden formar neologismos, no toda palabra extranjera lo es.",
+      "No es la respuesta: las formas antiguas o arcaísmos son lo contrario a un neologismo."
+    ]
+  },
+  {
+    "id": "lit-015",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "La Divina Comedia, de Dante Alighieri, está dividida en tres cánticos:",
+    "opciones": [
+      "Infierno, Purgatorio y Paraíso",
+      "Infierno, Cielo y Limbo",
+      "Cielo, Tierra y Mar",
+      "Alegoría, Vía y Visión"
+    ],
+    "correcta": 0,
+    "explicacion": "Guiado primero por Virgilio y luego por Beatriz, Dante recorre las tres partes de la obra maestra de la literatura italiana.",
+    "analisis": [
+      "Correcto: esas son las tres secciones del poema.",
+      "No es la respuesta: el Limbo es un círculo del Infierno, no una parte de la obra.",
+      "No es la respuesta: no corresponden a la estructura dantesca.",
+      "No es la respuesta: son recursos conceptuales, no divisiones del poema."
+    ]
+  },
+  {
+    "id": "lit-016",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "En la Ilíada de Homero, el conflicto gira en torno a la guerra de Troya y la ira de:",
+    "opciones": [
+      "Aquiles",
+      "Ulises",
+      "Príamo",
+      "Agamenón de Esparta"
+    ],
+    "correcta": 0,
+    "explicacion": "El poema abre con la cólera de Aquiles, ofendido por Agamenón al ser despojado de Briseida; su furia marca el desarrollo de la epopeya.",
+    "analisis": [
+      "Correcto: la ira de Aquiles es el tema con que se abre el poema.",
+      "No es la respuesta: Ulises es el héroe de la Odisea, no el foco de la ira inicial.",
+      "No es la respuesta: Príamo es el rey troyano que suplica por el cuerpo de Héctor.",
+      "No es la respuesta: Agamenón provoca la ira, pero el poema celebra la cólera de Aquiles."
+    ]
+  },
+  {
+    "id": "lit-017",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "En la Odisea, el héroe que regresa a su patria tras diez años de viajes es:",
+    "opciones": [
+      "Ulises (Odiseo)",
+      "Héctor",
+      "Aquiles",
+      "Eneas"
+    ],
+    "correcta": 0,
+    "explicacion": "Ulises viaja por el mar Egeo y el Mediterráneo (Circe, Polifemo, las sirenas) hasta llegar a Íthaca y su esposa Penélope.",
+    "analisis": [
+      "Correcto: la Odisea narra el nostos o regreso de Ulises a Íthaca.",
+      "No es la respuesta: Héctor muere defendiendo Troya en la Ilíada.",
+      "No es la respuesta: Aquiles muere en Troya, no regresa a casa.",
+      "No es la respuesta: Eneas huye de Troya en la Eneida de Virgilio."
+    ]
+  },
+  {
+    "id": "lit-018",
+    "categoria": "literatura",
+    "tema": "Teatro universal",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "La célebre frase ser o no ser, esa es la cuestión pertenece a la obra:",
+    "opciones": [
+      "Hamlet, de William Shakespeare",
+      "El Quijote, de Cervantes",
+      "Fausto, de Goethe",
+      "Bodas de sangre, de Lorca"
+    ],
+    "correcta": 0,
+    "explicacion": "Es el inicio del monólogo más famoso de Hamlet, el príncipe de Dinamarca que duda ante la venganza por la muerte de su padre.",
+    "analisis": [
+      "Correcto: Shakespeare la puso en boca de Hamlet en el acto III.",
+      "No es la respuesta: Cervantes no incluye esa frase.",
+      "No es la respuesta: Fausto es un drama alemán de Goethe.",
+      "No es la respuesta: el teatro de Lorca no contiene ese monólogo."
+    ]
+  },
+  {
+    "id": "lit-019",
+    "categoria": "literatura",
+    "tema": "Literatura hispanoamericana",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "María, la novela de Jorge Isaacs ambientada en el valle del Cauca, es considerada una obra representativa del:",
+    "opciones": [
+      "romanticismo",
+      "modernismo",
+      "criollismo",
+      "boom latinoamericano"
+    ],
+    "correcta": 0,
+    "explicacion": "Publicada en 1867, María narra un amor trágico con paisaje exuberante y sentimentalismo, rasgos centrales del romanticismo hispanoamericano.",
+    "analisis": [
+      "Correcto: la sensibilidad, el amor desgraciado y la naturaleza la ubican en el romanticismo.",
+      "No es la respuesta: el modernismo es posterior y de tono cosmético y urbano.",
+      "No es la respuesta: el criollismo enfoca el paisaje y la vida rural costumbrista, con otro propósito.",
+      "No es la respuesta: el boom es de mediados del siglo XX."
+    ]
+  },
+  {
+    "id": "lit-020",
+    "categoria": "literatura",
+    "tema": "Poesía latinoamericana",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "Rubén Darío es considerado el iniciador del movimiento literario conocido como:",
+    "opciones": [
+      "modernismo",
+      "romanticismo",
+      "realismo mágico",
+      "nueva canción"
+    ],
+    "correcta": 0,
+    "explicacion": "Con Azul... (1888) y Prosas profanas (1896), Darío renovó la poesía en lengua española y encabezó el modernismo.",
+    "analisis": [
+      "Correcto: Darío es el Máximo exponente y precursor del modernismo.",
+      "No es la respuesta: el romanticismo es un movimiento anterior, del siglo XIX temprano.",
+      "No es la respuesta: el realismo mágico corresponde a la narrativa de mediados del siglo XX.",
+      "No es la respuesta: la nueva canción es un movimiento musical latinoamericano."
+    ]
+  },
+  {
+    "id": "lit-021",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "Un relato picaresco se caracteriza por narrar en primera persona la vida de:",
+    "opciones": [
+      "un pícaro que sobrevive con astucia",
+      "un héroe noble en batallas",
+      "un monje contemplativo",
+      "un sabio que investiga"
+    ],
+    "correcta": 0,
+    "explicacion": "La picaresca, iniciada con el Lazarillo de Tormes (1554), muestra la visión crítica de un antihéroe marginal que se las ingenia para vivir.",
+    "analisis": [
+      "Correcto: el pícaro es un antihéroe autobiográfico, astuto y de baja condición.",
+      "No es la respuesta: los héroes nobles corresponden a la novela de caballerías.",
+      "No es la respuesta: la vida monástica no es el tema de la picaresca.",
+      "No es la respuesta: la investigación corresponde a otros géneros."
+    ]
+  },
+  {
+    "id": "lit-022",
+    "categoria": "literatura",
+    "tema": "Lenguaje",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "En la oración No vino porque estaba enfermo, la palabra porque introduce:",
+    "opciones": [
+      "una oración causal",
+      "una oración adversativa",
+      "una oración condicional",
+      "una oración final"
+    ],
+    "correcta": 0,
+    "explicacion": "Porque indica causa o motivo: el porqué de la ausencia; por eso se lo llama nexo causal.",
+    "analisis": [
+      "Correcto: porque expresa la causa de lo dicho en la oración principal.",
+      "No es la respuesta: los nexos adversativos son pero, sino, aunque.",
+      "No es la respuesta: los condicionales son si, con tal de que.",
+      "No es la respuesta: los nexos finales expresan propósito, como para que."
+    ]
+  },
+  {
+    "id": "lit-023",
+    "categoria": "literatura",
+    "tema": "Lenguaje",
+    "fuente": "pucp",
+    "dificultad": "basico",
+    "enunciado": "Que el niño lea todos los días es una oración compuesta por:",
+    "opciones": [
+      "núcleo verbal y oración subordinada sustantiva",
+      "solo dos oraciones coordinadas",
+      "un sintagma nominal aislado",
+      "una oración simple sin verbo"
+    ],
+    "correcta": 0,
+    "explicacion": "Que el niño lea todos los días funciona como sujeto y es una oración sustantiva introducida por que; su núcleo es lee.",
+    "analisis": [
+      "Correcto: el que + verbo ocupa el lugar de sujeto y contiene verbo propio.",
+      "No es la respuesta: no hay coordinación entre partes equivalentes.",
+      "No es la respuesta: contiene verbo lee, por tanto es oracional.",
+      "No es la respuesta: sí hay verbo, es una oración completa."
+    ]
+  },
+  {
+    "id": "lit-024",
+    "categoria": "literatura",
+    "tema": "Narrativa colombiana",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "La novela El túnel, de Ernesto Sabato, está narrada por:",
+    "opciones": [
+      "un asesino obsesionado con su amante",
+      "un médico que investiga un crimen",
+      "un niño que pierde a su padre",
+      "un soldado en guerra"
+    ],
+    "correcta": 0,
+    "explicacion": "Juan Pablo Castel relata en primera persona por qué mata a María; el relato monologante y claustrofóbico es su sello.",
+    "analisis": [
+      "Correcto: el protagonista y asesino narra su propia versión desde el encierro.",
+      "No es la respuesta: no hay investigación policial ni personaje médico.",
+      "No es la respuesta: no es una novela de iniciación infantil.",
+      "No es la respuesta: la guerra no es el marco de la obra."
+    ]
+  },
+  {
+    "id": "lit-025",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "La novela Rayuela, de Julio Cortázar, se distingue porque:",
+    "opciones": [
+      "puede leerse en orden o saltando capítulos",
+      "está escrita como un diario de guerra",
+      "es un único poema largo",
+      "sigue una línea temporal estricta"
+    ],
+    "correcta": 0,
+    "explicacion": "El libro propone un tablero de dirección: el lector puede seguir el tablero de lectura lineal o los saltos sugeridos por el autor.",
+    "analisis": [
+      "Correcto: su estructura lúdica y no lineal es el rasgo más famoso de Rayuela.",
+      "No es la respuesta: no es un diario de guerra.",
+      "No es la respuesta: es novela, aunque con secciones poéticas.",
+      "No es la respuesta: justamente rompe la linealidad temporal."
+    ]
+  },
+  {
+    "id": "lit-026",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "¿Cuántas partes tiene la comedia Divina Comedia de Dante Alighieri?",
+    "opciones": [
+      "Tres: Infierno, Purgatorio y Paraíso",
+      "Dos: cielo e infierno",
+      "Cinco: una por cada virtud",
+      "Una sola, sin divisiones"
+    ],
+    "correcta": 0,
+    "explicacion": "Son 100 cantos repartidos en los tres cánticos de la obra, escrita en italiano vulgar y no en latín.",
+    "analisis": [
+      "Correcto: la estructura ternaria (33+33+33 más un introito) es clásica.",
+      "No es la respuesta: el Purgatorio es una parte independiente del Infierno.",
+      "No es la respuesta: no existe división por virtudes.",
+      "No es la respuesta: la división en tres es su estructura fundamental."
+    ]
+  },
+  {
+    "id": "lit-027",
+    "categoria": "literatura",
+    "tema": "Lenguaje",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "Las palabras que tienen el mismo significado se llaman:",
+    "opciones": [
+      "sinónimos",
+      "antónimos",
+      "homónimos",
+      "polisemias"
+    ],
+    "correcta": 0,
+    "explicacion": "Rápido y veloz son sinónimos; los antónimos expresan significados opuestos (rápido/lento) y los homónimos suenan igual pero significan cosas distintas.",
+    "analisis": [
+      "Correcto: los sinónimos comparten significado.",
+      "No es la respuesta: los antónimos son opuestos, no equivalentes.",
+      "No es la respuesta: los homónimos solo coinciden en sonido.",
+      "No es la respuesta: la polisemia es una palabra con varios significados."
+    ]
+  },
+  {
+    "id": "lit-028",
+    "categoria": "literatura",
+    "tema": "Literatura peruana",
+    "fuente": "pucp",
+    "dificultad": "intermedio",
+    "enunciado": "La novela La casa verde, de Mario Vargas Llosa, gira en torno a:",
+    "opciones": [
+      "una casa de prostitución en el Amazonas",
+      "un colegio en Lima",
+      "una hacienda de algodón",
+      "un cuartel militar"
+    ],
+    "correcta": 0,
+    "explicacion": "La Green House del relato funciona como prostíbulo en Iquitos y como refugio religioso, y articula varias líneas narrativas.",
+    "analisis": [
+      "Correcto: la prostitución amazónica es el eje del relato multiplex.",
+      "No es la respuesta: los colegios aparecen en otras novelas suyas.",
+      "No es la respuesta: la hacienda costeña es mundo de Aves sin nido o Lituma.",
+      "No es la respuesta: el cuartel es escenario de La ciudad y los perros."
+    ]
+  },
+  {
+    "id": "lit-029",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "El libro Ficciones, de Jorge Luis Borges, está compuesto principalmente por:",
+    "opciones": [
+      "cuentos de carácter filosófico y laberíntico",
+      "novelas policiacas realistas",
+      "ensayos históricos de guerra",
+      "poemas de amor"
+    ],
+    "correcta": 0,
+    "explicacion": "Cuentos como El jardín de senderos que se bifurcan o Pierre Menard, autor del Quijote exploran laberintos del tiempo y la identidad.",
+    "analisis": [
+      "Correcto: Ficciones (1944) es una colección de relatos metafísicos.",
+      "No es la respuesta: no sigue fórmulas policial-realistas.",
+      "No es la respuesta: no es una obra de historiografía.",
+      "No es la respuesta: se trata de prosa, no de poesía."
+    ]
+  },
+  {
+    "id": "lit-030",
+    "categoria": "literatura",
+    "tema": "Historia de la literatura",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "La Generación del 98 española agrupa a escritores que reflexionaron sobre:",
+    "opciones": [
+      "la crisis de España tras la pérdida de sus colonias",
+      "la llegada de los conquistadores a América",
+      "la revolución industrial en Inglaterra",
+      "el renacimiento italiano"
+    ],
+    "correcta": 0,
+    "explicacion": "Tras 1898 (pérdida de Cuba, Puerto Rico y Filipinas), Unamuno, Azorín, Valle-Inclán y Baroja cuestionaron la identidad y el alma de España.",
+    "analisis": [
+      "Correcto: el desastre del 98 marcó su preocupación nacional y existencial.",
+      "No es la respuesta: la conquista es siglo XVI, muy anterior.",
+      "No es la respuesta: no es un fenómeno inglés.",
+      "No es la respuesta: el renacimiento es siglos XV-XVI."
+    ]
+  },
+  {
+    "id": "lit-031",
+    "categoria": "literatura",
+    "tema": "Historia de la literatura",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "El poeta Lorca y sus contemporáneos Rafael Alberti y Luis Cernuda pertenecen a la:",
+    "opciones": [
+      "Generación del 27",
+      "Generación del 98",
+      "Generación del 30",
+      "Escuela de Salamanca"
+    ],
+    "correcta": 0,
+    "explicacion": "La Generación del 27 (aniversario de Góngora) reunió a los grandes nombres de la poesía española de vanguardia con raíces clásicas.",
+    "analisis": [
+      "Correcto: Lorca, Alberti, Cernuda, Aleixandre y Salinas integran la Generación del 27.",
+      "No es la respuesta: el 98 es anterior y de prosistas del interior.",
+      "No es la respuesta: la Generación del 30 es argentina (Mistral, Murena).",
+      "No es la respuesta: la Escuela de Salamanca es una corriente teológica del siglo XVI."
+    ]
+  },
+  {
+    "id": "lit-032",
+    "categoria": "literatura",
+    "tema": "Lenguaje",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "La raíz léxica de una palabra es:",
+    "opciones": [
+      "la parte que aporta el significado básico",
+      "la terminación que marca la categoría gramatical",
+      "la partícula que niega",
+      "el acento que recibe"
+    ],
+    "correcta": 0,
+    "explicacion": "En cantar, cant-o, cant-ante, el radical cant- conserva la idea de cantar; los afijos y desinencias cambian categoría o tiempo.",
+    "analisis": [
+      "Correcto: el radical porta el significado léxico común.",
+      "No es la respuesta: las terminaciones son desinencias o sufijos.",
+      "No es la respuesta: la negación se expresa con no ni prefijos como in-.",
+      "No es la respuesta: el acento es una propiedad fonética, no la raíz."
+    ]
+  },
+  {
+    "id": "lit-033",
+    "categoria": "literatura",
+    "tema": "Literatura peruana",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "La novela Lituma en los Andes, de Mario Vargas Llosa, incorpora elementos:",
+    "opciones": [
+      "de la cultura quechua y del montonaje",
+      "del fútbol profesional limeño",
+      "de la aviación comercial",
+      "del derecho romano"
+    ],
+    "correcta": 0,
+    "explicacion": "El sargento Lituma investiga crímenes en los Andes mientras el relato entrelaza ritos, creencias andinas y la violencia del montonaje.",
+    "analisis": [
+      "Correcto: la mitología andina y la violencia rural atraviesan la obra.",
+      "No es la respuesta: el fútbol no es el tema.",
+      "No es la respuesta: no hay vinculación con la aviación.",
+      "No es la respuesta: el derecho romano no interviene en la trama."
+    ]
+  },
+  {
+    "id": "lit-034",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "pucp",
+    "dificultad": "basico",
+    "enunciado": "El cuento se diferencia de la novela principalmente porque:",
+    "opciones": [
+      "es breve y de acción concentrada",
+      "siempre incluye rimas",
+      "no tiene personajes",
+      "debe ser escrita en primera persona"
+    ],
+    "correcta": 0,
+    "explicacion": "El cuento cuida la síntesis: pocos personajes, un conflicto y un desenlace rápido; la novela admite mayor extensión y complejidad.",
+    "analisis": [
+      "Correcto: la brevedad y la concentración son su rasgo definitorio.",
+      "No es la respuesta: las rimas propias de la poesía no las exige.",
+      "No es la respuesta: siempre hay personajes que protagonizan el conflicto.",
+      "No es la respuesta: puede narrarse en tercera persona sin problema."
+    ]
+  },
+  {
+    "id": "lit-035",
+    "categoria": "literatura",
+    "tema": "Poesía peruana",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "El poema Los heraldos negros de César Vallejo es célebre por la estrofa que dice:",
+    "opciones": [
+      "Hay golpes en la vida, tan fuertes...",
+      "Yo nací un día que Dios nacía",
+      "En España por los campos...",
+      "Piedra sobre piedra, el hombre"
+    ],
+    "correcta": 0,
+    "explicacion": "El célebre verso de apertura sintetiza la visión trágica y humana de Vallejo ante el dolor.",
+    "analisis": [
+      "Correcto: ese es el arranque del poema más conocido del libro.",
+      "No es la respuesta: Yo nací un día que Dios nacía es de Trilce.",
+      "No es la respuesta: corresponde a la poesía de la Guerra Civil española, no a este poema.",
+      "No es la respuesta: Piedra sobre piedra es de Neruda."
+    ]
+  },
+  {
+    "id": "lit-036",
+    "categoria": "literatura",
+    "tema": "Lenguaje",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "El fenómeno por el cual una palabra tiene varios significados relacionados, como banco (asiento y entidad financiera), se llama:",
+    "opciones": [
+      "polisemia",
+      "homonimia",
+      "paronimia",
+      "antonomasia"
+    ],
+    "correcta": 0,
+    "explicacion": "La polisemia es un solo lexema con varios significados emparentados; en la homonimia son palabras distintas que coinciden en forma (banco del río).",
+    "analisis": [
+      "Correcto: la polisemia multiplica los significados de una misma palabra.",
+      "No es la respuesta: la homonimia ocurre entre palabras de distinto origen que coinciden en forma.",
+      "No es la respuesta: la paronimia es la semejanza gráfica o sonora entre palabras distintas (afecto/afecto).",
+      "No es la respuesta: la antonomasia sustituye un nombre por una cualidad, como el Cid."
+    ]
+  },
+  {
+    "id": "lit-037",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "En la tragedia griega, el conflicto central donde el héroe desafía su destino se conoce como:",
+    "opciones": [
+      "hamartía y peripecia",
+      "épica y nostalgia",
+      "lírica y dístico",
+      "prosa y realismo"
+    ],
+    "correcta": 0,
+    "explicacion": "La hamartía (error fatal) provoca la peripecia (vuelco de la fortuna) y el reconocimiento, herramientas analizadas por Aristóteles en su Poética.",
+    "analisis": [
+      "Correcto: son los conceptos clásicos que explican el giro trágico.",
+      "No es la respuesta: la épica es otro género y la nostalgia no es recurso trágico.",
+      "No es la respuesta: la lírica es género y el dístico es métrica, no conflicto.",
+      "No es la respuesta: el realismo es una corriente moderna."
+    ]
+  },
+  {
+    "id": "lit-038",
+    "categoria": "literatura",
+    "tema": "Literatura peruana",
+    "fuente": "pucp",
+    "dificultad": "intermedio",
+    "enunciado": "La obra Los ríos profundos de Arguedas obtuvo en 1958:",
+    "opciones": [
+      "el Premio Rómulo Gallegos",
+      "el Premio Nobel de Literatura",
+      "el Cervantes",
+      "el Príncipe de Asturias"
+    ],
+    "correcta": 0,
+    "explicacion": "La novela ganó el prestigioso premio venezolano Rómulo Gallegos, el mayor reconocimiento a una obra narrativa en su momento.",
+    "analisis": [
+      "Correcto: Rómulo Gallegos 1958 fue su galardón internacional.",
+      "No es la respuesta: ningún peruano ha recibido el Nobel de Literatura.",
+      "No es la respuesta: el Premio Cervantes se le entregó a Arguedas en 1968, no por esta novela en 1958.",
+      "No es la respuesta: no obtuvo el Príncipe de Asturias."
+    ]
+  },
+  {
+    "id": "lit-039",
+    "categoria": "literatura",
+    "tema": "Literatura universal",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "La expresión De los ríos profundos procede de una obra de:",
+    "opciones": [
+      "José María Arguedas",
+      "Jorge Luis Borges",
+      "Juan Rulfo",
+      "Pablo Neruda"
+    ],
+    "correcta": 0,
+    "explicacion": "La frase es el título de la novela cumbre de Arguedas, donde el narrador interioriza la cultura quechua y la música de los ríos andinos.",
+    "analisis": [
+      "Correcto: el título pertenece a Arguedas (1958).",
+      "No es la respuesta: Borges escribió Ficciones y El aleph.",
+      "No es la respuesta: Rulfo escribió Pedro Páramo.",
+      "No es la respuesta: Neruda escribió Canto general y otros poemarios."
+    ]
+  },
+  {
+    "id": "lit-040",
+    "categoria": "literatura",
+    "tema": "Lenguaje",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "Cuando una oración expresa una idea contraria a la afirmada, usando pero, sino o aunque, se trata de una relación:",
+    "opciones": [
+      "adversativa",
+      "causal",
+      "final",
+      "condicional"
+    ],
+    "correcta": 0,
+    "explicacion": "Estaba cansado, pero siguió estudiando: la segunda parte contrasta con la primera, por eso es adversativa.",
+    "analisis": [
+      "Correcto: los nexos adversativos marcan oposición o contraste.",
+      "No es la respuesta: la causal se marca con porque y ya que.",
+      "No es la respuesta: la final indica propósito, como para que.",
+      "No es la respuesta: la condicional exige si o con tal de que."
+    ]
+  },
+  {
+    "id": "lit-041",
+    "categoria": "literatura",
+    "tema": "Narrativa hispanoamericana",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "El Premio Nobel de Literatura más reciente de habla hispana es:",
+    "opciones": [
+      "Mario Vargas Llosa (2010)",
+      "Gabriel García Márquez (1982)",
+      "Pablo Neruda (1971)",
+      "Juan Ramón Jiménez (1956)"
+    ],
+    "correcta": 0,
+    "explicacion": "Vargas Llosa recibió el Nobel en 2010; García Márquez lo obtuvo en 1982, Neruda en 1971 y Jiménez en 1956.",
+    "analisis": [
+      "Correcto: Vargas Llosa es el más premiado recientemente entre los hispanohablantes.",
+      "No es la respuesta: García Márquez recibió el Nobel en 1982, antes que Vargas Llosa.",
+      "No es la respuesta: Neruda lo recibió en 1971.",
+      "No es la respuesta: el galardón de Jiménez es de 1956."
+    ]
+  },
+  {
+    "id": "lit-042",
+    "categoria": "literatura",
+    "tema": "Lenguaje",
+    "fuente": "pucp",
+    "dificultad": "basico",
+    "enunciado": "Se denomina anáfora a la repetición de una palabra o expresión:",
+    "opciones": [
+      "al inicio de versos u oraciones consecutivas",
+      "al final de la oración",
+      "en el centro de la frase",
+      "solo en los títulos"
+    ],
+    "correcta": 0,
+    "explicacion": "En las enumeraciones repetir el inicio crea ritmo y énfasis: Libertad, libertad, libertad.",
+    "analisis": [
+      "Correcto: la anáfora es la repetición inicial deliberada.",
+      "No es la respuesta: la repetición final corresponde a la epífora.",
+      "No es la respuesta: la ubicación central no define a la anáfora.",
+      "No es la respuesta: puede usarse en cualquier lugar del discurso, no solo en títulos."
+    ]
+  },
+  {
+    "id": "lit-043",
+    "categoria": "literatura",
+    "tema": "Teatro universal",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "La obra La casa de Bernarda Alba, de Federico García Lorca, se desarrolla en:",
+    "opciones": [
+      "un pueblo andaluz bajo el luto de una madre",
+      "una hacienda costeña peruana",
+      "una corte medieval",
+      "un barrio de Buenos Aires"
+    ],
+    "correcta": 0,
+    "explicacion": "Bernarda Alba encierra a sus hijas tras la muerte de su segundo marido: un drama de autoritarismo, deseo y honor en un pueblo español.",
+    "analisis": [
+      "Correcto: Lorca la situó en un pueblo andaluz y la subtituló drama de mujeres en un pueblo español.",
+      "No es la respuesta: no tiene acción peruana.",
+      "No es la respuesta: no es una obra de corte ni de época medieval.",
+      "No es la respuesta: no transcurre en Argentina."
+    ]
+  },
+  {
+    "id": "lit-044",
+    "categoria": "literatura",
+    "tema": "Literatura peruana",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "Abuelo, fue usted un hombre malo es la dedicatoria que abre la novela:",
+    "opciones": [
+      "Los ríos profundos, de Arguedas",
+      "La ciudad y los perros, de Vargas Llosa",
+      "Un mundo para Julius, de Bryce",
+      "Aves sin nido, de Matto"
+    ],
+    "correcta": 0,
+    "explicacion": "Arguedas abre su novela con esas palabras dirigidas a su padre ausente, fijando desde el arranque la voz autobiográfica del relato.",
+    "analisis": [
+      "Correcto: esa dedicatoria encabeza Los ríos profundos.",
+      "No es la respuesta: la novela de Vargas Llosa no inicia con esa frase.",
+      "No es la respuesta: Bryce inicia con la mirada de Julius, no con esa dedicatoria.",
+      "No es la respuesta: Matto de Turner no incluye esa apertura."
+    ]
+  },
+  {
+    "id": "lit-045",
+    "categoria": "literatura",
+    "tema": "Lenguaje",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "El texto escrito con la finalidad de convencer al receptor se denomina:",
+    "opciones": [
+      "texto argumentativo",
+      "texto narrativo",
+      "texto descriptivo",
+      "texto poético"
+    ],
+    "correcta": 0,
+    "explicacion": "El argumentativo defiende una tesis con razones y evidencias: ensayos, cartas de opinión y publicidad persuasiva.",
+    "analisis": [
+      "Correcto: su finalidad es persuadir mediante argumentos.",
+      "No es la respuesta: el narrativo cuenta hechos en el tiempo.",
+      "No es la respuesta: el descriptivo presenta características de un ser o cosa.",
+      "No es la respuesta: el poético busca un efecto estético con el lenguaje."
+    ]
+  },
+  {
+    "id": "uni-014",
+    "categoria": "literatura",
+    "tema": "Definiciones léxicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "Elija la opción que se ajusta a la presente definición: _________: Buena suerte o éxito en lo que se emprende, sucede u ocurre.",
+    "opciones": [
+      "Prosperidad",
+      "Bonanza",
+      "Desarrollo",
+      "Ventura"
+    ],
+    "correcta": 0,
+    "explicacion": "Prosperidad es el buen éxito o ventura en lo que se emprende, lo que coincide exactamente con la definición dada; las otras palabras se refieren a situaciones de felicidad o crecimiento, no al éxito de lo que se hace.",
+    "analisis": [
+      "Prosperidad es la correcta: designa el buen éxito alcanzado en lo que se emprende o se hace.",
+      "Bonanza alude principalmente a prosperidad económica o a condiciones muy favorables, no al éxito en lo emprendido.",
+      "Desarrollo nombra un proceso de crecimiento o avance, no la buena suerte en lo que se hace.",
+      "Ventura describe el estado de dicha de quien consigue sus deseos, no el éxito del emprendimiento."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-015",
+    "categoria": "literatura",
+    "tema": "Analogías",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Tomando como referencia la base escrita en mayúsculas, elija la opción que presenta una relación análoga: CANCIÓN : ACORDES ::",
+    "opciones": [
+      "Drama : episodios",
+      "Poema : versos",
+      "Paleta : colores",
+      "Escultura : moldes"
+    ],
+    "correcta": 1,
+    "explicacion": "La relación entre canción y acordes es de todo a parte: la canción se compone de acordes; del mismo modo, un poema se compone de versos.",
+    "analisis": [
+      "No es equivalente: la división propia del drama es el acto o la escena, y los episodios designan secuencias de relatos o series.",
+      "Es correcta: poema y versos guardan la misma relación de todo a parte que canción y acordes.",
+      "No es equivalente: la paleta es el soporte o herramienta donde se dispone la pintura, no una obra constituida por colores.",
+      "No es equivalente: el molde es un instrumento de reproducción de la escultura, no la parte que la integra."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-016",
+    "categoria": "literatura",
+    "tema": "Antonimia contextual",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "Elija la alternativa que, al sustituir la palabra subrayada, exprese el antónimo de la siguiente oración: Algunos científicos afirman que la marihuana es nociva para la salud.",
+    "opciones": [
+      "aséptica",
+      "benéfica",
+      "segura",
+      "positiva"
+    ],
+    "correcta": 1,
+    "explicacion": "Benéfica es el antónimo directo de nociva: lo que daña se opone a lo que produce beneficio, con lo que la oración cambia completamente de sentido.",
+    "analisis": [
+      "Aséptica significa libre de gérmenes; describe una condición higiénica, no se opone a nociva.",
+      "Benéfica es la correcta: es el antónimo pleno de nociva y voltea el sentido de la oración.",
+      "Segura indica ausencia de peligro, pero no expresa la idea contraria de causar daño.",
+      "Positiva es un calificativo general de valoración favorable y no constituye un antónimo preciso de nociva."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-017",
+    "categoria": "literatura",
+    "tema": "Antonimia contextual",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Elija la alternativa que, al sustituir la palabra subrayada, exprese el antónimo de la siguiente oración: El pago por el trabajo que realizó fue excesivo.",
+    "opciones": [
+      "reducido",
+      "decepcionante",
+      "frustrante",
+      "irrisorio"
+    ],
+    "correcta": 3,
+    "explicacion": "Irrisorio significa tan pequeño o insignificante que resulta ridículo, lo que se opone directamente a excesivo e invierte por completo el juicio de la oración.",
+    "analisis": [
+      "Reducido solo indica que la cantidad fue menor de lo normal; es una oposición débil y no capta el contraste con excesivo.",
+      "Decepcionante expresa una reacción emocional, no la magnitud del pago.",
+      "Frustrante también designa un sentimiento y no se opone semánticamente a excesivo.",
+      "Irrisorio es la correcta: un pago irrisorio es tan pequeño que resulta ridículo, antónimo exacto de excesivo."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-018",
+    "categoria": "literatura",
+    "tema": "Conectores lógico-textuales",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Elija la alternativa que, al insertarse en los espacios, dé sentido coherente y preciso al texto: La oscuridad era total, ________ animales extraños chillaban, haciendo más extraña esta caminata, ________ no había otra alternativa ________ tenía que avanzar.",
+    "opciones": [
+      "más aún - pero - y",
+      "además - sin embargo - o",
+      "incluso - es decir - pues",
+      "porque - o sea - ya que"
+    ],
+    "correcta": 0,
+    "explicacion": "Se requiere un conector reiterativo que intensifique la situación (más aún), uno adversativo que contraponga la falta de alternativa (pero) y uno aditivo que enlace la consecuencia (y): no había otra alternativa y tenía que avanzar.",
+    "analisis": [
+      "Es correcta: 'más aún' reitera con intensidad, 'pero' introduce la adversativa y 'y' enlaza la consecuencia.",
+      "No cohesiona: 'además' no intensifica como el texto pide y 'o' ofrece una alternativa que el propio texto niega.",
+      "No cohesiona: 'es decir' introduce una aclaración inexistente y 'pues' marca una causa donde se espera una adición.",
+      "No cohesiona: la secuencia encadena causas y aclaraciones que rompen la relación lógica entre las oraciones."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-019",
+    "categoria": "literatura",
+    "tema": "Comprensión lectora",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Texto: En pocos campos es tan evidente el progreso tecnológico como en la informática. Los ordenadores son cada vez más rápidos, siguiendo la inexorable ley de Moore, por la que cada 2 años se duplica la potencia de cálculo de los procesadores que aparecen en el mercado. En este contexto, aparece el concepto de supercomputación, que empieza a ser familiar no solo en la mayor parte de campos científicos, sino incluso en la vida diaria. Desde sus inicios, la supercomputación se ha aplicado a la investigación científica, especialmente en el campo de la Física fundamental. En este sentido, actualmente, la supercomputación se ha convertido en una herramienta importante en bioquímica y biología molecular, donde la determinación, caracterización y modelización de la estructura de las biomoléculas es esencial para entender el mecanismo y función de procesos biológicos a nivel molecular. Pregunta: El tema central del texto es:",
+    "opciones": [
+      "la supercomputación como herramienta fundamental para la investigación en bioquímica y biología molecular.",
+      "los grandes ordenadores construidos para situarse en la frontera de la computación de altas prestaciones.",
+      "el análisis de las ingentes cantidades generadas de datos estructurales en la biología molecular.",
+      "la incorporación de las diferentes tecnologías como los circuitos integrados para utilizar en la biología molecular."
+    ],
+    "correcta": 0,
+    "explicacion": "El pasaje parte del progreso de los ordenadores para presentar la supercomputación y concluye destacándola como herramienta importante en bioquímica y biología molecular, que es el hilo central del texto.",
+    "analisis": [
+      "Es correcta: resume el desarrollo completo del texto, que culmina mostrando la supercomputación al servicio de la bioquímica y la biología molecular.",
+      "No es el tema: el texto menciona la rapidez de los ordenadores solo como punto de partida, sin describir grandes ordenadores.",
+      "No es el tema: los datos estructurales aparecen como un detalle dentro de la explicación, no como asunto central.",
+      "Es incorrecta: los circuitos integrados ni siquiera se mencionan en el texto."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-020",
+    "categoria": "literatura",
+    "tema": "Figuras literarias",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "¿Qué figura literaria resalta en el verso \"Vino el pájaro / y devoró al gusano / vino el hombre / y devoró al pájaro / vino el gusano / y devoró al hombre\" (Blanca Varela)?",
+    "opciones": [
+      "Metáfora",
+      "Hipérbaton",
+      "Símil",
+      "Anáfora"
+    ],
+    "correcta": 3,
+    "explicacion": "La anáfora es la repetición de una o varias palabras al comienzo de versos o enunciados; aquí la expresión 'vino el' abre cada miembro del verso.",
+    "analisis": [
+      "No hay metáfora: no se sustituye un término por otro de manera figurada ni hay imagen implícita.",
+      "No hay hipérbaton: el orden sintáctico de los versos es normal, no se invierte.",
+      "No hay símil: no aparece ninguna comparación explicitada con 'como', 'cual' o 'tal'.",
+      "Es correcta: se repite 'vino el' al inicio de cada miembro, rasgo propio de la anáfora."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-021",
+    "categoria": "literatura",
+    "tema": "Literatura hispanoamericana",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "¿Cuál de las siguientes opciones corresponde al autor de los cuentos Ficciones y El Aleph?",
+    "opciones": [
+      "Carlos Fuentes",
+      "Julio Cortázar",
+      "Gabriel García Márquez",
+      "Jorge Luis Borges"
+    ],
+    "correcta": 3,
+    "explicacion": "Ficciones (1944) y El Aleph son recopilaciones de cuentos del escritor argentino Jorge Luis Borges, uno de los autores más representativos de la literatura en español.",
+    "analisis": [
+      "Es incorrecto: Carlos Fuentes es un novelista mexicano, autor de Terra Nostra, no de estas obras.",
+      "Es incorrecto: Julio Cortázar es argentino, pero su obra cumbre es la novela Rayuela.",
+      "Es incorrecto: Gabriel García Márquez es colombiano y autor de Cien años de soledad.",
+      "Es correcto: Jorge Luis Borges escribió tanto Ficciones como El Aleph."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "lit-054",
+    "categoria": "literatura",
+    "tema": "Tragedia griega",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "Edipo Rey es la tragedia griega más célebre del siglo V a. C. Se basa en el mito de la casa de Layo y en la maldición que recae sobre él y su descendencia. La historia inicia representando a Edipo frente a los ciudadanos de Tebas. En relación con la presencia del asesino de Layo y sus consecuencias, determine el valor de verdad (V o F) de las siguientes proposiciones:\nI. El pueblo de Tebas, enfermo y hambriento, pide ayuda a Edipo, pero él se niega.\nII. Creonte afirma que el asaltante del cruce de caminos que mató a Layo sigue vivo.\nIII. Tiresias revela que el culpable de la muerte de Layo es Edipo, pero este no le cree.",
+    "opciones": [
+      "FFV",
+      "VFV",
+      "FVV",
+      "FVF",
+      "VVF"
+    ],
+    "correcta": 0,
+    "explicacion": "Un libro representativo de la tragedia griega es Edipo rey, de Sófocles. En esta obra, destaca el tema de la limitación humana en controlar su destino. De acuerdo con el argumento, determinamos el valor de verdad de las proposiciones por analizar: I. Falso Edipo, al escuchar las quejas del pueblo por la peste, decide afrontar el problema enviando a su cuñado a Creonte para averiguar la causa. II. Falso Solamente Creonte le informa a Edipo que existe un testigo del ataque al rey Layo. III. Verdadero El adivino Tiresias revela que el culpable de la muerte de Layo es Edipo, pero el rey no le cree.",
+    "analisis": [
+      "Correcto: I es falsa porque Edipo acoge al pueblo y envía a Creonte; II es falsa porque solo hay un testigo; III es verdadera porque Tiresias lo acusa y el rey no le cree.",
+      "No es la respuesta: I es falsa: Edipo no se niega a ayudar, sino que atiende las quejas de Tebas y envía a Creonte a indagar la causa de la peste.",
+      "No es la respuesta: II es falsa: Creonte anuncia que sobrevivió un testigo del asesino de Layo, no que el asaltante siga vivo; solo III sería verdadera.",
+      "No es la respuesta: Marca III como falsa, pero Tiresias sí revela a Edipo que es el culpable y el rey no lo acepta; la tercera letra debe ser V.",
+      "No es la respuesta: I es falsa: Edipo no se niega, pues responde al pueblo enfermo y envía a Creonte; la primera letra debe ser F, no V."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "lit-055",
+    "categoria": "literatura",
+    "tema": "Teatro barroco",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "¡Válgame el cielo! ¿Qué veo? ¡Válgame el cielo! ¿Qué miro? Con poco espanto lo admiro, con mucha duda lo creo. ¿Yo en palacios suntuosos? ¿Yo entre telas y brocados? ¿Yo cercado de criados tan lucidos y briosos? ¿Yo despertar de dormir en lecho tan excelente? ¿Yo en medio de tanta gente que me sirva de vestir? Segismundo pronuncia estas palabras luego de ser liberado de su prisión, es entonces cuando se entera de que",
+    "opciones": [
+      "es el rey de Polonia, encarcelado por su padre.",
+      "es el príncipe heredero del trono de Polonia.",
+      "el pueblo lo ha liberado para que asuma el trono.",
+      "Clotaldo, su antiguo criado, era un traidor.",
+      "Basilio, su tío, había asesinado al rey de Polonia."
+    ],
+    "correcta": 1,
+    "explicacion": "Dentro del teatro barroco, destaca Pedro Calderón de la Barca con su drama filosófico La vida es sueño. Esa obra presenta la temática de la existencia humana ente la vida y la ficción. Según los versos pronunciados por Segismundo, cuando es liberado de la prisión y Clotaldo lo dirige dormido al palacio del rey Basilio, aquel se entera de que es el hijo heredero del trono. Los siguientes versos demuestran, a través de preguntas, que está en otro espacio: “¿Yo en palacios suntuosos? / ¿Yo entre telas y brocados?”, “¿Yo de despertar de dormir / en lecho tan excelente? / ¿Yo en medio de tanta gente / que me sirva de vestir?”.",
+    "analisis": [
+      "No es la respuesta: Se equivoca al llamarlo rey: Segismundo sigue siendo príncipe heredero; solo su padre Basilio ocupa el trono de Polonia.",
+      "Correcto: Al despertar en el palacio, Segismundo comprende que es hijo del rey Basilio y, por tanto, príncipe heredero del trono de Polonia, lo que explica su asombro.",
+      "No es la respuesta: No fue el pueblo quien lo liberó: Clotaldo lo saca de la prisión y lo traslada dormido al palacio para mostrarle su nuevo estado.",
+      "No es la respuesta: Clotaldo no es traidor ni simple criado: es el encargado de la prisión de Segismundo y actúa por mandato del rey Basilio.",
+      "No es la respuesta: Basilio es el propio rey de Polonia y el padre de Segismundo, no su tío ni asesino de un rey anterior."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "lit-056",
+    "categoria": "literatura",
+    "tema": "Nueva narrativa hispanoamericana",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "..............., autor hispanoamericano que formuló la idea de que la historia de América toda es la crónica de lo real maravilloso, escribió la novela ............... para relatar una rebelión de esclavos en ...............",
+    "opciones": [
+      "Alejo Carpentier - El reino de este mundo - Haití",
+      "Jorge Isaacs - María - Valle del Cauca",
+      "Rómulo Gallegos - Doña Bárbara - Caracas",
+      "Gabriel García Márquez - Cien años de soledad - Macondo",
+      "Miguel Ángel Asturias - El señor presidente - Guatemala"
+    ],
+    "correcta": 0,
+    "explicacion": "La nueva narrativa hispanoamericana es el resultado de la influencia vanguardista en el campo de la narrativa. Se desarrolló en tres etapas: emergente (20 - 30), de consolidación (40 - 50) y de apogeo (60 - 70). En la segunda etapa, se publican obras de gran calidad literaria que expresan las nuevas formas narrativas y desplazan el regionalismo. Los autores representativos de este periodo son Jorge Luis Borges, Miguel Ángel Asturias, Alejo Carpentier, Ernesto Sábato, Juan Rulfo. Es Alejo Carpentier quien formuló la idea de que la historia de América toda es la crónica de lo real maravilloso y compone la novela El reino de este mundo para relatar la rebelión de esclavos en búsqueda de libertad en Haití. Lo real maravilloso presenta elementos basados en las creencias o mitos de los pueblos hispanoamericanos; el mundo mágico pervive en el folclor de la tradición africana, donde el vudú, los ritos y los bailes son expresiones de una cultura diferente de la europea.",
+    "analisis": [
+      "Correcto: Alejo Carpentier formuló el concepto de lo real maravilloso y escribió El reino de este mundo, novela que narra la rebelión de esclavos en Haití.",
+      "No es la respuesta: Jorge Isaacs escribió María, novela romántica del valle del Cauca; no formuló lo real maravilloso ni relató una rebelión de esclavos.",
+      "No es la respuesta: Gallegos es autor de Doña Bárbara, novela regionalista venezolana; no escribió sobre la crónica de lo real maravilloso ni sobre Haití.",
+      "No es la respuesta: García Márquez es referente del realismo mágico con Macondo, pero la idea del real maravilloso es de Carpentier y su novela no trata de esclavos.",
+      "No es la respuesta: Asturias escribió El señor presidente, novela sobre una dictadura en Guatemala; su trama no es una rebelión de esclavos en Haití."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "lit-057",
+    "categoria": "literatura",
+    "tema": "Realismo peruano",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "En el “Discurso en el Politeama”, pronunciado pocos años después de la Guerra con Chile, Manuel González Prada señalaba que los jóvenes debían tomar, en ese momento, la posta del futuro y enfrentarse a problemas como",
+    "opciones": [
+      "la corrupción, conflictos bélicos con otros países y el atraso de la medicina.",
+      "la escasa participación política, la explotación del caucho y la guerra civil.",
+      "la inoperancia de la clase política, la deuda externa y las próximas elecciones.",
+      "el caudillismo, la segregación del indio y el espíritu peruano de servidumbre.",
+      "el clero, la destrucción de la flota y la falta de libertad de prensa en la capital."
+    ],
+    "correcta": 3,
+    "explicacion": "El realismo apareció en el Perú a fines de la guerra con Chile. En esta corriente literaria, aparece Manuel González Prada, quien en su “Discurso en el Politeama”, señala que los jóvenes debían tomar la posta del futuro, amparados en la ciencia y la educación, corrijan el pasado y recuperen el territorio perdido. Además, de enfrentarse a problemas como el caudillismo, la segregación del indio, el espíritu peruano de servidumbre, la corrupción e incompetencia de la clase gobernante. El autor propone educación y libertad para el indígena.",
+    "analisis": [
+      "No es la respuesta: Los conflictos bélicos con otros países y el atraso de la medicina no figuran entre los problemas que González Prada plantea a los jóvenes.",
+      "No es la respuesta: Ni la explotación del caucho ni la guerra civil aparecen en el discurso; González Prada censura el caudillismo y la servidumbre del indio.",
+      "No es la respuesta: Aunque menciona la incompetencia política, la deuda externa y las próximas elecciones no son problemas señalados en el Discurso en el Politeama.",
+      "Correcto: El discurso del Politeama señala el caudillismo, la segregación del indio y el espíritu peruano de servidumbre, además de la corrupción e incompetencia de los gobernantes.",
+      "No es la respuesta: El clero, la destrucción de la flota y la falta de libertad de prensa en la capital son ajenos a los problemas enumerados por el autor."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "lit-058",
+    "categoria": "literatura",
+    "tema": "Generación del 50",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "La Generación del 50 enfrenta un mundo moderno desigual e injusto, en especial en las ciudades; por ello, expresa su frustración y escepticismo. Respecto de los autores de dicha generación, relacione correctamente ambas columnas.\nI. Blanca Varela\nII. Julio Ramón Ribeyro\nIII. Enrique Congrains\na. No una sino muchas muertes\nb. La palabra del mudo\nc. Canto villano",
+    "opciones": [
+      "Ic, IIa, IIIb",
+      "Ia, IIc, IIIb",
+      "Ic, IIb, IIIa",
+      "Ia, IIb, IIIc",
+      "Ib, IIa, IIIc"
+    ],
+    "correcta": 2,
+    "explicacion": "La generación del 50 fue un grupo de autores de diferentes géneros literarios que, a través de sus obras, plantearon la visión crítica o pesimista de la vida. Entre sus representantes y obras narrativas tenemos a Julio Ramón Ribeyro (La palabra del mudo), Enrique Congrains (No una sino muchas muertes); en poesía, destaca Blanca Varela (Canto villano).",
+    "analisis": [
+      "No es la respuesta: Solo Ic acierta: atribuye a Ribeyro No una sino muchas muertes, que es de Congrains, y a Congrains La palabra del mudo, que es de Ribeyro.",
+      "No es la respuesta: Confunde las tres: da a Varela No una sino muchas muertes, a Ribeyro Canto villano y a Congrains La palabra del mudo; todas están cruzadas.",
+      "Correcto: Varela es poeta y firma Canto villano; Ribeyro firma La palabra del mudo y Congrains No una sino muchas muertes, por eso Ic, IIb, IIIa.",
+      "No es la respuesta: Acierta solo con IIb, correcta para Ribeyro; sin embargo, asigna a Varela No una sino muchas muertes y a Congrains Canto villano.",
+      "No es la respuesta: Ninguna coincide: La palabra del mudo es de Ribeyro, No una sino muchas muertes de Congrains y Canto villano de Blanca Varela."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "lit-059",
+    "categoria": "literatura",
+    "tema": "Simbolismo peruano",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "Hoy se casa el Duque Nuez;\nviene el chantre, viene el juez\ny con pendones escarlata\nflorida cabalgata; a la una,\na las dos, a las diez;\nque se casa el Duque primor\ncon la hija de Clavo de Olor\n\nEn el fragmento de “El Duque”, poema de Simbólicas (1911), de José María Eguren, se muestran algunas de las características de su poesía simbolista, entre ellas",
+    "opciones": [
+      "plasticidad de imágenes y embellecimiento del paisaje natural.",
+      "realismo, mundo rural y formas tradicionales del verso.",
+      "la temática amorosa vinculada al primer amor juvenil.",
+      "musicalidad, color y mundos de ensueño y de juego.",
+      "las imágenes de ensueño, relacionadas al mar y a la infancia."
+    ],
+    "correcta": 3,
+    "explicacion": "José María Eguren es el iniciador del ciclo de fundadores de la tradición poética peruana. Él comienza con la publicación de Simbólicas (1911). Este poeta tiene influencia simbolista porque pone de relieve la idea de la orquestación musical y cromática del poema (la musicalidad se aprecia en la rima: nuez, juez, escarlata, cabalgata), plantea la idea de la poesía como sugerencia, mundos de ensueño y de juego (se evidencia en la presencia de objetos comestibles, pero humanizados “Hoy se casa el Duque Nuez”, “con la hija de Clavo de Olor”).",
+    "analisis": [
+      "No es la respuesta: La plasticidad y el paisaje natural no son el rasgo señalado: el fragmento describe una cabalgata nupcial de objetos personificados, no un paisaje.",
+      "No es la respuesta: Carece de realismo y de mundo rural: Eguren es simbolista y su verso busca musicalidad y sugestión, no la representación tradicional de la campiña.",
+      "No es la respuesta: No es poesía amorosa ni evoca el primer amor juvenil: el tema es una boda fantástica entre personajes imaginarios como el Duque Nuez.",
+      "Correcto: El poema muestra musicalidad por la rima de nuez, juez y escarlata, color en el tono escarlata y un mundo de ensueño al personificar al Duque Nuez y a Clavo de Olor.",
+      "No es la respuesta: Sí hay imágenes de ensueño, pero ninguna alude al mar o a la infancia; el poema presenta una boda de personajes fantásticos."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  }
+]

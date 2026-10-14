@@ -1,0 +1,427 @@
+[
+  {
+    "id": "len-001",
+    "categoria": "lenguaje",
+    "tema": "Habilidad verbal",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "Texto de apoyo:\n«El racismo en el Perú es un fenómeno histórico y estructural que articula jerarquías de poder, distribución desigual de oportunidades y prácticas cotidianas de discriminación. Su genealogía se remite a la Colonia, cuando la “raza” se institucionalizó como principio de ordenamiento social y económico. Esa matriz persiste en la República bajo la forma de una pigmentocracia que asocia la blancura –o su promesa– con prestigio, ciudadanía plena y acceso a capitales simbólicos y materiales, mientras relega a poblaciones indígenas y afroperuanas a posiciones subalternas. Estas jerarquías no operan solo en el plano de los prejuicios individuales, sino que se reproducen en instituciones como la escuela, el mercado laboral, los medios de comunicación y el sistema de justicia, donde actúan sesgos explícitos e implícitos. En el espacio público, la injuria racial, la exotización y la folclorización conviven con políticas de “inclusión” que a menudo se quedan en lo declarativo. La publicidad y la televisión han contribuido a un ideal de blanqueamiento que normaliza cuerpos y acentos “aceptables” y sanciona otros como “impropios”. En la educación, los currículos y los manuales han privilegiado narrativas criollo-mestizas que invisibilizan la agencia intelectual y política de pueblos indígenas y afroperuanos, lo que refuerza desigualdades de desempeño y expectativas. A ello se suma la intersección con clase, género, lengua y territorio: el racismo no afecta de modo homogéneo, sino que produce vulnerabilidades diferenciadas (por ejemplo, mujeres indígenas quechua-hablantes en contextos urbanos). Santivañez, E. (2020). Algunas ideas sobre el racismo peruano. Editorial Pigmeo.»\n\nSegún el texto, ¿qué se entiende por PIGMENTOCRACIA en el contexto peruano?",
+    "opciones": [
+      "Una forma de discriminación tácita donde solo las personas de piel blanca pueden ejercer cargos políticos",
+      "Un método vergonzoso de discriminación básicamente practicado por personas con privilegios económicos",
+      "Una técnica de adiestramiento social que imposibilita que exista una relación horizontal entre peruanos",
+      "Una teoria biológica decimonónica que clasifica a las razas según su inteligencia singular e innata",
+      "Un sistema que asocia el tono claro de piel con privilegios y relega a grupos indigenas y afroperuanos"
+    ],
+    "correcta": 4,
+    "explicacion": "De acuerdo con el texto, la pigmentocracia representa la asociación de la blancura con prestigio, ciudadanía plena y acceso a capitales; mientras que a las poblaciones indígenas y afroperuanas son relegadas a posiciones subalternas. Esto quiere decir que el sistema funciona mediante una estratificación donde el color de la piel determina tu estatus social.",
+    "analisis": [
+      "No es la respuesta: El texto nunca afirma que solo personas blancas ejerzan cargos políticos; limita la pigmentocracia a un ámbito que el pasaje no menciona.",
+      "No es la respuesta: Reduce la pigmentocracia a la práctica individual de personas con dinero, cuando el texto la describe como estructura histórica que articula jerarquías de poder.",
+      "No es la respuesta: Presenta un inexistente adiestramiento social; la pigmentocracia no es una técnica de entrenamiento sino una jerarquía que vincula el tono de piel con el estatus.",
+      "No es la respuesta: Desvía el concepto hacia una teoría biológica decimonónica; el pasaje describe la pigmentocracia como práctica republicana de estratificación por color, no como ciencia racial.",
+      "Correcto: Resume la definición del texto: la pigmentocracia asocia la blancura con prestigio, ciudadanía plena y capitales, mientras relega a poblaciones indígenas y afroperuanas a posiciones subalternas."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-002",
+    "categoria": "lenguaje",
+    "tema": "Habilidad verbal",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "Texto de apoyo:\n«El racismo en el Perú es un fenómeno histórico y estructural que articula jerarquías de poder, distribución desigual de oportunidades y prácticas cotidianas de discriminación. Su genealogía se remite a la Colonia, cuando la “raza” se institucionalizó como principio de ordenamiento social y económico. Esa matriz persiste en la República bajo la forma de una pigmentocracia que asocia la blancura –o su promesa– con prestigio, ciudadanía plena y acceso a capitales simbólicos y materiales, mientras relega a poblaciones indígenas y afroperuanas a posiciones subalternas. Estas jerarquías no operan solo en el plano de los prejuicios individuales, sino que se reproducen en instituciones como la escuela, el mercado laboral, los medios de comunicación y el sistema de justicia, donde actúan sesgos explícitos e implícitos. En el espacio público, la injuria racial, la exotización y la folclorización conviven con políticas de “inclusión” que a menudo se quedan en lo declarativo. La publicidad y la televisión han contribuido a un ideal de blanqueamiento que normaliza cuerpos y acentos “aceptables” y sanciona otros como “impropios”. En la educación, los currículos y los manuales han privilegiado narrativas criollo-mestizas que invisibilizan la agencia intelectual y política de pueblos indígenas y afroperuanos, lo que refuerza desigualdades de desempeño y expectativas. A ello se suma la intersección con clase, género, lengua y territorio: el racismo no afecta de modo homogéneo, sino que produce vulnerabilidades diferenciadas (por ejemplo, mujeres indígenas quechua-hablantes en contextos urbanos). Santivañez, E. (2020). Algunas ideas sobre el racismo peruano. Editorial Pigmeo.»\n\nRespecto del racismo en el Perú, ¿cuál es la tesis central que el texto desarrolla?",
+    "opciones": [
+      "El racismo es un fenómeno histórico-estructural que organiza jerarquías sociales desde la Colonia y se reproduce en instituciones actuales.",
+      "El racismo peruano se observa con nitidez en los prejuicios individuales, los cuales tienen un impacto en las estructuras sociales del país.",
+      "La discriminación racial solo podrá ser superada a través de una intervención decidida del Estado y de todas las estructuras de poder.",
+      "El problema del racismo en el Perú afecta, básicamente, a diversas mujeres pobres que son madres solteras y viven en contextos urbanos.",
+      "La publicidad y los medios de comunicación son los responsables de perpetuar los estereotipos raciales en el Perú desde la Colonia."
+    ],
+    "correcta": 0,
+    "explicacion": "El texto plantea que el racismo peruano es un fenómeno histórico-estructural: histórico porque arranca en la Colonia, cuando la “raza” se volvió un principio de ordenamiento social, y estructural porque esa jerarquía se reproduce hoy en instituciones como la escuela, el mercado laboral, los medios y el sistema de justicia, no solo en los prejuicios individuales.",
+    "analisis": [
+      "Correcto: Sintetiza la tesis del texto: el racismo es histórico, pues nace en la Colonia, y estructural, porque la jerarquía se reproduce hoy en escuela, mercado laboral, medios y justicia.",
+      "No es la respuesta: Invierte el argumento: el texto afirma que las jerarquías no operan solo en prejuicios individuales, sino que se reproducen en instituciones.",
+      "No es la respuesta: El texto no plantea soluciones ni condiciona la superación del racismo a una intervención estatal única; esa idea no aparece en el pasaje.",
+      "No es la respuesta: Generaliza un solo ejemplo: el texto menciona mujeres indígenas quechua-hablantes como caso de vulnerabilidad diferenciada, no como afectadas básicas, y sin hablar de madres solteras.",
+      "No es la respuesta: Comete un anacronismo: la raza se institucionalizó en la Colonia, mientras que publicidad y televisión solo contribuyen después al ideal de blanqueamiento, sin ser responsables desde esa época."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-003",
+    "categoria": "lenguaje",
+    "tema": "Habilidad verbal",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "Textos de apoyo:\n«Texto A El acto esencial del maestro es explicar, poner en evidencia los elementos simples de los conocimientos y hacer concordar su simplicidad de principio con la simplicidad de hecho que caracteriza a los espíritus jóvenes e ignorantes. Enseñar es, al mismo tiempo, transmitir conocimientos y formar los espíritus, conduciéndolos, según un orden progresivo, de lo más simple a lo más complejo. De este modo, el discípulo se educa, mediante la apropiación razonada del saber y a través de la formación del juicio y del gusto, en tan alto grado como su fin social lo requiere, y se lo prepara para funcionar según este destino: enseñar, pleitear o gobernar, para las élites letradas; concebir, diseñar o fabricar instrumentos y máquinas para las vanguardias nuevas que buscan resaltar entre la élite del pueblo; hacer, en la carrera científica, descubrimientos nuevos para los espíritus dotados de ese genio particular, Sin duda, los procedimientos de esos hombres de ciencia vergen sensiblemente del orden razonado de los pedagogos. Pero no es posible extraer de eso ningún argumento contra este orden. Al contrario, inicialmente es necesario haber adquirido una formación sólida y metódica para, después, dar vía libre a las singularidades del genio. Texto B Es necesario invertir la lógica del sistema explicador. La explicación no es necesaria para mediar una incapacidad de comprensión. Todo lo contrario, esta incapacidad es la ficción que estructura la concepción explicadora del mundo. El maestro explicador es el que necesita del incapaz no al revés; él es el que constituye al incapaz como tal. Explicar alguna cosa a alguien es, en principio, demostrarle que no puede comprenderla por sí mismo. Antes de ser el acto del pedagogo, explicación es el mito de la pedagogía, la parábola de un mundo dividido en espíritus sabios y espíritus ignorantes, espíritus maduros e inmaduros, capaces e incapaces, inteligentes y estúpidos. La trampa del explicador consiste en este doble gesto inaugural. Por un lado, es él quien decreta el comienzo absoluto: solo ahora va a comenzar el acto de aprender. Por otro lado, sobre todas las cosas que deben aprenderse, es él quien lanza ese velo de la ignorancia que luego se encargará de levantar. Hasta que él llegó, el niño tanteó a ciegas, adivinando. Ahora es cuando va a aprender. Como decíamos, el mito pedagógico divide la inteligencia en dos. Siguiendo esta lógica más fantástica que realista, existirían una inteligencia inferior y una superior. Adaptado de Rancière, J. (2007). El maestro ignorante. Cinco lecciones sobre la emancipación intelectual. Ediciones Zorzal.»\n\nDe acuerdo con el texto B, la expresión DOBLE GESTO INAUGURAL hace alusión",
+    "opciones": [
+      "a la capacidad del explicador para enseñar y aprender de forma sustancial en diferentes contextos pedagógicos.",
+      "a la estrategia del maestro explicador para dictaminar el inicio del aprendizaje y el develamiento del saber.",
+      "al método explicativo con el que los maestros contemporáneos liberan a los alumnos de la ignorancia y la exclusión.",
+      "a la habilidad con la que los explicadores sugieren la ignorancia de los estudiantes y su rehabilitación en escuelas.",
+      "al establecimiento de dicotomías que ocultan la verdadera diferencia entre los ignorantes y las personas sabias."
+    ],
+    "correcta": 1,
+    "explicacion": "De acuerdo con el texto, la expresión “doble gesto inaugural” alude a la estrategia del maestro explicador para dictaminar el inicio del aprendizaje y el develamiento del saber. El autor alega que la trampa del maestro explicador tiene una doble naturaleza. La primera acción consiste en decretar el comienzo absoluto del aprendizaje, y anular o menospreciar cualquier conocimiento previo del alumno. La segunda acción consiste en arrogarse la capacidad de reconocer la ignorancia para luego reservarse la función de revelar el saber.",
+    "analisis": [
+      "No es la respuesta: El texto B nunca atribuye aprendizaje al explicador; su crítica es que constituye al incapaz, no que él mismo enseñe y aprenda en contextos diversos.",
+      "Correcto: El texto B define la trampa como doble gesto: decretar el comienzo absoluto del aprendizaje y lanzar el velo de ignorancia que luego el maestro se arrogará levantar.",
+      "No es la respuesta: Contradice el texto B: el explicador no libera, sino que crea la ignorancia con su velo y mantiene la división entre sabios e ignorantes.",
+      "No es la respuesta: Añade una rehabilitación en escuelas que el texto no menciona; el doble gesto es decretar el comienzo del aprender y levantar el velo que él mismo impone.",
+      "No es la respuesta: Describe el resultado del mito pedagógico, la división en sabios e ignorantes, pero el doble gesto inaugural nombra las dos acciones del maestro, no esa dicotomía."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-004",
+    "categoria": "lenguaje",
+    "tema": "Habilidad verbal",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "Textos de apoyo:\n«Texto A El acto esencial del maestro es explicar, poner en evidencia los elementos simples de los conocimientos y hacer concordar su simplicidad de principio con la simplicidad de hecho que caracteriza a los espíritus jóvenes e ignorantes. Enseñar es, al mismo tiempo, transmitir conocimientos y formar los espíritus, conduciéndolos, según un orden progresivo, de lo más simple a lo más complejo. De este modo, el discípulo se educa, mediante la apropiación razonada del saber y a través de la formación del juicio y del gusto, en tan alto grado como su fin social lo requiere, y se lo prepara para funcionar según este destino: enseñar, pleitear o gobernar, para las élites letradas; concebir, diseñar o fabricar instrumentos y máquinas para las vanguardias nuevas que buscan resaltar entre la élite del pueblo; hacer, en la carrera científica, descubrimientos nuevos para los espíritus dotados de ese genio particular, Sin duda, los procedimientos de esos hombres de ciencia vergen sensiblemente del orden razonado de los pedagogos. Pero no es posible extraer de eso ningún argumento contra este orden. Al contrario, inicialmente es necesario haber adquirido una formación sólida y metódica para, después, dar vía libre a las singularidades del genio. Texto B Es necesario invertir la lógica del sistema explicador. La explicación no es necesaria para mediar una incapacidad de comprensión. Todo lo contrario, esta incapacidad es la ficción que estructura la concepción explicadora del mundo. El maestro explicador es el que necesita del incapaz no al revés; él es el que constituye al incapaz como tal. Explicar alguna cosa a alguien es, en principio, demostrarle que no puede comprenderla por sí mismo. Antes de ser el acto del pedagogo, explicación es el mito de la pedagogía, la parábola de un mundo dividido en espíritus sabios y espíritus ignorantes, espíritus maduros e inmaduros, capaces e incapaces, inteligentes y estúpidos. La trampa del explicador consiste en este doble gesto inaugural. Por un lado, es él quien decreta el comienzo absoluto: solo ahora va a comenzar el acto de aprender. Por otro lado, sobre todas las cosas que deben aprenderse, es él quien lanza ese velo de la ignorancia que luego se encargará de levantar. Hasta que él llegó, el niño tanteó a ciegas, adivinando. Ahora es cuando va a aprender. Como decíamos, el mito pedagógico divide la inteligencia en dos. Siguiendo esta lógica más fantástica que realista, existirían una inteligencia inferior y una superior. Adaptado de Rancière, J. (2007). El maestro ignorante. Cinco lecciones sobre la emancipación intelectual. Ediciones Zorzal.»\n\nSegún las ideas vertidas en el texto A, es congruente aducir que la lógica del maestro explicador propone",
+    "opciones": [
+      "un método simple para captar, mediante explicaciones rigurosas, el saber total.",
+      "una división flexible entre las élites letradas, las del pueblo y las de las ciencias.",
+      "una secuencia que se debe seguir para alcanzar los conocimientos esperados.",
+      "un saber estructurado en el que el discente rechaza el gusto en favor del juicio.",
+      "un modo indefectible de socavar la formación singular de los espíritus jóvenes."
+    ],
+    "correcta": 2,
+    "explicacion": "El autor del texto A alega que la lógica del maestro explicador se basa en un orden progresivo: de lo más simple a lo más complejo. Esta descripción implica necesariamente el establecimiento de una secuencia rígida que el estudiante debe seguir paso a paso para la apropiación del saber. De lo contrario, fracasará en su intento de aprendizaje.",
+    "analisis": [
+      "No es la respuesta: Confunde simpleza del método con lo simple inicial; el orden progresivo parte de elementos simples y avanza, no propone captar un saber total de forma simple.",
+      "No es la respuesta: Las élites, el pueblo y las ciencias son destinos sociales para los egresados, no una división de saberes, y el orden descrito es rígido, no flexible.",
+      "Correcto: El texto A sostiene un orden progresivo de lo simple a lo complejo; esa conducción implica una secuencia paso a paso que el discípulo debe recorrer para apropiarse del saber.",
+      "No es la respuesta: El texto A forma simultáneamente el juicio y el gusto del discípulo; nunca plantea que este renuncie al gusto para quedarse con el juicio.",
+      "No es la respuesta: Invierte el sentido del texto A: lejos de socavarla, la formación metódica precede y hace posible después la vía libre de las singularidades del genio."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-005",
+    "categoria": "lenguaje",
+    "tema": "Habilidad verbal",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "Textos de apoyo:\n«Texto A El acto esencial del maestro es explicar, poner en evidencia los elementos simples de los conocimientos y hacer concordar su simplicidad de principio con la simplicidad de hecho que caracteriza a los espíritus jóvenes e ignorantes. Enseñar es, al mismo tiempo, transmitir conocimientos y formar los espíritus, conduciéndolos, según un orden progresivo, de lo más simple a lo más complejo. De este modo, el discípulo se educa, mediante la apropiación razonada del saber y a través de la formación del juicio y del gusto, en tan alto grado como su fin social lo requiere, y se lo prepara para funcionar según este destino: enseñar, pleitear o gobernar, para las élites letradas; concebir, diseñar o fabricar instrumentos y máquinas para las vanguardias nuevas que buscan resaltar entre la élite del pueblo; hacer, en la carrera científica, descubrimientos nuevos para los espíritus dotados de ese genio particular, Sin duda, los procedimientos de esos hombres de ciencia vergen sensiblemente del orden razonado de los pedagogos. Pero no es posible extraer de eso ningún argumento contra este orden. Al contrario, inicialmente es necesario haber adquirido una formación sólida y metódica para, después, dar vía libre a las singularidades del genio. Texto B Es necesario invertir la lógica del sistema explicador. La explicación no es necesaria para mediar una incapacidad de comprensión. Todo lo contrario, esta incapacidad es la ficción que estructura la concepción explicadora del mundo. El maestro explicador es el que necesita del incapaz no al revés; él es el que constituye al incapaz como tal. Explicar alguna cosa a alguien es, en principio, demostrarle que no puede comprenderla por sí mismo. Antes de ser el acto del pedagogo, explicación es el mito de la pedagogía, la parábola de un mundo dividido en espíritus sabios y espíritus ignorantes, espíritus maduros e inmaduros, capaces e incapaces, inteligentes y estúpidos. La trampa del explicador consiste en este doble gesto inaugural. Por un lado, es él quien decreta el comienzo absoluto: solo ahora va a comenzar el acto de aprender. Por otro lado, sobre todas las cosas que deben aprenderse, es él quien lanza ese velo de la ignorancia que luego se encargará de levantar. Hasta que él llegó, el niño tanteó a ciegas, adivinando. Ahora es cuando va a aprender. Como decíamos, el mito pedagógico divide la inteligencia en dos. Siguiendo esta lógica más fantástica que realista, existirían una inteligencia inferior y una superior. Adaptado de Rancière, J. (2007). El maestro ignorante. Cinco lecciones sobre la emancipación intelectual. Ediciones Zorzal.»\n\nConforme a lo propuesto en el texto A, si la preparación de los jóvenes no se hiciera en función del cumplimietnto de su destino, entonces",
+    "opciones": [
+      "las élites letradas y las del pueblo entrarían en conflicto.",
+      "un maestro explicador carecería de ventajas pedagógicas.",
+      "la inversión de la lógica del sistema explicador sería exitosa.",
+      "la formación del gusto y el juicio se alcanzaría paso a paso.",
+      "difícilmente podría mantenerse el orden social propuesto."
+    ],
+    "correcta": 4,
+    "explicacion": "El autor del texto A sostiene que la preparación de los jóvenes se realiza con un propósito social claro: funcionar según su “destino” (élites, pueblo, ciencias). Si esta educación dejara de estar orientada al cumplimiento de su destino preestablecido, el mecanismo fundamental para la reproducción y el mantenimiento de la jerarquía y las funciones sociales se rompería. Por ello, difícilmente podría mantenerse el orden social establecido.",
+    "analisis": [
+      "No es la respuesta: El texto A no anuncia conflictos entre grupos: cada destino social cumple una función dentro del orden, de modo que su contraste no implica enfrentamiento.",
+      "No es la respuesta: La premisa versa sobre el destino social del estudiante, no sobre ventajas del maestro; el texto nunca discute su provecho pedagógico personal.",
+      "No es la respuesta: Refleja la propuesta del texto B, no la consecuencia que el texto A derivaría de dejar de formar a los jóvenes según su destino social.",
+      "No es la respuesta: Eso describe el proceso normal de formación, no la consecuencia de prescindir del destino social; además repetiría lo que el texto A ya propone.",
+      "Correcto: Si la educación no prepara a cada joven según su destino social, se rompería el mecanismo que reproduce la jerarquía de funciones, por eso el orden establecido difícilmente se mantendría."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-006",
+    "categoria": "lenguaje",
+    "tema": "Habilidad verbal",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "Textos de apoyo:\n«Texto A El acto esencial del maestro es explicar, poner en evidencia los elementos simples de los conocimientos y hacer concordar su simplicidad de principio con la simplicidad de hecho que caracteriza a los espíritus jóvenes e ignorantes. Enseñar es, al mismo tiempo, transmitir conocimientos y formar los espíritus, conduciéndolos, según un orden progresivo, de lo más simple a lo más complejo. De este modo, el discípulo se educa, mediante la apropiación razonada del saber y a través de la formación del juicio y del gusto, en tan alto grado como su fin social lo requiere, y se lo prepara para funcionar según este destino: enseñar, pleitear o gobernar, para las élites letradas; concebir, diseñar o fabricar instrumentos y máquinas para las vanguardias nuevas que buscan resaltar entre la élite del pueblo; hacer, en la carrera científica, descubrimientos nuevos para los espíritus dotados de ese genio particular, Sin duda, los procedimientos de esos hombres de ciencia vergen sensiblemente del orden razonado de los pedagogos. Pero no es posible extraer de eso ningún argumento contra este orden. Al contrario, inicialmente es necesario haber adquirido una formación sólida y metódica para, después, dar vía libre a las singularidades del genio. Texto B Es necesario invertir la lógica del sistema explicador. La explicación no es necesaria para mediar una incapacidad de comprensión. Todo lo contrario, esta incapacidad es la ficción que estructura la concepción explicadora del mundo. El maestro explicador es el que necesita del incapaz no al revés; él es el que constituye al incapaz como tal. Explicar alguna cosa a alguien es, en principio, demostrarle que no puede comprenderla por sí mismo. Antes de ser el acto del pedagogo, explicación es el mito de la pedagogía, la parábola de un mundo dividido en espíritus sabios y espíritus ignorantes, espíritus maduros e inmaduros, capaces e incapaces, inteligentes y estúpidos. La trampa del explicador consiste en este doble gesto inaugural. Por un lado, es él quien decreta el comienzo absoluto: solo ahora va a comenzar el acto de aprender. Por otro lado, sobre todas las cosas que deben aprenderse, es él quien lanza ese velo de la ignorancia que luego se encargará de levantar. Hasta que él llegó, el niño tanteó a ciegas, adivinando. Ahora es cuando va a aprender. Como decíamos, el mito pedagógico divide la inteligencia en dos. Siguiendo esta lógica más fantástica que realista, existirían una inteligencia inferior y una superior. Adaptado de Rancière, J. (2007). El maestro ignorante. Cinco lecciones sobre la emancipación intelectual. Ediciones Zorzal.»\n\nEn relación con la tensión argumentativa propuesta, la síntesis razonable de ambas posturas es que el maestro explicador",
+    "opciones": [
+      "regula, de acuerdo con el primer texto, los saberes válidos para alcanzar el juicio y gusto de las élites letradas; en tanto que, según las ideas del segundo, dicho maestro impide que los jóvenes alcancen saberes prácticos en su medio social.",
+      "propone, según el primer texto, un método progresivo para alcanzar el saber necesario y adecuado de cada estudiante; mientras que, para el segundo, aquel instala la jerarquía, estableciendo quién está capacitado para aprender y quién no.",
+      "provee, según la primera postura, las herramientas para que cada estudiante actúe libremente en su sociedad; sin embargo, de acuerdo con la segunda, destaca más por levantar el velo de la ignorancia de todos aquellos a los que instruye.",
+      "conduce, a partir del primer texto, los saberes por medio de una interacción horizontal entre él y sus discípulos; en cambio, para el segundo, genera una dificultad cognitiva en la constitución de aquel que no puede aprender en su medio social.",
+      "transmite, de acuerdo con la primera postura, los conocimientos básicos y facilita la mejora de toda la sociedad; en tanto que, para la segunda, eleva la pedagogía a un simple mito al enseñar a través del establecimiento de jerarquías cognitivas."
+    ],
+    "correcta": 4,
+    "explicacion": "La síntesis razonable de ambas posturas es que el maestro explicador transmite, de acuerdo con la primera postura, los conocimientos básicos y facilita la mejora de toda la sociedad; en tanto que, para la segunda, eleva la pedagogía a un simple mito, al enseñar a través del establecimiento de jerarquías cognitivas. Dicho de otro modo, la controversia entre ambas posturas reside en la función y el efecto social del maestro explicador. Según el texto A, el maestro transmite conocimientos básicos mediante un método sólido y ordenado, y su función educativa, al preparar a los jóvenes para sus respectivos destinos sociales, indirectamente facilita la mejora de toda la sociedad al asegurar que cada parte cumpla su rol. En marcado contraste, el texto B critica que el verdadero efecto de este sistema no es la mejora, sino el control: el explicador eleva la pedagogía a un simple mito al crear artificialmente la figura del “incapaz” y el “sabio,” lo que resulta en el establecimiento de jerarquías cognitivas que perpetúan las diferencias sociales.",
+    "analisis": [
+      "No es la respuesta: El texto B no cuestiona saberes prácticos: critica que el explicador constituye al incapaz con su velo de ignorancia; el A no limita el saber a las élites.",
+      "No es la respuesta: El texto A no persigue el saber individual, sino formar según destinos sociales fijos; la lectura de B es correcta, pero su primera parte falsea el texto A.",
+      "No es la respuesta: El texto A no promueve libertad del estudiante, sino su ajuste a un destino fijo; B cuestiona que el explicador levante el velo que él mismo impone.",
+      "No es la respuesta: El texto A nunca propone interacción horizontal, sino un orden progresivo del maestro; y B habla de ficción de incapacidad, no de dificultad cognitiva ni del medio social.",
+      "Correcto: Sintetiza ambos textos: el A defiende la transmisión ordenada de saberes que mejora la sociedad; el B denuncia que el explicador convierte la pedagogía en mito creando jerarquías cognitivas."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-007",
+    "categoria": "lenguaje",
+    "tema": "Inglés",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "Texto de apoyo (en inglés):\n«South Africa’s highest court has ruled that husbands can take the surname of their wives, overturning a law that barred them from doing so. In a victory for two couples who brought the case, the Constitutional Court ruled that the law was a “colonial import” that amounted to gender-based discrimination. Henry van der Merwe was denied the right to take the surname of his wife Jana Jordaan, while Nicolas Bornman could not hyphenate his surname to include Donnelly, the surname of his wife. The two couples had argued that the law was archaic and patriarchal, and violated equality rights enshrined in the constitution that South Africa adopted at the end of apartheid in 1994. They successfully challenged the law in a lower court, but asked the Constitutional Court to confirm its ruling. The Constitutional Court noted that “in many African cultures, women retained their birth names after marriage, and children often took their mother’s clan name” but this changed after the “arrival of the European colonisers and Christian missionaries, and the imposition of Western values.” Parliament will now have to amend the Births and Deaths Registration Act, along with its regulations, for the ruling to take effect. South Africa had made a significant advancement in gender equality, but some laws and practices that perpetuated “harmful stereotypes” still remained in place, as it denied men a choice available to women. Adapted from Chothia F. (2025), South African court rules that men can take wife’s surname. BBC. https://www.bbc.com/news/articles/cm2z35116jxo»\n\nWhat is the main topic of the text?",
+    "opciones": [
+      "Colonial laws under discussion",
+      "Men in favor of discrimination",
+      "South African criminal laws",
+      "Modern gender stereotypes",
+      "A new law for gender equality"
+    ],
+    "correcta": 4,
+    "explicacion": "What is the main topic of the text? (¿Cuál es el tema principal del texto?) A new law for gender equality (Una nueva ley para la igualdad de género). En el texto se menciona: South Africa had made a significant advancement in gender equality, but some laws and practices that perpetuated “harmful stereotypes” still remained in place, as it denied men a choice available to women (Sudáfrica había logrado un avance significativo en la igualdad de género, pero aún persistían algunas leyes y prácticas que perpetuaban estereotipos perjudiciales, ya que negaban a los hombres la posibilidad de elegir a las mujeres).",
+    "analisis": [
+      "No es la respuesta: Solo recoge el adjetivo colonial import con que la corte calificó la ley; el tema central es la igualdad de género, no el debate sobre leyes coloniales.",
+      "No es la respuesta: Invierte el sentido: los dos esposos demandaron la ley por discriminación de género; nadie del texto respalda la discriminación, sino que la impugna.",
+      "No es la respuesta: El fallo trata del registro civil de nacimientos y derechos constitucionales, no de leyes penales; el texto nunca menciona delitos ni procesos criminales.",
+      "No es la respuesta: Apenas aparece al final como detalle residual de leyes que persisten; es un argumento de contexto, no el asunto principal del texto, que es el fallo sobre apellidos.",
+      "Correcto: El texto gira en torno al fallo que permite a los maridos usar el apellido de la esposa y al avance de la igualdad de género, pese a leyes que perpetúan estereotipos dañinos."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-008",
+    "categoria": "lenguaje",
+    "tema": "Inglés",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "Texto de apoyo (en inglés):\n«South Africa’s highest court has ruled that husbands can take the surname of their wives, overturning a law that barred them from doing so. In a victory for two couples who brought the case, the Constitutional Court ruled that the law was a “colonial import” that amounted to gender-based discrimination. Henry van der Merwe was denied the right to take the surname of his wife Jana Jordaan, while Nicolas Bornman could not hyphenate his surname to include Donnelly, the surname of his wife. The two couples had argued that the law was archaic and patriarchal, and violated equality rights enshrined in the constitution that South Africa adopted at the end of apartheid in 1994. They successfully challenged the law in a lower court, but asked the Constitutional Court to confirm its ruling. The Constitutional Court noted that “in many African cultures, women retained their birth names after marriage, and children often took their mother’s clan name” but this changed after the “arrival of the European colonisers and Christian missionaries, and the imposition of Western values.” Parliament will now have to amend the Births and Deaths Registration Act, along with its regulations, for the ruling to take effect. South Africa had made a significant advancement in gender equality, but some laws and practices that perpetuated “harmful stereotypes” still remained in place, as it denied men a choice available to women. Adapted from Chothia F. (2025), South African court rules that men can take wife’s surname. BBC. https://www.bbc.com/news/articles/cm2z35116jxo»\n\nFrom the text, the verb BARRED is closest in meaning to",
+    "opciones": [
+      "prohibited.",
+      "allowed.",
+      "convinced.",
+      "demanded.",
+      "protected."
+    ],
+    "correcta": 0,
+    "explicacion": "En el título de la noticia se lee “overturning a law that barred them from doing so”, es decir, la ley impedía a los esposos adoptar el apellido de su cónyuge. Por lo tanto, barred significa “prohibió” y su equivalente más cercano es prohibited.",
+    "analisis": [
+      "Correcto: En la frase a law that barred them from doing so, barred significa impedir por ley; por eso prohibited, prohibido, es su equivalente más cercano en el contexto.",
+      "No es la respuesta: Es el contrario exacto: la ley no permitía, sino que impedía a los esposos adoptar el apellido conyugal, como indica la anulación del fallo.",
+      "No es la respuesta: Convencer es persuadir a alguien, no impedirle algo; la frase describe una prohibición legal, no un acto de persuasión.",
+      "No es la respuesta: Demandar significa exigir, actividad que corresponde a las parejas demandantes, no a la ley que, por el contrario, restringía el derecho.",
+      "No es la respuesta: Proteger implica amparar un derecho, mientras que barred expresa lo opuesto: la ley denegaba a los maridos la opción de tomar el apellido de la esposa."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-009",
+    "categoria": "lenguaje",
+    "tema": "Inglés",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "Texto de apoyo (en inglés):\n«South Africa’s highest court has ruled that husbands can take the surname of their wives, overturning a law that barred them from doing so. In a victory for two couples who brought the case, the Constitutional Court ruled that the law was a “colonial import” that amounted to gender-based discrimination. Henry van der Merwe was denied the right to take the surname of his wife Jana Jordaan, while Nicolas Bornman could not hyphenate his surname to include Donnelly, the surname of his wife. The two couples had argued that the law was archaic and patriarchal, and violated equality rights enshrined in the constitution that South Africa adopted at the end of apartheid in 1994. They successfully challenged the law in a lower court, but asked the Constitutional Court to confirm its ruling. The Constitutional Court noted that “in many African cultures, women retained their birth names after marriage, and children often took their mother’s clan name” but this changed after the “arrival of the European colonisers and Christian missionaries, and the imposition of Western values.” Parliament will now have to amend the Births and Deaths Registration Act, along with its regulations, for the ruling to take effect. South Africa had made a significant advancement in gender equality, but some laws and practices that perpetuated “harmful stereotypes” still remained in place, as it denied men a choice available to women. Adapted from Chothia F. (2025), South African court rules that men can take wife’s surname. BBC. https://www.bbc.com/news/articles/cm2z35116jxo»\n\nAccording to the text, it is compatible to affirm that",
+    "opciones": [
+      "nowadays South African women cannot take their husbands’ surnames.",
+      "for the Constitutional Court, taking a wife’s surname is a colonial import.",
+      "equality rights were part of the South African constitution adopted in 1994.",
+      "Henry and Nicolas would like to change their names and surnames soon.",
+      "today gender stereotypes are strongly beneficial for African cultures."
+    ],
+    "correcta": 2,
+    "explicacion": "According to the text, it is compatible to affirm that (Según el texto, es compatible afirmar que) equality rights were part of the South African constitution adopted in 1994 (la igualdad de derechos formaba parte de la Constitución sudafricana adoptada en 1994). En el texto se menciona: The two couples had argued that the law was archaic and patriarchal, and violated equality rights enshrined in the constitution that South Africa adopted at the end of apartheid in 1994 (Ambas parejas argumentaron que la ley era arcaica y patriarcal, y violaba los derechos de igualdad consagrados en la Constitución que Sudáfrica adoptó al final del apartheid en 1994).",
+    "analisis": [
+      "No es la respuesta: El texto nunca restringe a las mujeres; por el contrario, señala que ellas ya podían elegir y el fallo igualó a los hombres en ese derecho.",
+      "No es la respuesta: Invierte la atribución: la corte llamó colonial import a la ley que prohibía cambiarse el apellido, no al acto del marido que toma el apellido de su esposa.",
+      "Correcto: El texto lo afirma literalmente: las parejas argumentaron que la ley violaba equality rights consagrados en la Constitución sudafricana adoptada al final del apartheid en 1994.",
+      "No es la respuesta: Ya litigaron y ganaron en la instancia inferior; solo pedían confirmación de la Corte, y el texto no fija fecha alguna para cambios de nombre.",
+      "No es la respuesta: Contradice el texto: los estereotipos se describen como harmful stereotypes que perpetúan la desigualdad, no como algo beneficioso para las culturas africanas."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-010",
+    "categoria": "lenguaje",
+    "tema": "Lenguaje",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "Determine el valor de verdad (V o F) de las siguientes proposiciones referidas al lenguaje humano.\nI. Cualquier enunciado manifestado por Juan constituye lenguaje.\nII. La expresión Te extraño, proferida por Ana, es psicofísica.\nIII. Me duele la barriga representa una variedad coloquial.\nIV. La palabra taxi posee sonidos mecánicos de la lengua.",
+    "opciones": [
+      "FFVF",
+      "VVFV",
+      "FVVF",
+      "VFVF",
+      "VVVF"
+    ],
+    "correcta": 4,
+    "explicacion": "El lenguaje se define como la facultad humana de comunicarse a través de las palabras. El lenguaje no se aprende ni se olvida, y es inmutable. Pasamos a analizar los enunciados propuestos. I. Verdadero Ya que toda manifestación a través de palabras constituye esta facultad. II. Verdadero El habla es el uso individual de una lengua y se caracteriza por ser psicofísica, ya que involucra procesos articulatorios y el sonido físico. III. Verdadero Ya que la expresión barriga es de uso cotidiano. Su uso formal sería estómago. IV. Falso Los sonidos se dividen en vocales y consonantes; y según su forma de pronunciación, estas se dividen por el modo y el punto de articulación, en el caso de las consonantes. No existe el concepto de sonidos mecánicos.",
+    "analisis": [
+      "No es la respuesta: En FFVF, I y II quedarían falsas, pero ambas son verdaderas: todo enunciado de Juan es lenguaje y Te extraño es una expresión psicofísica del habla.",
+      "No es la respuesta: VVFV falla al marcar III falsa y IV verdadera; barriga sí es uso coloquial y taxi no tiene sonidos mecánicos, que son inexistentes en la lengua.",
+      "No es la respuesta: FVVF deja I falsa, pero cualquier enunciado de Juan sí es lenguaje; además marca IV verdadera, cuando taxi no posee sonidos mecánicos porque tales sonidos no existen.",
+      "No es la respuesta: VFVF acierta con I, II y III, pero marca IV verdadera; la palabra taxi no tiene sonidos mecánicos, concepto ajeno a la clasificación fonética de la lengua.",
+      "Correcto: Corresponde VVVF: I es verdadera porque toda manifestación por palabras es lenguaje, II porque el habla es psicofísica, III porque barriga es coloquial y IV es falsa por inexistir sonidos mecánicos."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-011",
+    "categoria": "lenguaje",
+    "tema": "Lenguaje",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "Según las reglas vigentes de la tilde diacrítica, les corresponde acento gráfico a las palabras con valor interrogativo y exclamativo. De acuerdo con ello, marque la alternativa donde estas reglas han sido aplicadas correctamente.",
+    "opciones": [
+      "¡Qué Dios te guarde y bendiga siempre, mi estimado Pablo!",
+      "Quién domine estrategias de lectura aprobará el examen.",
+      "Nadie sabe cómo aprobó el examen de admisión 2026-I.",
+      "No compró las cosas que necesitaba cómo quería su abuela.",
+      "¡Cuantos libros compraste en la Feria Internacional del Libro!"
+    ],
+    "correcta": 2,
+    "explicacion": "La tilde diacrítica se usa en palabras con valor interrogativo o exclamativo (qué, quién, cómo, dónde), tanto en oraciones directas como indirectas: no depende de los signos, sino de la entonación. ¡Que Dios te guarde… no lleva tilde porque no tiene acento; ¡Cuantos libros compraste… tampoco. ¿Quién domine…? y “No compró las cosas que necesitaba cómo quería su abuela” no son interrogativas: quién es indefinido y cómo es adverbio de modo. En cambio, “Nadie sabe cómo aprobó el examen” sí lleva tilde porque cómo encabeza una subordinada sustantiva en función de OD.",
+    "analisis": [
+      "No es la respuesta: En esta fórmula de deseo funciona como conjunción que, sin valor exclamativo propio, por lo que no recibe tilde diacrítica y debe escribirse sin acento.",
+      "No es la respuesta: Aquí quién es indefinido, no interrogativo: equivale a cualquier persona que domine; al carecer de valor interrogativo, se escribe sin tilde.",
+      "Correcto: Cómo lleva tilde porque encabeza la subordinada sustantiva que funciona como objeto directo de sabe; el valor interrogativo existe aunque no haya signos de pregunta.",
+      "No es la respuesta: Cómo funciona como adverbio de modo equivalente a tal como, no introduce pregunta; por eso carece de tilde diacrítica en esta oración declarativa.",
+      "No es la respuesta: Según la solución oficial, esta exclamación no lleva tilde, pues cuantos funciona aquí como cuantificador sin acento propio, igual que en la primera opción."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-012",
+    "categoria": "lenguaje",
+    "tema": "Lenguaje",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "¿Cuál de las siguientes palabras presenta correcto silabeo ortográfico?",
+    "opciones": [
+      "Bi-en-ve-ni-do",
+      "Sahu-me-rio",
+      "Coha-bi-ta-ción",
+      "Ex-u-be-ran-cia",
+      "An-tihi-gié-ni-co"
+    ],
+    "correcta": 1,
+    "explicacion": "La sílaba ortográfica es la representación de la sílaba prosódica en el plano escrito. Esta se basa en determinadas reglas establecidas por la ortografía. 1. Una x entre dos vocales forma sílaba con la vocal posterior; por ejemplo, e-xu-be-ran-cia. 2. Una vocal cerrada y una vocal abierta forman una sílaba llamada diptongo; por ejemplo, bien-ve-ni-do. 3. Dos vocales cerradas repetidas se separan en diferentes sílabas, ya que forman un hiato simple; por ejemplo, an-ti-hi-gié-ni-co. 4 Dos vocales abiertas se separan en diferentes sílabas, así haya una h intermedia; por ejemplo, co-ha-bi-ta-ción. Por lo tanto, la palabra correctamente silabeada es sahu-me-rio, ya que posee dos diptongos.",
+    "analisis": [
+      "No es la respuesta: Separa el diptongo ie de bien, que debe mantenerse unido; la escritura correcta es bien-ve-ni-do porque i y e forman vocal cerrada con abierta.",
+      "Correcto: Sahu-me-rio conserva los diptongos au y io dentro de una sola sílaba cada uno, cumpliendo la regla ortográfica que une vocal cerrada con abierta.",
+      "No es la respuesta: Une co y ha, pero las vocales abiertas o y a se separan aunque exista h intermedia; lo correcto es co-ha-bi-ta-ción.",
+      "No es la respuesta: La x entre dos vocales se une a la vocal que sigue, así que debe comenzar la segunda sílaba: e-xu-be-ran-cia, no ex-u-be-ran-cia.",
+      "No es la respuesta: Junta ti con hi, pero las vocales cerradas repetidas forman hiato; lo correcto es an-ti-hi-gié-ni-co, separando ti y hi."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-013",
+    "categoria": "lenguaje",
+    "tema": "Lenguaje",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "Las letras mayúsculas permiten distinguir los nombres propios de los nombres comunes. Según lo expuesto, marque la alternativa en la que hay uso correcto de las letras mayúsculas.",
+    "opciones": [
+      "Julia la Rosa conoció hace poco la Cordillera de los Andes.",
+      "El Estado Peruano aprobó una ley favorable a los niños.",
+      "Fuimos al Parque universitario a ver La exposición de Goya.",
+      "El año pasado, el Grupo Cinco estuvo de gira en el Salvador.",
+      "La jueza De la Cruz declaró culpables a los acusados."
+    ],
+    "correcta": 4,
+    "explicacion": "El uso de las letras mayúsculas y minúsculas está normado por la RAE. En ese sentido, pasamos a analizar los enunciados propuestos. a) Incorrecto Parque es un nombre común y el artículo no va con mayúscula porque no es parte de un nombre propio. b) Incorrecto El artículo, cuando es apellido, va con mayúscula. La palabra cordillera es un nombre común que se escribe con minúscula. c) Incorrecto Los gentilicios se escriben con minúscula. d) Incorrecto El artículo el es parte del nombre propio, por lo tanto, debe escribirse con mayúscula. e) Correcto Los nombres de los cargos se escriben con minúscula y el apellido con mayúscula.",
+    "analisis": [
+      "No es la respuesta: Aquí la Rosa es apellido y debe escribirse La Rosa con mayúscula, mientras que cordillera es nombre común y no corresponde capitalizarla dentro del nombre geográfico.",
+      "No es la respuesta: Peruano es gentilicio y los gentilicios se escriben con minúscula; debería decir El Estado peruano, sin mayúscula en la segunda palabra.",
+      "No es la respuesta: Parque universitario es nombre común y va con minúscula; además el artículo La no forma parte de un nombre propio, por lo que debe ir en minúscula.",
+      "No es la respuesta: En el Salvador el artículo forma parte del nombre propio del país y debe escribirse con mayúscula: en El Salvador; por eso la alternativa es incorrecta.",
+      "Correcto: Los cargos se escriben con minúscula y el apellido con mayúscula: jueza es nombre común y De la Cruz es apellido propio, como exige la norma de la RAE."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-014",
+    "categoria": "lenguaje",
+    "tema": "Lenguaje",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "Respecto del adjetivo, determine el valor de verdad (V o F) de las siguientes proposiciones:\nI. El grado superlativo absoluto en los adjetivos pulquérrimo, amicísimo y salubérrimo está correctamente expresado.\nII. La frase La cita o fuente bibliográficas evidencia discordancia entre el adjetivo y los nombres a los que modifica.\nIII. El enunciado Los parabrisas están totalmente destrozados presenta complemento predicativo.",
+    "opciones": [
+      "FVF",
+      "VVV",
+      "VFV",
+      "VVF",
+      "FFV"
+    ],
+    "correcta": 3,
+    "explicacion": "El adjetivo es aquella palabra que califica al sustantivo y se caracteriza porque tiene significado, es variable y es de inventario abierto. Pasamos a analizar los enunciados. I. Verdadero Los adjetivos pulcro, amigo y salubre presentan grados superlativos morfológicos en pulquérrimo, amicísimo, salubérrimo. II. Verdadero Cita y fuente son sinónimos, en ese sentido, el adjetivo solo concuerda en singular, ya que estamos hablando de un mismo ente; por lo tanto, hay discordancia. III. Falso El adjetivo cumple la función de predicativo cuando modifica el sujeto a través de un verbo no copulativo, y como estar es copulativo, entonces el adjetivo funciona como atributo.",
+    "analisis": [
+      "No es la respuesta: FVF deja I falsa, pero pulquérrimo, amicísimo y salubérrimo sí forman correctamente el superlativo absoluto de pulcro, amigo y salubre.",
+      "No es la respuesta: VVV solo falla en III: estar es verbo copulativo, así que destrozados es atributo y no complemento predicativo, que exige un verbo no copulativo.",
+      "No es la respuesta: VFV marca II falsa, pero hay discordancia real: bibliográficas está en plural y solo concuerda en singular al nombrar un mismo ente con sinónimos.",
+      "Correcto: VVF: I es verdadera porque pulquérrimo, amicísimo y salubérrimo son superlativos correctos; II es verdadera porque bibliográficas concuerda en plural con sinónimos de un solo ente; III es falsa.",
+      "No es la respuesta: FFV vuelve falsas I y II, que son verdaderas; solo acierta al marcar III falsa, porque estar es copulativo y destrozados funciona como atributo."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-015",
+    "categoria": "lenguaje",
+    "tema": "Lenguaje",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "La oración simple presenta una proposición y la compuesta, dos o más. En conformidad con lo señalado, ¿qué enunciados son oraciones compuestas?\nI. Juan manifestó que ejercitarse resulta conveniente.\nII. En este momento ellos deben de estar en clases.\nIII. Tienen que renovar sus documentos de identidad.\nIV. El admitió tener cuantiosas deudas con el banco.",
+    "opciones": [
+      "I y II",
+      "II y III",
+      "III y IV",
+      "I y IV",
+      "I y III"
+    ],
+    "correcta": 3,
+    "explicacion": "Oración compuesta es la que contiene dos o más proposiciones, es decir, dos verbos conjugados o un verbo y un verboide. I. “Juan manifestó que ejercitarse resulta conveniente” (manifestó + resulta) y IV. “Él admitió tener cuantiosas deudas con el banco” (admitió + tener) cumplen esa condición. II. “Deben de estar en clases” y III. “Tienen que renovar sus documentos” son perífrasis verbales, por lo que no son oraciones compuestas. Por lo tanto, I y IV.",
+    "analisis": [
+      "No es la respuesta: I sí es compuesta, pero II solo tiene un verbo conjugado: deben de estar es perífrasis verbal, no una segunda proposición.",
+      "No es la respuesta: Tanto II como III son simples: deben de estar y tienen que renovar son perífrasis verbales con un solo verbo conjugado, no dos proposiciones.",
+      "No es la respuesta: IV sí es compuesta por admitió y tener, pero III es perífrasis verbal simple, de modo que el par incluye una oración que no es compuesta.",
+      "Correcto: I y IV son compuestas porque suman dos verbos: manifestó con resulta en la primera y admitió con tener en la segunda, un verboide que aporta una segunda proposición.",
+      "No es la respuesta: I es compuesta, pero III contiene solo el verbo conjugado tienen, con que renovar en forma no personal; es oración simple con perífrasis."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-016",
+    "categoria": "lenguaje",
+    "tema": "Lenguaje",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "Los antónimos son palabras cuyos significados se oponen entre sí y pueden ser clasificados de diversas maneras. Según esta premisa, relacione los pares de palabras con la clase de antonimia a la que dan lugar.\nI. Lisonja / vituperio\nII. Liviano / pesado\nIII. Proveer / recibir\nIV. Estético / antiestético\na. Léxica propia\nb. Léxica complementaria\nc. Léxica recíproca\nd. Gramatical",
+    "opciones": [
+      "Ia, IIb, IIId, IVc",
+      "Id, IIa, IIIc, IVb",
+      "Ib, IIa, IIIc, IVd",
+      "Id, IIc, IIIa, IVb",
+      "Ic, IIa, IIIb, IVd"
+    ],
+    "correcta": 2,
+    "explicacion": "La antonimia es aquella relación semántica que se establece entre dos palabras, cuyos significados son opuestos. Esta se divide en diferentes tipos. I. Lisonja/vituperio: constituyen antonimia lexical complementaria, ya que los opuestos se excluyen. II. Liviano/pesado: constituyen un ejemplo de antonimia lexical propia, ya que existen grados intermedios entre estos dos opuestos. III. Proveer/recibir: constituye una antonimia lexical recíproca, ya que ambos se necesitan. IV. Estético/antiestético: constituye un ejemplo de antonimia gramatical, ya que marca su opuesto con el prefijo de negación.",
+    "analisis": [
+      "No es la respuesta: Intercambia I y II: lisonja y vituperio se excluyen sin grados, y liviano y pesado admiten gradación propia; además ubica proveer y recibir como gramatical, cuando son recíprocas.",
+      "No es la respuesta: Falla en I y IV: lisonja y vituperio son complementarias, no gramaticales, y estético y antiestético forman antonimia gramatical por el prefijo, no léxica complementaria.",
+      "Correcto: El emparejamiento correcto es Ib, IIa, IIIc y IVd: lisonja y vituperio se excluyen, liviano y pesado admiten grados, proveer y recibir se necesitan, y antiestético niega con prefijo.",
+      "No es la respuesta: Erra en tres pares: lisonja y vituperio no son gramaticales, liviano y pesado no son recíprocas, y proveer y recibir no son léxica propia.",
+      "No es la respuesta: Solo II y IV son correctas; I debe ser complementaria porque los opuestos se excluyen, y III debe ser recíproca porque proveer y recibir se condicionan mutuamente."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "len-017",
+    "categoria": "lenguaje",
+    "tema": "Lenguaje",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "Los fonemas poligráficos presentan relación asimétrica con los grafemas que los representan. Tomando en cuenta lo mencionado, determine la alternativa donde hay un fonema poligráfico correctamente escrito.",
+    "opciones": [
+      "Karaoke público",
+      "Autoradio arruinado",
+      "Embovamiento parcial",
+      "Gingivitis patolójica",
+      "Naylon resistente"
+    ],
+    "correcta": 0,
+    "explicacion": "Los fonemas son unidades mínimas distintivas de la lengua. Algunos fonemas presentan más de una representación gráfica, es decir, son poligráficos. En ese sentido, las formas incorrectas de escritura son las siguientes: embovamiento, autoradio, patolójica, naylon. Estas palabras se escriben correctamente así: embobamiento (proviene de ‘embobar’), autorradio (entre vocales se escribe con rr), patológica (se escribe con g la terminación -logía), nailon (forma adaptada).",
+    "analisis": [
+      "Correcto: El fonema k se escribe con k en karaoke y con c en público, dos grafemas para un mismo sonido; ambas palabras están correctamente escritas según la solución oficial.",
+      "No es la respuesta: El fonema r entre vocales exige rr; lo correcto es autorradio, con dos erres, así que autoradio con una sola r es una escritura errónea.",
+      "No es la respuesta: La palabra correcta es embobamiento, derivada de embobar, con b; la v de embovamiento es una grafía espuria para el fonema b.",
+      "No es la respuesta: La terminación logía se escribe con g: patológica; la j solo representa el fonema x delante de e o i, por eso patolójica es incorrecta.",
+      "No es la respuesta: La forma adaptada al español es nailon, con diptongo ai; naylon conserva una grafía extranjerizada que la ortografía no admite."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  }
+]

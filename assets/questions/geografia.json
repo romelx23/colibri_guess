@@ -1,0 +1,1012 @@
+[
+  {
+    "id": "geo-001",
+    "categoria": "geografia",
+    "tema": "Divisiones administrativas",
+    "fuente": "original",
+    "dificultad": "basico",
+    "enunciado": "¿Cuántos departamentos tiene el territorio peruano?",
+    "opciones": [
+      "24",
+      "25",
+      "26",
+      "32"
+    ],
+    "correcta": 0,
+    "explicacion": "El Perú se organiza en 24 departamentos más la provincia constitucional del Callao, que no es departamento.",
+    "analisis": [
+      "Correcto: hay 24 departamentos y, además, la provincia constitucional del Callao.",
+      "No es la respuesta: 25 contaría al Callao como departamento, pero no lo es.",
+      "No es la respuesta: 26 excede la división política oficial del país.",
+      "No es la respuesta: 32 es la cifra de regiones que la Constitución de 1990 habilitó, pero no coincide con los departamentos existentes."
+    ]
+  },
+  {
+    "id": "geo-002",
+    "categoria": "geografia",
+    "tema": "Capitales sudamericanas",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "¿Cuál es la capital de Brasil?",
+    "opciones": [
+      "Brasília",
+      "Río de Janeiro",
+      "São Paulo",
+      "Salvador"
+    ],
+    "correcta": 0,
+    "explicacion": "Brasília es la capital federal desde 1960; Río de Janeiro fue la capital hasta esa fecha y São Paulo es la ciudad más poblada.",
+    "analisis": [
+      "Correcto: Brasília es la capital y fue construida para trasladar el poder al interior del país.",
+      "No es la respuesta: Río de Janeiro fue capital hasta 1960, pero ya no lo es.",
+      "No es la respuesta: São Paulo es la ciudad más grande, nunca ha sido capital nacional.",
+      "No es la respuesta: Salvador fue la primera capital colonial, en el siglo XVI."
+    ]
+  },
+  {
+    "id": "geo-003",
+    "categoria": "geografia",
+    "tema": "Límites del Perú",
+    "fuente": "original",
+    "dificultad": "basico",
+    "enunciado": "El territorio peruano limita al oeste con:",
+    "opciones": [
+      "Océano Atlántico",
+      "Océano Pacífico",
+      "Océano Índico",
+      "Mar Caribe"
+    ],
+    "correcta": 1,
+    "explicacion": "La costa peruana se extiende a lo largo del océano Pacífico del sur de Ecuador hasta el norte de Chile.",
+    "analisis": [
+      "No es la respuesta: el Perú no tiene costas en el Atlántico, aunque el Amazonas conecte el país con ese océano.",
+      "Correcto: los 2 254 km de costa peruana dan al océano Pacífico.",
+      "No es la respuesta: el océano Índico queda al otro lado del mundo.",
+      "No es la respuesta: el mar Caribe baña a Colombia y a Centroamérica, no al Perú."
+    ]
+  },
+  {
+    "id": "geo-004",
+    "categoria": "geografia",
+    "tema": "Líneas imaginarias",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "La línea imaginaria que corresponde a 0° de latitud se denomina:",
+    "opciones": [
+      "Trópico de Cáncer",
+      "Ecuador",
+      "Meridiano de Greenwich",
+      "Círculo Polar Ártico"
+    ],
+    "correcta": 1,
+    "explicacion": "El Ecuador es el paralelo que divide la Tierra en hemisferio norte y hemisferio sur; el meridiano de Greenwich es longitud, no latitud.",
+    "analisis": [
+      "No es la respuesta: el Trópico de Cáncer está en 23,5° de latitud norte.",
+      "Correcto: el paralelo 0° es el Ecuador, que pasa por Ecuador, Colombia y Brasil.",
+      "No es la respuesta: el meridiano de Greenwich corresponde a 0° de longitud.",
+      "No es la respuesta: el Círculo Polar Ártico está en 66,5° de latitud norte."
+    ]
+  },
+  {
+    "id": "geo-005",
+    "categoria": "geografia",
+    "tema": "Capitales sudamericanas",
+    "fuente": "pucp",
+    "dificultad": "basico",
+    "enunciado": "¿Cuál es la capital de Argentina?",
+    "opciones": [
+      "Córdoba",
+      "Buenos Aires",
+      "Rosario",
+      "Mendoza"
+    ],
+    "correcta": 1,
+    "explicacion": "Buenos Aires es la capital y principal puerto argentino; sus siglas (CABA) identifican a la ciudad autónoma.",
+    "analisis": [
+      "No es la respuesta: Córdoba fue una de las ciudades fundadoras, pero no es la capital.",
+      "Correcto: Buenos Aires concentra el poder político y económico del país.",
+      "No es la respuesta: Rosario es la segunda ciudad en importancia.",
+      "No es la respuesta: Mendoza es célebre por su vino, en la base de los Andes."
+    ]
+  },
+  {
+    "id": "geo-006",
+    "categoria": "geografia",
+    "tema": "Hidrografía sudamericana",
+    "fuente": "original",
+    "dificultad": "basico",
+    "enunciado": "El lago Titicaca, compartido por el Perú, se encuentra en la frontera con:",
+    "opciones": [
+      "Chile",
+      "Bolivia",
+      "Ecuador",
+      "Colombia"
+    ],
+    "correcta": 1,
+    "explicacion": "El lago navegable más alto del mundo se reparte entre Perú y Bolivia, en el altiplano a 3 812 m de altitud.",
+    "analisis": [
+      "No es la respuesta: con Chile el Perú comparte la frontera del desierto, no un lago.",
+      "Correcto: la mayor parte del lago queda en territorio boliviano y la ribera norte en Puno.",
+      "No es la respuesta: Ecuador limita al norte con el Perú, en la selva.",
+      "No es la respuesta: Colombia no comparte frontera con el Perú."
+    ]
+  },
+  {
+    "id": "geo-007",
+    "categoria": "geografia",
+    "tema": "Relieve mundial",
+    "fuente": "utp",
+    "dificultad": "basico",
+    "enunciado": "La montaña más alta del planeta es el:",
+    "opciones": [
+      "K2",
+      "Everest",
+      "Aconcagua",
+      "Kilimanjaro"
+    ],
+    "correcta": 1,
+    "explicacion": "El Everest, en la cordillera del Himalaya, alcanza 8 849 m sobre el nivel del mar.",
+    "analisis": [
+      "No es la respuesta: el K2 es el segundo más alto, con 8 611 m.",
+      "Correcto: el Everest, en la frontera entre Nepal y China, es el techo del mundo.",
+      "No es la respuesta: el Aconcagua, con 6 961 m, es el más alto de América.",
+      "No es la respuesta: el Kilimanjaro es el techo de África, con 5 895 m."
+    ]
+  },
+  {
+    "id": "geo-008",
+    "categoria": "geografia",
+    "tema": "Países del mundo",
+    "fuente": "original",
+    "dificultad": "basico",
+    "enunciado": "El país europeo conocido por su forma de bota es:",
+    "opciones": [
+      "España",
+      "Italia",
+      "Grecia",
+      "Portugal"
+    ],
+    "correcta": 1,
+    "explicacion": "Italia se proyecta en la península itálica, cuyo contorno recuerda a una bota que patea la isla de Sicilia.",
+    "analisis": [
+      "No es la respuesta: España ocupa la mayor parte de la península ibérica.",
+      "Correcto: la península itálica tiene la forma característica de una bota.",
+      "No es la respuesta: Grecia es famosa por su relieve recortado y sus islas.",
+      "No es la respuesta: Portugal ocupa el extremo occidental de Iberia."
+    ]
+  },
+  {
+    "id": "geo-009",
+    "categoria": "geografia",
+    "tema": "Capitales sudamericanas",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "¿Cuál es la capital de Colombia?",
+    "opciones": [
+      "Medellín",
+      "Cali",
+      "Bogotá",
+      "Cartagena"
+    ],
+    "correcta": 2,
+    "explicacion": "Bogotá, situada en la sabana a 2 640 m, es la capital y la ciudad más poblada de Colombia.",
+    "analisis": [
+      "No es la respuesta: Medellín es la segunda ciudad del país.",
+      "No es la respuesta: Cali es la capital del Valle del Cauca.",
+      "Correcto: Bogotá alberga el gobierno y el Congreso de la República.",
+      "No es la respuesta: Cartagena fue un puerto clave del Imperio español."
+    ]
+  },
+  {
+    "id": "geo-010",
+    "categoria": "geografia",
+    "tema": "Hidrografía mundial",
+    "fuente": "pucp",
+    "dificultad": "basico",
+    "enunciado": "El río que atraviesa El Cairo y desemboca en el mar Mediterráneo es el:",
+    "opciones": [
+      "Tigris",
+      "Éufrates",
+      "Nilo",
+      "Congo"
+    ],
+    "correcta": 2,
+    "explicacion": "El Nilo, el más largo de África, recorre Egipto de sur a norte y forma su delta en el Mediterráneo.",
+    "analisis": [
+      "No es la respuesta: el Tigris y el Éufrates bañan Irak, en Mesopotamia.",
+      "No es la respuesta: el Éufrates también queda en Oriente Medio.",
+      "Correcto: el Nilo drena el norte de África y su delta es fértil desde la antigüedad.",
+      "No es la respuesta: el Congo cruza el centro de África y desemboca en el océano Atlántico."
+    ]
+  },
+  {
+    "id": "geo-011",
+    "categoria": "geografia",
+    "tema": "Países del mundo",
+    "fuente": "original",
+    "dificultad": "basico",
+    "enunciado": "El país independiente más pequeño del mundo, por superficie, es:",
+    "opciones": [
+      "Mónaco",
+      "Nauru",
+      "Ciudad del Vaticano",
+      "San Marino"
+    ],
+    "correcta": 2,
+    "explicacion": "El Ciudad del Vaticano, con unos 0,44 km², es el estado soberano más diminuto del planeta.",
+    "analisis": [
+      "No es la respuesta: Mónaco es minúsculo, pero supera al Vaticano en extensión.",
+      "No es la respuesta: Nauru es la isla-estado más pequeña del Pacífico.",
+      "Correcto: el Vaticano, dentro de Roma, apenas llega a 44 hectáreas.",
+      "No es la respuesta: San Marino es pequeño, pero mide más de 60 km²."
+    ]
+  },
+  {
+    "id": "geo-012",
+    "categoria": "geografia",
+    "tema": "Relieve peruano",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "El pico más alto del Perú, con 6 768 m, es el:",
+    "opciones": [
+      "Alpamayo",
+      "Huascarán",
+      "Coropuna",
+      "Ausangate"
+    ],
+    "correcta": 1,
+    "explicacion": "El Huascarán, en la cordillera Blanca (Áncash), es la cumbre máxima del territorio peruano y parque nacional desde 1975.",
+    "analisis": [
+      "No es la respuesta: el Alpamayo es célebre por su forma piramidal, pero es más bajo.",
+      "Correcto: el Huascarán alcanza 6 768 m en la cordillera Blanca.",
+      "No es la respuesta: el Coropuna, en Arequipa, es el volcán más alto del Perú.",
+      "No es la respuesta: el Ausangate está en Cusco y ronda los 6 384 m."
+    ]
+  },
+  {
+    "id": "geo-013",
+    "categoria": "geografia",
+    "tema": "Regiones naturales",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "La región natural que ocupa cerca del 60 % del territorio peruano es la:",
+    "opciones": [
+      "Costa",
+      "Sierra",
+      "Selva",
+      "Puna"
+    ],
+    "correcta": 2,
+    "explicacion": "La selva amazónica cubre alrededor de 60 % del país; la sierra alcanza cerca del 30 % y la costa apenas un 10 %.",
+    "analisis": [
+      "No es la respuesta: la costa es la franja más estrecha, con el 10 % del territorio.",
+      "No es la respuesta: la sierra andina ocupa cerca del 30 %.",
+      "Correcto: la región selva se extiende desde el Marañón hasta la frontera oriental.",
+      "No es la respuesta: la puna es una subregión altoandina dentro de la sierra."
+    ]
+  },
+  {
+    "id": "geo-014",
+    "categoria": "geografia",
+    "tema": "Hidrografía mundial",
+    "fuente": "utp",
+    "dificultad": "intermedio",
+    "enunciado": "El río más caudaloso del planeta es el:",
+    "opciones": [
+      "Amazonas",
+      "Nilo",
+      "Yangtsé",
+      "Misisipi"
+    ],
+    "correcta": 0,
+    "explicacion": "El Amazonas aporta unos 209 000 m³/s, más que los siguientes ríos juntos, y su cuenca cubre varios países sudamericanos.",
+    "analisis": [
+      "Correcto: el Amazonas concentra cerca del 15 % de la agua dulce que llega al mar.",
+      "No es la respuesta: el Nilo es de los más largos, pero su caudal es mucho menor.",
+      "No es la respuesta: el Yangtsé es el más largo de Asia, no el más caudaloso.",
+      "No es la respuesta: el Misisipi drena Estados Unidos con un caudal muy inferior."
+    ]
+  },
+  {
+    "id": "geo-015",
+    "categoria": "geografia",
+    "tema": "Capitales sudamericanas",
+    "fuente": "pucp",
+    "dificultad": "intermedio",
+    "enunciado": "¿Cuál es la capital de Chile?",
+    "opciones": [
+      "Valparaíso",
+      "Concepción",
+      "Santiago",
+      "Antofagasta"
+    ],
+    "correcta": 2,
+    "explicacion": "Santiago, en el valle central, es la capital; Valparaíso alberga el congreso y el principal puerto.",
+    "analisis": [
+      "No es la respuesta: Valparaíso es la sede del poder legislativo y puerto histórico.",
+      "No es la respuesta: Concepción es el centro de la zona sur.",
+      "Correcto: Santiago fue fundada por Pedro de Valdivia en 1541.",
+      "No es la respuesta: Antofagasta es la gran ciudad del norte, en el desierto."
+    ]
+  },
+  {
+    "id": "geo-016",
+    "categoria": "geografia",
+    "tema": "Puertos y estrechos",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "El estrecho de Gibraltar separa a España de:",
+    "opciones": [
+      "Francia",
+      "Marruecos",
+      "Italia",
+      "Argelia"
+    ],
+    "correcta": 1,
+    "explicacion": "Gibraltar une el mar Mediterráneo con el océano Atlántico y separa la península ibérica del norte de África.",
+    "analisis": [
+      "No es la respuesta: con Francia el límite son los Pirineos, no un estrecho.",
+      "Correcto: a 14 km se encuentra la costa marroquí de Ceuta y Tetuán.",
+      "No es la respuesta: Italia queda al este, en la península itálica.",
+      "No es la respuesta: Argelia está más al este, en el Magreb."
+    ]
+  },
+  {
+    "id": "geo-017",
+    "categoria": "geografia",
+    "tema": "Relieve submarino",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "La fosa más profunda de los océanos, la fosa de las Marianas, se encuentra en el:",
+    "opciones": [
+      "Océano Atlántico",
+      "Océano Pacífico",
+      "Océano Índico",
+      "Mar Glacial Ártico"
+    ],
+    "correcta": 1,
+    "explicacion": "El punto Challenger, en la fosa de las Marianas, llega a unos 10 935 m bajo el nivel del mar.",
+    "analisis": [
+      "No es la respuesta: el Atlántico tiene fosas, pero ninguna de esa profundidad.",
+      "Correcto: la fosa de las Marianas queda al sur de Japón, en el Pacífico occidental.",
+      "No es la respuesta: el Índico es menos profundo en promedio.",
+      "No es la respuesta: el Ártico es un océano superficial cubierto por hielo."
+    ]
+  },
+  {
+    "id": "geo-018",
+    "categoria": "geografia",
+    "tema": "Países europeos",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "El país europeo atravesado por los Alpes y con capital en Berna es:",
+    "opciones": [
+      "Austria",
+      "Suiza",
+      "Eslovenia",
+      "Liechtenstein"
+    ],
+    "correcta": 1,
+    "explicacion": "Suiza, federal y multilingüe, tiene su capital política en Berna, no en Zúrich ni Ginebra.",
+    "analisis": [
+      "No es la respuesta: Austria también es alpina, pero su capital es Viena.",
+      "Correcto: Berna es la ciudad federal y los Alpes cubren dos tercios del territorio suizo.",
+      "No es la respuesta: Eslovenia limita con el norte de Italia y su capital es Liubliana.",
+      "No es la respuesta: Liechtenstein es un microestado alpino, con capital en Vaduz."
+    ]
+  },
+  {
+    "id": "geo-019",
+    "categoria": "geografia",
+    "tema": "Hidrografía sudamericana",
+    "fuente": "utp",
+    "dificultad": "intermedio",
+    "enunciado": "El río Uruguay, que forma parte de la frontera entre Argentina y Uruguay, nace en:",
+    "opciones": [
+      "Brasil",
+      "Paraguay",
+      "Bolivia",
+      "Chile"
+    ],
+    "correcta": 0,
+    "explicacion": "El río Uruguay nace en el planalto brasileño, en el estado de Río Grande del Sur, y desemboca en el Río de la Plata.",
+    "analisis": [
+      "Correcto: su nacimiento está en Brasil, donde recibe el curso alto de sus afluentes.",
+      "No es la respuesta: el Paraguay atraviesa el río homónimo, no el Uruguay.",
+      "No es la respuesta: Bolivia no tiene salida al Atlántico ni a este sistema.",
+      "No es la respuesta: Chile queda al occidente de la cordillera."
+    ]
+  },
+  {
+    "id": "geo-020",
+    "categoria": "geografia",
+    "tema": "Corrientes marinas",
+    "fuente": "pucp",
+    "dificultad": "intermedio",
+    "enunciado": "La corriente fría que beneficia a la pesca peruana y favorece la aridez de su costa se denomina corriente:",
+    "opciones": [
+      "Del Golfo",
+      "De Humboldt",
+      "Del Niño",
+      "Ecuatorial del Norte"
+    ],
+    "correcta": 1,
+    "explicacion": "La corriente de Humboldt (o del Perú) ascierra desde el sur, arrastra plancton y explica la gran riqueza pesquera y el desierto costero.",
+    "analisis": [
+      "No es la respuesta: la corriente del Golfo lleva agua cálida desde el Caribe.",
+      "Correcto: el afloramiento de esta corriente fría sostiene la pesquería peruana.",
+      "No es la respuesta: el Niño es una anomalía de calentamiento que la debilita.",
+      "No es la respuesta: la ecuatorial del Norte fluye hacia el oeste en el Pacífico tropical."
+    ]
+  },
+  {
+    "id": "geo-021",
+    "categoria": "geografia",
+    "tema": "Desiertos",
+    "fuente": "original",
+    "dificultad": "intermedio",
+    "enunciado": "El desierto cálido más extenso del mundo es el:",
+    "opciones": [
+      "Gobi",
+      "Sáhara",
+      "Kalahari",
+      "Atacama"
+    ],
+    "correcta": 1,
+    "explicacion": "El Sáhara cubre cerca de 9 millones de km² en el norte de África, superando con creces a los demás desiertos cálidos.",
+    "analisis": [
+      "No es la respuesta: el Gobi es un desierto frío de Asia central.",
+      "Correcto: el Sáhara se extiende por once países del norte de África.",
+      "No es la respuesta: el Kalahari es mucho más pequeño, en el sur de África.",
+      "No es la respuesta: el Atacama, en Chile y Perú, es el más árido, no el más extenso."
+    ]
+  },
+  {
+    "id": "geo-022",
+    "categoria": "geografia",
+    "tema": "Capitales sudamericanas",
+    "fuente": "utp",
+    "dificultad": "intermedio",
+    "enunciado": "El país cuya sede de gobierno es La Paz, aunque Sucre sea su capital constitucional, es:",
+    "opciones": [
+      "Perú",
+      "Bolivia",
+      "Ecuador",
+      "Paraguay"
+    ],
+    "correcta": 1,
+    "explicacion": "Bolivia tiene capital constitucional en Sucre, pero el Ejecutivo y el Legislativo funcionan en La Paz.",
+    "analisis": [
+      "No es la respuesta: el Perú tiene capital única en Lima.",
+      "Correcto: la división de poderes bolivianas se explica por conflictos históricos entre ambas ciudades.",
+      "No es la respuesta: Ecuador concentra su gobierno en Quito.",
+      "No es la respuesta: Paraguay gobierna desde Asunción."
+    ]
+  },
+  {
+    "id": "geo-023",
+    "categoria": "geografia",
+    "tema": "Canales interoceánicos",
+    "fuente": "pucp",
+    "dificultad": "intermedio",
+    "enunciado": "El canal de Suez conecta el mar Mediterráneo con el:",
+    "opciones": [
+      "Mar Rojo",
+      "Golfo Pérsico",
+      "Mar Arábigo",
+      "Mar Caspio"
+    ],
+    "correcta": 0,
+    "explicacion": "El canal de Suez, en Egipto, abrevia la ruta entre Europa y Asia sin rodear África y une el Mediterráneo con el mar Rojo.",
+    "analisis": [
+      "Correcto: el mar Rojo da al océano Índico a través del estrecho de Bab el-Mandeb.",
+      "No es la respuesta: al Golfo Pérsico no llega ningún canal desde Suez.",
+      "No es la respuesta: el mar Arábigo queda más al sureste, en el Índico.",
+      "No es la respuesta: el mar Caspio es un lago endorreico entre Asia y Europa."
+    ]
+  },
+  {
+    "id": "geo-024",
+    "categoria": "geografia",
+    "tema": "Geodesia",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "El punto de la superficie terrestre más alejado del centro de la Tierra no es el Everest, sino el:",
+    "opciones": [
+      "Monte Chimborazo",
+      "Ojos del Salado",
+      "Monte Aconcagua",
+      "Huascarán"
+    ],
+    "correcta": 0,
+    "explicacion": "Por el abultamiento ecuatorial, el Chimborazo (Ecuador) está a más de 6 384 km del centro terrestre, más lejos que cualquier cumbre del Himalaya.",
+    "analisis": [
+      "Correcto: el Chimborazo, sobre la línea ecuatorial, gana por la forma achatada de la Tierra.",
+      "No es la respuesta: los Ojos del Salado son el volcán más alto, pero están a mayor latitud.",
+      "No es la respuesta: el Aconcagua queda a 33° de latitud sur, lejos del ecuador.",
+      "No es la respuesta: el Huascarán está en los Andes peruanos, a 9° de latitud sur."
+    ]
+  },
+  {
+    "id": "geo-025",
+    "categoria": "geografia",
+    "tema": "Puertos y estrechos",
+    "fuente": "original",
+    "dificultad": "dificil",
+    "enunciado": "El estrecho que separa a Rusia de Alaska (Estados Unidos) es el de:",
+    "opciones": [
+      "Magallanes",
+      "Bering",
+      "Hormuz",
+      "Malaca"
+    ],
+    "correcta": 1,
+    "explicacion": "El estrecho de Bering, de unos 85 km, divide Asia de América y su fondo recoge los restos del puente terrestre de Beringia.",
+    "analisis": [
+      "No es la respuesta: el estrecho de Magallanes está en el extremo sur de América.",
+      "Correcto: Bering separa la península de Chukotka de la de Alaska.",
+      "No es la respuesta: Hormuz controla la salida del Golfo Pérsico.",
+      "No es la respuesta: Malaca une el mar de China con el océano Índico."
+    ]
+  },
+  {
+    "id": "geo-026",
+    "categoria": "geografia",
+    "tema": "Hidrografía mundial",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "El canal del Casiquiare, en Venezuela, comunica al río Orinoco con el río:",
+    "opciones": [
+      "Orinoco",
+      "Paraná",
+      "Apure",
+      "Amazonas"
+    ],
+    "correcta": 1,
+    "explicacion": "El Casiquiare es un brazo natural que en época de crecientes une el alto Orinoco con el alto Amazonas, un caso rarísimo de bifurcación.",
+    "analisis": [
+      "No es la respuesta: el enunciado ya menciona al Orinoco como origen del canal.",
+      "Correcto: el agua fluye hacia el Casiquiare y luego al Negro, afluente amazónico.",
+      "No es la respuesta: el Apure es un afluente venezolano del Orinoco, sin conexión con el Amazonas.",
+      "No es la respuesta: el Paraná drena el sureste sudamericano, muy al sur."
+    ]
+  },
+  {
+    "id": "geo-027",
+    "categoria": "geografia",
+    "tema": "Volcanismo",
+    "fuente": "original",
+    "dificultad": "dificil",
+    "enunciado": "El volcán más alto del planeta, en la frontera entre Chile y Argentina, es el:",
+    "opciones": [
+      "Cotopaxi",
+      "Ojos del Salado",
+      "Villarrica",
+      "Licancabur"
+    ],
+    "correcta": 1,
+    "explicacion": "Los Ojos del Salado, con 6 893 m, son el techo volcánico del mundo; el Aconcagua, más alto, no es un volcán.",
+    "analisis": [
+      "No es la respuesta: el Cotopaxi, en Ecuador, ronda los 5 897 m.",
+      "Correcto: los Ojos del Salado se alzan en el desierto de Atacama, en el límite chileno-argentino.",
+      "No es la respuesta: el Villarrica es un volcán activo del sur de Chile, mucho más bajo.",
+      "No es la respuesta: el Licancabur, en la frontera con Bolivia, llega a 5 916 m."
+    ]
+  },
+  {
+    "id": "geo-028",
+    "categoria": "geografia",
+    "tema": "Asia central",
+    "fuente": "utp",
+    "dificultad": "dificil",
+    "enunciado": "El país centroasiático cuya capital es Astana es:",
+    "opciones": [
+      "Uzbekistán",
+      "Kazajistán",
+      "Turkmenistán",
+      "Kirguistán"
+    ],
+    "correcta": 1,
+    "explicacion": "Astana, rebautizada Nursultán entre 2019 y 2022, es la capital de Kazajistán, el mayor país sin litoral marítimo del mundo.",
+    "analisis": [
+      "No es la respuesta: Uzbekistán tiene su capital en Taskent.",
+      "Correcto: Kazajistán ocupa un enorme territorio entre el mar Caspio y Siberia.",
+      "No es la respuesta: Turkmenistán gobierna desde Aşgabat.",
+      "No es la respuesta: Kirguistán tiene su capital en Biskek."
+    ]
+  },
+  {
+    "id": "geo-029",
+    "categoria": "geografia",
+    "tema": "Hidrografía europea",
+    "fuente": "pucp",
+    "dificultad": "dificil",
+    "enunciado": "El río más largo de Europa es el:",
+    "opciones": [
+      "Reno",
+      "Danubio",
+      "Volga",
+      "Támesis"
+    ],
+    "correcta": 2,
+    "explicacion": "El Volga, con 3 531 km, atraviesa Rusia y desemboca en el mar Caspio; el Danubio es el segundo y el más internacional.",
+    "analisis": [
+      "No es la respuesta: el Reno cruza Alemania y Países Bajos, con cerca de 2 300 km.",
+      "No es la respuesta: el Danubio toca diez países, pero es más corto que el Volga.",
+      "Correcto: el Volga drena la llanura europea rusa hasta el Caspio.",
+      "No es la respuesta: el Támesis baña Londres con apenas 346 km."
+    ]
+  },
+  {
+    "id": "geo-030",
+    "categoria": "geografia",
+    "tema": "África",
+    "fuente": "original",
+    "dificultad": "dificil",
+    "enunciado": "El monte Kilimanjaro, techo de África, se encuentra en el país de:",
+    "opciones": [
+      "Kenia",
+      "Tanzania",
+      "Etiopía",
+      "Uganda"
+    ],
+    "correcta": 1,
+    "explicacion": "El Kilimanjaro (5 895 m) está en el noreste de Tanzania, muy cerca de la frontera con Kenia.",
+    "analisis": [
+      "No es la respuesta: Kenia limita al norte, pero la montaña está en Tanzania; su pico más alto es el Monte Kenia.",
+      "Correcto: el volcán extinto se alza sobre la llanura tanzana, en el parque homónimo.",
+      "No es la respuesta: Etiopía tiene los Ras Dashen y los sembrados del Cuerno de África.",
+      "No es la respuesta: Uganda es un país de tierras bajas, en la cuenca del Nilo."
+    ]
+  },
+  {
+    "id": "geo-031",
+    "categoria": "geografia",
+    "tema": "Lagos",
+    "fuente": "unmsm",
+    "dificultad": "dificil",
+    "enunciado": "El lago navegable más alto del mundo, a 3 812 m de altitud, es el:",
+    "opciones": [
+      "Titicaca",
+      "Tanganyika",
+      "Victoria",
+      "Baikal"
+    ],
+    "correcta": 0,
+    "explicacion": "El Titicaca, compartido por Perú y Bolivia, es el lago navegable situado a mayor altitud del planeta.",
+    "analisis": [
+      "Correcto: pesqueros y barcos surcan el Titicaca en el altiplano andino.",
+      "No es la respuesta: el Tanganyika, en África, es el más profundo después del Baikal.",
+      "No es la respuesta: el Victoria es el más grande de África, a menor altitud.",
+      "No es la respuesta: el Baikal, en Siberia, contiene la mayor reserva de agua dulce del mundo."
+    ]
+  },
+  {
+    "id": "geo-032",
+    "categoria": "geografia",
+    "tema": "Líneas imaginarias",
+    "fuente": "utp",
+    "dificultad": "dificil",
+    "enunciado": "El meridiano de Greenwich (0° de longitud) atraviesa principalmente:",
+    "opciones": [
+      "París",
+      "Londres",
+      "Madrid",
+      "Berlín"
+    ],
+    "correcta": 1,
+    "explicacion": "La línea cruza el este de Londres y el observatorio de Greenwich, sede del meridiano cero desde 1884.",
+    "analisis": [
+      "No es la respuesta: París está cerca, pero el meridiano pasa al este de la ciudad.",
+      "Correcto: Greenwich, barrio londinense, da nombre al cero de longitud.",
+      "No es la respuesta: Madrid se encuentra a unos 3,7° al oeste.",
+      "No es la respuesta: Berlín queda a 13° al este de Greenwich."
+    ]
+  },
+  {
+    "id": "geo-033",
+    "categoria": "geografia",
+    "tema": "Límites sudamericanos",
+    "fuente": "original",
+    "dificultad": "dificil",
+    "enunciado": "El único país de América del Sur con costas en el océano Pacífico y el mar Caribe es:",
+    "opciones": [
+      "Colombia",
+      "Venezuela",
+      "Ecuador",
+      "Perú"
+    ],
+    "correcta": 0,
+    "explicacion": "Colombia baña al norte el mar Caribe y al oeste el Pacífico; los demás países sudamericanos tienen una sola salida oceánica.",
+    "analisis": [
+      "Correcto: su litoral caribeño incluye a Cartagena y su litoral pacífico a Tumaco.",
+      "No es la respuesta: Venezuela solo tiene costa en el mar Caribe.",
+      "No es la respuesta: Ecuador solo tiene costa en el Pacífico.",
+      "No es la respuesta: el Perú solo baña el Pacífico."
+    ]
+  },
+  {
+    "id": "geo-034",
+    "categoria": "geografia",
+    "tema": "Cono Sur",
+    "fuente": "pucp",
+    "dificultad": "dificil",
+    "enunciado": "La ciudad de Ushuaia, considerada la más austral del mundo, pertenece a:",
+    "opciones": [
+      "Chile",
+      "Argentina",
+      "Nueva Zelanda",
+      "Sudáfrica"
+    ],
+    "correcta": 1,
+    "explicacion": "Ushuaia, en Tierra del Fuego argentina, es la capital de la provincia más austral y punto de partida hacia la Antártida.",
+    "analisis": [
+      "No es la respuesta: Chile también ocupa parte de Tierra del Fuego, pero Ushuaia es argentina.",
+      "Correcto: la ciudad se encuentra a 54° de latitud sur, frente al canal Beagle.",
+      "No es la respuesta: Nueva Zelanda está en el hemisferio sur, pero mucho más al norte.",
+      "No es la respuesta: Sudáfrica termina en el cabo de las Agujas, mucho más al norte."
+    ]
+  },
+  {
+    "id": "geo-035",
+    "categoria": "geografia",
+    "tema": "Hidrografía sudamericana",
+    "fuente": "original",
+    "dificultad": "dificil",
+    "enunciado": "El río Paraná desemboca principalmente en:",
+    "opciones": [
+      "Océano Atlántico",
+      "Río de la Plata",
+      "Golfo de México",
+      "Mar Caribe"
+    ],
+    "correcta": 1,
+    "explicacion": "El Paraná se une al Uruguay para formar el Río de la Plata, que vierte al Atlántico tras unos 290 km de estuario.",
+    "analisis": [
+      "No es la respuesta: no llega directamente al Atlántico, lo hace a través del estuario.",
+      "Correcto: el Río de la Plata, entre Argentina y Uruguay, recibe sus aguas.",
+      "No es la respuesta: el Golfo de México baña Norteamérica y el Caribe.",
+      "No es la respuesta: el mar Caribe queda al norte del istmo de Panamá."
+    ]
+  },
+  {
+    "id": "uni-027",
+    "categoria": "geografia",
+    "tema": "Cartografía",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Indique la secuencia correcta después de determinar la verdad (V) o falsedad (F) de las siguientes proposiciones sobre la escala de representación cartográfica: I. La escala del mapa indica la relación entre la distancia medida en un mapa y la correspondiente en la realidad. II. En los mapas se coloca la escala en forma nominal y gráfica. III. La escala es una proporción entre dos magnitudes lineales, independientemente del sistema de unidades de longitud que se utilice.",
+    "opciones": [
+      "V V V",
+      "F F F",
+      "V V F",
+      "F V F"
+    ],
+    "correcta": 0,
+    "explicacion": "Las tres proposiciones definen correctamente la escala cartográfica: la relación entre la distancia del mapa y la real, su expresión nominal y gráfica, y su carácter de proporción entre magnitudes lineales sin importar las unidades empleadas.",
+    "analisis": [
+      "Es correcta: las tres proposiciones son verdaderas y describen acertadamente la escala del mapa.",
+      "Es incorrecta: ninguna de las tres proposiciones es falsa, todas son verdaderas.",
+      "Es incorrecta: la proposición III también es verdadera, pues la escala es una proporción entre magnitudes lineales.",
+      "Es incorrecta: la proposición I es verdadera, por lo que no puede marcarse como falsa."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-028",
+    "categoria": "geografia",
+    "tema": "Participación ciudadana",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Indique la alternativa correcta en relación a algunos mecanismos de participación ciudadana que permiten evaluar el desempeño de las autoridades: I. La revocatoria. II. El cabildo abierto. III. La rendición de cuentas.",
+    "opciones": [
+      "Solo I",
+      "Solo II",
+      "Solo I y II",
+      "Solo I y III"
+    ],
+    "correcta": 3,
+    "explicacion": "La revocatoria y la rendición de cuentas son los mecanismos que permiten evaluar a las autoridades, exigirles resultados y, en su caso, retirarles el mandato; el cabildo abierto es un espacio de consulta y deliberación, no de evaluación del desempeño.",
+    "analisis": [
+      "No es completa: incluye solo la revocatoria y omite la rendición de cuentas, que también evalúa a las autoridades.",
+      "No es correcta: el cabildo abierto no sirve para evaluar el desempeño de las autoridades.",
+      "No es correcta: incorpora el cabildo abierto, que no es un mecanismo de evaluación.",
+      "Es correcta: la revocatoria y la rendición de cuentas permiten evaluar a los gobernantes."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-029",
+    "categoria": "geografia",
+    "tema": "Sociedad peruana",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "La discriminación racial en el Perú es una forma de exclusión social que se explica por lo siguiente: I. La herencia colonial. II. El no reconocimiento del otro en su diferencia. III. La falta de respeto a la diversidad cultural.",
+    "opciones": [
+      "Solo I",
+      "Solo II",
+      "II y III",
+      "I, II y III"
+    ],
+    "correcta": 3,
+    "explicacion": "Las tres proposiciones explican la exclusión: la herencia colonial instaló una jerarquía social basada en el origen, el desconocimiento del otro perpetúa el prejuicio y la falta de respeto a la diversidad cultural lo refuerza.",
+    "analisis": [
+      "No es completa: reduce la explicación a un solo factor histórico y omite las actitudes sociales.",
+      "No es completa: deja de lado la raíz histórica del colonialismo y el respeto a la diversidad.",
+      "No es completa: omite la herencia colonial, que es el origen estructural de la discriminación.",
+      "Es correcta: integra el factor histórico y los dos factores culturales que producen la exclusión."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-030",
+    "categoria": "geografia",
+    "tema": "Economía: recesión",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Las características que se enumeran a continuación corresponden a una recesión, excepto en un caso. Señale cuál es este caso.",
+    "opciones": [
+      "Decrece el nivel del Producto Bruto.",
+      "Aumenta el desempleo en la economía.",
+      "Se incrementa el nivel de precios.",
+      "Disminuye el ingreso familiar."
+    ],
+    "correcta": 2,
+    "explicacion": "Durante una recesión cae el Producto Bruto, sube el desempleo, baja el ingreso familiar y disminuye la recaudación fiscal; el incremento del nivel de precios corresponde a la inflación, no a la recesión.",
+    "analisis": [
+      "Es característica de la recesión: la producción y el Producto Bruto disminuyen.",
+      "Es característica de la recesión: al caer la actividad económica el desempleo aumenta.",
+      "Es la excepción correcta: el alza del nivel de precios es propio de la inflación, no de la recesión.",
+      "Es característica de la recesión: la caída de la actividad reduce el ingreso de las familias."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "uni-031",
+    "categoria": "geografia",
+    "tema": "Economía: inflación",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Dadas las siguientes proposiciones, en relación a las consecuencias de la inflación: I. Disminuye el poder adquisitivo del ingreso familiar. II. Disminuye la tasa de interés. III. Se deprecia la moneda nacional.",
+    "opciones": [
+      "Solo I",
+      "Solo I y II",
+      "Solo I y III",
+      "Solo II y III"
+    ],
+    "correcta": 2,
+    "explicacion": "La inflación reduce el poder adquisitivo del dinero y deprecia la moneda nacional; no implica, en cambio, una disminución de la tasa de interés, por lo que son verdaderas solo I y III.",
+    "analisis": [
+      "Es verdadera pero incompleta: deja fuera la depreciación de la moneda nacional.",
+      "Es incorrecta: incluye la proposición II, que no es una consecuencia de la inflación.",
+      "Es correcta: la inflación disminuye el poder adquisitivo y deprecia la moneda, pero no hace bajar la tasa de interés.",
+      "Es incorrecta: la proposición II es falsa y se omite la proposición I, que sí es verdadera."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2"
+  },
+  {
+    "id": "geo-041",
+    "categoria": "geografia",
+    "tema": "Fenómeno de El Niño",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "En algunas partes de las costas del Pacífico, ............... ocasiona un aumento de las lluvias, mientras que en otras provoca ambientes extremadamente secos. Estas condiciones se manifiestan cuando los ............... son más intensos y aceleran el ascenso de aguas frías en la costa de América del Sur.",
+    "opciones": [
+      "la corriente del Niño - vientos del anticiclón",
+      "el fenómeno de El Niño - vientos alisios del oeste",
+      "la termoclina - procesos fotosintéticos",
+      "la inversión térmica - vientos del Atlántico",
+      "el fenómeno de La Niña - vientos alisios del sureste"
+    ],
+    "correcta": 4,
+    "explicacion": "Durante el fenómeno de La Niña, los vientos alisios del sureste se fortalecen y empujan las aguas superficiales cálidas del Pacífico hacia el oeste. Así facilitan el surgimiento de aguas frías frente a la costa de América del Sur, un proceso conocido como afloramiento. Este enfriamiento del océano provoca sequías especialmente en las regiones costeras de Perú y Ecuador; mientras que, al mismo tiempo, incrementa las lluvias en el sudeste asiático y Oceanía. Por el contrario, durante El Niño, los vientos alisios se debilitan, lo que permite que las aguas cálidas se acumulen frente a Sudamérica y generen precipitaciones intensas en esa zona.",
+    "analisis": [
+      "No es la respuesta: No existe la corriente del Niño como tal: El Niño es un fenómeno oceánico-atmosférico, y los vientos del anticiclón no aceleran el afloramiento de aguas frías.",
+      "No es la respuesta: Durante El Niño los alisios se debilitan y el agua cálida se acumula frente a Sudamérica, causando lluvias, no sequía; los alisios soplan del este, no del oeste.",
+      "No es la respuesta: La termoclina es la capa de cambio brusco de temperatura del mar, no un viento, y los procesos fotosintéticos no explican el ascenso de aguas frías.",
+      "No es la respuesta: La inversión térmica es un fenómeno atmosférico local de la troposfera, y los vientos del Atlántico no son los que intensifican el afloramiento en el Pacífico sur.",
+      "Correcto: En La Niña los alisios del sureste se fortalecen, desplazan el agua cálida al oeste y potencian el afloramiento frente a Sudamérica: sequía en la costa y más lluvias en Oceanía."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "geo-042",
+    "categoria": "geografia",
+    "tema": "Cambio climático",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "La Convención Marco de las Naciones Unidas sobre el Cambio Climático tiene como objetivo estabilizar las concentraciones de gases de efecto invernadero (GEI). Para ello se ha impulsado acuerdos internacionales como el Acuerdo de París. ¿Qué medida corresponde a los acuerdos establecidos en la Conferencia de las Partes, COP 21 de París?",
+    "opciones": [
+      "Se definieron las obligaciones para la mitigación de GEI de origen antropogénico.",
+      "Las partes se comprometen a una contribución económica anual a los países pobres.",
+      "Se incorporó de forma clara y rápida el concepto de adaptación al cambio climático.",
+      "Las partes se esfuerzan por evitar que aumente la temperatura más allá de los 1,5 °C.",
+      "Se reconoce el “sumidero” como proceso, actividad o mecanismo que absorbe GEI."
+    ],
+    "correcta": 3,
+    "explicacion": "La Conferencia de las Partes (COP 21), celebrada en París en 2015, dio lugar al Acuerdo de París, un tratado internacional que busca fortalecer la respuesta global frente al cambio climático. El propósito principal de este acuerdo es limitar el aumento de la temperatura media mundial a menos de 2 °C respecto a los niveles preindustriales, e incluso esforzarse para que no supere 1,5 °C, con el fin de minimizar los riesgos y consecuencias del cambio climático. Asimismo, el acuerdo promueve la reducción de las emisiones de gases de efecto invernadero (GEI), la adaptación a los impactos del cambio climático y el financiamiento climático orientado a apoyar a los países en desarrollo.",
+    "analisis": [
+      "No es la respuesta: El acuerdo no define obligaciones de mitigación de GEI antropogénicos; su propósito es limitar el aumento de temperatura y promover la reducción de emisiones, no asignar obligaciones.",
+      "No es la respuesta: El Acuerdo de París no fija una contribución económica anual a los países pobres: solo promueve financiamiento climático para apoyar a los países en desarrollo.",
+      "No es la respuesta: Aunque París promueve la adaptación, no es esa su medida central: el acuerdo se distingue por limitar el aumento de temperatura y reducir las emisiones de GEI.",
+      "Correcto: El Acuerdo de París (COP 21, 2015) busca limitar el aumento de la temperatura media a menos de 2 °C y esforzarse por no superar 1,5 °C sobre niveles preindustriales.",
+      "No es la respuesta: Reconocer el sumidero de GEI no es una medida de París: el acuerdo se enfoca en limitar el aumento de temperatura y en reducir emisiones."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "geo-043",
+    "categoria": "geografia",
+    "tema": "Patrimonio mundial",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "La Lista del Patrimonio Mundial de la UNESCO establece como legado monumentos y sitios de gran riqueza natural y cultural que pertenecen a toda la humanidad. Determine los enunciados correctos respecto de los sitios de reconocimiento mundial.\nI. Por su valor natural y cultural, el Parque Nacional de Río Abiseo es reconocido como patrimonio de la humanidad.\nII. Los sitios Ramsar son áreas exclusivas designadas como patrimonio de la humanidad por la sostenibilidad en el uso de los recursos.\nIII. El área con mayor densidad de fenómenos geotérmicos (géiseres) del mundo se encuentra en el Parque Nacional de Yellowstone.\nIV. El área natural más reciente en ser designada patrimonio de la humanidad es el Parque Nacional del Manu.",
+    "opciones": [
+      "III y IV",
+      "II y III",
+      "I y III",
+      "II y IV",
+      "I y IV"
+    ],
+    "correcta": 2,
+    "explicacion": "El Parque Nacional del Río Abiseo fue inscrito en 1990 en la lista de Patrimonio Mundial de la Unesco, debido a su enorme valor natural y cultural. Se destaca por su biodiversidad y por albergar importantes vestigios arqueológicos de civilizaciones prehispánicas. Por otro lado, el Parque Nacional de Yellowstone, en Estados Unidos, es ampliamente reconocido por ser el primer parque nacional del mundo, establecido en 1872, y por contar con la mayor concentración de géiseres y fenómenos geotérmicos en el planeta, lo que lo convierte en un referente mundial en conservación y turismo natural. A diferencia de estos parques nacionales, los sitios Ramsar no forman parte de la lista de patrimonio mundial, sino que están protegidos bajo la Convención Ramsar, cuyo objetivo es conservar los humedales de importancia internacional por su papel esencial en la biodiversidad, el ciclo hídrico y el equilibrio ecológico. Cabe aclarar también que el Parque Nacional del Manu, situado en el Perú, fue declarado en 1987 y es reconocido por su inmensa riqueza biológica y cultural, pero no es el parque nacional más reciente, ya que existen áreas naturales protegidas establecidas con posterioridad.",
+    "analisis": [
+      "No es la respuesta: III y IV: III es verdadera (Yellowstone concentra los mayores géiseres), pero IV es falsa, pues Manu fue declarado en 1987 y no es el más reciente.",
+      "No es la respuesta: II y III: III es verdadera, pero II es falsa, pues Ramsar protege humedales y no es un sitio de la Lista del Patrimonio Mundial de la UNESCO.",
+      "Correcto: I y III son verdaderas: Río Abiseo (1990) une valor natural y cultural, y Yellowstone alberga el mayor número de géiseres del mundo; II y IV son falsas.",
+      "No es la respuesta: II y IV: ambas son falsas, pues Ramsar no es patrimonio de la UNESCO y Manu, declarado en 1987, no es el área natural más reciente designada.",
+      "No es la respuesta: I y IV: I sí es verdadera (Río Abiseo tiene valor natural y cultural), pero IV es falsa porque Manu no es la designación natural más reciente."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "geo-044",
+    "categoria": "geografia",
+    "tema": "Índice de Desarrollo Humano",
+    "fuente": "unmsm",
+    "dificultad": "basico",
+    "enunciado": "El Índice de Desarrollo Humano (IDH) es el resultado de una combinación de indicadores que sirve como referencia para conocer el bienestar de la población; además del desarrollo social y económico. De acuerdo con los datos recientes (2023), identifique la alternativa donde figuran países con IDH muy alto, alto y bajo, respectivamente.",
+    "opciones": [
+      "México - Ucrania - Egipto",
+      "Costa Rica - Argelia - Pakistán",
+      "Emiratos Árabes - Uruguay - Catar",
+      "Brasil - Australia - Palestina",
+      "Dinamarca - Sudán del Sur - Venezuela"
+    ],
+    "correcta": 1,
+    "explicacion": "Según el informe del PNUD con datos de 2023, Costa Rica alcanza un IDH muy alto (0,809) por sus avances en salud y educación; Argelia presenta un IDH alto (0,745) con crecimiento económico moderado; y Pakistán registra un IDH bajo (0,540) por limitaciones en esas tres dimensiones. Por lo tanto, la alternativa que respeta el orden muy alto-alto-bajo es Costa Rica - Argelia - Pakistán.",
+    "analisis": [
+      "No es la respuesta: Ninguno de los tres tiene IDH bajo en el informe del PNUD 2023: el nivel bajo del trío solicitado corresponde a Pakistán, con 0,540.",
+      "Correcto: Costa Rica registra IDH muy alto (0,809), Argelia alto (0,745) y Pakistán bajo (0,540), respetando exactamente el orden muy alto, alto y bajo que pide el enunciado.",
+      "No es la respuesta: Asigna IDH bajo a Catar, cuando el informe del PNUD 2023 sitúa el nivel bajo en Pakistán (0,540) y Catar muy por encima de ese umbral.",
+      "No es la respuesta: Coloca a Brasil en el nivel muy alto, pero su IDH no alcanza el umbral de 0,800; el muy alto del trío es Costa Rica, con 0,809.",
+      "No es la respuesta: Sudán del Sur sí es de IDH bajo, pero el nivel alto del trío documentado es Argelia (0,745), no el país intermedio propuesto."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  },
+  {
+    "id": "geo-045",
+    "categoria": "geografia",
+    "tema": "Desarrollo sostenible",
+    "fuente": "unmsm",
+    "dificultad": "intermedio",
+    "enunciado": "A partir del informe Nuestro futuro común, se establecen las bases que reconocen la importancia de la naturaleza en el desarrollo sostenido de la sociedad, en un contexto de notable crecimiento económico basado en la explotación intensiva de los recursos naturales. De acuerdo con lo expresado, establezca el valor de verdad (V o F) de las siguientes proposiciones:\nI. El concepto de desarrollo sostenible sirvió de eje para la Cumbre de la Tierra (1992).\nII. Se promueven las actividades extractivas porque garantizan el desarrollo sostenible.\nIII. Las necesidades de los pobres deben ser la prioridad de acciones sostenibles.\nIV. Se establece la idea de limitaciones según la capacidad del medioambiente.",
+    "opciones": [
+      "VFVV",
+      "FVFV",
+      "VFVF",
+      "VVFF",
+      "FFVF"
+    ],
+    "correcta": 0,
+    "explicacion": "El informe Brundtland, publicado en 1987, fue un hito fundamental al introducir y definir el concepto de desarrollo sostenible. Lo entiende como aquel que satisface las necesidades del presente sin comprometer la capacidad de las futuras generaciones para satisfacer las suyas. Este marco conceptual sentó las bases para la Cumbre de la Tierra celebrada en Río de Janeiro en 1992, donde se consolidaron principios clave para la gestión ambiental y social a nivel global. El informe destacó la importancia de priorizar las necesidades de las poblaciones más vulnerables y pobres en las estrategias de desarrollo, reconociendo que la equidad social es inseparable del cuidado ambiental. Asimismo, advirtió sobre las limitaciones físicas y biológicas del planeta, subrayando que la capacidad del medioambiente para regenerarse no es infinita. En consecuencia, el informe Brundtland no avala las actividades extractivas indiscriminadas; ya que estas pueden causar un desequilibrio ecológico, comprometer la sostenibilidad de los recursos naturales a largo plazo y así poner en riesgo tanto el bienestar ambiental como el social.",
+    "analisis": [
+      "Correcto: VFVV: I verdadera, porque el desarrollo sostenible fue eje de la Cumbre de la Tierra de 1992; II falsa; III y IV verdaderas, por los pobres y los límites del medioambiente.",
+      "No es la respuesta: FVFV deja I falsa, cuando sí fue eje de la Cumbre de 1992, y III falsa, cuando los pobres sí son prioridad; además marca II verdadera por error.",
+      "No es la respuesta: VFVF acierta I, II y III, pero marca IV falsa: el informe sí establece limitaciones según la capacidad de regeneración del medioambiente.",
+      "No es la respuesta: VVFF es errónea en II, III y IV: la extracción no garantiza la sostenibilidad, los pobres sí son prioridad y las limitaciones según el ambiente sí existen.",
+      "No es la respuesta: FFVF solo acierta en II y III; I y IV son verdaderas: el desarrollo sostenible sí fue eje de la Cumbre de 1992 y las limitaciones sí existen."
+    ],
+    "referencia": "Admisión UNMSM 2026-II · Área E"
+  }
+]
