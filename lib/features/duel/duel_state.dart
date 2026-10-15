@@ -157,7 +157,7 @@ class DuelNotifier extends AsyncNotifier<DuelState> {
       return;
     }
 
-    final wsBase = AppConfig.apiBaseUrl.replaceFirst('https://', 'wss://').replaceFirst('http://', 'ws://');
+    final wsBase = AppConfig.wsBase;
     final channel = WebSocketChannel.connect(Uri.parse('$wsBase/ws?token=$token'));
     _channel = channel;
     _handshakeDone = false;
