@@ -818,6 +818,14 @@ class _ResultView extends StatelessWidget {
     final winner = ranked.isNotEmpty ? ranked.first : null;
     final isDuo = duel.players.length == 2;
 
+    String rivalName = 'tu rival';
+    for (final p in ranked) {
+      if (!p.isMe) {
+        rivalName = p.displayName;
+        break;
+      }
+    }
+
     int myPosition = 0;
     for (var i = 0; i < ranked.length; i++) {
       if (ranked[i].isMe) myPosition = i + 1;
@@ -836,7 +844,7 @@ class _ResultView extends StatelessWidget {
     } else if (duel.iWon) {
       title = '¡Ganaste!';
       subtitle = isDuo
-          ? 'Le ganaste a ${winner?.displayName ?? 'tu rival'}'
+          ? 'Le ganaste a $rivalName'
           : 'Primero de ${duel.players.length} jugadores con ${duel.correct} de $total';
       emoji = '🏆';
       color = AppColors.success;
