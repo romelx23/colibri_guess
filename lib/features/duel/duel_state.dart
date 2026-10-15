@@ -35,6 +35,68 @@ class DuelQuestion {
       );
 }
 
+/// Participante de la sala (hasta 8). En juego solo se conoce el avance de
+/// cada quien; los aciertos definitivos llegan con el resultado.
+class DuelPlayer {
+  const DuelPlayer({
+    required this.playerId,
+    required this.displayName,
+    this.avatarSeed = 0,
+    this.ready = false,
+    this.connected = true,
+    this.answered = 0,
+    this.correct = 0,
+    this.position,
+    this.isMe = false,
+  });
+
+  final String playerId;
+  final String displayName;
+  final int avatarSeed;
+  final bool ready;
+  final bool connected;
+  final int answered;
+  final int correct;
+  final int? position;
+  final bool isMe;
+
+  factory DuelPlayer.fromJson(Map<String, dynamic> json, {bool isMe = false}) =>
+      DuelPlayer(
+        playerId: json['playerId'] as String? ?? '',
+        displayName: json['displayName'] as String? ?? '',
+        avatarSeed: (json['avatarSeed'] as num?)?.toInt() ?? 0,
+        ready: json['ready'] == true,
+        connected: json['connected'] != false,
+        answered: (json['answered'] as num?)?.toInt() ?? 0,
+        correct: (json['correct'] as num?)?.toInt() ?? 0,
+        position: (json['position'] as num?)?.toInt(),
+        isMe: isMe,
+      );
+
+  DuelPlayer copyWith({
+    String? displayName,
+    int? avatarSeed,
+    bool? ready,
+    bool? connected,
+    int? answered,
+    int? correct,
+    int? position,
+    bool? isMe,
+  }) {
+    return DuelPlayer(
+      playerId: playerId,
+      displayName: displayName ?? this.displayName,
+      avatarSeed: avatarSeed ?? this.avatarSeed,
+      ready: ready ?? this.ready,
+      connected: connected ?? this.connected,
+      answered: answered ?? this.answered,
+      correct: correct ?? this.correct,
+      position: position ?? this.position,
+      isMe: isMe ?? this.isMe,
+    );
+  }
+}
+
 class DuelState {
   const DuelState({
     this.phase = DuelPhase.lobby,
@@ -43,16 +105,11 @@ class DuelState {
     this.error,
     this.questions = const [],
     this.current = 0,
-    this.myAnswered = 0,
-    this.opponentAnswered = 0,
-    this.correct = 0,
-    this.opponentCorrect = 0,
-    this.finished = false,
     this.iWon = false,
     this.draw = false,
-    this.opponentName = '',
     this.meAnswered = false,
-    this.waitingForOpponent = false,
+    this.players = const [],
+    this.maxPlayers = 8,
   });
 
   final DuelPhase phase;
@@ -61,22 +118,60 @@ class DuelState {
   final String? error;
   final List<DuelQuestion> questions;
   final int current;
-  final int myAnswered;
-  final int opponentAnswered;
-  final int correct;
-  final int opponentCorrect;
-  final bool finished;
   final bool iWon;
   final bool draw;
-  final String opponentName;
+
+  /// ¿Ya envié la respuesta de la pregunta actual?
   final bool meAnswered;
-  final bool waitingForOpponent;
+
+  final List<DuelPlayer> players;
+  final int maxPlayers;
+
+  DuelPlayer? get me {
+    for (final p in players) {
+      if (p.isMe) return p;
+    }
+    return null;
+  }
+
+  DuelPlayer? get rival {
+    for (final p in players) {
+      if (!p.isMe && p.connected) return p;
+    }
+    return null;
+  }
+
+  int get myAnswered => me?.answered ?? 0;
+  int get correct => me?.correct ?? 0;
+  int get questionCount => questions.length;
 
   double get myProgress =>
       questions.isEmpty ? 0 : myAnswered / questions.length;
 
-  double get opponentProgress =>
-      questions.isEmpty ? 0 : opponentAnswered / questions.length;
+  bool get allAnswered =>
+      questions.isNotEmpty &&
+      players.isNotEmpty &&
+      players.every((p) => p.answered >= questions.length);
+
+  /// Terminé yo y ya no falta nadie.
+  bool get finished => phase == DuelPhase.result || allAnswered;
+
+  /// Terminé pero quedan jugadores por acabar.
+  bool get waitingForOpponent =>
+      questions.isNotEmpty && myAnswered >= questions.length && !finished;
+
+  int get finishedCount => players
+      .where((p) => questions.isNotEmpty && p.answered >= questions.length)
+      .length;
+
+  int get readyCount => players.where((p) => p.ready).length;
+
+  /// Participantes ordenados por puesto (solo tras el resultado).
+  List<DuelPlayer> get ranked {
+    final list = List<DuelPlayer>.from(players);
+    list.sort((a, b) => (a.position ?? 99) - (b.position ?? 99));
+    return list;
+  }
 
   DuelState copyWith({
     DuelPhase? phase,
@@ -85,16 +180,11 @@ class DuelState {
     String? error,
     List<DuelQuestion>? questions,
     int? current,
-    int? myAnswered,
-    int? opponentAnswered,
-    int? correct,
-    int? opponentCorrect,
-    bool? finished,
     bool? iWon,
     bool? draw,
-    String? opponentName,
     bool? meAnswered,
-    bool? waitingForOpponent,
+    List<DuelPlayer>? players,
+    int? maxPlayers,
     bool clearError = false,
   }) {
     return DuelState(
@@ -104,16 +194,11 @@ class DuelState {
       error: clearError ? null : (error ?? this.error),
       questions: questions ?? this.questions,
       current: current ?? this.current,
-      myAnswered: myAnswered ?? this.myAnswered,
-      opponentAnswered: opponentAnswered ?? this.opponentAnswered,
-      correct: correct ?? this.correct,
-      opponentCorrect: opponentCorrect ?? this.opponentCorrect,
-      finished: finished ?? this.finished,
       iWon: iWon ?? this.iWon,
       draw: draw ?? this.draw,
-      opponentName: opponentName ?? this.opponentName,
       meAnswered: meAnswered ?? this.meAnswered,
-      waitingForOpponent: waitingForOpponent ?? this.waitingForOpponent,
+      players: players ?? this.players,
+      maxPlayers: maxPlayers ?? this.maxPlayers,
     );
   }
 }
@@ -128,6 +213,7 @@ class DuelNotifier extends AsyncNotifier<DuelState> {
   final Stopwatch _questionClock = Stopwatch();
   bool _handshakeDone = false;
   Map<String, dynamic>? _pending;
+  String? _myId;
 
   @override
   Future<DuelState> build() async {
@@ -145,6 +231,7 @@ class DuelNotifier extends AsyncNotifier<DuelState> {
     _channel?.sink.close();
     _channel = null;
     _questionClock.stop();
+    _myId = null;
   }
 
   void _connect() {
@@ -162,6 +249,7 @@ class DuelNotifier extends AsyncNotifier<DuelState> {
     _channel = channel;
     _handshakeDone = false;
     _pending = null;
+    _myId = null;
 
     _sub = channel.stream.listen(
       (raw) {
@@ -203,6 +291,7 @@ class DuelNotifier extends AsyncNotifier<DuelState> {
     switch (msg['type'] as String?) {
       case 'hello':
         // El servidor ya cargó al jugador: ahora sí se puede jugar.
+        _myId = (msg['player'] as Map<String, dynamic>?)?['playerId'] as String?;
         _handshakeDone = true;
         final pending = _pending;
         _pending = null;
@@ -218,15 +307,25 @@ class DuelNotifier extends AsyncNotifier<DuelState> {
 
       case 'room':
         final room = msg['room'] as Map<String, dynamic>?;
-        final players = (room?['players'] as List? ?? const [])
+        final roster = (room?['players'] as List? ?? const [])
             .whereType<Map<String, dynamic>>()
             .toList();
-        final me = _myPlayerId;
-        final rival = players.where((p) => p['playerId'] != me);
-        final rivalName = rival.isEmpty
-            ? ''
-            : (rival.first['displayName'] as String? ?? '');
-        _emit(_s.copyWith(opponentName: rivalName));
+        final previous = {for (final p in _s.players) p.playerId: p};
+        final merged = roster.map((json) {
+          final id = json['playerId'] as String? ?? '';
+          final old = previous[id];
+          return DuelPlayer.fromJson(json, isMe: _isMe(id)).copyWith(
+            answered: old?.answered ?? 0,
+            correct: old?.correct ?? 0,
+            position: old?.position,
+          );
+        }).toList();
+
+        _emit(_s.copyWith(
+          players: merged,
+          code: room?['code'] as String? ?? _s.code,
+          maxPlayers: (room?['maxPlayers'] as num?)?.toInt() ?? _s.maxPlayers,
+        ));
 
       case 'start':
         final questions = (msg['questions'] as List? ?? const [])
@@ -240,71 +339,77 @@ class DuelNotifier extends AsyncNotifier<DuelState> {
           phase: DuelPhase.playing,
           questions: questions,
           current: 0,
-          myAnswered: 0,
-          opponentAnswered: 0,
-          correct: 0,
-          opponentCorrect: 0,
           meAnswered: false,
-          finished: false,
+          players: _s.players
+              .map((p) => p.copyWith(answered: 0, correct: 0, position: null))
+              .toList(),
           clearError: true,
         ));
 
       case 'answerAck':
-        final correct = msg['correct'] == true;
+        final isRight = msg['correct'] == true;
         final nextIndex = _s.current + 1;
         final iDone = nextIndex >= _s.questions.length;
         _questionClock
           ..reset()
           ..start();
         _emit(_s.copyWith(
-          myAnswered: _s.myAnswered + 1,
-          correct: _s.correct + (correct ? 1 : 0),
+          players: _updateMe(
+            answered: _s.myAnswered + 1,
+            correct: _s.correct + (isRight ? 1 : 0),
+          ),
           current: iDone ? _s.current : nextIndex,
           meAnswered: false,
-          waitingForOpponent: iDone,
-          finished: iDone && _s.opponentAnswered >= _s.questions.length,
         ));
 
-      case 'opponentAnswer':
-        final next = _s.opponentAnswered + 1;
-        final rivalDone = next >= _s.questions.length;
+      case 'peerProgress':
+        final id = msg['playerId'] as String? ?? '';
+        if (id.isEmpty) break;
         _emit(_s.copyWith(
-          opponentAnswered: next,
-          waitingForOpponent: rivalDone && _s.myAnswered >= _s.questions.length,
-          finished: rivalDone && _s.myAnswered >= _s.questions.length,
+          players: _update(id, (p) => p.copyWith(
+                answered: (msg['answered'] as num?)?.toInt() ?? p.answered,
+                correct: (msg['correct'] as num?)?.toInt() ?? p.correct,
+              )),
         ));
 
       case 'result':
         final result = msg['result'] as Map<String, dynamic>?;
         final winnerId = result?['winnerId'] as String?;
-        final players = (result?['players'] as List? ?? const [])
+        final rows = (result?['players'] as List? ?? const [])
             .whereType<Map<String, dynamic>>()
             .toList();
-        final me = players.where((p) => p['playerId'] == _myPlayerId);
-        final rival = players.where((p) => p['playerId'] != _myPlayerId);
-        final myCorrect =
-            me.isEmpty ? 0 : ((me.first['correct'] as num?)?.toInt() ?? 0);
-        final rivalCorrect =
-            rival.isEmpty ? 0 : ((rival.first['correct'] as num?)?.toInt() ?? 0);
-        final rivalName = rival.isEmpty
-            ? _s.opponentName
-            : (rival.first['displayName'] as String? ?? _s.opponentName);
-
         _emit(_s.copyWith(
           phase: DuelPhase.result,
-          finished: true,
-          correct: myCorrect,
-          opponentCorrect: rivalCorrect,
-          opponentName: rivalName,
+          players: rows
+              .map((json) => DuelPlayer.fromJson(
+                    json,
+                    isMe: _isMe(json['playerId'] as String? ?? ''),
+                  ))
+              .toList(),
           iWon: winnerId != null && winnerId == _myPlayerId,
           draw: winnerId == null,
         ));
 
-      case 'opponentLeft':
+      case 'playerLeft':
+        final id = msg['playerId'] as String? ?? '';
+        if (id.isEmpty) break;
+        _emit(_s.copyWith(
+          players: _s.players.where((p) => p.playerId != id).toList(),
+        ));
+
+      case 'excluded':
         _emit(_s.copyWith(
           phase: DuelPhase.error,
-          error:
-              '${_s.opponentName.isEmpty ? 'Tu rival' : _s.opponentName} abandonó el duelo.',
+          error: msg['message'] as String? ?? 'La partida empezó sin ti.',
+          players: const [],
+          questions: const [],
+        ));
+
+      case 'opponentLeft':
+        // Compatibilidad con servidores antiguos.
+        _emit(_s.copyWith(
+          phase: DuelPhase.error,
+          error: 'Un jugador abandonó el duelo.',
         ));
 
       case 'error':
@@ -315,8 +420,22 @@ class DuelNotifier extends AsyncNotifier<DuelState> {
     }
   }
 
+  bool _isMe(String playerId) => playerId.isNotEmpty && playerId == _myPlayerId;
+
   String? get _myPlayerId =>
-      ref.read(sessionStoreProvider).valueOrNull?.cachedPlayer?.id;
+      _myId ?? ref.read(sessionStoreProvider).valueOrNull?.cachedPlayer?.id;
+
+  List<DuelPlayer> _update(String playerId, DuelPlayer Function(DuelPlayer) fn) {
+    return _s.players
+        .map((p) => p.playerId == playerId ? fn(p) : p)
+        .toList(growable: false);
+  }
+
+  List<DuelPlayer> _updateMe({required int answered, required int correct}) {
+    final id = _myPlayerId;
+    if (id == null) return _s.players;
+    return _update(id, (p) => p.copyWith(answered: answered, correct: correct));
+  }
 
   void _send(Map<String, dynamic> msg) {
     if (_channel == null) return;
@@ -342,6 +461,8 @@ class DuelNotifier extends AsyncNotifier<DuelState> {
   }
 
   void ready() => _send({'type': 'ready'});
+
+  void startNow() => _send({'type': 'startNow'});
 
   void answer(int option) {
     final s = _s;

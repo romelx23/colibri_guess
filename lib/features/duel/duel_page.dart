@@ -51,6 +51,7 @@ class _DuelPageState extends ConsumerState<DuelPage> {
             DuelPhase.waiting => _WaitingView(
                 duel: duel,
                 onReady: () => ref.read(duelProvider.notifier).ready(),
+                onStartNow: () => ref.read(duelProvider.notifier).startNow(),
                 onCancel: () {
                   ref.read(duelProvider.notifier).leave();
                   context.pop();
@@ -122,7 +123,7 @@ class _LobbyView extends StatelessWidget {
               .slideY(begin: .15, end: 0),
           const SizedBox(height: 22),
           Text(
-            'Reta a un amigo en tiempo real',
+            'Reta a tus amigos en tiempo real',
             textAlign: TextAlign.center,
             style: theme.textTheme.titleMedium?.copyWith(
               fontWeight: FontWeight.w800,
@@ -131,7 +132,7 @@ class _LobbyView extends StatelessWidget {
           ),
           const SizedBox(height: 6),
           Text(
-            '10 preguntas. Gana quien más acierte.',
+            'Hasta 8 jugadores. 10 preguntas. Gana quien más acierte.',
             textAlign: TextAlign.center,
             style: theme.textTheme.bodyMedium?.copyWith(
               color: AppColors.inkSoft,
@@ -202,17 +203,32 @@ class _WaitingView extends StatelessWidget {
   const _WaitingView({
     required this.duel,
     required this.onReady,
+    required this.onStartNow,
     required this.onCancel,
   });
 
   final DuelState duel;
   final VoidCallback onReady;
+  final VoidCallback onStartNow;
   final VoidCallback onCancel;
+
+  bool get _othersJoined => duel.players.length > 1;
+  bool get _meReady => duel.me?.ready ?? false;
+  bool get _allReady => _othersJoined && duel.readyCount >= duel.players.length;
+  bool get _canForceStart => duel.readyCount >= 2;
+
+  String get _statusText {
+    if (!_othersJoined) return 'Esperando a que alguien se una…';
+    if (_allReady) return '¡Todos listos! La partida empieza ya mismo.';
+    if (duel.readyCount > 0) {
+      return '${duel.readyCount} de ${duel.players.length} listos.';
+    }
+    return 'Pulsa listo cuando estés preparado.';
+  }
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final hasRival = duel.opponentName.isNotEmpty;
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Column(
@@ -230,9 +246,25 @@ class _WaitingView extends StatelessWidget {
                   fontWeight: FontWeight.w800,
                 ),
               ),
+              const Spacer(),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                decoration: BoxDecoration(
+                  color: AppColors.primarySoft,
+                  borderRadius: BorderRadius.circular(99),
+                ),
+                child: Text(
+                  '${duel.players.length}/${duel.maxPlayers}',
+                  style: const TextStyle(
+                    fontSize: 13,
+                    fontWeight: FontWeight.w900,
+                    color: AppColors.primary,
+                  ),
+                ),
+              ),
             ],
           ),
-          const Spacer(),
+          const SizedBox(height: 8),
           Text(
             'Código de la sala',
             textAlign: TextAlign.center,
@@ -263,54 +295,180 @@ class _WaitingView extends StatelessWidget {
               ),
             ),
           ).animate().fadeIn(duration: 350.ms).scale(begin: const Offset(.94, .94)),
-          const SizedBox(height: 10),
+          const SizedBox(height: 8),
           Text(
-            'Compártelo con tu rival',
+            'Compártelo con tus amigos',
             textAlign: TextAlign.center,
             style: theme.textTheme.bodySmall?.copyWith(color: AppColors.inkFaint),
           ),
-          const SizedBox(height: 34),
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: hasRival ? AppColors.successSoft : AppColors.surface,
-              borderRadius: BorderRadius.circular(20),
-            ),
-            child: Row(
-              children: [
-                ColibriMascot(
-                  mood: hasRival ? ColibriMood.happy : ColibriMood.thinking,
-                  size: 46,
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: Text(
-                    hasRival
-                        ? '¡${duel.opponentName} se unió! Pulsa listo para empezar.'
-                        : 'Esperando a que alguien se una…',
-                    style: TextStyle(
-                      fontWeight: FontWeight.w700,
-                      color: AppColors.ink.withValues(alpha: .8),
-                    ),
-                  ),
-                ),
-                if (hasRival)
-                  const Icon(Icons.check_circle_rounded, color: AppColors.success),
-              ],
+          const SizedBox(height: 20),
+          Text(
+            'Jugadores en la sala',
+            style: theme.textTheme.bodySmall?.copyWith(
+              fontWeight: FontWeight.w800,
+              color: AppColors.inkSoft,
             ),
           ),
+          const SizedBox(height: 8),
+          Container(
+            padding: const EdgeInsets.all(14),
+            decoration: BoxDecoration(
+              color: _allReady ? AppColors.successSoft : AppColors.surface,
+              borderRadius: BorderRadius.circular(20),
+              border: Border.all(
+                color: _allReady ? AppColors.success : AppColors.divider,
+              ),
+            ),
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(maxHeight: 190),
+              child: SingleChildScrollView(
+                child: Wrap(
+                  alignment: WrapAlignment.spaceAround,
+                  spacing: 12,
+                  runSpacing: 12,
+                  children: [
+                    for (final p in duel.players) _playerChip(p),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          const SizedBox(height: 16),
+          Row(
+            children: [
+              ColibriMascot(
+                mood: _allReady ? ColibriMood.happy : ColibriMood.thinking,
+                size: 46,
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Text(
+                  _statusText,
+                  style: TextStyle(
+                    fontWeight: FontWeight.w700,
+                    color: AppColors.ink.withValues(alpha: .8),
+                  ),
+                ),
+              ),
+            ],
+          ),
           const Spacer(),
+          if (duel.error != null) ...[
+            Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: AppColors.errorSoft,
+                borderRadius: BorderRadius.circular(14),
+              ),
+              child: Text(
+                duel.error!,
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  fontSize: 13,
+                  fontWeight: FontWeight.w700,
+                  color: AppColors.error,
+                ),
+              ),
+            ),
+            const SizedBox(height: 10),
+          ],
           FilledButton(
-            onPressed: hasRival ? onReady : null,
+            onPressed: _othersJoined && !_meReady ? onReady : null,
             style: FilledButton.styleFrom(
               padding: const EdgeInsets.symmetric(vertical: 17),
               textStyle: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16),
             ),
-            child: const Text('Listo'),
+            child: Text(_meReady ? 'Listo ✓' : 'Listo'),
           ),
+          if (duel.isHost) ...[
+            const SizedBox(height: 10),
+            FilledButton.icon(
+              onPressed: _canForceStart ? onStartNow : null,
+              icon: const Icon(Icons.play_arrow_rounded),
+              label: const Text('Empezar ahora'),
+              style: FilledButton.styleFrom(
+                padding: const EdgeInsets.symmetric(vertical: 17),
+                backgroundColor: AppColors.accent,
+                foregroundColor: Colors.white,
+                disabledBackgroundColor: AppColors.accentSoft,
+                disabledForegroundColor: AppColors.inkFaint,
+                textStyle: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16),
+              ),
+            ),
+            const SizedBox(height: 8),
+            Text(
+              _canForceStart
+                  ? 'Los que no estén listos quedarán fuera.'
+                  : 'Mínimo 2 jugadores listos para empezar.',
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontSize: 12, color: AppColors.inkFaint),
+            ),
+          ],
           const SizedBox(height: 30),
         ],
       ),
+    );
+  }
+
+  Widget _playerChip(DuelPlayer p) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Stack(
+          clipBehavior: Clip.none,
+          children: [
+            Container(
+              width: 52,
+              height: 52,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: p.ready
+                    ? AppColors.successSoft
+                    : p.isMe
+                        ? AppColors.primarySoft
+                        : AppColors.surface,
+                shape: BoxShape.circle,
+                border: Border.all(
+                  color: p.ready
+                      ? AppColors.success
+                      : p.isMe
+                          ? AppColors.primary
+                          : AppColors.divider,
+                  width: 2,
+                ),
+              ),
+              child: Text(
+                _avatarFor(p.avatarSeed),
+                style: const TextStyle(fontSize: 24),
+              ),
+            ),
+            Positioned(
+              right: -2,
+              bottom: -2,
+              child: p.ready
+                  ? const Icon(Icons.check_circle_rounded,
+                      size: 18, color: AppColors.success)
+                  : const Icon(Icons.radio_button_unchecked_rounded,
+                      size: 16, color: AppColors.inkFaint),
+            ),
+          ],
+        ),
+        const SizedBox(height: 5),
+        SizedBox(
+          width: 68,
+          child: Text(
+            p.isMe ? '${p.displayName} (tú)' : p.displayName,
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 11,
+              fontWeight: FontWeight.w800,
+              color: p.isMe ? AppColors.primary : AppColors.ink,
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
@@ -393,8 +551,8 @@ class _PlayingView extends StatelessWidget {
             const SizedBox(height: 6),
             Text(
               duel.waitingForOpponent
-                  ? 'Terminaste — esperando al rival…'
-                  : 'Respuesta enviada — esperando al rival…',
+                  ? 'Terminaste — quedan ${duel.players.length - duel.finishedCount} por acabar…'
+                  : 'Respuesta enviada — esperando…',
               textAlign: TextAlign.center,
               style: TextStyle(color: AppColors.inkSoft, fontSize: 13),
             ).animate().fadeIn(),
@@ -406,69 +564,165 @@ class _PlayingView extends StatelessWidget {
   }
 }
 
-class _DuelProgress extends StatelessWidget {
+class _DuelProgress extends StatefulWidget {
   const _DuelProgress({required this.duel});
 
   final DuelState duel;
 
   @override
+  State<_DuelProgress> createState() => _DuelProgressState();
+}
+
+class _DuelProgressState extends State<_DuelProgress> {
+  bool _open = false;
+
+  @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        _bar(label: 'Tú', value: duel.myProgress, color: AppColors.primary),
-        const SizedBox(height: 8),
-        _bar(
-          label: duel.opponentName.isEmpty ? 'Rival' : duel.opponentName,
-          value: duel.opponentProgress,
-          color: AppColors.accent,
+    final duel = widget.duel;
+    final players = List<DuelPlayer>.from(duel.players)
+      ..sort((a, b) {
+        if (a.answered != b.answered) return b.answered - a.answered;
+        if (a.correct != b.correct) return b.correct - a.correct;
+        return a.displayName.toLowerCase().compareTo(b.displayName.toLowerCase());
+      });
+
+    return GestureDetector(
+      onTap: () => setState(() => _open = !_open),
+      behavior: HitTestBehavior.opaque,
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 180),
+        padding: const EdgeInsets.all(9),
+        decoration: BoxDecoration(
+          color: AppColors.surface,
+          borderRadius: BorderRadius.circular(18),
+          border: Border.all(color: AppColors.divider),
         ),
-      ],
+        child: _open
+            ? Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  for (var i = 0; i < players.length; i++) ...[
+                    _expandedRow(i, players[i]),
+                    if (i < players.length - 1) const SizedBox(height: 9),
+                  ],
+                  const SizedBox(height: 8),
+                  const Text(
+                    'Toca para contraer',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 10.5, color: AppColors.inkFaint),
+                  ),
+                ],
+              )
+            : Wrap(
+                alignment: WrapAlignment.spaceBetween,
+                spacing: 6,
+                runSpacing: 6,
+                crossAxisAlignment: WrapCrossAlignment.center,
+                children: [
+                  for (final p in players) _miniChip(p),
+                  const Icon(
+                    Icons.unfold_more_rounded,
+                    size: 18,
+                    color: AppColors.inkFaint,
+                  ),
+                ],
+              ),
+      ),
     );
   }
 
-  Widget _bar({
-    required String label,
-    required double value,
-    required Color color,
-  }) {
+  Widget _miniChip(DuelPlayer p) {
+    final total = widget.duel.questionCount;
+    final done = total > 0 && p.answered >= total;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 4),
+      decoration: BoxDecoration(
+        color: p.isMe ? AppColors.primarySoft : AppColors.background,
+        borderRadius: BorderRadius.circular(99),
+        border: Border.all(
+          color: p.isMe
+              ? AppColors.primary
+              : done
+                  ? AppColors.success
+                  : AppColors.divider,
+        ),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(_avatarFor(p.avatarSeed), style: const TextStyle(fontSize: 14)),
+          const SizedBox(width: 4),
+          Text(
+            '${p.correct}',
+            style: TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.w900,
+              color: p.isMe ? AppColors.primary : AppColors.ink,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _expandedRow(int index, DuelPlayer p) {
+    final duel = widget.duel;
+    final color = p.isMe ? AppColors.primary : AppColors.ink;
     return Row(
       children: [
         SizedBox(
-          width: 78,
+          width: 18,
           child: Text(
-            label,
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: const TextStyle(
+            '${index + 1}',
+            textAlign: TextAlign.right,
+            style: TextStyle(
               fontSize: 12,
-              fontWeight: FontWeight.w800,
-              color: AppColors.ink,
+              fontWeight: FontWeight.w900,
+              color: index == 0 ? AppColors.accent : AppColors.inkFaint,
             ),
           ),
         ),
         const SizedBox(width: 8),
+        Text(_avatarFor(p.avatarSeed), style: const TextStyle(fontSize: 15)),
+        const SizedBox(width: 8),
         Expanded(
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(99),
-            child: LinearProgressIndicator(
-              value: value,
-              minHeight: 10,
-              backgroundColor: AppColors.divider,
-              valueColor: AlwaysStoppedAnimation(color),
-            ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                p.isMe ? '${p.displayName} (tú)' : p.displayName,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: TextStyle(
+                  fontSize: 11.5,
+                  fontWeight: FontWeight.w800,
+                  color: color,
+                ),
+              ),
+              const SizedBox(height: 3),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(99),
+                child: LinearProgressIndicator(
+                  value: duel.questionCount > 0
+                      ? p.answered / duel.questionCount
+                      : 0,
+                  minHeight: 5,
+                  backgroundColor: AppColors.divider,
+                  valueColor: AlwaysStoppedAnimation(
+                    p.isMe ? AppColors.primary : AppColors.accent,
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
         const SizedBox(width: 8),
         SizedBox(
-          width: 26,
+          width: 22,
           child: Text(
-            '${(value * 100).round()}%',
+            '${p.correct}',
             textAlign: TextAlign.right,
-            style: TextStyle(
-              fontSize: 11,
-              fontWeight: FontWeight.w700,
-              color: AppColors.inkFaint,
-            ),
+            style: TextStyle(fontSize: 13, fontWeight: FontWeight.w900, color: color),
           ),
         ),
       ],
@@ -559,20 +813,47 @@ class _ResultView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final ranked = duel.ranked;
+    final total = duel.questions.length;
+    final winner = ranked.isNotEmpty ? ranked.first : null;
+    final isDuo = duel.players.length == 2;
+
+    int myPosition = 0;
+    for (var i = 0; i < ranked.length; i++) {
+      if (ranked[i].isMe) myPosition = i + 1;
+    }
+
     final String title;
+    final String subtitle;
     final String emoji;
     final Color color;
 
     if (duel.draw) {
       title = '¡Empate!';
+      subtitle = 'Nadie se llevó la victoria';
       emoji = '🤝';
       color = AppColors.accent;
     } else if (duel.iWon) {
       title = '¡Ganaste!';
+      subtitle = isDuo
+          ? 'Le ganaste a ${winner?.displayName ?? 'tu rival'}'
+          : 'Primero de ${duel.players.length} jugadores con ${duel.correct} de $total';
       emoji = '🏆';
       color = AppColors.success;
+    } else if (myPosition > 1 && !isDuo) {
+      title = 'Quedaste en $myPosition.º puesto';
+      subtitle = winner == null
+          ? ''
+          : 'Ganó ${winner.displayName} con ${winner.correct} de $total';
+      emoji = '💪';
+      color = AppColors.primary;
     } else {
       title = 'Perdiste';
+      subtitle = winner == null
+          ? ''
+          : isDuo
+              ? '${winner.displayName} fue más rápido y preciso'
+              : 'Ganó ${winner.displayName} con ${winner.correct} de $total';
       emoji = '💪';
       color = AppColors.error;
     }
@@ -582,64 +863,53 @@ class _ResultView extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          const SizedBox(height: 40),
+          const SizedBox(height: 28),
           Text(
             emoji,
             textAlign: TextAlign.center,
-            style: const TextStyle(fontSize: 74),
+            style: const TextStyle(fontSize: 66),
           )
               .animate()
               .fadeIn(duration: 350.ms)
               .scale(begin: const Offset(.6, .6), curve: Curves.elasticOut),
-          const SizedBox(height: 12),
+          const SizedBox(height: 10),
           Text(
             title,
             textAlign: TextAlign.center,
-            style: theme.textTheme.headlineMedium?.copyWith(
+            style: theme.textTheme.headlineSmall?.copyWith(
               fontWeight: FontWeight.w900,
               color: color,
             ),
           ),
           const SizedBox(height: 6),
           Text(
-            duel.draw
-                ? 'Nadie se llevó la victoria'
-                : duel.iWon
-                    ? 'Le ganaste a ${duel.opponentName}'
-                    : '${duel.opponentName} fue más rápido y preciso',
+            subtitle,
             textAlign: TextAlign.center,
             style: theme.textTheme.bodyMedium?.copyWith(color: AppColors.inkSoft),
           ),
-          const SizedBox(height: 32),
-          Container(
-            padding: const EdgeInsets.all(20),
-            decoration: BoxDecoration(
-              color: AppColors.surface,
-              borderRadius: BorderRadius.circular(24),
-            ),
-            child: Row(
-              children: [
-                Expanded(
-                  child: _scoreColumn(
-                    'Tú',
-                    '${duel.correct}',
-                    duel.questions.length,
-                    AppColors.primary,
-                  ),
+          const SizedBox(height: 20),
+          Expanded(
+            child: SingleChildScrollView(
+              child: Container(
+                width: double.infinity,
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+                decoration: BoxDecoration(
+                  color: AppColors.surface,
+                  borderRadius: BorderRadius.circular(24),
                 ),
-                Container(width: 1, height: 56, color: AppColors.divider),
-                Expanded(
-                  child: _scoreColumn(
-                    duel.opponentName.isEmpty ? 'Rival' : duel.opponentName,
-                    '${duel.opponentCorrect}',
-                    duel.questions.length,
-                    AppColors.accent,
-                  ),
+                child: Column(
+                  children: [
+                    for (var i = 0; i < ranked.length; i++) ...[
+                      _rankRow(i, ranked[i], total),
+                      if (i < ranked.length - 1)
+                        const Divider(height: 1, color: AppColors.divider),
+                    ],
+                  ],
                 ),
-              ],
+              ),
             ),
           ),
-          const Spacer(),
+          const SizedBox(height: 16),
           FilledButton(
             onPressed: onAgain,
             style: FilledButton.styleFrom(
@@ -656,35 +926,72 @@ class _ResultView extends StatelessWidget {
             ),
             child: const Text('Salir'),
           ),
-          const SizedBox(height: 30),
+          const SizedBox(height: 24),
         ],
       ),
     );
   }
 
-  Widget _scoreColumn(String name, String score, int total, Color color) {
-    return Column(
-      children: [
-        Text(
-          name,
-          maxLines: 1,
-          overflow: TextOverflow.ellipsis,
-          style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 14),
-        ),
-        const SizedBox(height: 6),
-        Text(
-          '$score/$total',
-          style: TextStyle(
-            fontSize: 34,
-            fontWeight: FontWeight.w900,
-            color: color,
+  Widget _rankRow(int index, DuelPlayer p, int total) {
+    final isMe = p.isMe;
+    final medal = switch (index) {
+      0 => '🥇',
+      1 => '🥈',
+      2 => '🥉',
+      _ => null,
+    };
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 8),
+      decoration: BoxDecoration(
+        color: isMe ? AppColors.primarySoft : Colors.transparent,
+        borderRadius: BorderRadius.circular(14),
+      ),
+      child: Row(
+        children: [
+          SizedBox(
+            width: 26,
+            child: medal != null
+                ? Text(medal, style: const TextStyle(fontSize: 17))
+                : Text(
+                    '${index + 1}',
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.w900,
+                      fontSize: 14,
+                      color: AppColors.inkFaint,
+                    ),
+                  ),
           ),
-        ),
-        const Text(
-          'correctas',
-          style: TextStyle(fontSize: 12, color: AppColors.inkFaint),
-        ),
-      ],
+          const SizedBox(width: 6),
+          Text(_avatarFor(p.avatarSeed), style: const TextStyle(fontSize: 20)),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Text(
+              isMe ? '${p.displayName} (tú)' : p.displayName,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                fontWeight: FontWeight.w800,
+                fontSize: 14,
+                color: isMe ? AppColors.primary : AppColors.ink,
+              ),
+            ),
+          ),
+          const SizedBox(width: 8),
+          Text(
+            '${p.correct}/$total',
+            style: TextStyle(
+              fontWeight: FontWeight.w900,
+              fontSize: 15,
+              color: index == 0 && !duel.draw
+                  ? AppColors.accent
+                  : isMe
+                      ? AppColors.primary
+                      : AppColors.inkSoft,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
@@ -729,3 +1036,7 @@ class _ErrorView extends StatelessWidget {
     );
   }
 }
+
+const List<String> _avatars = ['🐣', '🦉', '🧠', '📚', '🦋', '🦜', '🌺', '⭐'];
+
+String _avatarFor(int seed) => _avatars[seed % _avatars.length];
