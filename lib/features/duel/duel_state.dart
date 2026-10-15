@@ -306,6 +306,8 @@ class DuelNotifier extends AsyncNotifier<DuelState> {
         ));
 
       case 'room':
+        // La partida ya cerró: el ranking final no se toca.
+        if (_s.phase == DuelPhase.result) break;
         final room = msg['room'] as Map<String, dynamic>?;
         final roster = (room?['players'] as List? ?? const [])
             .whereType<Map<String, dynamic>>()
@@ -391,6 +393,7 @@ class DuelNotifier extends AsyncNotifier<DuelState> {
         ));
 
       case 'playerLeft':
+        if (_s.phase == DuelPhase.result) break;
         final id = msg['playerId'] as String? ?? '';
         if (id.isEmpty) break;
         _emit(_s.copyWith(
