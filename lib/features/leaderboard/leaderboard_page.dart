@@ -7,6 +7,7 @@ import '../../core/providers/app_providers.dart';
 import '../../core/providers/session_provider.dart';
 import '../../core/theme/app_colors.dart';
 import '../../data/api_client.dart';
+import '../../models/avatar.dart';
 
 class LeaderboardEntry {
   const LeaderboardEntry({
@@ -14,6 +15,7 @@ class LeaderboardEntry {
     required this.playerId,
     required this.displayName,
     required this.avatarSeed,
+    required this.avatarId,
     required this.isGuest,
     required this.streak,
     required this.score,
@@ -23,6 +25,7 @@ class LeaderboardEntry {
   final String playerId;
   final String displayName;
   final int avatarSeed;
+  final String avatarId;
   final bool isGuest;
   final int streak;
   final int score;
@@ -33,6 +36,7 @@ class LeaderboardEntry {
         playerId: json['playerId'] as String? ?? '',
         displayName: json['displayName'] as String? ?? 'Jugador',
         avatarSeed: (json['avatarSeed'] as num?)?.toInt() ?? 0,
+        avatarId: json['avatarId'] as String? ?? 'chick',
         isGuest: json['isGuest'] as bool? ?? true,
         streak: (json['streak'] as num?)?.toInt() ?? 0,
         score: (json['score'] as num?)?.toInt() ?? 0,
@@ -73,9 +77,9 @@ extension LeaderboardPeriodX on LeaderboardPeriod {
       };
 
   String get unit => switch (this) {
-        LeaderboardPeriod.week => 'XP esta semana',
-        LeaderboardPeriod.month => 'XP este mes',
-        LeaderboardPeriod.all => 'XP total',
+        LeaderboardPeriod.week => 'Mejor examen de la semana',
+        LeaderboardPeriod.month => 'Mejor examen del mes',
+        LeaderboardPeriod.all => 'Mejor examen histórico',
       };
 }
 
@@ -109,6 +113,8 @@ class _LeaderboardPageState extends ConsumerState<LeaderboardPage> {
 
   // Si quedó una subida pendiente por falta de red, se reintenta al abrir la pantalla.
   Future<void> _retryPendingSync() async {
+    // Igual que syncProgress: si quedó nickname/icono sin enviar, reintentar.
+    await ref.read(sessionProvider.notifier).retryPendingIdentity();
     final session = ref.read(sessionProvider).valueOrNull;
     if (session == null || !session.pendingSync) return;
     final progress = ref.read(progressProvider).valueOrNull;
@@ -386,19 +392,7 @@ class _LeaderRow extends StatelessWidget {
                   ),
           ),
           const SizedBox(width: 12),
-          Container(
-            width: 40,
-            height: 40,
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-              color: AppColors.background,
-              borderRadius: BorderRadius.circular(14),
-            ),
-            child: Text(
-              _avatarFor(entry.avatarSeed),
-              style: const TextStyle(fontSize: 20),
-            ),
-          ),
+          _LeaderAvatar(entry: entry),
           const SizedBox(width: 12),
           Expanded(
             child: Column(
@@ -438,7 +432,7 @@ class _LeaderRow extends StatelessWidget {
                 ),
               ),
               Text(
-                'XP',
+                'PTS',
                 style: TextStyle(
                   fontSize: 10,
                   fontWeight: FontWeight.w700,
@@ -449,6 +443,44 @@ class _LeaderRow extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+/// Icono de perfil con anillo de color según su tier
+/// (épico morado, legendario dorado).
+class _LeaderAvatar extends StatelessWidget {
+  const _LeaderAvatar({required this.entry});
+
+  final LeaderboardEntry entry;
+
+  @override
+  Widget build(BuildContext context) {
+    final avatar = AvatarCatalog.byIdOrFallback(entry.avatarId);
+    final ring = switch (avatar.tier) {
+      AvatarTier.common => null,
+      AvatarTier.epic => const Color(0xFF8B5CF6),
+      AvatarTier.legendary => const Color(0xFFFFC53D),
+    };
+    return Container(
+      width: 40,
+      height: 40,
+      alignment: Alignment.center,
+      decoration: BoxDecoration(
+        color: AppColors.background,
+        borderRadius: BorderRadius.circular(14),
+        border: ring == null ? null : Border.all(color: ring, width: 1.8),
+        boxShadow: avatar.tier == AvatarTier.legendary
+            ? [
+                BoxShadow(
+                  color: ring!.withValues(alpha: .45),
+                  blurRadius: 10,
+                  offset: const Offset(0, 3),
+                ),
+              ]
+            : null,
+      ),
+      child: Text(avatar.emoji, style: const TextStyle(fontSize: 20)),
     );
   }
 }
@@ -474,7 +506,7 @@ class _EmptyBox extends StatelessWidget {
           ),
           const SizedBox(height: 6),
           Text(
-            'Termina una sesión y aparecerás aquí.',
+            'Termina un examen y aparecerás aquí.',
             style: TextStyle(fontSize: 13, color: AppColors.inkSoft),
             textAlign: TextAlign.center,
           ),
@@ -518,6 +550,3 @@ class _ErrorBox extends StatelessWidget {
   }
 }
 
-const List<String> _avatars = ['🐣', '🦉', '🧠', '📚', '🦋', '🦜', '🌺', '⭐'];
-
-String _avatarFor(int seed) => _avatars[seed % _avatars.length];

@@ -3,6 +3,7 @@
     "id": "mat-001",
     "categoria": "matematicas",
     "tema": "Porcentajes",
+    "asignatura": "matematicas",
     "fuente": "original",
     "dificultad": "basico",
     "enunciado": "¿Cuánto es el 15 % de 200?",
@@ -25,6 +26,7 @@
     "id": "mat-002",
     "categoria": "matematicas",
     "tema": "Áreas",
+    "asignatura": "matematicas",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "El área de un rectángulo de 8 cm de base y 5 cm de altura es:",
@@ -47,6 +49,7 @@
     "id": "mat-003",
     "categoria": "matematicas",
     "tema": "Ecuaciones lineales",
+    "asignatura": "matematicas",
     "fuente": "pucp",
     "dificultad": "basico",
     "enunciado": "Si 3x − 5 = 16, entonces x vale:",
@@ -69,6 +72,7 @@
     "id": "mat-004",
     "categoria": "matematicas",
     "tema": "Números primos",
+    "asignatura": "matematicas",
     "fuente": "original",
     "dificultad": "basico",
     "enunciado": "¿Cuál de estos números es primo?",
@@ -91,6 +95,7 @@
     "id": "mat-005",
     "categoria": "matematicas",
     "tema": "Potencias y raíces",
+    "asignatura": "matematicas",
     "fuente": "utp",
     "dificultad": "intermedio",
     "enunciado": "La raíz cuadrada de 196 es:",
@@ -113,6 +118,7 @@
     "id": "mat-006",
     "categoria": "matematicas",
     "tema": "Promedios",
+    "asignatura": "matematicas",
     "fuente": "pucp",
     "dificultad": "intermedio",
     "enunciado": "El promedio de 4, 7, 9 y 12 es:",
@@ -135,6 +141,7 @@
     "id": "mat-007",
     "categoria": "matematicas",
     "tema": "Triángulos",
+    "asignatura": "matematicas",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "Si un triángulo tiene dos ángulos de 50° y 60°, el tercer ángulo mide:",
@@ -157,6 +164,7 @@
     "id": "mat-008",
     "categoria": "matematicas",
     "tema": "Logaritmos",
+    "asignatura": "matematicas",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "Si log₂(x) = 5, entonces x vale:",
@@ -179,6 +187,7 @@
     "id": "mat-009",
     "categoria": "matematicas",
     "tema": "Derivadas",
+    "asignatura": "matematicas",
     "fuente": "pucp",
     "dificultad": "dificil",
     "enunciado": "La derivada de f(x) = x³ evaluada en x = 2 es:",
@@ -201,6 +210,7 @@
     "id": "mat-010",
     "categoria": "matematicas",
     "tema": "Trigonometría",
+    "asignatura": "matematicas",
     "fuente": "original",
     "dificultad": "dificil",
     "enunciado": "El valor de cos(60°) es:",
@@ -223,6 +233,7 @@
     "id": "mat-011",
     "categoria": "matematicas",
     "tema": "Geometría básica",
+    "asignatura": "matematicas",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "Un ángulo recto mide:",
@@ -245,6 +256,7 @@
     "id": "mat-012",
     "categoria": "matematicas",
     "tema": "Determinantes",
+    "asignatura": "matematicas",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "El determinante de la matriz [[2, 3], [1, 4]] es:",
@@ -264,308 +276,10 @@
     ]
   },
   {
-    "id": "uni-001",
-    "categoria": "matematicas",
-    "tema": "Combinatoria",
-    "fuente": "uni",
-    "dificultad": "intermedio",
-    "enunciado": "En una caja se tienen 6 pares de zapatos diferentes; si se extraen uno a uno y sin reposición, ¿cuántos zapatos se deben extraer como mínimo para estar seguro de haber extraído un par de zapatos del mismo tipo?",
-    "opciones": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correcta": 3,
-    "explicacion": "En el peor de los casos se extraen los 6 zapatos y todos pertenecen a tipos distintos; el séptimo zapato completará necesariamente uno de esos pares, de modo que hacen falta 7 extracciones.",
-    "analisis": [
-      "Con 4 zapatos extraídos puede no existir ningún par, pues cada uno puede ser de un tipo distinto.",
-      "Con 5 tampoco se garantiza un par: pueden salir cinco zapatos de cinco pares diferentes.",
-      "Con 6 se alcanza el peor caso: si salen los seis zapatos de seis tipos distintos, aún no se forma ningún par.",
-      "7 es la respuesta correcta: una vez extraídos los seis tipos distintos, el séptimo zapato cierra un par (principio de casilleros)."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
-    "id": "uni-002",
-    "categoria": "matematicas",
-    "tema": "Combinatoria",
-    "fuente": "uni",
-    "dificultad": "intermedio",
-    "enunciado": "En una urna se tienen 4 bolillas rojas, 6 blancas y 8 verdes. ¿Cuántas bolillas como mínimo se deben sacar al azar, de una en una, para estar seguro de haber extraído por lo menos una blanca y una verde?",
-    "opciones": [
-      "4",
-      "9",
-      "11",
-      "13"
-    ],
-    "correcta": 3,
-    "explicacion": "En el peor de los casos se extraen primero las 4 rojas y las 8 verdes, es decir 12 bolillas sin ninguna blanca; recién la décima tercera bolilla garantiza tener una blanca junto con una verde ya obtenida.",
-    "analisis": [
-      "4 solo garantiza extraer todas las rojas, sin asegurar una blanca ni una verde.",
-      "9 no cubre el peor caso: podrían salir las 4 rojas y 5 verdes sin ninguna blanca.",
-      "11 tampoco basta: aún es posible haber sacado las 4 rojas y 7 verdes sin ninguna blanca.",
-      "13 es correcta: después de las 4 rojas y las 8 verdes (12 bolillas), la siguiente necesariamente es blanca."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
-    "id": "uni-003",
-    "categoria": "matematicas",
-    "tema": "Lógica",
-    "fuente": "uni",
-    "dificultad": "intermedio",
-    "enunciado": "Si se cumplen las siguientes premisas: 1) Algunos ingenieros son visionarios. 2) Todo visionario es no realista. Entonces:",
-    "opciones": [
-      "Todos los ingenieros son realistas.",
-      "No es cierto que muchos ingenieros no son realistas.",
-      "Muchos ingenieros no son científicos.",
-      "Muchos ingenieros no son realistas."
-    ],
-    "correcta": 3,
-    "explicacion": "Los ingenieros visionarios pertenecen al conjunto de los no realistas, ya que todo visionario es no realista; por tanto, esos ingenieros no son realistas y se concluye que muchos ingenieros no lo son.",
-    "analisis": [
-      "Es falsa: las premisas no afirman que todos los ingenieros sean realistas, solo hablan de los visionarios.",
-      "Es falsa: como sí es cierto que muchos ingenieros no son realistas, su negación es incorrecta.",
-      "No se deduce: las premisas no mencionan en ningún momento a los científicos.",
-      "Es correcta: los ingenieros que son visionarios son a la vez no realistas, luego muchos ingenieros no son realistas."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
-    "id": "uni-004",
-    "categoria": "matematicas",
-    "tema": "Progresiones aritméticas",
-    "fuente": "uni",
-    "dificultad": "basico",
-    "enunciado": "Una progresión aritmética se inicia en 7, 11, 15, ... . Indique la suma de los dígitos del término que ocupa la posición 16 de la progresión indicada.",
-    "opciones": [
-      "9",
-      "11",
-      "13",
-      "14"
-    ],
-    "correcta": 2,
-    "explicacion": "La razón de la progresión es 4, entonces t16 = 7 + (16 - 1) × 4 = 67; la suma de sus dígitos es 6 + 7 = 13.",
-    "analisis": [
-      "9 no corresponde: no es la suma de los dígitos de 67 ni de ningún término de la sucesión.",
-      "11 tampoco corresponde: se obtiene de sumar dígitos de un valor distinto al término pedido.",
-      "13 es correcta: el término 16 es 67 y 6 + 7 = 13.",
-      "14 es incorrecta: surgiría de un cálculo erróneo de la suma de los dígitos de 67."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
-    "id": "uni-005",
-    "categoria": "matematicas",
-    "tema": "Sucesiones numéricas",
-    "fuente": "uni",
-    "dificultad": "intermedio",
-    "enunciado": "En la siguiente sucesión, halle el valor de x: 5, 5, 2, 3, 1, 3, x",
-    "opciones": [
-      "0",
-      "1",
-      "2",
-      "3"
-    ],
-    "correcta": 2,
-    "explicacion": "Las operaciones alternan sumas crecientes y restas decrecientes: +0, -3, +1, -2, +2 y por último -1; aplicando esta última, 3 - 1 = 2.",
-    "analisis": [
-      "0 no sigue el patrón: exigiría restar 3 en el último paso, cuando las restas ya decrecieron hasta -1.",
-      "1 sería el resultado de repetir la resta -2, pero ese valor ya se usó en el paso anterior.",
-      "2 es correcta: la última operación del patrón es -1 y 3 - 1 = 2.",
-      "3 repetiría el término anterior sin aplicar la última operación de la sucesión."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
-    "id": "uni-006",
-    "categoria": "matematicas",
-    "tema": "Sucesiones y series",
-    "fuente": "uni",
-    "dificultad": "intermedio",
-    "enunciado": "Considerando la letra Ñ, el grupo de letras que continúa es: A, AC, ACE, ACEH, ACEHL, ...",
-    "opciones": [
-      "ACEHLO",
-      "ACEHLP",
-      "ACEHLQ",
-      "ACEHLR"
-    ],
-    "correcta": 2,
-    "explicacion": "Las letras que se saltan entre un grupo y el siguiente forman la serie de Fibonacci 1, 1, 2, 3, 5: falta B, luego D, luego F y G, luego I, J y K; ahora deben faltar 5 letras (M, N, Ñ, O y P), por lo que sigue ACEHLQ.",
-    "analisis": [
-      "ACEHLO salta solo M, N y Ñ, es decir 3 letras, cuando deben ser 5.",
-      "ACEHLP salta 4 letras (M, N, Ñ y O) y rompe la serie 1, 1, 2, 3, 5.",
-      "ACEHLQ es correcta: entre L y Q faltan M, N, Ñ, O y P, exactamente 5 letras.",
-      "ACEHLR salta 6 letras, valor que no corresponde a ningún término de la serie de Fibonacci."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
-    "id": "uni-007",
-    "categoria": "matematicas",
-    "tema": "Suficiencia de datos",
-    "fuente": "uni",
-    "dificultad": "dificil",
-    "enunciado": "Dados tres números naturales cuya suma es 765, se desea hallar el menor. Se dispone de las siguientes informaciones: I) El menor es la raíz cúbica del mayor. II) El intermedio es la raíz cuadrada del mayor. Para resolver el problema:",
-    "opciones": [
-      "La información I es suficiente.",
-      "La información II es suficiente.",
-      "Ambas informaciones son necesarias.",
-      "Cada una de las informaciones por separado es suficiente."
-    ],
-    "correcta": 1,
-    "explicacion": "Con la información I hay dos respuestas posibles, (8, 245, 512) y (9, 27, 729); con la información II solo se obtiene (9, 27, 729), por lo que la segunda información es suficiente.",
-    "analisis": [
-      "No es suficiente: la I admite dos ternas distintas, así que el menor no queda determinado.",
-      "Es correcta: imponiendo que el intermedio sea la raíz cuadrada del mayor, solo queda la terna (9, 27, 729).",
-      "No es necesaria: con la información II ya se llega a una única respuesta.",
-      "No es exacta: la I por separado resulta insuficiente, por lo que no vale decir que cada una basta."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
-    "id": "uni-008",
-    "categoria": "matematicas",
-    "tema": "Suficiencia de datos",
-    "fuente": "uni",
-    "dificultad": "dificil",
-    "enunciado": "Se desea saber en qué porcentaje varía la población de una ciudad, si el número de mujeres es al número de varones como 3/2. Información brindada: I) El 60% de la población son mujeres. II) El número de varones aumentó en 30% y el de mujeres disminuyó en 10%. Para resolver el problema:",
-    "opciones": [
-      "La información I es suficiente.",
-      "La información II es suficiente.",
-      "Es necesario utilizar ambas informaciones.",
-      "Cada una de las informaciones por separado es suficiente."
-    ],
-    "correcta": 1,
-    "explicacion": "Si mujeres = 3k y varones = 2k, con la información II la población pasa de 5k a 5,3k (2,6k + 2,7k), es decir una variación de 0,3k sobre 5k = 6%; la información I solo fija la proporción inicial y no permite calcular variación alguna.",
-    "analisis": [
-      "No es suficiente: el 60% solo confirma la proporción inicial de mujeres y no informa ningún cambio.",
-      "Es correcta: aplicando +30% a los varones y -10% a las mujeres se obtiene una variación total de 6%.",
-      "No es necesaria: con la información II ya se calcula la variación de la población.",
-      "No es exacta: la información I por separado no aporta datos del cambio poblacional."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
-    "id": "uni-009",
-    "categoria": "matematicas",
-    "tema": "Suficiencia de datos",
-    "fuente": "uni",
-    "dificultad": "dificil",
-    "enunciado": "Pedro y Vilma se han comprado un televisor que les ha costado X soles; se quiere saber cuánto aportó cada uno. Usando la siguiente información: I) Pedro aportó el doble que Vilma. II) La diferencia del cuadrado de sus aportes es Y soles. Para resolver el problema:",
-    "opciones": [
-      "La información I es suficiente.",
-      "La información II es suficiente.",
-      "Es necesario utilizar ambas informaciones.",
-      "Cada información, por separado, es suficiente."
-    ],
-    "correcta": 3,
-    "explicacion": "Con la I, P + V = X y P = 2V dan V = X/3 y P = 2X/3; con la II, P² - V² = (P + V)(P - V) = Y, de donde P - V = Y/X y, sumado a P + V = X, se despejan ambos aportes. Cada información basta por separado.",
-    "analisis": [
-      "Es verdadero que la I permite hallar los aportes, pero no es la respuesta completa porque la II también resulta suficiente.",
-      "También es parcialmente cierto, pues omite que la información I ya permite resolver el problema por sí sola.",
-      "No es necesario combinarlas: cualquiera de las dos, por separado, determina los dos aportes.",
-      "Es correcta: la I da la relación directa entre aportes y la II permite despejarlos algebraicamente; cada una por separado es suficiente."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
-    "id": "uni-010",
-    "categoria": "matematicas",
-    "tema": "Problemas de edades",
-    "fuente": "uni",
-    "dificultad": "basico",
-    "enunciado": "La edad de un padre es 35 años y la de su hijo es 5 años. ¿Cuántos años deben pasar para que la edad del padre sea tres veces mayor de la edad del hijo?",
-    "opciones": [
-      "5",
-      "10",
-      "12",
-      "15"
-    ],
-    "correcta": 0,
-    "explicacion": "Que el padre sea tres veces mayor que el hijo equivale a que tenga cuatro veces su edad: 35 + x = 4(5 + x), de donde x = 5; entonces el padre tiene 40 años y el hijo 10.",
-    "analisis": [
-      "5 es correcta: el padre tendría 40 años y el hijo 10; 40 es 30 años más que 10, es decir, tres veces la edad del hijo por encima de él.",
-      "10 es el error de leer 'tres veces mayor' como 'tres veces la edad': daría 45 y 15, pero no es la lectura correcta de la frase.",
-      "12 no cumple la condición: el padre tendría 47 años y el hijo 17, relación que no es de cuatro a uno.",
-      "15 tampoco cumple: 50 y 20 no guardan la proporción exigida por el enunciado."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
-    "id": "uni-011",
-    "categoria": "matematicas",
-    "tema": "Fracciones y porcentajes",
-    "fuente": "uni",
-    "dificultad": "dificil",
-    "enunciado": "En una fiesta, los 0,666... eran varones y sólo 0,4 de las damas bailaban; las 15 mujeres restantes descansaban. ¿Cuántos varones asistieron a la fiesta?",
-    "opciones": [
-      "25",
-      "50",
-      "75",
-      "100"
-    ],
-    "correcta": 1,
-    "explicacion": "Tomando el total como 90k, los varones son 60k (2/3) y las damas 30k; como bailan 12k (0,4 de 30k) y 15 descansan, se tiene 12k + 15 = 30k, luego k = 5/6 y los varones son 60 × 5/6 = 50.",
-    "analisis": [
-      "25 corresponde a la cantidad de damas que asistieron, no de varones.",
-      "50 es correcta: con k = 5/6 los varones suman 50 y las damas 25 (10 bailan y 15 descansan).",
-      "75 no cumple: excede la proporción de varones sobre el total y no deja exactamente 15 damas descansando.",
-      "100 tampoco cumple: dejaría más de 15 damas sin bailar, contradiciendo el enunciado."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
-    "id": "uni-012",
-    "categoria": "matematicas",
-    "tema": "Álgebra",
-    "fuente": "uni",
-    "dificultad": "dificil",
-    "enunciado": "Sea • : A × A → A, donde A = {0, 1, 2}, una operación cuyo elemento neutro es 2 y el único inverso de 1 es 0. Si para todo x de A distinto de 2 se cumple que x • x es distinto de x, halle el valor de E = (0 • 0) • ((1 • 1) • (2 • 2)).",
-    "opciones": [
-      "0",
-      "1",
-      "2",
-      "3"
-    ],
-    "correcta": 2,
-    "explicacion": "Como 2 es neutro, 2 • 2 = 2 y 0 • 2 = 0; la unicidad de inversos y la condición x • x ≠ x obligan a que 1 • 1 = 0 y 0 • 0 = 1. Así, E = 1 • (0 • 2) = 1 • 0 = 2, aplicando que 0 es el inverso de 1.",
-    "analisis": [
-      "0 no puede ser el resultado: supondría que 0 • 0 = 0, lo que contradice la condición x • x ≠ x para x distinto de 2.",
-      "1 no se obtiene: sería el valor de 0 • 0, pero es un paso intermedio y no el resultado final de toda la expresión.",
-      "2 es correcta: desarrollando, E = (0 • 0) • ((1 • 1) • (2 • 2)) = 1 • (0 • 2) = 1 • 0 = 2.",
-      "3 es imposible: la operación sobre {0, 1, 2} solo puede devolver elementos del conjunto, nunca 3."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
-    "id": "uni-013",
-    "categoria": "matematicas",
-    "tema": "Porcentajes",
-    "fuente": "uni",
-    "dificultad": "intermedio",
-    "enunciado": "La tabla indica el porcentaje de basura electrónica producida en el Perú durante el 2015: Computadoras 44%, Televisores 20%, Neveras 16%, Lavadoras 15%, Celulares 5%. Si se botaron 7 360 toneladas de televisores, ¿cuál de los siguientes enunciados es verdadero?",
-    "opciones": [
-      "16 912 toneladas de computadoras se botó en el Perú al 2015.",
-      "El año 2015 se botó en Perú 1 480 toneladas de celulares.",
-      "Los peruanos botaron más de 6 000 toneladas de lavadoras.",
-      "La basura electrónica producida en Perú en el 2015 es de 36 800 toneladas."
-    ],
-    "correcta": 3,
-    "explicacion": "Si 7 360 t representan el 20%, el total es 7 360 / 0,20 = 36 800 t, lo que confirma el enunciado D; con ese total, computadoras dan 16 192 t, celulares 1 840 t y lavadoras 5 520 t.",
-    "analisis": [
-      "Es falso: el 44% de 36 800 t es 16 192 t, no 16 912 t.",
-      "Es falso: el 5% de 36 800 t es 1 840 t, no 1 480 t.",
-      "Es falso: el 15% de 36 800 t es 5 520 t, cantidad que no supera las 6 000 t.",
-      "Es correcto: 7 360 t corresponde al 20% del total, de donde el total es 36 800 t."
-    ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
-  },
-  {
     "id": "mat-026",
     "categoria": "matematicas",
     "tema": "Razonamiento lógico",
+    "asignatura": "logica",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "En una elección escolar, hay ocho candidatos. Después de contar el 95% de los votos, los resultados preliminares fueron los siguientes:\nÁlex 32\nCarmen 31\nBenito 26\nDaniel 25\nElena 24\nFlora 23\nGelma 15\nManuel 14\n¿Cuántos estudiantes todavía tienen la posibilidad de ganar las elecciones?",
@@ -585,12 +299,14 @@
       "No es la respuesta: El 2 solo considera a Álex y Carmen; olvida que Benito, Daniel, Elena y Flora aún pueden rebasar los 32 votos con los 10 que faltan.",
       "No es la respuesta: El 5 excluye a Flora: con 23 votos y los 10 pendientes alcanzaría 33 y superaría a Álex, de modo que serían 6, no 5."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "mat-027",
     "categoria": "matematicas",
     "tema": "Razonamiento lógico",
+    "asignatura": "logica",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "Pedro, José, Manuel, César y Andrés participaron en un certamen de natación. Se sabe que, al finalizar el certamen, no hubo empates. Uno de los jueces que no estuvo atento al certamen, preguntó a cuatro de ellos en qué puesto habían llegado, a lo que cada uno de ellos contestó de la siguiente manera:\n• José: “Pedro llegó en tercer lugar. Manuel llegó cuarto”.\n• Pedro: “Manuel llegó en último lugar. César llegó tercero”.\n• César: “Pedro fue el primero en llegar. José llegó tercero”.\n• Manuel: “César llegó en quinto lugar. Andrés llegó segundo”. Si cada uno de ellos respondió una verdad y una mentira, aunque no necesariamente en ese orden, ¿quién llegó primero y quién último, respectivamente?",
@@ -610,12 +326,14 @@
       "No es la respuesta: Manuel no llegó primero: sus frases verdaderas ubican a César quinto y a Andrés segundo, mientras que él mismo quedó cuarto.",
       "No es la respuesta: Andrés terminó segundo, no primero, y Manuel no fue último: el último es José, tal como afirma la verdad de Pedro."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "mat-028",
     "categoria": "matematicas",
     "tema": "Razonamiento lógico",
+    "asignatura": "logica",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "En la tabla adjunta, se registran 1200 operaciones de retiro de dinero del cajero de un banco.\nRetiro de dinero (soles) → número de operaciones\n500 → 300\n1000 → 250\n1200 → 150\n1500 → x\n2000 → 120\n2500 → 80\n3000 → 50\nCalcule qué tanto por ciento representa el número de operaciones donde hubo más de 2000 soles de retiro con respecto al número de operaciones con más de 1000 soles de retiro.",
@@ -635,12 +353,14 @@
       "No es la respuesta: El 18% subestima el cociente: exigiría apenas 117 operaciones de más de S/2000, pero hay 130, y 130/650 da exactamente 20%.",
       "Correcto: x = 1200 − 950 = 250; con 650 operaciones de más de S/1000 y 130 de más de S/2000, el porcentaje es 130/650 × 100% = 20%."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "mat-029",
     "categoria": "matematicas",
     "tema": "Aritmética",
+    "asignatura": "matematicas",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "Para tener acceso a una caja fuerte, se necesita crear un código de cuatro dígitos, cualquiera de los cuales puede ser repetido. ¿Cuántos códigos diferentes se pueden generar?",
@@ -660,6 +380,1236 @@
       "No es la respuesta: 9000 excluiría el cero en la primera posición (9 × 10 × 10 × 10), pero las cuatro posiciones admiten cualquier dígito del 0 al 9.",
       "No es la respuesta: 6561 es 9 elevado a 4, como si cada posición tuviera solo 9 opciones; al incluir el 0 hay 10 y el total es 10 000."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
+  },
+  {
+    "id": "mat-030",
+    "categoria": "matematicas",
+    "tema": "Operaciones matemáticas",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Sean los operadores matemáticos definidos mediante las figuras que se muestran a continuación, donde el primero equivale a la suma de sus cuatro entradas y el segundo al producto de sus tres entradas. Halle el valor de E, cuya expresión completa aparece en la figura.",
+    "opciones": [
+      "78",
+      "86",
+      "102",
+      "120",
+      "136"
+    ],
+    "correcta": 4,
+    "explicacion": "Evaluando la expresión anidada desde el interior hacia afuera, reemplazando cada cuadro por la suma de sus cuatro números y cada triángulo por el producto de sus tres números, se obtiene E = 136.",
+    "analisis": [
+      "No es la respuesta: 78 no coincide con el resultado de la evaluación completa de la expresión anidada.",
+      "No es la respuesta: 86 surge de un cálculo incompleto del interior de la expresión.",
+      "No es la respuesta: 102 no corresponde a ninguna combinación válida de sumas y productos de la expresión.",
+      "No es la respuesta: 120 se obtendría ignorando alguno de los factores internos.",
+      "Correcto: aplicando los operadores paso a paso (suma en los cuadros, producto en los triángulos) el valor final de E es 136."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagen": "assets/questions/img/uni-2026-2-q1-formula.png"
+  },
+  {
+    "id": "mat-031",
+    "categoria": "matematicas",
+    "tema": "Lógica proposicional",
+    "asignatura": "logica",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Si la siguiente proposición es falsa: ((p ∧ q) → (r ∧ s)) ∨ (r → s). Indique la veracidad (V) o falsedad (F) de las siguientes proposiciones:\nI. ((∼p ↔ q) ↔ (r ↔ s))\nII. (p ∨ q) ∧ (r ∨ s)\nIII. (p → q) → (r → s)\nMarque la alternativa que contenga la secuencia correcta.",
+    "opciones": [
+      "FFF",
+      "FVF",
+      "VFF",
+      "VVF",
+      "VVV"
+    ],
+    "correcta": 3,
+    "explicacion": "Una disyunción es falsa solo si ambos componentes son falsos. De (r → s) falsa siguen r = V y s = F; de ((p ∧ q) → (r ∧ s)) falsa siguen p ∧ q = V y r ∧ s = F, es decir p = q = V. Con p = q = r = V y s = F: I da (F ↔ V) ↔ (V ↔ F) = F ↔ F = V; II da V ∧ V = V; III da V → F = F. La secuencia es VVF.",
+    "analisis": [
+      "No es la respuesta: FFF exige que las tres proposiciones sean falsas, pero I y II resultan verdaderas con la asignación que hace falsa la proposición original.",
+      "No es la respuesta: FVF invierte el valor de I, que evalúa a V.",
+      "No es la respuesta: VFF invierte el valor de II, que evalúa a V.",
+      "Correcto: con p = q = r = V y s = F se tiene I = V, II = V y III = F, es decir VVF.",
+      "No es la respuesta: VVV exige III verdadera, pero (p → q) → (r → s) = V → F = F."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-032",
+    "categoria": "matematicas",
+    "tema": "Psicotécnico",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Determina la figura que continúa la secuencia que se muestra en la imagen.",
+    "opciones": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correcta": 4,
+    "explicacion": "En todas las figuras el cuadrado, la línea vertical central y la línea horizontal son fijos. La línea corta inferior se desplaza derecha → centro → izquierda → centro, por lo que continúa a la derecha; el círculo alterna izquierda y derecha, por lo que le corresponde la izquierda; y las líneas inclinadas siguen la sucesión 1, 1, 2, 2… La figura E cumple todas estas condiciones.",
+    "analisis": [
+      "No es la respuesta: A tiene la línea corta en el centro y un círculo extra a la derecha.",
+      "No es la respuesta: B tiene la línea corta a la izquierda y tres círculos.",
+      "No es la respuesta: C tiene el círculo en la posición central.",
+      "No es la respuesta: D tiene la línea corta en el centro y los círculos mal ubicados.",
+      "Correcto: E presenta la línea corta a la derecha, el círculo a la izquierda y las líneas inclinadas que corresponden según la secuencia."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagen": "assets/questions/img/uni-2026-2-q3-seq.png",
+    "imagenes_opciones": [
+      "assets/questions/img/uni-2026-2-q3-a.png",
+      "assets/questions/img/uni-2026-2-q3-b.png",
+      "assets/questions/img/uni-2026-2-q3-c.png",
+      "assets/questions/img/uni-2026-2-q3-d.png",
+      "assets/questions/img/uni-2026-2-q3-e.png"
+    ]
+  },
+  {
+    "id": "mat-033",
+    "categoria": "matematicas",
+    "tema": "Situaciones aritméticas",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Al realizar dos encuestas sobre el próximo campeón del mundo en fútbol: en la primera encuesta se consideró solo los países de Brasil y España, de ello se obtuvo que el 35 % opinó que el campeón sería España. En la segunda encuesta, se consideró solo los países de Brasil, España y Alemania, de ello resultó que el 40 % opinó que el campeón sería Alemania. Por consiguiente, las proporciones entre los participantes que dan como campeón a Brasil y España coinciden con la proporción de los resultados de la primera encuesta. ¿Qué porcentaje opina, en la segunda encuesta, que Brasil campeonará?",
+    "opciones": [
+      "30",
+      "35",
+      "37",
+      "39",
+      "41"
+    ],
+    "correcta": 3,
+    "explicacion": "En la primera encuesta la proporción Brasil:España es 65 : 35 = 13 : 7. En la segunda, Alemania obtiene 40 %; el 60 % restante se reparte entre Brasil y España en la misma proporción 13 : 7, es decir 39 % y 21 % respectivamente. Por lo tanto, Brasil obtiene 39 %.",
+    "analisis": [
+      "No es la respuesta: 30 no respeta la proporción 13 : 7 del 60 % restante.",
+      "No es la respuesta: 35 corresponde al porcentaje de España en la primera encuesta, no al de Brasil en la segunda.",
+      "No es la respuesta: 37 no proviene del reparto proporcional 13 : 7.",
+      "Correcto: Brasil = 60 % × 13/20 = 39 %.",
+      "No es la respuesta: 41 no cumple que Brasil + España + Alemania sumen 100 % con la proporción dada."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-034",
+    "categoria": "matematicas",
+    "tema": "Operaciones matemáticas",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Se define el operador matemático ϕ para a, b reales no negativos mediante la fórmula que se muestra en la figura. Calcule el valor de E = (2 ϕ 6) ϕ (32 ϕ 40).",
+    "opciones": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correcta": 2,
+    "explicacion": "Por definición, a ϕ b = √((a + b)/2). Entonces 2 ϕ 6 = √((2 + 6)/2) = √4 = 2 y 32 ϕ 40 = √((32 + 40)/2) = √36 = 6. Finalmente E = 2 ϕ 6 = √((2 + 6)/2) = 2.",
+    "analisis": [
+      "No es la respuesta: 0 sería el resultado si el operador restara las raíces.",
+      "No es la respuesta: 1 no se obtiene de ninguna evaluación intermedia válida.",
+      "Correcto: aplicando a ϕ b = √((a + b)/2) paso a paso el resultado es 2.",
+      "No es la respuesta: 3 surgiría de una operación con los operandos en otro orden.",
+      "No es la respuesta: 4 es el valor intermedio 2 ϕ 6 elevado al cuadrado, no el resultado final."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagen": "assets/questions/img/uni-2026-2-q5-formula.png"
+  },
+  {
+    "id": "mat-035",
+    "categoria": "matematicas",
+    "tema": "Lógica de clases",
+    "asignatura": "logica",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "Se afirma lo siguiente:\nI. Muchas manzanas son dulces.\nII. Todo dulce es agradable.\nEntonces, indique la proposición correcta.",
+    "opciones": [
+      "Ninguna manzana es dulce.",
+      "Ninguna manzana es agradable.",
+      "Algunas manzanas son agradables.",
+      "Toda manzana es agradable.",
+      "Muchas manzanas no son agradables."
+    ],
+    "correcta": 2,
+    "explicacion": "De «Muchas manzanas son dulces» se tiene que algunas manzanas son dulces; y como todo dulce es agradable, esas manzanas también son agradables. Luego, algunas manzanas son agradables.",
+    "analisis": [
+      "No es la respuesta: contradice directamente la premisa «muchas manzanas son dulces».",
+      "No es la respuesta: las manzanas dulces resultan agradables por el segundo enunciado.",
+      "Correcto: de I y II se sigue que algunas manzanas son agradables.",
+      "No es la respuesta: «muchas» no implica «toda», no todas las manzanas tienen por qué ser dulces.",
+      "No es la respuesta: la premisa afirma «muchas son dulces», no afirma negaciones sobre agradables."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-036",
+    "categoria": "matematicas",
+    "tema": "Suficiencia de datos",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Se desea calcular el área de la región triangular ABC mostrada a continuación:\n[ver figura]\nInformación brindada:\nI. α = 60°\nII. BH = 3\nPara resolver el problema",
+    "opciones": [
+      "la información I por sí sola es suficiente.",
+      "la información II por sí sola es suficiente.",
+      "son necesarias ambas informaciones.",
+      "cada información por separado es suficiente.",
+      "las informaciones dadas son insuficientes."
+    ],
+    "correcta": 2,
+    "explicacion": "Con solo α = 60° falta alguna longitud; con solo BH = 3 falta algún ángulo. Con ambas: en el triángulo rectángulo ABH se tiene ∠BAH = 30°, de donde AB = 2 · BH = 6, y con α = 60° en ABC se determina el área por A = (1/2) · AB · AC · sen α. Son necesarias ambas informaciones.",
+    "analisis": [
+      "No es la respuesta: con solo el ángulo no se conoce ninguna longitud y el área no es calculable.",
+      "No es la respuesta: con solo BH = 3 falta un ángulo para fijar la forma del triángulo ABC.",
+      "Correcto: la combinación de ángulo y longitud permite hallar todos los datos del triángulo.",
+      "No es la respuesta: ninguna de las dos informaciones alcanza por sí sola.",
+      "No es la respuesta: con ambas informaciones sí es posible calcular el área."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagen": "assets/questions/img/uni-2026-2-q7-figura.png"
+  },
+  {
+    "id": "mat-037",
+    "categoria": "matematicas",
+    "tema": "Suficiencia de datos",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Cien alumnos del CEPRE-UNI rindieron un Simulacro de Aptitud Académica que comprende Razonamiento Matemático (RM) y Razonamiento Verbal (RV). Se desea saber cuántos alumnos respondieron las preguntas de RM.\nInformación brindada:\nI. Los que respondieron solamente RM o solamente RV son 70 alumnos.\nII. Todos los alumnos respondieron RM o RV.\nPara resolver el problema",
+    "opciones": [
+      "la información I sola es suficiente.",
+      "la información II sola es suficiente.",
+      "es necesario utilizar ambas informaciones.",
+      "cada información por separado es suficiente.",
+      "las informaciones dadas son insuficientes."
+    ],
+    "correcta": 4,
+    "explicacion": "Sean x los que respondieron solo RM, y los que respondieron ambos, z los de solo RV y w los que no respondieron ninguno. Se pide x + y. De I: x + z = 70; de II: x + y + z + w = 100. Juntos dan y = w + 30, valor que depende de w, desconocido. Las informaciones son insuficientes.",
+    "analisis": [
+      "No es la respuesta: I sola fija x + z, no x + y.",
+      "No es la respuesta: II sola es una suma total sin desglose.",
+      "No es la respuesta: incluso ambas dejan dependencia con los que no respondieron.",
+      "No es la respuesta: ninguna alcanza por separado ni en conjunto.",
+      "Correcto: x + y = w + 30 depende de w, desconocido; no se puede determinar."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-038",
+    "categoria": "matematicas",
+    "tema": "Razonamiento deductivo",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "Un número natural n es un número perfecto si la suma de sus divisores positivos y propios de n es igual a n. Por ejemplo, 6 es el menor número perfecto. Si la calificación de este examen es de 0 a 20, calcule la nota que usted obtendrá, sabiendo que es la mitad de un número perfecto de dos cifras.",
+    "opciones": [
+      "12",
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "correcta": 1,
+    "explicacion": "Los números perfectos son 6, 28, 496, …; el único de dos cifras es 28. La nota es la mitad de 28, es decir 14.",
+    "analisis": [
+      "No es la respuesta: 12 sería la mitad de 24, que no es perfecto.",
+      "Correcto: el único número perfecto de dos cifras es 28 y su mitad es 14.",
+      "No es la respuesta: 16 es la mitad de 32, que no es perfecto.",
+      "No es la respuesta: 18 es la mitad de 36, que no es perfecto.",
+      "No es la respuesta: 20 es la mitad de 40, que no es perfecto."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-039",
+    "categoria": "matematicas",
+    "tema": "Planteo de ecuaciones",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "En una prueba de entrada, la puntuación de las preguntas se da de la siguiente manera: 4 puntos por cada pregunta bien contestada, –1 punto por cada pregunta mal contestada y ningún punto por pregunta no respondida. Si Mateo responde todas las 75 preguntas de la prueba y obtiene 125 de nota, entonces ¿cuántas preguntas respondió correctamente?",
+    "opciones": [
+      "30",
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "correcta": 2,
+    "explicacion": "Sea x las preguntas correctas; como respondió las 75, las incorrectas son 75 − x. La nota es 4x − (75 − x) = 125, de donde 5x = 200 y x = 40.",
+    "analisis": [
+      "No es la respuesta: 30 correctas darían 4(30) − 45 = 75 puntos.",
+      "No es la respuesta: 35 correctas darían 4(35) − 40 = 100 puntos.",
+      "Correcto: 4(40) − 35 = 160 − 35 = 125 puntos.",
+      "No es la respuesta: 45 correctas darían 4(45) − 30 = 150 puntos.",
+      "No es la respuesta: 50 correctas darían 4(50) − 25 = 175 puntos."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-040",
+    "categoria": "matematicas",
+    "tema": "Ordenamiento de información",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Cuatro estudiantes: Armando (A), Braulio (B), Carmen (C) y Doris (D) presentan en este momento distintas edades y se decide comparar estas edades con la relación «menor que», según la siguiente tabla de valores veritativos.\n\n          menor que | A | B | C | D\n        A           | F | F | V | V\n        B           | V | F | V | V\n        C           | F | F | F | F\n        D           | F | F | V | F\n\nPor ejemplo, A → B quiere decir que A < B es falso (F). Determine el orden de las edades de menor a mayor.",
+    "opciones": [
+      "BADC",
+      "DABC",
+      "DCBA",
+      "DBCA",
+      "ADBC"
+    ],
+    "correcta": 0,
+    "explicacion": "De las casillas con V: B → A = V indica B < A; A → D = V indica A < D; y D → C = V indica D < C. Encadenando, B < A < D < C, es decir, el orden de menor a mayor es BADC.",
+    "analisis": [
+      "Correcto: de las relaciones verdaderas B < A, A < D y D < C se obtiene B < A < D < C.",
+      "No es la respuesta: DABC no respeta B < A.",
+      "No es la respuesta: DCBA invierte el orden completo.",
+      "No es la respuesta: DBCA no respeta A < D.",
+      "No es la respuesta: ADBC no respeta B < A."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-041",
+    "categoria": "matematicas",
+    "tema": "Operaciones matemáticas",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Si los operadores matemáticos ∆ y ∇ satisfacen las igualdades que se muestran en la figura, calcule el valor de la expresión con el 8 que aparece en la figura.",
+    "opciones": [
+      "81",
+      "82",
+      "83",
+      "84",
+      "85"
+    ],
+    "correcta": 0,
+    "explicacion": "De las definiciones de la figura, el operador interno aplicado a 8 da 8 × 2 + 1 = 17 y el externo transforma el resultado en 4 × 17 + 13 = 81. Por lo tanto, el valor buscado es 81.",
+    "analisis": [
+      "Correcto: 4[8(2) + 1] + 13 = 4 × 17 + 13 = 81.",
+      "No es la respuesta: 82 no resulta de las transformaciones ×4, +13 y ×2, +1.",
+      "No es la respuesta: 83 excedería el cálculo en 2 unidades.",
+      "No es la respuesta: 84 supondría omitir el término +13.",
+      "No es la respuesta: 85 no corresponde a ninguna combinación de las definiciones."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagen": "assets/questions/img/uni-2026-2-q12-formula.png"
+  },
+  {
+    "id": "mat-042",
+    "categoria": "matematicas",
+    "tema": "Gráficos estadísticos",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Sobre una evaluación en un salón de clases, se realiza el siguiente gráfico del número de preguntas contestadas versus el número de alumnos que rindieron la prueba [ver figura]. Indique la veracidad (V) o falsedad (F) de las siguientes proposiciones:\nI. El porcentaje de alumnos que contestaron 10 o menos preguntas es 15 %.\nII. El número de alumnos que contestaron, por lo menos, 25 preguntas es 14.\nIII. Solo un alumno contestó 38 preguntas.\nMarque la alternativa que contenga la secuencia correcta.",
+    "opciones": [
+      "VFV",
+      "FVF",
+      "VVF",
+      "VFF",
+      "FFF"
+    ],
+    "correcta": 3,
+    "explicacion": "Del gráfico: [0,5] = 2, (5,10] = 4, (10,15] = 5, (15,20] = 8, (20,25] = 6, (25,30] = 9, (30,35] = 5 y (35,40] = 1 alumnos; total = 40. I: (2 + 4)/40 = 15 % → V. II: 9 + 5 + 1 = 15 ≠ 14 → F. III: el intervalo (35,40] tiene un alumno, pero no se sabe si contestó exactamente 38 → F. Secuencia VFF.",
+    "analisis": [
+      "No es la respuesta: VFV exige III verdadera, pero no se conoce el número exacto de preguntas del último intervalo.",
+      "No es la respuesta: FVF invierte el valor de I, que sí es verdadero.",
+      "No es la respuesta: VVF invierte el valor de III.",
+      "Correcto: I es verdadera (15 %), II es falsa (15 alumnos, no 14) y III es falsa (solo se conoce el intervalo).",
+      "No es la respuesta: FFF negaría I, que sí se cumple."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagen": "assets/questions/img/uni-2026-2-q13-grafico.png"
+  },
+  {
+    "id": "mat-043",
+    "categoria": "matematicas",
+    "tema": "Psicotécnico",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "Indique la figura discordante.",
+    "opciones": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correcta": 3,
+    "explicacion": "A es un polígono de 3 lados (triángulo), B de 4 lados, C de 5 lados y E de 6 lados; D no es un polígono, por lo que es la figura discordante.",
+    "analisis": [
+      "No es la respuesta: A es un triángulo, polígono de 3 lados.",
+      "No es la respuesta: B es un cuadrilátero, polígono de 4 lados.",
+      "No es la respuesta: C es un pentágono, polígono de 5 lados.",
+      "Correcto: D no forma un polígono cerrado, a diferencia de las demás.",
+      "No es la respuesta: E es un hexágono, polígono de 6 lados."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagenes_opciones": [
+      "assets/questions/img/uni-2026-2-q14-a.png",
+      "assets/questions/img/uni-2026-2-q14-b.png",
+      "assets/questions/img/uni-2026-2-q14-c.png",
+      "assets/questions/img/uni-2026-2-q14-d.png",
+      "assets/questions/img/uni-2026-2-q14-e.png"
+    ]
+  },
+  {
+    "id": "mat-044",
+    "categoria": "matematicas",
+    "tema": "Suficiencia de datos",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "Se desea calcular el área de la región triangular de un triángulo rectángulo.\nInformación brindada:\nI. Las medidas de los catetos\nII. La medida de la hipotenusa\nPara resolver el problema",
+    "opciones": [
+      "la información I por sí sola es suficiente.",
+      "la información II por sí sola es suficiente.",
+      "son necesarias ambas informaciones.",
+      "cada información por separado es suficiente.",
+      "las informaciones dadas son insuficientes."
+    ],
+    "correcta": 0,
+    "explicacion": "El área del triángulo rectángulo es (cateto × cateto)/2. Con las medidas de los catetos (información I) el área es directamente calculable; con solo la hipotenusa se conoce a² + b² = c², lo que no determina el valor de a × b. La información I es suficiente.",
+    "analisis": [
+      "Correcto: con los dos catetos el área se calcula directamente con (a × b)/2.",
+      "No es la respuesta: la hipotenusa solo fija a² + b², no el producto a × b.",
+      "No es la respuesta: basta la información I.",
+      "No es la respuesta: la información II por sí sola no basta.",
+      "No es la respuesta: con la información I sí es posible resolver el problema."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-045",
+    "categoria": "matematicas",
+    "tema": "Operaciones matemáticas",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Sean los operadores matemáticos ∆ y ∇ definidos como se muestra en la figura. Calcule la suma de los coeficientes del polinomio resultante al reducir la expresión que aparece en la figura, siendo P(x) = 729x² − 512x + 8.",
+    "opciones": [
+      "112",
+      "156",
+      "196",
+      "216",
+      "486"
+    ],
+    "correcta": 2,
+    "explicacion": "Aplicando ∇ y ∆ de forma anidada sobre P(x) según las definiciones de la figura: ∇(P) = 243x³ − 256x² + 8x; luego ∇ y ∆ sucesivamente reducen el grado hasta obtener el polinomio final 324x − 128. La suma de sus coeficientes es 324 + (−128) = 196.",
+    "analisis": [
+      "No es la respuesta: 112 no proviene de la suma de los coeficientes del polinomio final.",
+      "No es la respuesta: 156 sería la suma si se omitiera algún paso intermedio.",
+      "Correcto: el polinomio resultante es 324x − 128 y 324 + (−128) = 196.",
+      "No es la respuesta: 216 supone un cálculo parcial de la reducción.",
+      "No es la respuesta: 486 es el coeficiente principal antes de la última reducción."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagen": "assets/questions/img/uni-2026-2-q16-formula.png"
+  },
+  {
+    "id": "mat-046",
+    "categoria": "matematicas",
+    "tema": "Suficiencia de datos",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "En una tienda, un abrigo está con el 40 % de descuento y una camisa está con el 30 % de descuento. Si se paga con la tarjeta de la tienda, se obtiene además un descuento del 10 % sobre la compra final. ¿Cuánto cuesta el abrigo si se compran ambas prendas?\nInformación brindada:\nI. El descuento total, si se paga con la tarjeta de la tienda, es de 374,25 soles.\nII. Sin ningún descuento, el abrigo cuesta tanto como lo que se paga por dos camisas, pero sin la tarjeta de la tienda.\nPara resolver el problema",
+    "opciones": [
+      "la información I es suficiente.",
+      "la información II es suficiente.",
+      "es necesario usar ambas informaciones.",
+      "cada una por separado es suficiente.",
+      "las informaciones dadas son insuficientes."
+    ],
+    "correcta": 2,
+    "explicacion": "Sea A el precio original del abrigo y C el de la camisa. La información I da 0,46A + 0,37C = 374,25 (una sola combinación lineal no basta). La información II da A = 2 × 0,7C = 1,4C (tampoco basta sola). Con ambas se despejan A y C de forma única, por lo que es necesario usar ambas informaciones.",
+    "analisis": [
+      "No es la respuesta: I sola deja infinitos pares (A, C) que cumplen la ecuación.",
+      "No es la respuesta: II sola solo fija la proporción entre A y C.",
+      "Correcto: con A = 1,4C sustituido en 0,46A + 0,37C = 374,25 se hallan A y C.",
+      "No es la respuesta: ninguna de las dos alcanza por sí sola.",
+      "No es la respuesta: ambas juntas sí permiten resolver el problema."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-047",
+    "categoria": "matematicas",
+    "tema": "Psicotécnico",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "Indique la figura discordante.",
+    "opciones": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correcta": 2,
+    "explicacion": "Las figuras A, B, D y E presentan trazos con puntos de intersección; la figura C no presenta ningún punto de intersección, por lo que es la discordante.",
+    "analisis": [
+      "No es la respuesta: A presenta intersecciones entre sus trazos.",
+      "No es la respuesta: B presenta intersecciones entre sus trazos.",
+      "Correcto: C es la única figura cuyos trazos no se intersecan.",
+      "No es la respuesta: D presenta intersecciones entre sus trazos.",
+      "No es la respuesta: E presenta intersecciones entre sus trazos."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagenes_opciones": [
+      "assets/questions/img/uni-2026-2-q18-a.png",
+      "assets/questions/img/uni-2026-2-q18-b.png",
+      "assets/questions/img/uni-2026-2-q18-c.png",
+      "assets/questions/img/uni-2026-2-q18-d.png",
+      "assets/questions/img/uni-2026-2-q18-e.png"
+    ]
+  },
+  {
+    "id": "mat-048",
+    "categoria": "matematicas",
+    "tema": "Análisis de gráficos estadísticos",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "El diagrama de la figura muestra la cantidad de frutas que consume un grupo de alumnos a la semana. Indique la veracidad (V) o falsedad (F) de las siguientes proposiciones:\nI. El número de alumnos que consume menos de 2 frutas es 21.\nII. El número total de frutas que consumen a la semana es 227.\nIII. Los alumnos que consumen por lo menos 5 frutas semanales, en total consumen más del 50 % del total de frutas.\nMarque la alternativa que contenga la secuencia correcta.",
+    "opciones": [
+      "VVF",
+      "VVV",
+      "VFV",
+      "FVV",
+      "FFV"
+    ],
+    "correcta": 1,
+    "explicacion": "Del gráfico: 0 frutas → 11 alumnos, 1 → 10, 2 → 11, 3 → 9, 4 → 9, 5 → 8, 6 → 8, 7 → 4, 8 → 2. I: 11 + 10 = 21 → V. II: 0·11 + 1·10 + 2·11 + 3·9 + 4·9 + 5·8 + 6·8 + 7·4 + 8·2 = 227 → V. III: 5·8 + 6·8 + 7·4 + 8·2 = 132 > 113,5 (50 % de 227) → V. Secuencia VVV.",
+    "analisis": [
+      "No es la respuesta: VVF negaría la tercera proposición, que es verdadera (132 > 113,5).",
+      "Correcto: las tres proposiciones son verdaderas según los datos del gráfico.",
+      "No es la respuesta: VFV negaría la segunda proposición, que es verdadera.",
+      "No es la respuesta: FVV negaría la primera proposición, que es verdadera.",
+      "No es la respuesta: FFV negaría las dos primeras, que son verdaderas."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagen": "assets/questions/img/uni-2026-2-q19-grafico.png"
+  },
+  {
+    "id": "mat-049",
+    "categoria": "matematicas",
+    "tema": "Lógica proposicional",
+    "asignatura": "logica",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Dadas las proposiciones lógicas p, q, r y t. Si se sabe que (∼p ∧ q) → (r ∨ ∼t) es falsa, determine el valor de verdad de p, q, r y t, en ese orden.",
+    "opciones": [
+      "FVFF",
+      "VVFF",
+      "FVFV",
+      "FVVF",
+      "VFVF"
+    ],
+    "correcta": 2,
+    "explicacion": "Una implicación es falsa solo si el antecedente es verdadero y el consecuente falso. De ∼p ∧ q = V se tiene p = F y q = V; de r ∨ ∼t = F se tiene r = F y ∼t = F, es decir t = V. Por lo tanto p, q, r, t = F, V, F, V.",
+    "analisis": [
+      "No es la respuesta: FVFF exige t = F, pero t debe ser V para que ∼t = F.",
+      "No es la respuesta: VVFF exige p = V, lo que haría ∼p ∧ q = F.",
+      "Correcto: p = F, q = V, r = F, t = V cumplen que el antecedente sea V y el consecuente F.",
+      "No es la respuesta: FVVF exige r = V, lo que haría r ∨ ∼t = V.",
+      "No es la respuesta: VFVF exige p = V, incompatible con el antecedente verdadero."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-050",
+    "categoria": "matematicas",
+    "tema": "Magnitudes proporcionales",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Un hombre, 3 mujeres y 4 niños pueden hacer un trabajo en 96 horas; a su vez, 2 hombres y 8 niños pueden realizar el mismo trabajo en 80 horas y, por otro lado, 2 hombres y 3 mujeres pueden hacerlo en 120 horas. Usando estas relaciones, ¿en cuánto tiempo, en horas, 5 hombres y 22 niños podrían hacer dicho trabajo?",
+    "opciones": [
+      "28",
+      "30",
+      "32",
+      "35",
+      "40"
+    ],
+    "correcta": 1,
+    "explicacion": "Igualando el trabajo total a 960 unidades (96 × 10): H + 3M + 4N = 10, 2H + N = 12 y 2H + 3M = 8, en unidades de 96. Resolviendo el sistema y planteando (5H + 22N)·x = 960 se obtiene 32x = 960, de donde x = 30 horas.",
+    "analisis": [
+      "No es la respuesta: 28 horas no cumple la igualdad del trabajo total.",
+      "Correcto: 5H + 22N equivale a 32 unidades de trabajo por hora y 32x = 960 da x = 30.",
+      "No es la respuesta: 32 horas correspondería al recíproco invertido.",
+      "No es la respuesta: 35 horas no resuelve el sistema planteado.",
+      "No es la respuesta: 40 horas excede el tiempo calculado."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-051",
+    "categoria": "matematicas",
+    "tema": "Situaciones algebraicas",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Si a, b y c son reales positivos, distintos de la unidad, que satisfacen la condición que se muestra en la figura, determine el valor de la expresión que aparece en la figura.",
+    "opciones": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correcta": 3,
+    "explicacion": "La condición es a/(1−a) + b/(1−b) + c/(1−c) = 1 y se pide 1/(1−a) + 1/(1−b) + 1/(1−c). Como x/(1−x) + 1 = 1/(1−x), sumando 3 (una unidad por cada fracción) a ambos miembros de la condición se obtiene exactamente el valor pedido: 1 + 3 = 4.",
+    "analisis": [
+      "No es la respuesta: 1 es el valor de la condición original, no de la expresión pedida.",
+      "No es la respuesta: 2 no resulta de la identidad aplicada.",
+      "No es la respuesta: 3 sería el valor solo de los tres términos añadidos.",
+      "Correcto: 1/(1−a) + 1/(1−b) + 1/(1−c) = 1 + 3 = 4.",
+      "No es la respuesta: 5 excede el resultado de la identidad."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagen": "assets/questions/img/uni-2026-2-q22-formula.png"
+  },
+  {
+    "id": "mat-052",
+    "categoria": "matematicas",
+    "tema": "Psicotécnico",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "Considerando el alfabeto español, determine la letra que continúa en la siguiente sucesión:\nB, C, D, R, Q, P, L, M, N, T, S, ?",
+    "opciones": [
+      "U",
+      "R",
+      "O",
+      "W",
+      "V"
+    ],
+    "correcta": 1,
+    "explicacion": "Las letras representan posiciones del alfabeto: B, C, D = 2, 3, 4 (creciente); R, Q, P = 19, 18, 17 (decreciente); L, M, N = 12, 13, 14 (creciente); T, S = 21, 20 (decreciente). El siguiente valor es 19, es decir la letra R.",
+    "analisis": [
+      "No es la respuesta: U = 21, que ya aparece como T.",
+      "Correcto: R = 19 continúa la tercera tanda decreciente 21, 20, 19.",
+      "No es la respuesta: O = 15 no corresponde a la secuencia de valores.",
+      "No es la respuesta: W = 23 no sigue el patrón decreciente.",
+      "No es la respuesta: V = 22 no corresponde al valor siguiente."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-053",
+    "categoria": "matematicas",
+    "tema": "Psicotécnico",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "De las figuras, señale aquella que no guarda ninguna relación con las demás.",
+    "opciones": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correcta": 0,
+    "explicacion": "Las figuras B, C, D y E comparten elementos comunes entre sí; la alternativa A contiene un cuadrado que no aparece en ninguna de las demás, por lo que no guarda relación con las otras.",
+    "analisis": [
+      "Correcto: A es la única figura con un cuadrado, elemento ausente en el resto.",
+      "No es la respuesta: B guarda relación con C, D y E.",
+      "No es la respuesta: C guarda relación con B, D y E.",
+      "No es la respuesta: D guarda relación con B, C y E.",
+      "No es la respuesta: E guarda relación con B, C y D."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagenes_opciones": [
+      "assets/questions/img/uni-2026-2-q24-a.png",
+      "assets/questions/img/uni-2026-2-q24-b.png",
+      "assets/questions/img/uni-2026-2-q24-c.png",
+      "assets/questions/img/uni-2026-2-q24-d.png",
+      "assets/questions/img/uni-2026-2-q24-e.png"
+    ]
+  },
+  {
+    "id": "mat-054",
+    "categoria": "matematicas",
+    "tema": "Cuadrados mágicos",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "En un cuadrado mágico, la suma de elementos de cada fila, cada columna y cada diagonal son iguales. En el siguiente cuadrado mágico que se muestra en la figura, calcule el valor de a·b·c.",
+    "opciones": [
+      "128",
+      "168",
+      "256",
+      "336",
+      "448"
+    ],
+    "correcta": 2,
+    "explicacion": "La constante mágica es 20 + 4 + (−12) = 12 (columna central). De la primera fila: 0 + 20 + a = 12 → a = −8. De la diagonal principal: 0 + 4 + b = 12 → b = 8. Usando la propiedad 20 + c = 2(8) se obtiene c = −4. Por lo tanto a·b·c = (−8)·8·(−4) = 256.",
+    "analisis": [
+      "No es la respuesta: 128 omitiría uno de los factores o su signo.",
+      "No es la respuesta: 168 no proviene del producto de los tres valores.",
+      "Correcto: a = −8, b = 8, c = −4 y (−8)(8)(−4) = 256.",
+      "No es la respuesta: 336 excede el producto calculado.",
+      "No es la respuesta: 448 no corresponde al producto a·b·c."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagen": "assets/questions/img/uni-2026-2-q25-magico.png"
+  },
+  {
+    "id": "mat-055",
+    "categoria": "matematicas",
+    "tema": "Psicotécnico",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "En la siguiente secuencia de números naturales, calcule el valor de x + y.\n3, 8, 10, 15, 17, 22, 24, x, y",
+    "opciones": [
+      "35",
+      "40",
+      "50",
+      "60",
+      "70"
+    ],
+    "correcta": 3,
+    "explicacion": "La secuencia progresa con diferencias alternadas +5 y +2: 3 → 8 → 10 → 15 → 17 → 22 → 24. Por lo tanto x = 24 + 5 = 29 e y = 29 + 2 = 31, de donde x + y = 60.",
+    "analisis": [
+      "No es la respuesta: 35 no corresponde a la suma de los dos términos siguientes.",
+      "No es la respuesta: 40 excede la suma de x e y.",
+      "No es la respuesta: 50 sería la suma si x e y fueran menores.",
+      "Correcto: x = 29, y = 31 y 29 + 31 = 60.",
+      "No es la respuesta: 70 no coincide con la suma calculada."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-056",
+    "categoria": "matematicas",
+    "tema": "Interpretación de gráficos estadísticos",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "En los gráficos de la figura se muestran las decisiones de las juntas de acreedores de 500 empresas con deudas pendientes de pago: el 19 % optó por reestructuración y el 81 % por liquidación; dentro de las reestructuradas, el 40 % logró la aprobación de convenios de saneamiento y el 60 % fue desaprobado. Para las empresas reestructuradas, ¿cuántos lograron la aprobación de los convenios de saneamiento?",
+    "opciones": [
+      "35",
+      "38",
+      "40",
+      "41",
+      "43"
+    ],
+    "correcta": 1,
+    "explicacion": "Empresas reestructuradas = 19 % de 500 = 95. De ellas, el 40 % logró la aprobación: 40 % de 95 = 38 empresas.",
+    "analisis": [
+      "No es la respuesta: 35 no proviene del 40 % de 95.",
+      "Correcto: 0,40 × 95 = 38 empresas reestructuradas aprobadas.",
+      "No es la respuesta: 40 es el porcentaje, no la cantidad.",
+      "No es la respuesta: 41 excede el 40 % de 95.",
+      "No es la respuesta: 43 no corresponde al cálculo."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-057",
+    "categoria": "matematicas",
+    "tema": "Psicotécnico",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Determine el elemento que complete la sucesión de letras del alfabeto español:\nYX1, UTS1, OÑNM2, ...",
+    "opciones": [
+      "FEDCB3",
+      "FEDCB2",
+      "EDCBA3",
+      "HGFED3",
+      "FECBA2"
+    ],
+    "correcta": 3,
+    "explicacion": "Cada término contiene letras consecutivas en orden inverso y su cantidad sigue la sucesión de Fibonacci: YX (2 letras), UTS (3) y OÑNM (4), por lo que el siguiente tiene 5 letras: HGFED. Los exponentes siguen 1, 1, 2, 3. El elemento buscado es HGFED3.",
+    "analisis": [
+      "No es la respuesta: FEDCB omite la letra H y no continúa el orden inverso desde H.",
+      "No es la respuesta: FEDCB2 tiene el exponente incorrecto.",
+      "No es la respuesta: EDCBA salta la letra H.",
+      "Correcto: HGFED son 5 letras consecutivas inversas y el exponente continúa la sucesión 1, 1, 2, 3.",
+      "No es la respuesta: FECBA2 omite letras y tiene el exponente incorrecto."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-058",
+    "categoria": "matematicas",
+    "tema": "Conteo de figuras",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "Calcule la cantidad máxima de cuadrados que se pueden observar en la figura.",
+    "opciones": [
+      "20",
+      "22",
+      "25",
+      "28",
+      "30"
+    ],
+    "correcta": 4,
+    "explicacion": "En la cuadrícula 4×4 el total de cuadrados es la suma de los cuadrados de los tamaños posibles: 4² + 3² + 2² + 1² = 16 + 9 + 4 + 1 = 30.",
+    "analisis": [
+      "No es la respuesta: 20 subestima el conteo de cuadrados pequeños.",
+      "No es la respuesta: 22 no corresponde a la suma de cuadrados.",
+      "No es la respuesta: 25 omite algunos cuadrados de tamaño 2×2 o 1×1.",
+      "No es la respuesta: 28 es un conteo incompleto.",
+      "Correcto: 16 + 9 + 4 + 1 = 30 cuadrados en total."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagen": "assets/questions/img/uni-2026-2-q29.png"
+  },
+  {
+    "id": "mat-059",
+    "categoria": "matematicas",
+    "tema": "Interpretación de gráficos estadísticos",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "El gráfico de la figura muestra las edades de los estudiantes ingresantes a la carrera de Ingeniería Civil para el año 2017-2. Indique la veracidad (V) o falsedad (F) de las siguientes proposiciones:\nI. El 40 % de los ingresantes tiene la edad de 18 años.\nII. La muestra corresponde a 80 estudiantes de Ingeniería Civil.\nIII. El 90 % de los estudiantes son mayores de edad (mayores o iguales a 18 años).\nIV. El diagrama de barras muestra la variable edad y la frecuencia relativa.\nMarque la alternativa que contenga la secuencia correcta.",
+    "opciones": [
+      "VVVF",
+      "VVFV",
+      "FVFV",
+      "VVFF",
+      "FVFF"
+    ],
+    "correcta": 3,
+    "explicacion": "Del gráfico: edades 17 a 23 con frecuencias 10, 32, 12, 10, 9, 5, 2; total = 80. I: 32/80 = 40 % → V. II: total 80 → V. III: menores de 18 = 10, mayores = 70 = 87,5 % ≠ 90 % → F. IV: el eje vertical muestra frecuencia absoluta, no relativa → F. Secuencia VVFF.",
+    "analisis": [
+      "No es la respuesta: VVVF exige III y IV verdaderas, ambas falsas.",
+      "No es la respuesta: VVFV exige IV verdadera, pero el gráfico muestra frecuencias absolutas.",
+      "No es la respuesta: FVFV negaría I, que sí es verdadera.",
+      "Correcto: I y II son verdaderas; III (87,5 % ≠ 90 %) y IV (es frecuencia absoluta) son falsas.",
+      "No es la respuesta: FVFF negaría I, que sí es verdadera."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2",
+    "imagen": "assets/questions/img/uni-2026-2-q30-grafico.png"
+  },
+  {
+    "id": "mat-060",
+    "categoria": "matematicas",
+    "tema": "Situaciones aritméticas",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "En una progresión geométrica de números naturales, el segundo término es 6 y el cuarto es 54; calcule el sexto término de dicha progresión.",
+    "opciones": [
+      "460",
+      "476",
+      "486",
+      "490",
+      "500"
+    ],
+    "correcta": 2,
+    "explicacion": "Entre el segundo y el cuarto término hay dos saltos, por lo que r² = 54/6 = 9. El sexto término está dos saltos después del cuarto: t₆ = 54 × 9 = 486.",
+    "analisis": [
+      "No es la respuesta: 460 no proviene de multiplicar 54 por 9.",
+      "No es la respuesta: 476 es un cálculo erróneo del razón.",
+      "Correcto: r² = 9 y t₆ = 54 × 9 = 486.",
+      "No es la respuesta: 490 no corresponde al término buscado.",
+      "No es la respuesta: 500 excede el valor calculado."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "mat-061",
+    "categoria": "matematicas",
+    "tema": "Situaciones aritméticas",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "El precio de lista de un artículo asciende a S/ 480. Si el vendedor permite un descuento de 10 % sobre dicho precio, ganaría 8 % del precio de costo. Calcule el porcentaje de ganancia, respecto del precio de costo, si se decide no hacer ningún descuento.",
+    "opciones": [
+      "15",
+      "20",
+      "25",
+      "28",
+      "30"
+    ],
+    "correcta": 1,
+    "explicacion": "Con descuento: el precio de venta es 90 % de la lista y la ganancia es 8 % del costo, luego 90 % PL = 108 % PC, de donde PL = 120 % PC. Sin descuento se vendería al 100 % de PL = 120 % PC, es decir con 20 % de ganancia sobre el costo.",
+    "analisis": [
+      "No es la respuesta: 15 % no se obtiene de la relación entre lista y costo.",
+      "Correcto: PL = 1,2 PC, por lo que sin descuento la ganancia es 20 %.",
+      "No es la respuesta: 25 % sobreestima la ganancia.",
+      "No es la respuesta: 28 % no corresponde al cálculo.",
+      "No es la respuesta: 30 % excede el valor hallado."
+    ],
+    "referencia": "Admisión UNI 2026-II — Aptitud Académica y Humanidades",
+    "prueba": "uni_aah_2026_2"
+  },
+  {
+    "id": "uni-001",
+    "categoria": "matematicas",
+    "tema": "Combinatoria",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "En una caja se tienen 6 pares de zapatos diferentes; si se extraen uno a uno y sin reposición, ¿cuántos zapatos se deben extraer como mínimo para estar seguro de haber extraído un par de zapatos del mismo tipo?",
+    "opciones": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correcta": 3,
+    "explicacion": "En el peor de los casos se extraen los 6 zapatos y todos pertenecen a tipos distintos; el séptimo zapato completará necesariamente uno de esos pares, de modo que hacen falta 7 extracciones.",
+    "analisis": [
+      "Con 4 zapatos extraídos puede no existir ningún par, pues cada uno puede ser de un tipo distinto.",
+      "Con 5 tampoco se garantiza un par: pueden salir cinco zapatos de cinco pares diferentes.",
+      "Con 6 se alcanza el peor caso: si salen los seis zapatos de seis tipos distintos, aún no se forma ningún par.",
+      "7 es la respuesta correcta: una vez extraídos los seis tipos distintos, el séptimo zapato cierra un par (principio de casilleros)."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
+  },
+  {
+    "id": "uni-002",
+    "categoria": "matematicas",
+    "tema": "Combinatoria",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "En una urna se tienen 4 bolillas rojas, 6 blancas y 8 verdes. ¿Cuántas bolillas como mínimo se deben sacar al azar, de una en una, para estar seguro de haber extraído por lo menos una blanca y una verde?",
+    "opciones": [
+      "4",
+      "9",
+      "11",
+      "13"
+    ],
+    "correcta": 3,
+    "explicacion": "En el peor de los casos se extraen primero las 4 rojas y las 8 verdes, es decir 12 bolillas sin ninguna blanca; recién la décima tercera bolilla garantiza tener una blanca junto con una verde ya obtenida.",
+    "analisis": [
+      "4 solo garantiza extraer todas las rojas, sin asegurar una blanca ni una verde.",
+      "9 no cubre el peor caso: podrían salir las 4 rojas y 5 verdes sin ninguna blanca.",
+      "11 tampoco basta: aún es posible haber sacado las 4 rojas y 7 verdes sin ninguna blanca.",
+      "13 es correcta: después de las 4 rojas y las 8 verdes (12 bolillas), la siguiente necesariamente es blanca."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
+  },
+  {
+    "id": "uni-003",
+    "categoria": "matematicas",
+    "tema": "Lógica",
+    "asignatura": "logica",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Si se cumplen las siguientes premisas: 1) Algunos ingenieros son visionarios. 2) Todo visionario es no realista. Entonces:",
+    "opciones": [
+      "Todos los ingenieros son realistas.",
+      "No es cierto que muchos ingenieros no son realistas.",
+      "Muchos ingenieros no son científicos.",
+      "Muchos ingenieros no son realistas."
+    ],
+    "correcta": 3,
+    "explicacion": "Los ingenieros visionarios pertenecen al conjunto de los no realistas, ya que todo visionario es no realista; por tanto, esos ingenieros no son realistas y se concluye que muchos ingenieros no lo son.",
+    "analisis": [
+      "Es falsa: las premisas no afirman que todos los ingenieros sean realistas, solo hablan de los visionarios.",
+      "Es falsa: como sí es cierto que muchos ingenieros no son realistas, su negación es incorrecta.",
+      "No se deduce: las premisas no mencionan en ningún momento a los científicos.",
+      "Es correcta: los ingenieros que son visionarios son a la vez no realistas, luego muchos ingenieros no son realistas."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
+  },
+  {
+    "id": "uni-004",
+    "categoria": "matematicas",
+    "tema": "Progresiones aritméticas",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "Una progresión aritmética se inicia en 7, 11, 15, ... . Indique la suma de los dígitos del término que ocupa la posición 16 de la progresión indicada.",
+    "opciones": [
+      "9",
+      "11",
+      "13",
+      "14"
+    ],
+    "correcta": 2,
+    "explicacion": "La razón de la progresión es 4, entonces t16 = 7 + (16 - 1) × 4 = 67; la suma de sus dígitos es 6 + 7 = 13.",
+    "analisis": [
+      "9 no corresponde: no es la suma de los dígitos de 67 ni de ningún término de la sucesión.",
+      "11 tampoco corresponde: se obtiene de sumar dígitos de un valor distinto al término pedido.",
+      "13 es correcta: el término 16 es 67 y 6 + 7 = 13.",
+      "14 es incorrecta: surgiría de un cálculo erróneo de la suma de los dígitos de 67."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
+  },
+  {
+    "id": "uni-005",
+    "categoria": "matematicas",
+    "tema": "Sucesiones numéricas",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "En la siguiente sucesión, halle el valor de x: 5, 5, 2, 3, 1, 3, x",
+    "opciones": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correcta": 2,
+    "explicacion": "Las operaciones alternan sumas crecientes y restas decrecientes: +0, -3, +1, -2, +2 y por último -1; aplicando esta última, 3 - 1 = 2.",
+    "analisis": [
+      "0 no sigue el patrón: exigiría restar 3 en el último paso, cuando las restas ya decrecieron hasta -1.",
+      "1 sería el resultado de repetir la resta -2, pero ese valor ya se usó en el paso anterior.",
+      "2 es correcta: la última operación del patrón es -1 y 3 - 1 = 2.",
+      "3 repetiría el término anterior sin aplicar la última operación de la sucesión."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
+  },
+  {
+    "id": "uni-006",
+    "categoria": "matematicas",
+    "tema": "Sucesiones y series",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "Considerando la letra Ñ, el grupo de letras que continúa es: A, AC, ACE, ACEH, ACEHL, ...",
+    "opciones": [
+      "ACEHLO",
+      "ACEHLP",
+      "ACEHLQ",
+      "ACEHLR"
+    ],
+    "correcta": 2,
+    "explicacion": "Las letras que se saltan entre un grupo y el siguiente forman la serie de Fibonacci 1, 1, 2, 3, 5: falta B, luego D, luego F y G, luego I, J y K; ahora deben faltar 5 letras (M, N, Ñ, O y P), por lo que sigue ACEHLQ.",
+    "analisis": [
+      "ACEHLO salta solo M, N y Ñ, es decir 3 letras, cuando deben ser 5.",
+      "ACEHLP salta 4 letras (M, N, Ñ y O) y rompe la serie 1, 1, 2, 3, 5.",
+      "ACEHLQ es correcta: entre L y Q faltan M, N, Ñ, O y P, exactamente 5 letras.",
+      "ACEHLR salta 6 letras, valor que no corresponde a ningún término de la serie de Fibonacci."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
+  },
+  {
+    "id": "uni-007",
+    "categoria": "matematicas",
+    "tema": "Suficiencia de datos",
+    "asignatura": "logica",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Dados tres números naturales cuya suma es 765, se desea hallar el menor. Se dispone de las siguientes informaciones: I) El menor es la raíz cúbica del mayor. II) El intermedio es la raíz cuadrada del mayor. Para resolver el problema:",
+    "opciones": [
+      "La información I es suficiente.",
+      "La información II es suficiente.",
+      "Ambas informaciones son necesarias.",
+      "Cada una de las informaciones por separado es suficiente."
+    ],
+    "correcta": 1,
+    "explicacion": "Con la información I hay dos respuestas posibles, (8, 245, 512) y (9, 27, 729); con la información II solo se obtiene (9, 27, 729), por lo que la segunda información es suficiente.",
+    "analisis": [
+      "No es suficiente: la I admite dos ternas distintas, así que el menor no queda determinado.",
+      "Es correcta: imponiendo que el intermedio sea la raíz cuadrada del mayor, solo queda la terna (9, 27, 729).",
+      "No es necesaria: con la información II ya se llega a una única respuesta.",
+      "No es exacta: la I por separado resulta insuficiente, por lo que no vale decir que cada una basta."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
+  },
+  {
+    "id": "uni-008",
+    "categoria": "matematicas",
+    "tema": "Suficiencia de datos",
+    "asignatura": "logica",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Se desea saber en qué porcentaje varía la población de una ciudad, si el número de mujeres es al número de varones como 3/2. Información brindada: I) El 60% de la población son mujeres. II) El número de varones aumentó en 30% y el de mujeres disminuyó en 10%. Para resolver el problema:",
+    "opciones": [
+      "La información I es suficiente.",
+      "La información II es suficiente.",
+      "Es necesario utilizar ambas informaciones.",
+      "Cada una de las informaciones por separado es suficiente."
+    ],
+    "correcta": 1,
+    "explicacion": "Si mujeres = 3k y varones = 2k, con la información II la población pasa de 5k a 5,3k (2,6k + 2,7k), es decir una variación de 0,3k sobre 5k = 6%; la información I solo fija la proporción inicial y no permite calcular variación alguna.",
+    "analisis": [
+      "No es suficiente: el 60% solo confirma la proporción inicial de mujeres y no informa ningún cambio.",
+      "Es correcta: aplicando +30% a los varones y -10% a las mujeres se obtiene una variación total de 6%.",
+      "No es necesaria: con la información II ya se calcula la variación de la población.",
+      "No es exacta: la información I por separado no aporta datos del cambio poblacional."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
+  },
+  {
+    "id": "uni-009",
+    "categoria": "matematicas",
+    "tema": "Suficiencia de datos",
+    "asignatura": "logica",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Pedro y Vilma se han comprado un televisor que les ha costado X soles; se quiere saber cuánto aportó cada uno. Usando la siguiente información: I) Pedro aportó el doble que Vilma. II) La diferencia del cuadrado de sus aportes es Y soles. Para resolver el problema:",
+    "opciones": [
+      "La información I es suficiente.",
+      "La información II es suficiente.",
+      "Es necesario utilizar ambas informaciones.",
+      "Cada información, por separado, es suficiente."
+    ],
+    "correcta": 3,
+    "explicacion": "Con la I, P + V = X y P = 2V dan V = X/3 y P = 2X/3; con la II, P² - V² = (P + V)(P - V) = Y, de donde P - V = Y/X y, sumado a P + V = X, se despejan ambos aportes. Cada información basta por separado.",
+    "analisis": [
+      "Es verdadero que la I permite hallar los aportes, pero no es la respuesta completa porque la II también resulta suficiente.",
+      "También es parcialmente cierto, pues omite que la información I ya permite resolver el problema por sí sola.",
+      "No es necesario combinarlas: cualquiera de las dos, por separado, determina los dos aportes.",
+      "Es correcta: la I da la relación directa entre aportes y la II permite despejarlos algebraicamente; cada una por separado es suficiente."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
+  },
+  {
+    "id": "uni-010",
+    "categoria": "matematicas",
+    "tema": "Problemas de edades",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "basico",
+    "enunciado": "La edad de un padre es 35 años y la de su hijo es 5 años. ¿Cuántos años deben pasar para que la edad del padre sea tres veces mayor de la edad del hijo?",
+    "opciones": [
+      "5",
+      "10",
+      "12",
+      "15"
+    ],
+    "correcta": 0,
+    "explicacion": "Que el padre sea tres veces mayor que el hijo equivale a que tenga cuatro veces su edad: 35 + x = 4(5 + x), de donde x = 5; entonces el padre tiene 40 años y el hijo 10.",
+    "analisis": [
+      "5 es correcta: el padre tendría 40 años y el hijo 10; 40 es 30 años más que 10, es decir, tres veces la edad del hijo por encima de él.",
+      "10 es el error de leer 'tres veces mayor' como 'tres veces la edad': daría 45 y 15, pero no es la lectura correcta de la frase.",
+      "12 no cumple la condición: el padre tendría 47 años y el hijo 17, relación que no es de cuatro a uno.",
+      "15 tampoco cumple: 50 y 20 no guardan la proporción exigida por el enunciado."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
+  },
+  {
+    "id": "uni-011",
+    "categoria": "matematicas",
+    "tema": "Fracciones y porcentajes",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "En una fiesta, los 0,666... eran varones y sólo 0,4 de las damas bailaban; las 15 mujeres restantes descansaban. ¿Cuántos varones asistieron a la fiesta?",
+    "opciones": [
+      "25",
+      "50",
+      "75",
+      "100"
+    ],
+    "correcta": 1,
+    "explicacion": "Tomando el total como 90k, los varones son 60k (2/3) y las damas 30k; como bailan 12k (0,4 de 30k) y 15 descansan, se tiene 12k + 15 = 30k, luego k = 5/6 y los varones son 60 × 5/6 = 50.",
+    "analisis": [
+      "25 corresponde a la cantidad de damas que asistieron, no de varones.",
+      "50 es correcta: con k = 5/6 los varones suman 50 y las damas 25 (10 bailan y 15 descansan).",
+      "75 no cumple: excede la proporción de varones sobre el total y no deja exactamente 15 damas descansando.",
+      "100 tampoco cumple: dejaría más de 15 damas sin bailar, contradiciendo el enunciado."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
+  },
+  {
+    "id": "uni-012",
+    "categoria": "matematicas",
+    "tema": "Álgebra",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "dificil",
+    "enunciado": "Sea • : A × A → A, donde A = {0, 1, 2}, una operación cuyo elemento neutro es 2 y el único inverso de 1 es 0. Si para todo x de A distinto de 2 se cumple que x • x es distinto de x, halle el valor de E = (0 • 0) • ((1 • 1) • (2 • 2)).",
+    "opciones": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correcta": 2,
+    "explicacion": "Como 2 es neutro, 2 • 2 = 2 y 0 • 2 = 0; la unicidad de inversos y la condición x • x ≠ x obligan a que 1 • 1 = 0 y 0 • 0 = 1. Así, E = 1 • (0 • 2) = 1 • 0 = 2, aplicando que 0 es el inverso de 1.",
+    "analisis": [
+      "0 no puede ser el resultado: supondría que 0 • 0 = 0, lo que contradice la condición x • x ≠ x para x distinto de 2.",
+      "1 no se obtiene: sería el valor de 0 • 0, pero es un paso intermedio y no el resultado final de toda la expresión.",
+      "2 es correcta: desarrollando, E = (0 • 0) • ((1 • 1) • (2 • 2)) = 1 • (0 • 2) = 1 • 0 = 2.",
+      "3 es imposible: la operación sobre {0, 1, 2} solo puede devolver elementos del conjunto, nunca 3."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
+  },
+  {
+    "id": "uni-013",
+    "categoria": "matematicas",
+    "tema": "Porcentajes",
+    "asignatura": "matematicas",
+    "fuente": "uni",
+    "dificultad": "intermedio",
+    "enunciado": "La tabla indica el porcentaje de basura electrónica producida en el Perú durante el 2015: Computadoras 44%, Televisores 20%, Neveras 16%, Lavadoras 15%, Celulares 5%. Si se botaron 7 360 toneladas de televisores, ¿cuál de los siguientes enunciados es verdadero?",
+    "opciones": [
+      "16 912 toneladas de computadoras se botó en el Perú al 2015.",
+      "El año 2015 se botó en Perú 1 480 toneladas de celulares.",
+      "Los peruanos botaron más de 6 000 toneladas de lavadoras.",
+      "La basura electrónica producida en Perú en el 2015 es de 36 800 toneladas."
+    ],
+    "correcta": 3,
+    "explicacion": "Si 7 360 t representan el 20%, el total es 7 360 / 0,20 = 36 800 t, lo que confirma el enunciado D; con ese total, computadoras dan 16 192 t, celulares 1 840 t y lavadoras 5 520 t.",
+    "analisis": [
+      "Es falso: el 44% de 36 800 t es 16 192 t, no 16 912 t.",
+      "Es falso: el 5% de 36 800 t es 1 840 t, no 1 480 t.",
+      "Es falso: el 15% de 36 800 t es 5 520 t, cantidad que no supera las 6 000 t.",
+      "Es correcto: 7 360 t corresponde al 20% del total, de donde el total es 36 800 t."
+    ],
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   }
 ]

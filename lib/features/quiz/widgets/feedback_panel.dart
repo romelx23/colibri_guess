@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/theme/app_colors.dart';
+import '../../../core/widgets/question_image.dart';
 import '../../../models/question.dart';
 
 class FeedbackPanel extends StatelessWidget {
@@ -133,6 +134,7 @@ class FeedbackPanel extends StatelessWidget {
                         child: _OptionAnalysis(
                           letter: _letter(i),
                           text: question.options[i],
+                          image: question.optionImages?[i],
                           analysis: question.optionAnalysis[i],
                           isCorrect: i == question.correctIndex,
                           isChosenWrong:
@@ -169,6 +171,7 @@ class _OptionAnalysis extends StatelessWidget {
     required this.analysis,
     required this.isCorrect,
     required this.isChosenWrong,
+    this.image,
   });
 
   final String letter;
@@ -176,6 +179,7 @@ class _OptionAnalysis extends StatelessWidget {
   final String analysis;
   final bool isCorrect;
   final bool isChosenWrong;
+  final String? image;
 
   @override
   Widget build(BuildContext context) {
@@ -242,6 +246,10 @@ class _OptionAnalysis extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 6),
+          if (image != null) ...[
+            QuestionImage(asset: image!, height: 110),
+            const SizedBox(height: 6),
+          ],
           Text(
             analysis,
             style: theme.textTheme.bodySmall?.copyWith(

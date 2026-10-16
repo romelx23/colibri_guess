@@ -10,6 +10,7 @@ import '../../core/providers/app_providers.dart';
 import '../../core/providers/session_provider.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/widgets/colibri_mascot.dart';
+import '../../core/widgets/question_image.dart';
 import '../../core/widgets/surface_card.dart';
 import '../../logic/xp.dart';
 import '../../models/question.dart';
@@ -165,6 +166,21 @@ class _ExamPageState extends ConsumerState<ExamPage> {
               );
       unawaited(ref.read(sessionProvider.notifier).syncProgress(progress));
     }
+
+    // El servidor calcula el puntaje del examen (métrica del ranking).
+    unawaited(
+      ref.read(sessionProvider.notifier).submitExam(
+            answers: [
+              for (var i = 0; i < _questions.length; i++)
+                {
+                  'questionId': _questions[i].id,
+                  'answerIndex': _answers[i] ?? -1,
+                  'elapsedMs': _times[i].inMilliseconds,
+                },
+            ],
+            cutoff: _config.cutoffPercent,
+          ),
+    );
 
     if (!mounted) return;
     context.go(
@@ -457,6 +473,7 @@ class _ExamPageState extends ConsumerState<ExamPage> {
                         _Bubble(
                           letter: String.fromCharCode(65 + i),
                           text: _question.options[i],
+                          image: _question.optionImages?[i],
                           selected: _answers[_index] == i,
                           onTap: () => _mark(i),
                         ),
@@ -517,12 +534,16 @@ class _Bubble extends StatelessWidget {
     required this.text,
     required this.selected,
     required this.onTap,
+    this.image,
   });
 
   final String letter;
   final String text;
   final bool selected;
   final VoidCallback onTap;
+
+  /// Ruta del asset cuando la opción es una imagen (p. ej. figuras A-E).
+  final String? image;
 
   @override
   Widget build(BuildContext context) {
@@ -577,9 +598,18 @@ class _Bubble extends StatelessWidget {
               ),
               const SizedBox(width: 12),
               Expanded(
-                child: Text(
-                  text,
-                  style: theme.textTheme.bodyMedium?.copyWith(height: 1.35),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      text,
+                      style: theme.textTheme.bodyMedium?.copyWith(height: 1.35),
+                    ),
+                    if (image != null) ...[
+                      const SizedBox(height: 8),
+                      QuestionImage(asset: image!, height: 120),
+                    ],
+                  ],
                 ),
               ),
               if (selected)
@@ -719,6 +749,10 @@ class _ExamQuestionCard extends StatelessWidget {
             question.questionText,
             style: theme.textTheme.headlineSmall?.copyWith(height: 1.3),
           ),
+          if (question.image != null) ...[
+            const SizedBox(height: 12),
+            QuestionImage(asset: question.image!, height: 200),
+          ],
           const SizedBox(height: 8),
           Text(
             'Marca una bolilla. Puedes cambiarla antes de entregar.',

@@ -79,7 +79,8 @@ class _OnboardingPageState extends ConsumerState<OnboardingPage> {
 
   void _finish() {
     ref.read(preferencesProvider).setBool(SessionStore.kOnboardingPref, true);
-    context.go('/');
+    // Siguiente paso: elegir nickname e icono para el ranking.
+    context.go('/identity');
   }
 
   @override

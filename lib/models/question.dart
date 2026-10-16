@@ -12,6 +12,30 @@ enum QuestionDifficulty { basico, intermedio, dificil }
 
 enum QuestionSource { unmsm, uni, utp, pucp, original }
 
+enum QuestionExam {
+  uniAah20262,
+  unmsm20262e,
+  ocadUni20172,
+}
+
+enum QuestionSubject {
+  matematicas,
+  logica,
+  lenguaje,
+  literatura,
+  historia,
+  geografia,
+  economia,
+  filosofia,
+  psicologia,
+  fisica,
+  quimica,
+  biologia,
+  ingles,
+  actualidad,
+  civica,
+}
+
 extension QuestionCategoryX on QuestionCategory {
   String get id => name;
 
@@ -33,6 +57,58 @@ extension QuestionCategoryX on QuestionCategory {
         QuestionCategory.lenguaje => '✍️',
         QuestionCategory.ciencias => '🔬',
         QuestionCategory.sociales => '🧠',
+      };
+}
+
+extension QuestionExamX on QuestionExam {
+  String get label => switch (this) {
+        QuestionExam.uniAah20262 => 'UNI 2026-II · AHH',
+        QuestionExam.unmsm20262e => 'UNMSM 2026-II · Área E',
+        QuestionExam.ocadUni20172 => 'OCAD-UNI 2017-2',
+      };
+
+  String get toDb => switch (this) {
+        QuestionExam.uniAah20262 => 'uni_aah_2026_2',
+        QuestionExam.unmsm20262e => 'unmsm_2026_2_e',
+        QuestionExam.ocadUni20172 => 'ocad_uni_2017_2',
+      };
+}
+
+extension QuestionSubjectX on QuestionSubject {
+  String get label => switch (this) {
+        QuestionSubject.matematicas => 'Matemáticas',
+        QuestionSubject.logica => 'Lógica',
+        QuestionSubject.lenguaje => 'Lenguaje',
+        QuestionSubject.literatura => 'Literatura',
+        QuestionSubject.historia => 'Historia',
+        QuestionSubject.geografia => 'Geografía',
+        QuestionSubject.economia => 'Economía',
+        QuestionSubject.filosofia => 'Filosofía',
+        QuestionSubject.psicologia => 'Psicología',
+        QuestionSubject.fisica => 'Física',
+        QuestionSubject.quimica => 'Química',
+        QuestionSubject.biologia => 'Biología',
+        QuestionSubject.ingles => 'Inglés',
+        QuestionSubject.actualidad => 'Actualidad',
+        QuestionSubject.civica => 'Cívica',
+      };
+
+  String get emoji => switch (this) {
+        QuestionSubject.matematicas => '➗',
+        QuestionSubject.logica => '🧩',
+        QuestionSubject.lenguaje => '✍️',
+        QuestionSubject.literatura => '📖',
+        QuestionSubject.historia => '🏛️',
+        QuestionSubject.geografia => '🌎',
+        QuestionSubject.economia => '📈',
+        QuestionSubject.filosofia => '💭',
+        QuestionSubject.psicologia => '🧠',
+        QuestionSubject.fisica => '⚛️',
+        QuestionSubject.quimica => '🧪',
+        QuestionSubject.biologia => '🧬',
+        QuestionSubject.ingles => '🇬🇧',
+        QuestionSubject.actualidad => '📰',
+        QuestionSubject.civica => '🗳️',
       };
 }
 
@@ -86,6 +162,20 @@ QuestionSource parseSource(String value) {
   );
 }
 
+QuestionExam parseExam(String value) {
+  return QuestionExam.values.firstWhere(
+    (e) => e.toDb == value,
+    orElse: () => throw FormatException('Prueba desconocida: $value'),
+  );
+}
+
+QuestionSubject parseSubject(String value) {
+  return QuestionSubject.values.firstWhere(
+    (s) => s.name == value,
+    orElse: () => throw FormatException('Asignatura desconocida: $value'),
+  );
+}
+
 class Question {
   const Question({
     required this.id,
@@ -99,6 +189,10 @@ class Question {
     required this.explanation,
     required this.optionAnalysis,
     this.reference,
+    this.exam,
+    this.subject,
+    this.image,
+    this.optionImages,
   });
 
   final String id;
@@ -112,8 +206,14 @@ class Question {
   final String explanation;
   final List<String> optionAnalysis;
   final String? reference;
+  final QuestionExam? exam;
+  final QuestionSubject? subject;
+  final String? image;
+  final List<String?>? optionImages;
 
   String get correctAnswer => options[correctIndex];
+
+  bool get hasImage => image != null || optionImages != null;
 
   bool get hasSupport => statement.contains('\n\n');
 
@@ -149,6 +249,16 @@ class Question {
           '${options.length}, hay ${analysis.length})');
     }
 
+    final optionImagesJson = json['imagenes_opciones'] as List<dynamic>?;
+    final optionImages = optionImagesJson
+        ?.map((e) => e as String?)
+        .toList(growable: false);
+    if (optionImages != null && optionImages.length != options.length) {
+      throw FormatException(
+          'imagenes_opciones incompleto en ${json['id']} (se esperaban '
+          '${options.length}, hay ${optionImages.length})');
+    }
+
     return Question(
       id: json['id'] as String,
       category: parseCategory(json['categoria'] as String),
@@ -161,6 +271,12 @@ class Question {
       explanation: json['explicacion'] as String,
       optionAnalysis: analysis,
       reference: json['referencia'] as String?,
+      exam: json['prueba'] == null ? null : parseExam(json['prueba'] as String),
+      subject: json['asignatura'] == null
+          ? null
+          : parseSubject(json['asignatura'] as String),
+      image: json['imagen'] as String?,
+      optionImages: optionImages,
     );
   }
 
@@ -176,5 +292,9 @@ class Question {
         'explicacion': explanation,
         'analisis': optionAnalysis,
         if (reference != null) 'referencia': reference,
+        if (exam != null) 'prueba': exam!.toDb,
+        if (subject != null) 'asignatura': subject!.name,
+        if (image != null) 'imagen': image,
+        if (optionImages != null) 'imagenes_opciones': optionImages,
       };
 }

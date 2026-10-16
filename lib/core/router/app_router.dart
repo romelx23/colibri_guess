@@ -7,6 +7,7 @@ import '../../features/exam/exam_page.dart';
 import '../../features/exam/exam_setup_page.dart';
 import '../../features/home/home_page.dart';
 import '../../features/duel/duel_page.dart';
+import '../../features/identity/identity_page.dart';
 import '../../features/leaderboard/leaderboard_page.dart';
 import '../../features/onboarding/onboarding_page.dart';
 import '../../features/practice/practice_page.dart';
@@ -91,6 +92,18 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         pageBuilder: (context, state) => fadeSlideRoute(
           key: state.pageKey,
           child: const OnboardingPage(),
+        ),
+      ),
+      // Nickname + icono de perfil: se pide al terminar el onboarding y
+      // se puede editar después desde el perfil (?edit=1).
+      GoRoute(
+        path: '/identity',
+        parentNavigatorKey: rootNavigatorKey,
+        pageBuilder: (context, state) => fadeSlideRoute(
+          key: state.pageKey,
+          child: IdentityPage(
+            editing: state.uri.queryParameters['edit'] == '1',
+          ),
         ),
       ),
       GoRoute(

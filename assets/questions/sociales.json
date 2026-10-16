@@ -3,6 +3,7 @@
     "id": "soc-001",
     "categoria": "sociales",
     "tema": "Psicología",
+    "asignatura": "psicologia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "Margarita, cuando sube al auto, al tren o al mototaxi, dice que está en el titi, lo que evidencia que ella está en la etapa del lenguaje denominado ............... . Y Piero, al llegar de su colegio inicial, canta en todo momento la canción que le enseñó su profesora, y también habla con sus juguetes, lo que demuestra que está en el estadio del lenguaje llamado ............... .",
@@ -22,12 +23,14 @@
       "No es la respuesta: Resume al revés los dos casos: la egocéntrica corresponde a Piero, que monologa con sus juguetes, y la holofrásica a Margarita, no al contrario.",
       "No es la respuesta: La explosión del lenguaje es la aparición temprana de vocabulario y sintaxis hacia los dos años, no la conducta de repetir canciones y hablar con juguetes de Piero."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-002",
     "categoria": "sociales",
     "tema": "Psicología",
+    "asignatura": "psicologia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "A lo largo de todo el ciclo vital, los seres humanos experimentan cambios físicos, cognitivos y psicosociales. En relación con el desarrollo humano, determine el valor de verdad (V o F) de las siguientes proposiciones:\nI. La estimulación y reforzamiento por medio del juego han sido importantes para que Miguelito mejore sus aprendizajes.\nII. Las habilidades sociales que tiene Federico fueron construyéndose por las acciones cinestésicas que practicaba a diario.\nIII. La característica sensoriomotriz de Matías para maniobrar su escúter la ha adquirido por jugar diariamente con sus amigos.",
@@ -47,12 +50,14 @@
       "No es la respuesta: Acierta con I y II, pero da verdadera la III al atribuir a la etapa sensoriomotriz, de cero a dos años, conducir el escúter, habilidad de etapas posteriores.",
       "No es la respuesta: Niega también I, al no reconocer que el juego funcional de Piaget y la zona de Vygotsky hacen del juego el principal medio de aprendizaje y estimulación."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-003",
     "categoria": "sociales",
     "tema": "Psicología",
+    "asignatura": "psicologia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "En el manejo de sus emociones, el ser humano debe aprender a identificar y a controlar una emoción perturbadora. Relacione la aptitud emocional con el ejemplo correspondiente.\nI. Confiabilidad\nII. Adaptabilidad\nIII. Autodominio\na. Cuando se presentan dificultades con sus trabajadores conflictivos, Hugo sabe cómo actuar y llevar bien la situación.\nb. Lucrecia tiene claro que sus actividades deben hacerse bien, tomando en cuenta la realidad y la verdad.\nc. Cada vez que hay problemas en la empresa y Renzo se tiene que cambiar a un nuevo puesto, él lo maneja con tranquilidad.",
@@ -72,12 +77,14 @@
       "Correcto: I con b, porque Lucrecia actúa con integridad y verdad; II con c, porque Renzo se adapta con tranquilidad al cambio; III con a, porque Hugo domina sus emociones ante los conflictos.",
       "No es la respuesta: Acierta con II, la adaptabilidad de Renzo, pero une I a Hugo, que ejerce autodominio, y da a Lucrecia el autodominio en vez de la confiabilidad."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-004",
     "categoria": "sociales",
     "tema": "Psicología",
+    "asignatura": "psicologia",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "Considerando los procesos que intervienen en las necesidades psicológicas, ¿cuál o cuáles son las afirmaciones correctas que describen las etapas del proceso motivacional?\nI. Apasionarse por ser educadora, ingresar a la universidad, estudiar la carrera y trabajar como maestra\nII. Prepararse para conseguir un empleo, trabajar en una empresa líder y sentir la necesidad de mantenerse laborando en la empresa\nIII. Anhelar ser docente experto en redes, capacitarse en medios virtuales y enseñar Internet en un instituto tecnológico",
@@ -97,12 +104,14 @@
       "No es la respuesta: Deja fuera III, que también es correcta porque nace del anhelo de ser docente experto, sigue con la capacitación y termina enseñando Internet en un instituto tecnológico.",
       "No es la respuesta: Toma solo la secuencia defectuosa, donde la necesidad de mantenerse en el empleo aparece después de la acción, e ignora I y III, que sí son coherentes."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-005",
     "categoria": "sociales",
     "tema": "Psicología",
+    "asignatura": "psicologia",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "En relación con el aprendizaje autorregulado de un profesional, determine el valor de verdad (V o F) de las siguientes proposiciones:\nI. Su aprendizaje autorregulado no necesita controlar sus propios pensamientos por la facilidad que tiene de actuar con el uso de sus propias habilidades.\nII. Su metacognición opera con todas sus estrategias e incluye procesos motivacionales y afectivos.\nIII. Muestra mayor esfuerzo mental para su tarea y no emplea estrategias afectivas para no contaminar la eficacia de sus logros.",
@@ -122,12 +131,14 @@
       "No es la respuesta: Niega la II, la única verdadera: la metacognición sí incluye componentes motivacionales y afectivos como la autoeficacia, la gestión emocional y la perseverancia en la tarea.",
       "No es la respuesta: Cree verdaderas las tres, pero la I exige controlar el pensamiento y la III ignora que regular las emociones optimiza concentración y persistencia, no las contamina."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-006",
     "categoria": "sociales",
     "tema": "Psicología",
+    "asignatura": "psicologia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "Rosario, al subir como pasajera al tren, intentó sentarse en uno de los asientos vacíos. Al darse cuenta de que la persona del costado presentaba facciones andinas, no se sentó e hizo un gesto de desagrado y prefirió quedarse parada. En relación con la actitud de Rosario, identifique las proposiciones correctas.\nI. El accionar de Rosario está cargado de un estereotipo negativo.\nII. El desprecio manifiesto de Rosario expresa una valoración negativa\nIII. El componente cognitivo no ha intervenido en la conducta de Rosario.",
@@ -147,12 +158,14 @@
       "No es la respuesta: Reduce el caso a la valoración afectiva e ignora la I, que identifica el estereotipo negativo, la generalización que sostiene toda la conducta discriminatoria de Rosario.",
       "No es la respuesta: Incluye la III, que niega la intervención cognitiva cuando el estereotipo es precisamente la creencia que activa el desagrado, y deja fuera la II sobre la valoración negativa."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-007",
     "categoria": "sociales",
     "tema": "Educación cívica",
+    "asignatura": "civica",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "La finalidad constitucional de las Fuerzas Armadas es la de garantizar la independencia, la soberanía y la integridad territorial de la República, las cuales están relacionadas con la seguridad nacional; es decir, con la",
@@ -172,12 +185,14 @@
       "No es la respuesta: La seguridad ciudadana es materia de la Policía Nacional en el ámbito comunal; la seguridad nacional alude a amenazas contra la estabilidad del Estado y su orden constitucional.",
       "Correcto: La seguridad nacional implica la ausencia de situaciones que afecten gravemente la estabilidad institucional del Estado, coherente con proteger la independencia, la soberanía y la integridad territorial."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-008",
     "categoria": "sociales",
     "tema": "Educación cívica",
+    "asignatura": "civica",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "Uno de los derechos que tienen los ciudadanos en un Estado democrático es el de la participación ciudadana, la cual no se limita a la elección de sus representantes, sino que también les permite ejercer el poder de revocatoria. Respecto del derecho de revocatoria que tienen los ciudadanos, indique el valor de verdad (V o F) de las siguientes proposiciones:\nI. Se puede producir cuando el 25% del electorado está de acuerdo.\nII. Se puede destituir de sus cargos a autoridades que provienen de elección popular.\nIII. Este derecho está contemplado a nivel local y regional.\nIV. Los alcaldes y regidores pueden ser revocados por la ciudadanía.",
@@ -197,12 +212,14 @@
       "No es la respuesta: Acepta las cuatro, pero la I es falsa: el 25 por ciento corresponde a la solicitud con un máximo de cuatrocientas mil firmas, no a la destitución.",
       "No es la respuesta: Niega la IV, verdadera pues la revocatoria alcanza a alcaldes y regidores, y da por válida la I cuando el 25 por ciento solo pide la consulta."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-009",
     "categoria": "sociales",
     "tema": "Educación cívica",
+    "asignatura": "civica",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "La Convención Americana sobre Derechos Humanos (Pacto de San José) está refrendada por la Comisión Interamericana de Derechos Humanos (CIDH), la cual promueve la observancia del ejercicio de los derechos humanos en los países tratantes. Acerca de esta Comisión, indique el valor de verdad (V o F) de las siguientes proposiciones:\nI. Tiene como función estimular la conciencia de los derechos humanos en los países de América.\nII. Efectúa recomendaciones para que los países tratantes adopten medidas de cumplimiento de los DD. HH.\nIII. Es una institución judicial autónoma de la Organización de los Estados Americanos.\nIV. Las personas naturales pueden denunciar ante la Comisión la violación de esta Convención por un Estado miembro.",
@@ -222,12 +239,14 @@
       "No es la respuesta: Niega la I, cuando estimular la conciencia pública sobre los derechos humanos en las Américas figura entre las funciones listadas de la Comisión.",
       "No es la respuesta: Rechaza I y II, ambas funciones verificables: estimular la conciencia pública y recomendar medidas de protección, que el enunciado oficial atribuye a la Comisión Interamericana."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-010",
     "categoria": "sociales",
     "tema": "Educación cívica",
+    "asignatura": "civica",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "La oficina del Registro Nacional de Identificación y Estado Civil (RENIEC) no solo tiene la función de registrar la adecuada identificación de los ciudadanos y su estado civil, sino que también cumple otras funciones. De acuerdo con lo anterior, indique las funciones adicionales de esta institución.\nI. Preparar y mantener actualizado el padrón electoral a efectos del cumplimiento de las elecciones\nII. Brindar información actualizada a la Oficina Nacional de Procesos Electorales\nIII. Declarar la nulidad de los comicios cuando los votos viciados superan los dos tercios del número de votos emitidos\nIV. Proporcionar información al Jurado Nacional de Elecciones para que cumpla sus funciones",
@@ -247,12 +266,14 @@
       "No es la respuesta: Deja fuera la II, cuando el RENIEC debe proporcionar la información necesaria a la Oficina Nacional de Procesos Electorales para el cumplimiento de sus funciones.",
       "No es la respuesta: Añade la III, que no es competencia del RENIEC, pues la nulidad de comicios corresponde al Jurado Nacional de Elecciones, y omite la I del padrón electoral."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-011",
     "categoria": "sociales",
     "tema": "Economía",
+    "asignatura": "economia",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "La competencia monopolística es una estructura de mercado en la que muchos productores compiten entre sí y, en el largo plazo, hay libertad de entrada y salida del mercado. Además, el producto que se oferta es .............. y puede presentarse como ..............",
@@ -272,12 +293,14 @@
       "Correcto: En la competencia monopolística muchos producen con libertad de entrada y el bien es ligeramente diferenciado por marca, calidad o publicidad, de modo que se presenta como sustitutivo del producto rival.",
       "No es la respuesta: Los bienes complementarios se demandan juntos, como auto y combustible; los productos de esta estructura se ofrecen en sustitución de los rivales, no como complementos."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-012",
     "categoria": "sociales",
     "tema": "Economía",
+    "asignatura": "economia",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "Marque la alternativa que presenta los factores que permiten que un trabajador tenga un rendimiento superior al del promedio en una empresa.\nI. Tecnología de punta utilizada en el proceso productivo\nII. Demasiadas horas de trabajo y responsabilidad ejecutiva\nIII. Mayores incentivos (pagos) y bonificaciones adicionales",
@@ -297,12 +320,14 @@
       "No es la respuesta: Añade la II, que el enunciado descarta por el cansancio, y omite la III, los mayores incentivos y bonificaciones que motivan un desempeño por encima del promedio.",
       "Correcto: I y III son válidas: la tecnología de punta hace eficiente el proceso y incentivos y bonificaciones motivan el esfuerzo; la II falla porque el exceso de horas cansa y baja el rendimiento."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-013",
     "categoria": "sociales",
     "tema": "Economía",
+    "asignatura": "economia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "En la actual legislatura, el Congreso de la República aprobó, por insistencia, la “Ley que crea el Tratamiento Especial Tributario y Aduanero para las Zonas Económicas Especiales Privadas (ZEEP)”. Esta medida pone en riesgo la sostenibilidad fiscal del próximo gobierno y ha sido observada por instituciones como el Consejo Fiscal y el Fondo Monetario Internacional. Lo que se afecta ............... por lo que ............... la recaudación fiscal.",
@@ -322,12 +347,14 @@
       "No es la respuesta: Además de señalar mal el tributo, afirma que la recaudación aumenta, cuando la exoneración del impuesto a la renta produce menos ingresos para el Estado, no más.",
       "No es la respuesta: El derecho de patentes grava el ejercicio de industria, tributo ajeno a la ZEEP; además, la recaudación cae, no sube, si se exona el impuesto a la renta."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-014",
     "categoria": "sociales",
     "tema": "Economía",
+    "asignatura": "economia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "En setiembre de 2025, los gobiernos de Brasil y China firmaron un acuerdo para llevar a cabo estudios de viabilidad de la construcción de un ferrocarril bioceánico que partiría del puerto de Ileús (Atlántico, sur de Brasil) y llegaría al puerto de Chancay (Pacífico). Esta vía bioceánica permitiría reducir las horas de viaje y los costos de transporte, lo cual fortalecería la integración y los acuerdos comerciales entre Asia y Sudamérica. Respecto de lo expresado, ¿qué enunciado o enunciados son correctos?\nI. Dinamizará el Foro de Cooperación Económica Asia Pacífico (APEC).\nII. Fortalecerá la integración de los países sudamericanos en la UNASUR.\nIII. Se facilitará el libre comercio y se frenará el libre flujo de la inversión.",
@@ -347,12 +374,14 @@
       "Correcto: Solo la I es válida: al unir Atlántico y Pacífico, el ferrocarril dinamiza el intercambio del APEC; la II falla porque no se cita la UNASUR y la III, porque facilita el comercio.",
       "No es la respuesta: Toma la única sin respaldo, la UNASUR, ausente del caso, y descarta la I, que sí se cumple porque la nueva vía potencia el comercio del foro APEC."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-015",
     "categoria": "sociales",
     "tema": "Economía",
+    "asignatura": "economia",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "Para ampliar sus mercados y poder incrementar su grado de interrelación, Perú ha resuelto impulsar un proceso que busca reducir y eliminar barreras económicas mediante acuerdos de complementación con los países fronterizos y en diversos aspectos. Como primer paso, aplica una serie de preferencias arancelarias para estos. En este caso hipotético, el Perú se encontraría en la etapa de integración denominada",
@@ -372,12 +401,14 @@
       "Correcto: El caso dice que como primer paso se aplican preferencias arancelarias para reducir barreras con los países fronterizos, que es exactamente la fase inicial de integración conocida como acuerdo o área preferencial.",
       "No es la respuesta: El mercado común añade libre circulación de personas, capitales y factores, etapas posteriores que el enunciado no describe, donde solo se reducen barreras económicas."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-016",
     "categoria": "sociales",
     "tema": "Filosofía",
+    "asignatura": "filosofia",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "A inicios del siglo xx, Latinoamérica recibió la influencia del espiritualismo europeo, que ponía de relieve la conciencia o espíritu; hacía énfasis en la libertad como su manifestación principal y rechazaba el reduccionismo cientificista del positivismo. En el Perú, sus principales representantes fueron Francisco García Calderón, Víctor Andrés Belaunde, José de la Riva Agüero y Mariano Iberico, quienes fueron influenciados, principalmente, por el filósofo",
@@ -397,12 +428,14 @@
       "No es la respuesta: Hartmann desarrolló la ontología de lo nuevo y el estrato del ser real, corriente alemana ajena al élan vital y a la libertad que caracterizan al espiritualismo citado.",
       "No es la respuesta: Comte es el creador del positivismo, precisamente la corriente cientificista que el espiritualismo rechazaba, por lo que no puede ser su fuente de inspiración."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-017",
     "categoria": "sociales",
     "tema": "Filosofía",
+    "asignatura": "filosofia",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "La argumentación es un acto comunicativo complejo que apunta a resolver diferencias de opinión entre interlocutores. Se argumenta presentando un conjunto de proposiciones o razonamientos que se pueden defender y que exponen un punto de vista en cuestión para que otras personas lo evalúen de manera racional. De forma específica, el tipo de argumento en el que las premisas se transfieren a la conclusión con carácter de necesidad, por lo que no es posible que las premisas sean verdaderas y la conclusión sea falsa, recibe el nombre de argumento",
@@ -422,12 +455,14 @@
       "Correcto: Es el argumento deductivo porque la conclusión se sigue con carácter de necesidad: si las premisas son verdaderas no puede ser falsa, invertida de la inducción, que solo da probabilidad.",
       "No es la respuesta: El argumento implícito omite premisas que se sobreentienden; el rasgo de necesidad descrito define a la deducción, no a la información no enunciada."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-018",
     "categoria": "sociales",
     "tema": "Filosofía",
+    "asignatura": "filosofia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "En las ciencias, la argumentación consiste en un debate en el que los científicos tratan de ganar adeptos a sus puntos de vista y debilitar a sus detractores mediante ............. y explicaciones racionales. Sin embargo, no siempre se trata de un debate. En ocasiones, una determinada comunidad científica hace juicios de manera .............., aunque la proporción de consenso puede variar con el tiempo.",
@@ -447,12 +482,14 @@
       "Correcto: En las ciencias formales la argumentación se sostiene en demostraciones y explicaciones racionales, y los juicios de la comunidad son fundados, aunque provisionales, por eso el consenso cambia con el tiempo.",
       "No es la respuesta: Los alegatos son propios del derecho, no de la ciencia, y la cooperativa describe un modo de trabajo, no el carácter fundado de los juicios científicos."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-019",
     "categoria": "sociales",
     "tema": "Filosofía",
+    "asignatura": "filosofia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "Mónica participa en un seminario acerca de la influencia de las artes en la formación del carácter y la personalidad de los niños. Este seminario busca crear conciencia sobre cómo la música puede determinar la forma en la que aprendemos a socializar y a expresarnos, así como contribuir a la formación de nuestra autoestima. Por lo aprendido, ella decide no permitir que su hijo escuche géneros como el reguetón, ya que el mensaje que transmite y su vocabulario son incompatibles con la manera en la que quiere llevar su crianza. Al respecto, la decisión de Mónica privilegia la función .............. del arte.",
@@ -472,12 +509,14 @@
       "No es la respuesta: La función revolucionaria apuntaría al cambio o la ruptura del orden; Mónica busca preservar su forma de criar, actuando como educadora de su hijo.",
       "Correcto: Mónica privilegia la función pedagógica porque considera que el arte, en este caso el reguetón, transmite conocimientos y valores que influirían en la formación de su hijo."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-020",
     "categoria": "sociales",
     "tema": "Filosofía",
+    "asignatura": "filosofia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "Que el arte debe ser la conciencia crítica de la sociedad, además de expresar las condiciones reales de la vida y motivar el cambio social, es una posición que defenderían intelectuales tanto europeos como peruanos, entre ellos",
@@ -497,12 +536,14 @@
       "No es la respuesta: Benjamin reflexionó sobre la reproductibilidad técnica de la obra de arte y Miró Quesada sobre la lógica, no sobre el arte como conciencia crítica de la sociedad.",
       "No es la respuesta: Wittgenstein se ocupó del lenguaje, y Li Carrillo de la ciencia fáctica, sin vincularse a la tesis del arte como expresión de las condiciones reales de la vida."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "soc-021",
     "categoria": "sociales",
     "tema": "Filosofía",
+    "asignatura": "filosofia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "En la fenomenología de Edmund Husserl, la actitud básica de la filosofía estrictamente científica se obtiene mediante una suspensión del juicio, lo cual implica que en lugar de vivir sobre la base de la tesis de que absolutamente todo, hasta la vida subjetiva, es parte del mundo real, causal y temporal, se la desconecte o ponga entre paréntesis para abrir paso a la pura vida que constituye intencionalmente el mundo. Este paso del método fenomenológico recibe el nombre de",
@@ -522,6 +563,7 @@
       "No es la respuesta: Techné es el término griego para arte o técnica, ajeno a la fenomenología husserliana y al método de suspender el juicio sobre el mundo real.",
       "No es la respuesta: Hybris significa soberbia o desmesura, concepto moral de la antigüedad griega que no designa ningún paso del método fenomenológico."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   }
 ]

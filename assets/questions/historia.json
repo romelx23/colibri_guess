@@ -3,6 +3,7 @@
     "id": "his-001",
     "categoria": "historia",
     "tema": "Independencia del Perú",
+    "asignatura": "historia",
     "fuente": "original",
     "dificultad": "basico",
     "enunciado": "La independencia del Perú fue proclamada el 28 de julio de 1821 por:",
@@ -25,6 +26,7 @@
     "id": "his-002",
     "categoria": "historia",
     "tema": "Estado incaico",
+    "asignatura": "historia",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "El gran imperio andino organizado por los incas se denominaba:",
@@ -47,6 +49,7 @@
     "id": "his-003",
     "categoria": "historia",
     "tema": "Conquista del Perú",
+    "asignatura": "historia",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "El conquistador español que llegó al Tahuantinsuyo en 1532 y capturó a Atahualpa fue:",
@@ -69,6 +72,7 @@
     "id": "his-004",
     "categoria": "historia",
     "tema": "Virreinato del Perú",
+    "asignatura": "historia",
     "fuente": "pucp",
     "dificultad": "basico",
     "enunciado": "El Virreinato del Perú fue creado por la Corona española en:",
@@ -91,6 +95,7 @@
     "id": "his-005",
     "categoria": "historia",
     "tema": "Civilizaciones prehispánicas",
+    "asignatura": "historia",
     "fuente": "original",
     "dificultad": "basico",
     "enunciado": "La enorme ciudadela de adobe conocida como Chan Chan fue construida por la cultura:",
@@ -113,6 +118,7 @@
     "id": "his-006",
     "categoria": "historia",
     "tema": "Culturas prehispánicas",
+    "asignatura": "historia",
     "fuente": "original",
     "dificultad": "basico",
     "enunciado": "La civilización que dejó los enigmáticos geoglifos de Nazca se desarrolló en la:",
@@ -135,6 +141,7 @@
     "id": "his-007",
     "categoria": "historia",
     "tema": "Antigüedad clásica",
+    "asignatura": "historia",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "La antigua civilización egipcia se desarrolló a orillas del río:",
@@ -157,6 +164,7 @@
     "id": "his-008",
     "categoria": "historia",
     "tema": "Edad Moderna",
+    "asignatura": "historia",
     "fuente": "original",
     "dificultad": "basico",
     "enunciado": "Cristóbal Colón llegó a América el 12 de octubre de:",
@@ -179,6 +187,7 @@
     "id": "his-009",
     "categoria": "historia",
     "tema": "Revolución Francesa",
+    "asignatura": "historia",
     "fuente": "pucp",
     "dificultad": "basico",
     "enunciado": "La Revolución Francesa estalló en 1789 con la toma de la Bastilla el:",
@@ -201,6 +210,7 @@
     "id": "his-010",
     "categoria": "historia",
     "tema": "Guerras mundiales",
+    "asignatura": "historia",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "La Segunda Guerra Mundial terminó en 1945 con la rendición de:",
@@ -223,6 +233,7 @@
     "id": "his-011",
     "categoria": "historia",
     "tema": "Edad Contemporánea",
+    "asignatura": "historia",
     "fuente": "original",
     "dificultad": "basico",
     "enunciado": "El muro que dividió a Berlín cayó en:",
@@ -245,6 +256,7 @@
     "id": "his-012",
     "categoria": "historia",
     "tema": "Rebeliones coloniales",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "La gran rebelión indígena de 1780-1781 fue encabezada por:",
@@ -267,6 +279,7 @@
     "id": "his-013",
     "categoria": "historia",
     "tema": "Estado incaico",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "La celebración inca dedicada al dios Sol, que se realizaba en el Cusco en el solsticio de junio, era el:",
@@ -289,6 +302,7 @@
     "id": "his-014",
     "categoria": "historia",
     "tema": "Guerra con Chile",
+    "asignatura": "historia",
     "fuente": "utp",
     "dificultad": "intermedio",
     "enunciado": "El Tratado de Ancón, que puso fin a la guerra con Chile, fue firmado en:",
@@ -311,6 +325,7 @@
     "id": "his-015",
     "categoria": "historia",
     "tema": "Guerra del Pacífico",
+    "asignatura": "historia",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "La principal causa económica de la guerra del Pacífico (1879-1883) fue la disputa por:",
@@ -333,6 +348,7 @@
     "id": "his-016",
     "categoria": "historia",
     "tema": "Estado incaico",
+    "asignatura": "historia",
     "fuente": "pucp",
     "dificultad": "intermedio",
     "enunciado": "El inca que inició la gran expansión del Tahuantinsuyo y edificó Sacsayhuamán fue:",
@@ -355,6 +371,7 @@
     "id": "his-017",
     "categoria": "historia",
     "tema": "Dominio colonial",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "La mita minera organizada por el virrey Francisco de Toledo beneficiaba principalmente a las minas de:",
@@ -377,6 +394,7 @@
     "id": "his-018",
     "categoria": "historia",
     "tema": "Diplomacia colonial",
+    "asignatura": "historia",
     "fuente": "utp",
     "dificultad": "intermedio",
     "enunciado": "El Tratado de Tordesillas (1494) dividió las tierras descubiertas entre:",
@@ -399,6 +417,7 @@
     "id": "his-019",
     "categoria": "historia",
     "tema": "Perú republicano",
+    "asignatura": "historia",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "La abolición de la esclavitud en el Perú se decretó en el gobierno de:",
@@ -421,6 +440,7 @@
     "id": "his-020",
     "categoria": "historia",
     "tema": "Independencia de América",
+    "asignatura": "historia",
     "fuente": "pucp",
     "dificultad": "intermedio",
     "enunciado": "El movimiento independentista mexicano se inició con el Grito de Dolores en:",
@@ -443,6 +463,7 @@
     "id": "his-021",
     "categoria": "historia",
     "tema": "Imperio romano",
+    "asignatura": "historia",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "El Imperio romano de Occidente cayó en el año:",
@@ -465,6 +486,7 @@
     "id": "his-022",
     "categoria": "historia",
     "tema": "Guerras napoleónicas",
+    "asignatura": "historia",
     "fuente": "utp",
     "dificultad": "intermedio",
     "enunciado": "La independencia de Estados Unidos se proclamó el 4 de julio de:",
@@ -487,6 +509,7 @@
     "id": "his-023",
     "categoria": "historia",
     "tema": "Perú republicano",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "La primera constitución política del Perú fue sancionada en:",
@@ -509,6 +532,7 @@
     "id": "his-024",
     "categoria": "historia",
     "tema": "Estado incaico",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "¿Cuál de las siguientes NO era una de las cuatro divisiones del Tahuantinsuyo?",
@@ -531,6 +555,7 @@
     "id": "his-025",
     "categoria": "historia",
     "tema": "Revolución rusa",
+    "asignatura": "historia",
     "fuente": "pucp",
     "dificultad": "dificil",
     "enunciado": "La Revolución rusa de 1917 derrocó al zar:",
@@ -553,6 +578,7 @@
     "id": "his-026",
     "categoria": "historia",
     "tema": "Edad Media",
+    "asignatura": "historia",
     "fuente": "original",
     "dificultad": "dificil",
     "enunciado": "La capital del Imperio bizantino, que perduró hasta 1453, era:",
@@ -575,6 +601,7 @@
     "id": "his-027",
     "categoria": "historia",
     "tema": "Culturas prehispánicas",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "El imperio Wari, que precedió a los incas, tuvo su capital cerca de la actual ciudad de:",
@@ -597,6 +624,7 @@
     "id": "his-028",
     "categoria": "historia",
     "tema": "Perú republicano",
+    "asignatura": "historia",
     "fuente": "utp",
     "dificultad": "dificil",
     "enunciado": "La Constitución liberal de 1856 fue promulgada durante el gobierno de:",
@@ -619,6 +647,7 @@
     "id": "his-029",
     "categoria": "historia",
     "tema": "Perú colonial",
+    "asignatura": "historia",
     "fuente": "pucp",
     "dificultad": "dificil",
     "enunciado": "La nave que navegaba entre el Callao y Acapulco para el comercio con Manila se conocía como:",
@@ -641,6 +670,7 @@
     "id": "his-030",
     "categoria": "historia",
     "tema": "Edad Contemporánea",
+    "asignatura": "historia",
     "fuente": "original",
     "dificultad": "dificil",
     "enunciado": "La Carta Magna, que limitó el poder del rey de Inglaterra, fue firmada en:",
@@ -663,6 +693,7 @@
     "id": "his-031",
     "categoria": "historia",
     "tema": "Independencia del Perú",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "La expedición libertadora que desembarcó en Paracas en 1820 estaba al mando de:",
@@ -685,6 +716,7 @@
     "id": "his-032",
     "categoria": "historia",
     "tema": "Guerra del Pacífico",
+    "asignatura": "historia",
     "fuente": "original",
     "dificultad": "dificil",
     "enunciado": "La batalla de Huamachuco, la última gran acción de la guerra con Chile, ocurrió en:",
@@ -707,6 +739,7 @@
     "id": "his-033",
     "categoria": "historia",
     "tema": "Organismos internacionales",
+    "asignatura": "historia",
     "fuente": "utp",
     "dificultad": "dificil",
     "enunciado": "La Sociedad de Naciones, antecedente de la ONU, fue creada tras:",
@@ -729,6 +762,7 @@
     "id": "his-034",
     "categoria": "historia",
     "tema": "Literatura y pensamiento",
+    "asignatura": "literatura",
     "fuente": "pucp",
     "dificultad": "dificil",
     "enunciado": "José Carlos Mariátegui publicó sus Siete ensayos de interpretación de la realidad peruana en:",
@@ -751,6 +785,7 @@
     "id": "his-035",
     "categoria": "historia",
     "tema": "Edad Moderna",
+    "asignatura": "historia",
     "fuente": "original",
     "dificultad": "dificil",
     "enunciado": "La primera circunnavegación del globo fue culminada en 1522 por la expedición:",
@@ -773,6 +808,7 @@
     "id": "uni-022",
     "categoria": "historia",
     "tema": "Revolución Industrial",
+    "asignatura": "historia",
     "fuente": "uni",
     "dificultad": "intermedio",
     "enunciado": "Dadas las siguientes proposiciones sobre la Primera Revolución Industrial: I. Se inició en Estados Unidos. II. Aumentó la necesidad de mano de obra en cada fábrica. III. Tuvo como base energética al carbón y el agua. Señale la alternativa correcta.",
@@ -790,12 +826,14 @@
       "Es correcta: el carbón alimentó la máquina de vapor y junto con la energía hidráulica sostuvo el proceso.",
       "Es incorrecta: exige que I y II sean verdaderas, y ambas son falsas."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "uni-023",
     "categoria": "historia",
     "tema": "Historia del Perú republicano",
+    "asignatura": "historia",
     "fuente": "uni",
     "dificultad": "basico",
     "enunciado": "La promulgación de la ley que estableció la duración de la jornada laboral de 8 horas se dio durante el gobierno de",
@@ -813,12 +851,14 @@
       "No corresponde: su mandato pertenece a la época de la guerra con Chile y la resistencia, anterior a esa ley.",
       "No corresponde: su gobierno en la década liberal de 1895-1899 no promulgó esa jornada laboral."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "uni-024",
     "categoria": "historia",
     "tema": "Crisis de 1929",
+    "asignatura": "historia",
     "fuente": "uni",
     "dificultad": "intermedio",
     "enunciado": "Indique lo correcto sobre la Gran Depresión de 1929: I. La Gran Depresión de 1929 fue una crisis económica mundial que se prolongó durante la década de 1930. II. Después de la Primera Guerra Mundial, en Europa se estableció un nuevo mapa político con nuevas fronteras que afectó la eficiencia de la estructura económica y comercial, por lo que se requerían grandes capitales e inversiones para su funcionamiento. III. Prosperaron los especuladores en metales preciosos e inmuebles y quedaron en la ruina financiera los ahorristas y los que conservaban el dinero en efectivo.",
@@ -836,12 +876,14 @@
       "Es incompleta: incluye solo I y II y descarta la tercera proposición, que también es cierta.",
       "Es correcta: las tres proposiciones describen con precisión causas y efectos de la Gran Depresión."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "uni-025",
     "categoria": "historia",
     "tema": "Revoluciones burguesas",
+    "asignatura": "historia",
     "fuente": "uni",
     "dificultad": "dificil",
     "enunciado": "Indique la secuencia correcta después de determinar la verdad (V) o falsedad (F) de las siguientes proposiciones sobre las revoluciones burguesas: I. El propósito de las revoluciones burguesas era acabar con las limitaciones impuestas por el absolutismo monárquico para el desarrollo de la clase media acomodada. II. Una de las causas de las revoluciones burguesas era el desarrollo de las ciudades en la época de la primera industrialización. III. La independencia de los Estados Unidos marca el fin de las revoluciones burguesas en el mundo.",
@@ -859,12 +901,14 @@
       "Es incorrecta: considera falsa la proposición I, que es verdadera.",
       "Es correcta: I y II son verdaderas y III es falsa, lo que corresponde a V V F."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "uni-026",
     "categoria": "historia",
     "tema": "Filosofía de la Antigüedad",
+    "asignatura": "filosofia",
     "fuente": "uni",
     "dificultad": "intermedio",
     "enunciado": "Indique la alternativa correcta respecto a Aristóteles y su teoría del conocimiento: I. Conocer requiere de un razonamiento lógico. II. La verdad depende del observador. III. Es imposible conocer el mundo.",
@@ -882,12 +926,14 @@
       "Es falsa: Aristóteles afirmó que es posible conocer el mundo a través de la experiencia y la razón.",
       "Es incorrecta: exige que la proposición II sea verdadera, lo cual contradice su teoría del conocimiento."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "his-041",
     "categoria": "historia",
     "tema": "Historia del Perú",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "Los primeros pobladores que se adaptaron al territorio de la sierra cazaron venados, tarucas y camélidos; además, recolectaron plantas silvestres y frutas. Las evidencias más antiguas son las dejadas por los habitantes del abrigo rocoso de",
@@ -907,12 +953,14 @@
       "No es la respuesta: Telarmachay no es el abrigo donde McNeish identificó la fase Piquimachay de 13 mil años a. n. e., la más antigua registrada.",
       "No es la respuesta: Toquepala se ubica en otro contexto de hallazgos; las evidencias más antiguas de cazadores de la sierra corresponden a Piquimachay, en Ayacucho."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "his-042",
     "categoria": "historia",
     "tema": "Historia del Perú",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "El segundo gobierno de Manuel Prado (1956-1962), conocido como de la “convivencia”, se enfrentó al desafío de orden económico con una política de corte liberal. Además, dictó la Ley de Promoción Industrial que favoreció al empresariado moderno. En relación con las características de este gobierno, señale el valor de verdad (V o F) de las siguientes proposiciones:\nI. Estabilizó la moneda, lo que redujo la inflación notablemente.\nII. Derogó la ley de seguridad interior y otras normas represivas.\nIII. Silenció al historiador Raúl Porras Barrenechea nombrándolo ministro.\nIV. Desde la cartera de Economía, Pedro Beltrán se convirtió en opositor.",
@@ -932,12 +980,14 @@
       "No es la respuesta: Casi acierta, pero marca I como falsa, cuando Prado sí estabilizó la moneda, y da por verdaderas III y IV, que son falsas según la explicación.",
       "No es la respuesta: Niega I y II, que sí ocurrieron en la convivencia, y acepta IV, falsa, porque Pedro Beltrán fue sostén, no opositor, del régimen."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "his-043",
     "categoria": "historia",
     "tema": "Historia del Perú",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "El principal proyecto político de Simón Bolívar fue la Federación de los Andes (Gran Colombia, Perú y Bolivia), que pretendía controlar; para ello propuso ..............., lo que generó resistencia en el Perú y precipitó el fin del régimen bolivariano.",
@@ -957,12 +1007,14 @@
       "Correcto: Bolívar promulgó la Constitución Vitalicia de 1826, que lo hacía gobernante de por vida, nombraba sucesor y centralizaba el poder, lo que desató la resistencia peruana.",
       "No es la respuesta: La Carta de Jamaica es un escrito de Bolívar sobre la emancipación de América, no una medida de gobierno que desató la oposición en el Perú."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "his-044",
     "categoria": "historia",
     "tema": "Historia del Perú",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "La extracción y comercialización del guano, que Europa necesitaba para potenciar su agricultura en tiempos en que las ciudades crecieron de manera vertiginosa, benefició a unos pocos comerciantes y especuladores. En relación con la comercialización de este fertilizante, determine el valor de verdad (V o F) de las siguientes proposiciones:\nI. En 1830, el Estado peruano decretó la abolición de todos los gravámenes sobre el guano.\nII. Los chinos culíes fueron los únicos trabajadores en la extracción del guano de las islas.\nIII. En 1842, se estableció que los extranjeros no podían extraer guano de las islas de Chincha.\nIV. Dreyfus tuvo problemas para cumplir las condiciones del contrato con el Estado peruano.",
@@ -982,12 +1034,14 @@
       "Correcto: I, II y III son falsas: en 1830 no se abolieron todos los gravámenes, hubo obreros no culíes y la norma de 1842 no prohibió a los extranjeros; IV sí.",
       "No es la respuesta: Marca I como verdadera, pero el decreto de 1830 no abolió todos los gravámenes que pesaban sobre el guano; las tres primeras deben ser F."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "his-045",
     "categoria": "historia",
     "tema": "Historia del Perú",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "El historiador Waldemar Espinoza Soriano transcribió la visita a Chucuito realizada por Garci Diez de San Miguel. Mediante ese documento se descubre que, 35 años después de la conquista española, se referían a los ............... como “indios ricos” y poderosos porque tenían hasta 50 mil cabezas de ganado.",
@@ -1007,12 +1061,14 @@
       "Correcto: La crónica de Chucuito de Garci Diez de San Miguel describe a los lupacas como indios ricos con hasta 50 mil cabezas de ganado; Espinoza Soriano la transcribió.",
       "No es la respuesta: Los xauxa no aparecen en la visita de Garci Diez de San Miguel; los llamados indios ricos con 50 mil cabezas de ganado eran los lupacas."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "his-046",
     "categoria": "historia",
     "tema": "Historia universal",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "El Imperio bizantino tenía un ejército muy numeroso, integrado por soldados de diversas nacionalidades. La defensa de sus zonas de frontera fue asumida por los estratiotas, a quienes se les pagaba con ............. por este servicio.",
@@ -1032,12 +1088,14 @@
       "No es la respuesta: Tampoco se les retribuía con esclavos; el Imperio bizantino pagaba a sus soldados campesinos con tierras, no con mano de obra servil.",
       "No es la respuesta: El pago era en tierras, no en ganado ni dinero; los estratiotas mantenían su unidad agrícola y debían servir militarmente cuando se los requería."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "his-047",
     "categoria": "historia",
     "tema": "Historia universal",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "En 1929, se produjo la primera gran crisis del capitalismo en el siglo xx. Su epicentro fue la bolsa de valores de Nueva York, centro financiero del mundo. Ante esta situación, dos presidentes norteamericanos de la época tuvieron diferentes posturas para enfrentar la crisis. Indique qué acción o acciones corresponden al periodo del presidente Franklin D. Roosevelt.\nI. Promovió la intervención del Estado en la reactivación de la economía.\nII. Rechazó la intervención del Estado en la economía, esperando su autorregulación.\nIII. Fomentó el empleo y el consumo de productos nacionales.",
@@ -1057,12 +1115,14 @@
       "No es la respuesta: III sí es correcta, pero omite I: Roosevelt además promovió la intervención estatal para reactivar la economía, así que debe indicarse I y III.",
       "No es la respuesta: I es verdadera, pero incompleta: el New Deal también fomentó el empleo y el consumo de productos nacionales, así que III debe sumarse."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "his-048",
     "categoria": "historia",
     "tema": "Historia universal",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "En el contexto de la Guerra Fría, los Estados Unidos de Norteamérica reaccionaron con ..............., que tenía como política de Estado oponerse al expansionismo de ................",
@@ -1082,12 +1142,14 @@
       "No es la respuesta: La Doctrina Monroe es anterior, del siglo XIX, y advertía a Europa sobre América; no fue la reacción de EE. UU. al expansionismo soviético.",
       "No es la respuesta: El buen vecino fue la política de buena convivencia de EE. UU. con América Latina, no una reacción contra la Unión Soviética en la Guerra Fría."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "his-049",
     "categoria": "historia",
     "tema": "Historia universal",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "El clero, como parte de la iglesia, fue un estamento dedicado al culto religioso y estaba formado por individuos que abrazaban su fe con convicción y desprendimiento para luego predicar. Este se clasificaba en",
@@ -1107,12 +1169,14 @@
       "No es la respuesta: Obispos y arzobispos son grados de la jerarquía eclesiástica, no la división del clero, que distingue entre regular y secular.",
       "No es la respuesta: Combina un término inexistente, irregular, con el correcto secular; falta el clero regular, el de franciscanos, dominicos y jesuitas que vivían en conventos."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "his-050",
     "categoria": "historia",
     "tema": "Historia universal",
+    "asignatura": "historia",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "La crisis económica de 2008, que estalló en el sector inmobiliario, es considerada la primera gran crisis del capitalismo del siglo xxi por su repercusión en el sistema financiero mundial. Este fenómeno fue caracterizado como",
@@ -1132,6 +1196,7 @@
       "No es la respuesta: No fue un declive industrial: el estallido se produjo en el sector inmobiliario y financiero, afectando a bancos y prestamistas de todo el mundo.",
       "No es la respuesta: Hubo impagos, no abandono del sector: la burbuja inmobiliaria se quebró cuando los deudores dejaron de pagar sus créditos ya concedidos."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   }
 ]

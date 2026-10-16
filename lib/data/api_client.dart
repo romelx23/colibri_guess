@@ -6,13 +6,18 @@ import 'package:http/http.dart' as http;
 import '../core/config/app_config.dart';
 
 class ApiException implements Exception {
-  const ApiException(this.statusCode, this.message);
+  const ApiException(this.statusCode, this.message, {this.body = const {}});
 
   final int statusCode;
   final String message;
 
+  /// Cuerpo JSON del error (p. ej. `suggestion` en un 409 de nickname tomado).
+  final Map<String, dynamic> body;
+
   bool get isNetwork => statusCode == 0;
   bool get isConflict => statusCode == 409;
+
+  String? get suggestion => body['suggestion']?.toString();
 
   @override
   String toString() => 'ApiException($statusCode): $message';
@@ -59,6 +64,20 @@ class ApiClient {
     return _guard(_client.get(_uri(path, query), headers: _headers(auth: auth)));
   }
 
+  Future<Map<String, dynamic>> put(
+    String path,
+    Map<String, dynamic> body, {
+    bool auth = true,
+  }) {
+    return _guard(
+      _client.put(
+        _uri(path),
+        headers: _headers(auth: auth),
+        body: jsonEncode(body),
+      ),
+    );
+  }
+
   Future<Map<String, dynamic>> delete(String path) {
     return _guard(_client.delete(_uri(path), headers: _headers(auth: true)));
   }
@@ -83,6 +102,7 @@ class ApiClient {
       throw ApiException(
         res.statusCode,
         body['error']?.toString() ?? 'Error del servidor',
+        body: body,
       );
     }
     return body;

@@ -3,6 +3,7 @@
     "id": "lit-001",
     "categoria": "literatura",
     "tema": "Novela peruana",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "En La ciudad y los perros de Mario Vargas Llosa, los internos del Colegio Militar Leóncio Prado conocen a su grupo como:",
@@ -25,6 +26,7 @@
     "id": "lit-002",
     "categoria": "literatura",
     "tema": "Novela indigenista",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "La novela Los ríos profundos, de José María Arguedas, narra las vivencias del joven Ernesto en:",
@@ -47,6 +49,7 @@
     "id": "lit-003",
     "categoria": "literatura",
     "tema": "Novela peruana",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "Un mundo para Julius, de Alfredo Bryce Echenique, es una novela que critica mediante la mirada de un niño:",
@@ -69,6 +72,7 @@
     "id": "lit-004",
     "categoria": "literatura",
     "tema": "Novela social peruana",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "En la novela Aves sin nido, de Clorinda Matto de Turner, el conflicto se centra en:",
@@ -91,6 +95,7 @@
     "id": "lit-005",
     "categoria": "literatura",
     "tema": "Poesía peruana",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "El poemario Trilce, de César Vallejo, se caracteriza por:",
@@ -113,6 +118,7 @@
     "id": "lit-006",
     "categoria": "literatura",
     "tema": "Poesía peruana",
+    "asignatura": "literatura",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "El primer poemario de César Vallejo, publicado en 1919, se titula:",
@@ -135,6 +141,7 @@
     "id": "lit-007",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "La novela Pedro Páramo, de Juan Rulfo, transcurre en el pueblo fantasma de:",
@@ -157,6 +164,7 @@
     "id": "lit-008",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "En Cien años de soledad, de Gabriel García Márquez, la familia que protagoniza la historia es:",
@@ -179,6 +187,7 @@
     "id": "lit-009",
     "categoria": "literatura",
     "tema": "Teatro universal",
+    "asignatura": "literatura",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "La obra Bodas de sangre, de Federico García Lorca, es:",
@@ -201,6 +210,7 @@
     "id": "lit-010",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "¿Quién es el autor de la novela Don Quijote de la Mancha?",
@@ -223,6 +233,7 @@
     "id": "lit-011",
     "categoria": "literatura",
     "tema": "Narrativa hispanoamericana",
+    "asignatura": "literatura",
     "fuente": "pucp",
     "dificultad": "basico",
     "enunciado": "El realismo mágico, corriente asociada a la literatura latinoamericana, se caracteriza por:",
@@ -245,6 +256,7 @@
     "id": "lit-012",
     "categoria": "literatura",
     "tema": "Lenguaje",
+    "asignatura": "lenguaje",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "Se llama hipérbole a la figura retórica que:",
@@ -267,6 +279,7 @@
     "id": "lit-013",
     "categoria": "literatura",
     "tema": "Lenguaje",
+    "asignatura": "lenguaje",
     "fuente": "pucp",
     "dificultad": "basico",
     "enunciado": "El término que suaviza o atenúa una expresión dura se llama:",
@@ -289,6 +302,7 @@
     "id": "lit-014",
     "categoria": "literatura",
     "tema": "Lenguaje",
+    "asignatura": "lenguaje",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "La palabra neologismo designa:",
@@ -311,6 +325,7 @@
     "id": "lit-015",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "La Divina Comedia, de Dante Alighieri, está dividida en tres cánticos:",
@@ -333,6 +348,7 @@
     "id": "lit-016",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "En la Ilíada de Homero, el conflicto gira en torno a la guerra de Troya y la ira de:",
@@ -355,6 +371,7 @@
     "id": "lit-017",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "En la Odisea, el héroe que regresa a su patria tras diez años de viajes es:",
@@ -377,6 +394,7 @@
     "id": "lit-018",
     "categoria": "literatura",
     "tema": "Teatro universal",
+    "asignatura": "literatura",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "La célebre frase ser o no ser, esa es la cuestión pertenece a la obra:",
@@ -399,6 +417,7 @@
     "id": "lit-019",
     "categoria": "literatura",
     "tema": "Literatura hispanoamericana",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "María, la novela de Jorge Isaacs ambientada en el valle del Cauca, es considerada una obra representativa del:",
@@ -421,6 +440,7 @@
     "id": "lit-020",
     "categoria": "literatura",
     "tema": "Poesía latinoamericana",
+    "asignatura": "literatura",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "Rubén Darío es considerado el iniciador del movimiento literario conocido como:",
@@ -443,6 +463,7 @@
     "id": "lit-021",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "Un relato picaresco se caracteriza por narrar en primera persona la vida de:",
@@ -465,6 +486,7 @@
     "id": "lit-022",
     "categoria": "literatura",
     "tema": "Lenguaje",
+    "asignatura": "lenguaje",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "En la oración No vino porque estaba enfermo, la palabra porque introduce:",
@@ -487,6 +509,7 @@
     "id": "lit-023",
     "categoria": "literatura",
     "tema": "Lenguaje",
+    "asignatura": "lenguaje",
     "fuente": "pucp",
     "dificultad": "basico",
     "enunciado": "Que el niño lea todos los días es una oración compuesta por:",
@@ -509,6 +532,7 @@
     "id": "lit-024",
     "categoria": "literatura",
     "tema": "Narrativa colombiana",
+    "asignatura": "literatura",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "La novela El túnel, de Ernesto Sabato, está narrada por:",
@@ -531,6 +555,7 @@
     "id": "lit-025",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "La novela Rayuela, de Julio Cortázar, se distingue porque:",
@@ -553,6 +578,7 @@
     "id": "lit-026",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "¿Cuántas partes tiene la comedia Divina Comedia de Dante Alighieri?",
@@ -575,6 +601,7 @@
     "id": "lit-027",
     "categoria": "literatura",
     "tema": "Lenguaje",
+    "asignatura": "lenguaje",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "Las palabras que tienen el mismo significado se llaman:",
@@ -597,6 +624,7 @@
     "id": "lit-028",
     "categoria": "literatura",
     "tema": "Literatura peruana",
+    "asignatura": "literatura",
     "fuente": "pucp",
     "dificultad": "intermedio",
     "enunciado": "La novela La casa verde, de Mario Vargas Llosa, gira en torno a:",
@@ -619,6 +647,7 @@
     "id": "lit-029",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "El libro Ficciones, de Jorge Luis Borges, está compuesto principalmente por:",
@@ -641,6 +670,7 @@
     "id": "lit-030",
     "categoria": "literatura",
     "tema": "Historia de la literatura",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "La Generación del 98 española agrupa a escritores que reflexionaron sobre:",
@@ -663,6 +693,7 @@
     "id": "lit-031",
     "categoria": "literatura",
     "tema": "Historia de la literatura",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "El poeta Lorca y sus contemporáneos Rafael Alberti y Luis Cernuda pertenecen a la:",
@@ -685,6 +716,7 @@
     "id": "lit-032",
     "categoria": "literatura",
     "tema": "Lenguaje",
+    "asignatura": "lenguaje",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "La raíz léxica de una palabra es:",
@@ -707,6 +739,7 @@
     "id": "lit-033",
     "categoria": "literatura",
     "tema": "Literatura peruana",
+    "asignatura": "literatura",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "La novela Lituma en los Andes, de Mario Vargas Llosa, incorpora elementos:",
@@ -729,6 +762,7 @@
     "id": "lit-034",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "pucp",
     "dificultad": "basico",
     "enunciado": "El cuento se diferencia de la novela principalmente porque:",
@@ -751,6 +785,7 @@
     "id": "lit-035",
     "categoria": "literatura",
     "tema": "Poesía peruana",
+    "asignatura": "literatura",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "El poema Los heraldos negros de César Vallejo es célebre por la estrofa que dice:",
@@ -773,6 +808,7 @@
     "id": "lit-036",
     "categoria": "literatura",
     "tema": "Lenguaje",
+    "asignatura": "lenguaje",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "El fenómeno por el cual una palabra tiene varios significados relacionados, como banco (asiento y entidad financiera), se llama:",
@@ -795,6 +831,7 @@
     "id": "lit-037",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "En la tragedia griega, el conflicto central donde el héroe desafía su destino se conoce como:",
@@ -817,6 +854,7 @@
     "id": "lit-038",
     "categoria": "literatura",
     "tema": "Literatura peruana",
+    "asignatura": "literatura",
     "fuente": "pucp",
     "dificultad": "intermedio",
     "enunciado": "La obra Los ríos profundos de Arguedas obtuvo en 1958:",
@@ -839,6 +877,7 @@
     "id": "lit-039",
     "categoria": "literatura",
     "tema": "Literatura universal",
+    "asignatura": "literatura",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "La expresión De los ríos profundos procede de una obra de:",
@@ -861,6 +900,7 @@
     "id": "lit-040",
     "categoria": "literatura",
     "tema": "Lenguaje",
+    "asignatura": "lenguaje",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "Cuando una oración expresa una idea contraria a la afirmada, usando pero, sino o aunque, se trata de una relación:",
@@ -883,6 +923,7 @@
     "id": "lit-041",
     "categoria": "literatura",
     "tema": "Narrativa hispanoamericana",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "dificil",
     "enunciado": "El Premio Nobel de Literatura más reciente de habla hispana es:",
@@ -905,6 +946,7 @@
     "id": "lit-042",
     "categoria": "literatura",
     "tema": "Lenguaje",
+    "asignatura": "lenguaje",
     "fuente": "pucp",
     "dificultad": "basico",
     "enunciado": "Se denomina anáfora a la repetición de una palabra o expresión:",
@@ -927,6 +969,7 @@
     "id": "lit-043",
     "categoria": "literatura",
     "tema": "Teatro universal",
+    "asignatura": "literatura",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "La obra La casa de Bernarda Alba, de Federico García Lorca, se desarrolla en:",
@@ -949,6 +992,7 @@
     "id": "lit-044",
     "categoria": "literatura",
     "tema": "Literatura peruana",
+    "asignatura": "literatura",
     "fuente": "original",
     "dificultad": "intermedio",
     "enunciado": "Abuelo, fue usted un hombre malo es la dedicatoria que abre la novela:",
@@ -971,6 +1015,7 @@
     "id": "lit-045",
     "categoria": "literatura",
     "tema": "Lenguaje",
+    "asignatura": "lenguaje",
     "fuente": "utp",
     "dificultad": "basico",
     "enunciado": "El texto escrito con la finalidad de convencer al receptor se denomina:",
@@ -993,6 +1038,7 @@
     "id": "uni-014",
     "categoria": "literatura",
     "tema": "Definiciones léxicas",
+    "asignatura": "lenguaje",
     "fuente": "uni",
     "dificultad": "basico",
     "enunciado": "Elija la opción que se ajusta a la presente definición: _________: Buena suerte o éxito en lo que se emprende, sucede u ocurre.",
@@ -1010,12 +1056,14 @@
       "Desarrollo nombra un proceso de crecimiento o avance, no la buena suerte en lo que se hace.",
       "Ventura describe el estado de dicha de quien consigue sus deseos, no el éxito del emprendimiento."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "uni-015",
     "categoria": "literatura",
     "tema": "Analogías",
+    "asignatura": "lenguaje",
     "fuente": "uni",
     "dificultad": "intermedio",
     "enunciado": "Tomando como referencia la base escrita en mayúsculas, elija la opción que presenta una relación análoga: CANCIÓN : ACORDES ::",
@@ -1033,12 +1081,14 @@
       "No es equivalente: la paleta es el soporte o herramienta donde se dispone la pintura, no una obra constituida por colores.",
       "No es equivalente: el molde es un instrumento de reproducción de la escultura, no la parte que la integra."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "uni-016",
     "categoria": "literatura",
     "tema": "Antonimia contextual",
+    "asignatura": "lenguaje",
     "fuente": "uni",
     "dificultad": "basico",
     "enunciado": "Elija la alternativa que, al sustituir la palabra subrayada, exprese el antónimo de la siguiente oración: Algunos científicos afirman que la marihuana es nociva para la salud.",
@@ -1056,12 +1106,14 @@
       "Segura indica ausencia de peligro, pero no expresa la idea contraria de causar daño.",
       "Positiva es un calificativo general de valoración favorable y no constituye un antónimo preciso de nociva."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "uni-017",
     "categoria": "literatura",
     "tema": "Antonimia contextual",
+    "asignatura": "lenguaje",
     "fuente": "uni",
     "dificultad": "intermedio",
     "enunciado": "Elija la alternativa que, al sustituir la palabra subrayada, exprese el antónimo de la siguiente oración: El pago por el trabajo que realizó fue excesivo.",
@@ -1079,12 +1131,14 @@
       "Frustrante también designa un sentimiento y no se opone semánticamente a excesivo.",
       "Irrisorio es la correcta: un pago irrisorio es tan pequeño que resulta ridículo, antónimo exacto de excesivo."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "uni-018",
     "categoria": "literatura",
     "tema": "Conectores lógico-textuales",
+    "asignatura": "lenguaje",
     "fuente": "uni",
     "dificultad": "intermedio",
     "enunciado": "Elija la alternativa que, al insertarse en los espacios, dé sentido coherente y preciso al texto: La oscuridad era total, ________ animales extraños chillaban, haciendo más extraña esta caminata, ________ no había otra alternativa ________ tenía que avanzar.",
@@ -1102,12 +1156,14 @@
       "No cohesiona: 'es decir' introduce una aclaración inexistente y 'pues' marca una causa donde se espera una adición.",
       "No cohesiona: la secuencia encadena causas y aclaraciones que rompen la relación lógica entre las oraciones."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "uni-019",
     "categoria": "literatura",
     "tema": "Comprensión lectora",
+    "asignatura": "lenguaje",
     "fuente": "uni",
     "dificultad": "intermedio",
     "enunciado": "Texto: En pocos campos es tan evidente el progreso tecnológico como en la informática. Los ordenadores son cada vez más rápidos, siguiendo la inexorable ley de Moore, por la que cada 2 años se duplica la potencia de cálculo de los procesadores que aparecen en el mercado. En este contexto, aparece el concepto de supercomputación, que empieza a ser familiar no solo en la mayor parte de campos científicos, sino incluso en la vida diaria. Desde sus inicios, la supercomputación se ha aplicado a la investigación científica, especialmente en el campo de la Física fundamental. En este sentido, actualmente, la supercomputación se ha convertido en una herramienta importante en bioquímica y biología molecular, donde la determinación, caracterización y modelización de la estructura de las biomoléculas es esencial para entender el mecanismo y función de procesos biológicos a nivel molecular. Pregunta: El tema central del texto es:",
@@ -1125,12 +1181,14 @@
       "No es el tema: los datos estructurales aparecen como un detalle dentro de la explicación, no como asunto central.",
       "Es incorrecta: los circuitos integrados ni siquiera se mencionan en el texto."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "uni-020",
     "categoria": "literatura",
     "tema": "Figuras literarias",
+    "asignatura": "literatura",
     "fuente": "uni",
     "dificultad": "basico",
     "enunciado": "¿Qué figura literaria resalta en el verso \"Vino el pájaro / y devoró al gusano / vino el hombre / y devoró al pájaro / vino el gusano / y devoró al hombre\" (Blanca Varela)?",
@@ -1148,12 +1206,14 @@
       "No hay símil: no aparece ninguna comparación explicitada con 'como', 'cual' o 'tal'.",
       "Es correcta: se repite 'vino el' al inicio de cada miembro, rasgo propio de la anáfora."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "uni-021",
     "categoria": "literatura",
     "tema": "Literatura hispanoamericana",
+    "asignatura": "literatura",
     "fuente": "uni",
     "dificultad": "basico",
     "enunciado": "¿Cuál de las siguientes opciones corresponde al autor de los cuentos Ficciones y El Aleph?",
@@ -1171,12 +1231,14 @@
       "Es incorrecto: Gabriel García Márquez es colombiano y autor de Cien años de soledad.",
       "Es correcto: Jorge Luis Borges escribió tanto Ficciones como El Aleph."
     ],
-    "referencia": "Solucionario OCAD-UNI 2017-2"
+    "referencia": "Solucionario OCAD-UNI 2017-2",
+    "prueba": "ocad_uni_2017_2"
   },
   {
     "id": "lit-054",
     "categoria": "literatura",
     "tema": "Tragedia griega",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "Edipo Rey es la tragedia griega más célebre del siglo V a. C. Se basa en el mito de la casa de Layo y en la maldición que recae sobre él y su descendencia. La historia inicia representando a Edipo frente a los ciudadanos de Tebas. En relación con la presencia del asesino de Layo y sus consecuencias, determine el valor de verdad (V o F) de las siguientes proposiciones:\nI. El pueblo de Tebas, enfermo y hambriento, pide ayuda a Edipo, pero él se niega.\nII. Creonte afirma que el asaltante del cruce de caminos que mató a Layo sigue vivo.\nIII. Tiresias revela que el culpable de la muerte de Layo es Edipo, pero este no le cree.",
@@ -1196,12 +1258,14 @@
       "No es la respuesta: Marca III como falsa, pero Tiresias sí revela a Edipo que es el culpable y el rey no lo acepta; la tercera letra debe ser V.",
       "No es la respuesta: I es falsa: Edipo no se niega, pues responde al pueblo enfermo y envía a Creonte; la primera letra debe ser F, no V."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "lit-055",
     "categoria": "literatura",
     "tema": "Teatro barroco",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "¡Válgame el cielo! ¿Qué veo? ¡Válgame el cielo! ¿Qué miro? Con poco espanto lo admiro, con mucha duda lo creo. ¿Yo en palacios suntuosos? ¿Yo entre telas y brocados? ¿Yo cercado de criados tan lucidos y briosos? ¿Yo despertar de dormir en lecho tan excelente? ¿Yo en medio de tanta gente que me sirva de vestir? Segismundo pronuncia estas palabras luego de ser liberado de su prisión, es entonces cuando se entera de que",
@@ -1221,12 +1285,14 @@
       "No es la respuesta: Clotaldo no es traidor ni simple criado: es el encargado de la prisión de Segismundo y actúa por mandato del rey Basilio.",
       "No es la respuesta: Basilio es el propio rey de Polonia y el padre de Segismundo, no su tío ni asesino de un rey anterior."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "lit-056",
     "categoria": "literatura",
     "tema": "Nueva narrativa hispanoamericana",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "basico",
     "enunciado": "..............., autor hispanoamericano que formuló la idea de que la historia de América toda es la crónica de lo real maravilloso, escribió la novela ............... para relatar una rebelión de esclavos en ...............",
@@ -1246,12 +1312,14 @@
       "No es la respuesta: García Márquez es referente del realismo mágico con Macondo, pero la idea del real maravilloso es de Carpentier y su novela no trata de esclavos.",
       "No es la respuesta: Asturias escribió El señor presidente, novela sobre una dictadura en Guatemala; su trama no es una rebelión de esclavos en Haití."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "lit-057",
     "categoria": "literatura",
     "tema": "Realismo peruano",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "En el “Discurso en el Politeama”, pronunciado pocos años después de la Guerra con Chile, Manuel González Prada señalaba que los jóvenes debían tomar, en ese momento, la posta del futuro y enfrentarse a problemas como",
@@ -1271,12 +1339,14 @@
       "Correcto: El discurso del Politeama señala el caudillismo, la segregación del indio y el espíritu peruano de servidumbre, además de la corrupción e incompetencia de los gobernantes.",
       "No es la respuesta: El clero, la destrucción de la flota y la falta de libertad de prensa en la capital son ajenos a los problemas enumerados por el autor."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "lit-058",
     "categoria": "literatura",
     "tema": "Generación del 50",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "La Generación del 50 enfrenta un mundo moderno desigual e injusto, en especial en las ciudades; por ello, expresa su frustración y escepticismo. Respecto de los autores de dicha generación, relacione correctamente ambas columnas.\nI. Blanca Varela\nII. Julio Ramón Ribeyro\nIII. Enrique Congrains\na. No una sino muchas muertes\nb. La palabra del mudo\nc. Canto villano",
@@ -1296,12 +1366,14 @@
       "No es la respuesta: Acierta solo con IIb, correcta para Ribeyro; sin embargo, asigna a Varela No una sino muchas muertes y a Congrains Canto villano.",
       "No es la respuesta: Ninguna coincide: La palabra del mudo es de Ribeyro, No una sino muchas muertes de Congrains y Canto villano de Blanca Varela."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   },
   {
     "id": "lit-059",
     "categoria": "literatura",
     "tema": "Simbolismo peruano",
+    "asignatura": "literatura",
     "fuente": "unmsm",
     "dificultad": "intermedio",
     "enunciado": "Hoy se casa el Duque Nuez;\nviene el chantre, viene el juez\ny con pendones escarlata\nflorida cabalgata; a la una,\na las dos, a las diez;\nque se casa el Duque primor\ncon la hija de Clavo de Olor\n\nEn el fragmento de “El Duque”, poema de Simbólicas (1911), de José María Eguren, se muestran algunas de las características de su poesía simbolista, entre ellas",
@@ -1321,6 +1393,7 @@
       "Correcto: El poema muestra musicalidad por la rima de nuez, juez y escarlata, color en el tono escarlata y un mundo de ensueño al personificar al Duque Nuez y a Clavo de Olor.",
       "No es la respuesta: Sí hay imágenes de ensueño, pero ninguna alude al mar o a la infancia; el poema presenta una boda de personajes fantásticos."
     ],
-    "referencia": "Admisión UNMSM 2026-II · Área E"
+    "referencia": "Admisión UNMSM 2026-II · Área E",
+    "prueba": "unmsm_2026_2_e"
   }
 ]

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../core/providers/app_providers.dart';
+import '../../core/providers/session_provider.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/widgets/progress_ring.dart';
 import '../../core/widgets/surface_card.dart';
@@ -27,6 +29,7 @@ class ProfilePage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
     final progress = ref.watch(progressProvider);
+    final player = ref.watch(sessionProvider).valueOrNull?.player;
 
     return Scaffold(
       backgroundColor: Colors.transparent,
@@ -40,7 +43,21 @@ class ProfilePage extends ConsumerWidget {
                 padding: const EdgeInsets.fromLTRB(20, 12, 20, 130),
                 sliver: SliverList(
                   delegate: SliverChildListDelegate([
-                    Text('Mi perfil', style: theme.textTheme.headlineSmall),
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            'Mi perfil',
+                            style: theme.textTheme.headlineSmall,
+                          ),
+                        ),
+                        IconButton(
+                          tooltip: 'Editar nickname e icono',
+                          icon: const Icon(Icons.badge_rounded),
+                          onPressed: () => context.push('/identity?edit=1'),
+                        ),
+                      ],
+                    ),
                     const SizedBox(height: 16),
                     progress.when(
                       data: (state) => _RankCard(state: state),
@@ -87,6 +104,19 @@ class ProfilePage extends ConsumerWidget {
                               ),
                             ],
                           ),
+                          if (player != null) ...[
+                            const SizedBox(height: 12),
+                            Row(
+                              children: [
+                                _StatCard(
+                                  icon: Icons.workspace_premium_rounded,
+                                  color: AppColors.accent,
+                                  value: '${player.examBest}',
+                                  label: 'Mejor examen',
+                                ),
+                              ],
+                            ),
+                          ],
                           const SizedBox(height: 16),
                           SurfaceCard(
                             child: Column(

@@ -11,6 +11,7 @@ import '../../core/providers/app_providers.dart';
 import '../../core/providers/session_provider.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/widgets/colibri_mascot.dart';
+import '../../core/widgets/question_image.dart';
 import '../../logic/xp.dart';
 import '../../models/progress_state.dart';
 import '../../models/question.dart';
@@ -406,6 +407,7 @@ class _QuizPageState extends ConsumerState<QuizPage> {
     Widget tile = OptionTile(
       letter: letter,
       text: _question.options[i],
+      image: _question.optionImages?[i],
       state: state,
       onTap: () => _onSelect(i),
     );
@@ -635,6 +637,10 @@ class _QuestionCard extends StatelessWidget {
             question.questionText,
             style: theme.textTheme.headlineSmall?.copyWith(height: 1.3),
           ),
+          if (question.image != null) ...[
+            const SizedBox(height: 12),
+            QuestionImage(asset: question.image!, height: 180),
+          ],
         ],
       ),
     );

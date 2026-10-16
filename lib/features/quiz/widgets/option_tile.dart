@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/theme/app_colors.dart';
+import '../../../core/widgets/question_image.dart';
 
 enum OptionState { idle, selected, correct, wrong, revealCorrect }
 
@@ -11,12 +12,16 @@ class OptionTile extends StatelessWidget {
     required this.text,
     required this.state,
     required this.onTap,
+    this.image,
   });
 
   final String letter;
   final String text;
   final OptionState state;
   final VoidCallback onTap;
+
+  /// Ruta del asset cuando la opción es una imagen (p. ej. figuras A-E).
+  final String? image;
 
   Color get _border => switch (state) {
         OptionState.correct => AppColors.success,
@@ -89,14 +94,23 @@ class OptionTile extends StatelessWidget {
               ),
               const SizedBox(width: 12),
               Expanded(
-                child: Text(
-                  text,
-                  style: theme.textTheme.bodyLarge?.copyWith(
-                    fontWeight: FontWeight.w700,
-                    color: state == OptionState.wrong
-                        ? AppColors.inkSoft
-                        : AppColors.ink,
-                  ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      text,
+                      style: theme.textTheme.bodyLarge?.copyWith(
+                        fontWeight: FontWeight.w700,
+                        color: state == OptionState.wrong
+                            ? AppColors.inkSoft
+                            : AppColors.ink,
+                      ),
+                    ),
+                    if (image != null) ...[
+                      const SizedBox(height: 8),
+                      QuestionImage(asset: image!, height: 110),
+                    ],
+                  ],
                 ),
               ),
             ],

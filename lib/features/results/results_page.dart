@@ -8,6 +8,7 @@ import '../../core/providers/app_providers.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/widgets/colibri_mascot.dart';
 import '../../core/widgets/progress_ring.dart';
+import '../../core/widgets/question_image.dart';
 import '../../core/widgets/surface_card.dart';
 import '../../models/question.dart';
 import '../../models/quiz_config.dart';
@@ -627,6 +628,10 @@ class _ReviewTile extends ConsumerWidget {
                   ),
                 ],
                 const SizedBox(height: 10),
+                if (question.image != null) ...[
+                  QuestionImage(asset: question.image!, height: 180),
+                  const SizedBox(height: 10),
+                ],
                 Container(
                   width: double.infinity,
                   padding: const EdgeInsets.all(12),
@@ -716,12 +721,24 @@ class _ReviewTile extends ConsumerWidget {
                           ),
                         ),
                         Expanded(
-                          child: Text(
-                            '${question.options[i]} — ${question.optionAnalysis[i]}',
-                            style: theme.textTheme.bodySmall?.copyWith(
-                              fontWeight: FontWeight.w600,
-                              height: 1.35,
-                            ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                '${question.options[i]} — ${question.optionAnalysis[i]}',
+                                style: theme.textTheme.bodySmall?.copyWith(
+                                  fontWeight: FontWeight.w600,
+                                  height: 1.35,
+                                ),
+                              ),
+                              if (question.optionImages?[i] != null) ...[
+                                const SizedBox(height: 6),
+                                QuestionImage(
+                                  asset: question.optionImages![i]!,
+                                  height: 110,
+                                ),
+                              ],
+                            ],
                           ),
                         ),
                       ],

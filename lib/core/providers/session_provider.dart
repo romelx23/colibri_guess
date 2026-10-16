@@ -8,6 +8,24 @@ import '../../models/progress_state.dart';
 
 enum SyncStatus { idle, syncing, synced, offline }
 
+/// Resultado de guardar nickname + icono de perfil.
+enum IdentityStatus { success, offline, rejected }
+
+class IdentityResult {
+  const IdentityResult(this.status, {this.player, this.error, this.suggestion});
+
+  final IdentityStatus status;
+  final Player? player;
+
+  /// Mensaje del servidor cuando el nickname fue rechazado (422/403).
+  final String? error;
+
+  /// Variante libre sugerida cuando el nickname estaba tomado (409).
+  final String? suggestion;
+
+  bool get isOk => status == IdentityStatus.success;
+}
+
 class SessionState {
   const SessionState({
     required this.player,
@@ -142,6 +160,122 @@ class SessionNotifier extends AsyncNotifier<SessionState> {
       state = AsyncData(SessionState(player: player, syncStatus: SyncStatus.idle));
     } on ApiException {
       // offline: el nombre local ya quedó guardado
+    }
+  }
+
+  /// Guarda la identidad (nickname único + icono) en el servidor.
+  ///
+  /// - OK: actualiza el player y confirma locales.
+  /// - Sin red: deja nick/icono locales y marca `pendingIdentity` para
+  ///   reintentar con [retryPendingIdentity].
+  /// - Rechazado (422 ofensivo / 409 tomado / 403 icono bloqueado): NO
+  ///   guarda nada y devuelve el error (+ sugerencia en 409).
+  Future<IdentityResult> updateIdentity({
+    required String displayName,
+    required String avatarId,
+  }) async {
+    final store = await ref.read(sessionStoreProvider.future);
+    if (store.token == null) {
+      final registered = await _registerGuest(store, ref.read(apiClientProvider));
+      if (registered == null) {
+        _saveLocalIdentity(store, displayName, avatarId);
+        return const IdentityResult(IdentityStatus.offline);
+      }
+    }
+    return _putIdentity(store, displayName, avatarId, saveLocalOnNetworkError: true);
+  }
+
+  /// Reintenta subir una identidad que quedó pendiente por falta de red.
+  Future<void> retryPendingIdentity() async {
+    final store = await ref.read(sessionStoreProvider.future);
+    if (!store.pendingIdentity) return;
+    await _putIdentity(
+      store,
+      store.displayName,
+      store.avatarId,
+      saveLocalOnNetworkError: false,
+    );
+  }
+
+  Future<IdentityResult> _putIdentity(
+    SessionStore store,
+    String displayName,
+    String avatarId, {
+    required bool saveLocalOnNetworkError,
+  }) async {
+    final api = ref.read(apiClientProvider);
+    api.token = store.token ?? api.token;
+    try {
+      final body = await api.put('/api/players/me', {
+        'displayName': displayName,
+        'avatarId': avatarId,
+      });
+      final json = body['player'] as Map<String, dynamic>?;
+      if (json == null) return const IdentityResult(IdentityStatus.rejected, error: 'Respuesta inesperada del servidor');
+      final player = Player.fromJson(json);
+      store.displayName = player.displayName;
+      store.avatarId = player.avatarId;
+      store.pendingIdentity = false;
+      store.cachedPlayer = player;
+      state = AsyncData(SessionState(player: player, syncStatus: SyncStatus.idle));
+      return IdentityResult(IdentityStatus.success, player: player);
+    } on ApiException catch (e) {
+      if (e.isNetwork) {
+        if (saveLocalOnNetworkError) {
+          _saveLocalIdentity(store, displayName, avatarId);
+        }
+        return const IdentityResult(IdentityStatus.offline);
+      }
+      return IdentityResult(
+        IdentityStatus.rejected,
+        error: e.message,
+        suggestion: e.suggestion,
+      );
+    }
+  }
+
+  void _saveLocalIdentity(SessionStore store, String displayName, String avatarId) {
+    store.displayName = displayName;
+    store.avatarId = avatarId;
+    store.pendingIdentity = true;
+    final current = state.valueOrNull?.player;
+    if (current != null) {
+      final local = current.withIdentity(displayName: displayName, avatarId: avatarId);
+      store.cachedPlayer = local;
+      state = AsyncData(SessionState(player: local, syncStatus: SyncStatus.offline));
+    }
+  }
+
+  /// Sube las respuestas de un examen para que el servidor calcule el puntaje
+  /// (métrica del ranking: `examBest`). Fire-and-forget: sin red no pasa nada.
+  Future<void> submitExam({
+    required List<Map<String, dynamic>> answers,
+    int cutoff = 70,
+  }) async {
+    final store = await ref.read(sessionStoreProvider.future);
+    final api = ref.read(apiClientProvider);
+    api.token = store.token ?? api.token;
+
+    if (store.token == null) {
+      final registered = await _registerGuest(store, api);
+      if (registered == null) return;
+    }
+
+    try {
+      final body = await api.post('/api/exams/submit', {
+        'answers': answers,
+        'cutoff': cutoff,
+      });
+      final examBest = (body['examBest'] as num?)?.toInt();
+      final current = state.valueOrNull?.player;
+      if (examBest == null || current == null) return;
+      final player = current.withExamBest(examBest);
+      store.cachedPlayer = player;
+      state = AsyncData(
+        SessionState(player: player, syncStatus: SyncStatus.idle),
+      );
+    } on ApiException {
+      // offline o rechazo puntual: el examen local ya quedó registrado
     }
   }
 

@@ -46,6 +46,7 @@ android/key.properties
 
 # Salida local de herramientas de análisis
 graphify-out/
+screenshots/
 
 # Entornos
 .env

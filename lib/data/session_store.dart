@@ -15,6 +15,8 @@ class SessionStore {
   static const String _kPlayer = 'colibri.player.v1';
   static const String _kSyncedXp = 'colibri.syncedXp.v1';
   static const String _kSyncedPoints = 'colibri.syncedPoints.v1';
+  static const String _kAvatarId = 'colibri.avatarId.v1';
+  static const String _kPendingIdentity = 'colibri.pendingIdentity.v1';
 
   static const String kOnboardingPref = 'colibri.onboarding.v1';
 
@@ -34,6 +36,16 @@ class SessionStore {
   String get displayName => _prefs.getString(_kName) ?? 'Jugador';
 
   set displayName(String value) => _prefs.setString(_kName, value);
+
+  /// Icono de perfil elegido localmente (aún no confirmado por el servidor).
+  String get avatarId => _prefs.getString(_kAvatarId) ?? 'chick';
+
+  set avatarId(String value) => _prefs.setString(_kAvatarId, value);
+
+  /// true = la identidad (nick/icono) cambió offline y falta subirla.
+  bool get pendingIdentity => _prefs.getBool(_kPendingIdentity) ?? false;
+
+  set pendingIdentity(bool value) => _prefs.setBool(_kPendingIdentity, value);
 
   String? get token => _prefs.getString(_kToken);
 
@@ -59,10 +71,12 @@ class SessionStore {
         'deviceId': value.deviceId,
         'displayName': value.displayName,
         'avatarSeed': value.avatarSeed,
+        'avatarId': value.avatarId,
         'isGuest': value.isGuest,
         'email': value.email,
         'xp': value.xp,
         'points': value.points,
+        'examBest': value.examBest,
         'streak': value.streak,
         'bestStreak': value.bestStreak,
         'sessions': value.sessions,
