@@ -1,4 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../data/api_client.dart';
 import '../../data/session_store.dart';
@@ -39,6 +40,12 @@ class SessionState {
 }
 
 final apiClientProvider = Provider<ApiClient>((ref) => ApiClient());
+
+/// Se inicializa de forma síncrona en `main()` para que el router pueda leer
+/// la primera ejecución antes de pintar el primer frame.
+final preferencesProvider = Provider<SharedPreferences>(
+  (ref) => throw UnimplementedError('preferencesProvider vive en main()'),
+);
 
 final sessionStoreProvider = FutureProvider<SessionStore>(
   (ref) => SessionStore.open(),

@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/providers/app_providers.dart';
 import '../../core/theme/app_colors.dart';
+import '../../core/widgets/form_controls.dart';
 import '../../core/widgets/surface_card.dart';
 import '../../models/question.dart';
 import '../../models/quiz_config.dart';
@@ -73,10 +74,10 @@ class _PracticePageState extends ConsumerState<PracticePage> {
                         if (GoRouter.of(context).canPop())
                           Padding(
                             padding: const EdgeInsets.only(right: 8),
-                            child: _CircleButton(
-                              icon: Icons.arrow_back_rounded,
-                              onTap: () => context.pop(),
-                            ),
+                          child: CircleIconButton(
+                            icon: Icons.arrow_back_rounded,
+                            onTap: () => context.pop(),
+                          ),
                           ),
                         Expanded(
                           child: Column(
@@ -94,8 +95,8 @@ class _PracticePageState extends ConsumerState<PracticePage> {
                       ],
                     ),
                     const SizedBox(height: 20),
-                    _SectionLabel('Categoría'),
-                    _Pills<QuestionCategory?>(
+                    SectionLabel('Categoría'),
+                    SelectPills<QuestionCategory?>(
                       value: _category,
                       options: [
                         const (null, 'Todas'),
@@ -111,8 +112,8 @@ class _PracticePageState extends ConsumerState<PracticePage> {
                       emojiOf: (v) => v?.emoji ?? '',
                     ),
                     const SizedBox(height: 18),
-                    _SectionLabel('Dificultad'),
-                    _Pills<QuestionDifficulty?>(
+                    SectionLabel('Dificultad'),
+                    SelectPills<QuestionDifficulty?>(
                       value: _difficulty,
                       options: [
                         const (null, 'Todas'),
@@ -133,8 +134,8 @@ class _PracticePageState extends ConsumerState<PracticePage> {
                       },
                     ),
                     const SizedBox(height: 18),
-                    _SectionLabel('Universidad de referencia'),
-                    _Pills<QuestionSource?>(
+                    SectionLabel('Universidad de referencia'),
+                    SelectPills<QuestionSource?>(
                       value: _source,
                       options: [
                         const (null, 'Todas'),
@@ -157,8 +158,8 @@ class _PracticePageState extends ConsumerState<PracticePage> {
                       },
                     ),
                     const SizedBox(height: 18),
-                    _SectionLabel('Número de preguntas'),
-                    _Pills<int>(
+                    SectionLabel('Número de preguntas'),
+                    SelectPills<int>(
                       value: _count,
                       options: [
                         for (final c in _counts) (c, '$c'),
@@ -168,7 +169,7 @@ class _PracticePageState extends ConsumerState<PracticePage> {
                       emojiOf: (_) => '',
                     ),
                     const SizedBox(height: 18),
-                    _SectionLabel('Modo'),
+                    SectionLabel('Modo'),
                     Row(
                       children: [
                         Expanded(
@@ -194,8 +195,8 @@ class _PracticePageState extends ConsumerState<PracticePage> {
                     ),
                     if (_mode == QuizMode.timed) ...[
                       const SizedBox(height: 18),
-                      _SectionLabel('Tiempo total'),
-                      _Pills<int>(
+                      SectionLabel('Tiempo total'),
+                      SelectPills<int>(
                         value: _minutes,
                         options: [
                           for (final m in _minutesOptions) (m, '$m min'),
@@ -261,89 +262,6 @@ class _PracticePageState extends ConsumerState<PracticePage> {
       ].join(' · '),
     );
     context.go('/quiz', extra: config);
-  }
-}
-
-class _SectionLabel extends StatelessWidget {
-  const _SectionLabel(this.text);
-
-  final String text;
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 10),
-      child: Text(text, style: Theme.of(context).textTheme.titleMedium),
-    );
-  }
-}
-
-class _Pills<T> extends StatelessWidget {
-  const _Pills({
-    required this.value,
-    required this.options,
-    required this.onChanged,
-    required this.labelOf,
-    required this.emojiOf,
-  });
-
-  final T value;
-  final List<(T, String)> options;
-  final ValueChanged<T> onChanged;
-  final String Function(T) labelOf;
-  final String Function(T) emojiOf;
-
-  @override
-  Widget build(BuildContext context) {
-    return Wrap(
-      spacing: 8,
-      runSpacing: 8,
-      children: [
-        for (final (option, fallback) in options)
-          Builder(
-            builder: (context) {
-              final selected = option == value;
-              final own = labelOf(option);
-              final label = own.isEmpty ? fallback : own;
-              final emoji = emojiOf(option);
-              return GestureDetector(
-                onTap: () => onChanged(option),
-                child: AnimatedContainer(
-                  duration: const Duration(milliseconds: 180),
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-                  decoration: BoxDecoration(
-                    color: selected ? AppColors.primary : Colors.white,
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(
-                      color:
-                          selected ? AppColors.primary : AppColors.divider,
-                      width: 1.6,
-                    ),
-                    boxShadow: selected
-                        ? [
-                            BoxShadow(
-                              color: AppColors.primary
-                                  .withValues(alpha: .3),
-                              blurRadius: 12,
-                              offset: const Offset(0, 5),
-                            ),
-                          ]
-                        : null,
-                  ),
-                  child: Text(
-                    [if (emoji.isNotEmpty) emoji, label].join(' '),
-                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          color: selected ? Colors.white : AppColors.ink,
-                          fontWeight: FontWeight.w800,
-                        ),
-                  ),
-                ),
-              );
-            },
-          ),
-      ],
-    );
   }
 }
 
@@ -481,29 +399,6 @@ class _AvailabilityCard extends StatelessWidget {
             ],
           );
         },
-      ),
-    );
-  }
-}
-
-class _CircleButton extends StatelessWidget {
-  const _CircleButton({required this.icon, required this.onTap});
-
-  final IconData icon;
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return Material(
-      color: Colors.white,
-      shape: const CircleBorder(),
-      child: InkWell(
-        customBorder: const CircleBorder(),
-        onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.all(9),
-          child: Icon(icon, size: 22, color: AppColors.ink),
-        ),
       ),
     );
   }

@@ -16,6 +16,8 @@ class SessionStore {
   static const String _kSyncedXp = 'colibri.syncedXp.v1';
   static const String _kSyncedPoints = 'colibri.syncedPoints.v1';
 
+  static const String kOnboardingPref = 'colibri.onboarding.v1';
+
   final SharedPreferences _prefs;
 
   static Future<SessionStore> open() async =>

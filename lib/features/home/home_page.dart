@@ -153,6 +153,18 @@ class HomePage extends ConsumerWidget {
                       onTap: () =>
                           context.go('/practice', extra: QuizMode.timed),
                     ),
+                    const SizedBox(height: 22),
+                    Text(
+                      'Prepárate para el examen',
+                      style: Theme.of(context).textTheme.titleLarge,
+                    ),
+                    const SizedBox(height: 10),
+                    _ModeCard(
+                      mode: QuizMode.exam,
+                      color: AppColors.success,
+                      icon: Icons.assignment_rounded,
+                      onTap: () => context.go('/exam'),
+                    ),
                   ]),
                 ),
               ),

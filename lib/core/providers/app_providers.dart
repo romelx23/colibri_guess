@@ -35,7 +35,7 @@ class ProgressNotifier extends AsyncNotifier<ProgressState> {
   @override
   Future<ProgressState> build() async {
     final store = await ref.watch(progressStoreProvider.future);
-    return store.load();
+    return rollDailyXp(store.load(), DateTime.now());
   }
 
   Future<ProgressState> applySession({

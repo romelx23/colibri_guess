@@ -1,11 +1,12 @@
 import '../models/question.dart';
 
-enum QuizMode { normal, timed }
+enum QuizMode { normal, timed, exam }
 
 extension QuizModeX on QuizMode {
   String get label => switch (this) {
         QuizMode.normal => 'Modo normal',
         QuizMode.timed => 'Modo cronometrado',
+        QuizMode.exam => 'Examen de admisión',
       };
 
   String get description => switch (this) {
@@ -13,6 +14,8 @@ extension QuizModeX on QuizMode {
           'Retroalimentación inmediata: por qué acertaste y por qué no es cada otra opción.',
         QuizMode.timed =>
           'Contra reloj, sin pistas. Las explicaciones llegan al final del examen.',
+        QuizMode.exam =>
+          'Hoja de respuestas con bolillas, sin pistas. Corte de aprobación al terminar.',
       };
 }
 
@@ -26,6 +29,7 @@ class QuizConfig {
     this.timeLimitSeconds,
     this.reviewOnly = false,
     this.title,
+    this.cutoffPercent = 70,
   });
 
   final QuestionCategory? category;
@@ -36,6 +40,7 @@ class QuizConfig {
   final int? timeLimitSeconds;
   final bool reviewOnly;
   final String? title;
+  final int cutoffPercent;
 
   Duration? get timeLimit =>
       timeLimitSeconds == null ? null : Duration(seconds: timeLimitSeconds!);
@@ -49,6 +54,7 @@ class QuizConfig {
     int? timeLimitSeconds,
     bool? reviewOnly,
     String? title,
+    int? cutoffPercent,
   }) {
     return QuizConfig(
       category: category ?? this.category,
@@ -59,6 +65,7 @@ class QuizConfig {
       timeLimitSeconds: timeLimitSeconds ?? this.timeLimitSeconds,
       reviewOnly: reviewOnly ?? this.reviewOnly,
       title: title ?? this.title,
+      cutoffPercent: cutoffPercent ?? this.cutoffPercent,
     );
   }
 }

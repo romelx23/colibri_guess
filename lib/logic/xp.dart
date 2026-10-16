@@ -87,6 +87,14 @@ class DayStamp {
       );
 }
 
+/// La meta diaria se reinicia al cambiar de día: el estado guardado trae el
+/// XP del último día jugado, y el home debe arrancar en 0 sin esperar a la
+/// primera respuesta.
+ProgressState rollDailyXp(ProgressState state, DateTime now) {
+  if (state.dailyXp == 0 || state.dailyDate == DayStamp.of(now)) return state;
+  return state.copyWith(dailyXp: 0);
+}
+
 ProgressState applySessionToProgress({
   required ProgressState state,
   required SessionResult result,

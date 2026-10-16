@@ -13,10 +13,15 @@ import '../../models/question.dart';
 import '../../models/quiz_config.dart';
 
 class ResultsArgs {
-  const ResultsArgs({required this.result, required this.xpGained});
+  const ResultsArgs({
+    required this.result,
+    required this.xpGained,
+    this.cutoffPercent = 70,
+  });
 
   final SessionResult result;
   final int xpGained;
+  final int cutoffPercent;
 }
 
 class ResultsPage extends ConsumerStatefulWidget {
@@ -36,7 +41,9 @@ class _ResultsPageState extends ConsumerState<ResultsPage> {
   @override
   void initState() {
     super.initState();
-    if (widget.args.result.accuracy >= .7) {
+    final result = widget.args.result;
+    final cutoff = widget.args.cutoffPercent;
+    if ((result.accuracy * 100).round() >= cutoff) {
       WidgetsBinding.instance.addPostFrameCallback((_) => _confetti.play());
     }
   }
@@ -53,14 +60,22 @@ class _ResultsPageState extends ConsumerState<ResultsPage> {
     final result = widget.args.result;
     final progress = ref.watch(progressProvider).valueOrNull;
     final accuracy = (result.accuracy * 100).round();
+    final isExam = result.mode == QuizMode.exam;
+    final cutoff = widget.args.cutoffPercent;
+    final passed = accuracy >= cutoff;
     final excellent = accuracy >= 80;
-    final good = accuracy >= 60;
+    final good = isExam ? passed : accuracy >= 60;
 
-    final message = excellent
-        ? '¡Vuelo espectacular! Dominas este tema.'
-        : good
-            ? '¡Buen trabajo! Ya casi lo tienes.'
-            : 'Cuesta al principio, pero cada vuelo te acerca.';
+    final message = isExam
+        ? passed
+            ? '¡Aprobado! Superaste el corte de $cutoff%.'
+            : 'Te faltaron ${cutoff - accuracy} '
+                'punto${cutoff - accuracy == 1 ? '' : 's'} para el corte.'
+        : excellent
+            ? '¡Vuelo espectacular! Dominas este tema.'
+            : good
+                ? '¡Buen trabajo! Ya casi lo tienes.'
+                : 'Cuesta al principio, pero cada vuelo te acerca.';
 
     return Scaffold(
       backgroundColor: AppColors.background,
@@ -96,9 +111,11 @@ class _ResultsPageState extends ConsumerState<ResultsPage> {
                       ),
                       const SizedBox(height: 4),
                       Text(
-                        result.mode == QuizMode.timed
-                            ? 'Examen cronometrado'
-                            : 'Sesión de práctica',
+                        isExam
+                            ? 'Examen de admisión · Corte $cutoff%'
+                            : result.mode == QuizMode.timed
+                                ? 'Examen cronometrado'
+                                : 'Sesión de práctica',
                         style: theme.textTheme.bodySmall,
                         textAlign: TextAlign.center,
                       ),
@@ -111,6 +128,14 @@ class _ResultsPageState extends ConsumerState<ResultsPage> {
                         message: message,
                         good: good,
                       ),
+                      if (isExam) ...[
+                        const SizedBox(height: 14),
+                        _CutoffBanner(
+                          passed: passed,
+                          cutoff: cutoff,
+                          accuracy: accuracy,
+                        ),
+                      ],
                       const SizedBox(height: 14),
                       Row(
                         children: [
@@ -144,6 +169,10 @@ class _ResultsPageState extends ConsumerState<ResultsPage> {
                         ],
                       ),
                       const SizedBox(height: 18),
+                      if (isExam) ...[
+                        _CategoryBreakdown(result: result),
+                        const SizedBox(height: 18),
+                      ],
                       Row(
                         children: [
                           Expanded(
@@ -159,9 +188,10 @@ class _ResultsPageState extends ConsumerState<ResultsPage> {
                           const SizedBox(width: 12),
                           Expanded(
                             child: OutlinedButton.icon(
-                              onPressed: () => context.go('/practice'),
+                              onPressed: () =>
+                                  context.go(isExam ? '/exam' : '/practice'),
                               icon: const Icon(Icons.replay_rounded),
-                              label: const Text('Otra sesión'),
+                              label: Text(isExam ? 'Otro examen' : 'Otra sesión'),
                             ),
                           ),
                         ],
@@ -312,6 +342,146 @@ class _ScoreCard extends StatelessWidget {
         ],
       ),
     ).animate().fadeIn(duration: 400.ms).slideY(begin: .12);
+  }
+}
+
+class _CutoffBanner extends StatelessWidget {
+  const _CutoffBanner({
+    required this.passed,
+    required this.cutoff,
+    required this.accuracy,
+  });
+
+  final bool passed;
+  final int cutoff;
+  final int accuracy;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final color = passed ? AppColors.success : AppColors.error;
+
+    return SurfaceCard(
+      padding: const EdgeInsets.all(16),
+      color: passed ? AppColors.successSoft : AppColors.errorSoft,
+      child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(14),
+            ),
+            child: Icon(
+              passed
+                  ? Icons.verified_rounded
+                  : Icons.priority_high_rounded,
+              color: color,
+            ),
+          ),
+          const SizedBox(width: 14),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  passed ? '¡Aprobado!' : 'Aún no alcanzas el corte',
+                  style: theme.textTheme.titleMedium?.copyWith(color: color),
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  'Obtuviste $accuracy% · Corte de aprobación $cutoff%',
+                  style: theme.textTheme.bodySmall,
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    ).animate().fadeIn(duration: 360.ms).slideY(begin: .1);
+  }
+}
+
+class _CategoryBreakdown extends StatelessWidget {
+  const _CategoryBreakdown({required this.result});
+
+  final SessionResult result;
+
+  static const _colors = {
+    QuestionCategory.literatura: AppColors.literature,
+    QuestionCategory.geografia: AppColors.geography,
+    QuestionCategory.historia: AppColors.history,
+    QuestionCategory.matematicas: AppColors.math,
+    QuestionCategory.lenguaje: AppColors.language,
+    QuestionCategory.ciencias: AppColors.science,
+    QuestionCategory.sociales: AppColors.social,
+  };
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final totals = <QuestionCategory, (int, int)>{};
+    for (var i = 0; i < result.questions.length; i++) {
+      final question = result.questions[i];
+      final entry = totals[question.category] ?? (0, 0);
+      totals[question.category] = (
+        entry.$1 + (result.answers[i] == question.correctIndex ? 1 : 0),
+        entry.$2 + 1,
+      );
+    }
+    final categories = totals.keys.toList()
+      ..sort((a, b) => a.index.compareTo(b.index));
+
+    return SurfaceCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('Por materia', style: theme.textTheme.titleLarge),
+          const SizedBox(height: 14),
+          for (final category in categories)
+            Builder(builder: (context) {
+              final (correct, total) = totals[category]!;
+              final percent = total == 0 ? 0 : (correct * 100) ~/ total;
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 12),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            '${category.emoji} ${category.label}',
+                            style: theme.textTheme.titleSmall,
+                          ),
+                        ),
+                        Text(
+                          '$correct/$total · $percent%',
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            fontWeight: FontWeight.w900,
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 6),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(6),
+                      child: LinearProgressIndicator(
+                        value: total == 0 ? 0 : correct / total,
+                        minHeight: 8,
+                        backgroundColor: AppColors.divider,
+                        valueColor: AlwaysStoppedAnimation(
+                          _colors[category] ?? AppColors.primary,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              );
+            }),
+        ],
+      ),
+    );
   }
 }
 

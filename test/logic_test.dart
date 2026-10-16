@@ -217,6 +217,25 @@ void main() {
       expect(next.srs.containsKey('c'), isFalse);
       expect(next.stats['literatura']!.answered, 2);
     });
+
+    test('la meta diaria arranca en 0 al cambiar de día', () {
+      final yesterday = applySessionToProgress(
+        state: const ProgressState(),
+        result: sampleResult(),
+        xpGained: 45,
+        now: day1,
+      );
+      expect(yesterday.dailyXp, 45);
+
+      final rolled = rollDailyXp(yesterday, day2);
+      expect(rolled.dailyXp, 0);
+      expect(rolled.xp, 45);
+      expect(rolled.streak, 1);
+      expect(rolled.dailyDate, yesterday.dailyDate);
+
+      final sameDay = rollDailyXp(yesterday, day1.add(const Duration(hours: 3)));
+      expect(sameDay.dailyXp, 45);
+    });
   });
 
   group('Persistencia', () {
